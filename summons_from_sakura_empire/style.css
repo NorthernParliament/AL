@@ -132,17 +132,17 @@ h1 {
 }
 
 .background8 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_nepu2.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_banquet.png);
  background-size: auto 100%;
 }
 
 .background9 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_xiangting_3.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_sakura3.png);
  background-size: auto 100%;
 }
 
 .background10 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_9.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_sakura4.png);
  background-size: auto 100%;
 }
 
@@ -152,7 +152,7 @@ h1 {
 }
 
 .background12 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_7.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_seastar.png);
  background-size: auto 100%;
 }
 
