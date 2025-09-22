@@ -211,6 +211,62 @@ h1 {
  background-size: auto 100%;
 }
 
+.background23 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_ama16.png);
+ background-size: auto 100%;
+}
+
+.background24 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_ama17.png);
+ background-size: auto 100%;
+}
+
+.background25 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_ama18.png);
+ background-size: auto 100%;
+}
+
+.background26 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_ama19.png);
+ background-size: auto 100%;
+}
+
+.background27 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_ama20.png);
+ background-size: auto 100%;
+}
+
+.background28 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_cauta.png);
+ background-size: auto 100%;
+}
+
+.background29 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_ama21.png);
+ background-size: auto 100%;
+}
+
+.background30 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_ama22.png);
+ background-size: auto 100%;
+}
+
+.background31 {
+ background-image: url(./img/bg_w.png);
+ background-size: auto 100%;
+}
+
+.background32 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_underwater.png);
+ background-size: auto 100%;
+}
+
+.background33 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_ama31.png);
+ background-size: auto 100%;
+}
+
+
 
 
 .whiteword {
@@ -219,7 +275,7 @@ text-shadow: 0px 0px 0 black;
 }
 
 .whiteworld {
-  height: 500px;
+  height: 300px;
 }
 
 .mainchapter { 
@@ -328,6 +384,18 @@ text-shadow: 0px 0px 0 black;
 .blob {
 
 background-image: linear-gradient(180deg,rgba(213,254,255,0.2),rgba(213,254,255,0.2))
+
+}
+
+.blobfirst {
+
+background-image: linear-gradient(180deg,rgba(26,68,255,0.3),rgba(26,68,255,0.3))
+
+}
+
+.blobsecond {
+
+background-image: linear-gradient(180deg,rgba(206,58,0,0.3),rgba(206,58,0,0.3))
 
 }
 
