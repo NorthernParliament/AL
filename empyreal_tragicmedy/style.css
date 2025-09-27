@@ -35,23 +35,19 @@
     
     }
 
-.head_ev {
-
-  
-      width: 100%;
+.head_ev {  
+    width: 100%;
     height: 360px;
     position: relative;
 }
 
 .head_ev_diverchess {
   min-width: 1280px;
-background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/head.png), no-repeat center top #192455;
+  background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/head.png), no-repeat center top #192455;
   background-attachment: fixed;
-
 }
 
 .head_ev_info {
-
   min-width: 1280px;
   margin: 0 auto;
   padding-top: 8px
@@ -117,32 +113,7 @@ h1 {
 }
 
 .background5 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg7.png);
- background-size: auto 100%;
-}
-
-.background6 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_underwater.png);
- background-size: auto 100%;
-}
-
-.background7 {
- background-image:url(./img/star_level_bg_1104.png);
- background-size: auto 100%;
-}
-
-.background8 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_nepu2.png);
- background-size: auto 100%;
-}
-
-.background9 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_xiangting_3.png);
- background-size: auto 100%;
-}
-
-.background10 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_9.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg5.png);
  background-size: auto 100%;
 }
 
@@ -150,42 +121,6 @@ h1 {
  background: black;
  background-size: auto 100%;
 }
-
-.background12 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_7.png);
- background-size: auto 100%;
-}
-
-.background13 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_task1.png);
- background-size: auto 100%;
-}
-
-.background14 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_cccpv2_91.png);
- background-size: auto 100%;
-}
-
-.background15 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_11.png);
- background-size: auto 100%;
-}
-
-.background16 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_12.png);
- background-size: auto 100%;
-}
-
-.background17 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/star_level_bg_116.png);
- background-size: auto 100%;
-}
-
-.background18 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_guild_blue.png);
- background-size: auto 100%;
-}
-
 
 .whiteword {
 color: gray;
@@ -196,7 +131,8 @@ text-shadow: 0px 0px 0 black;
   height: 500px;
 }
 
-.mainchapter { 
+.mainchapter {
+  border: 0px; 
   margin: auto;
   color: white;
   background-color: #000000;
@@ -208,6 +144,7 @@ text-shadow: 0px 0px 0 black;
 }
 
 .blackscreen {
+  border: 0px;
   margin: auto;
   color: white;
   background-color: #000000;
@@ -218,81 +155,6 @@ text-shadow: 0px 0px 0 black;
   font-weight: 700; 
 }
 
-.maince2 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng1.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  
-  
-}
-
-
-.maince3 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng2.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  
-  
-}
-
-.maince4 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng3.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  
-  
-}
-
-.maince5 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng4.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  
-  
-}
-
-.maince6 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng6.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  
-  
-}
 
 .pict1 {
 
