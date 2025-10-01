@@ -64,6 +64,10 @@ h1 {
   text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black;
 }
 
+h1.title {
+  color: red;
+}
+
 .nav {
   margin: 5px;
   min-width: 1280px;
@@ -131,124 +135,62 @@ h1 {
   font-style: normal;
 }
 
-.maince {
- 
- margin: auto;
+.mainchapter {
+  border: 0px; 
+  margin: auto;
   color: white;
   background-color: #000000;
   padding: 3px;
   width: 1280px;
   font: 16pt Montserrat; 
   font-weight: 700;
-  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black;
-  
-  
+  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black; 
 }
 
-.maince1 {
+.blackscreen {
+  border: 0px;
   margin: auto;
   color: white;
   background-color: #000000;
-  padding-left: 20%;
+  
   text-align: left;
   width: 1280px;
   font: 16pt Montserrat; 
-  font-weight: 700;
-  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black;
-
-
-
+  font-weight: 700; 
 }
 
-.maince2 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng1.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  font: 16pt Montserrat; 
-  font-weight: 700;
-  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black;
-  
-  
+.background1 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg7.png);
+ background-size: auto 100%;
 }
 
-
-.maince3 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng2.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  font: 16pt Montserrat; 
-  font-weight: 700;
-  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black;
-  
-  
+.background2 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg8.png);
+ background-size: auto 100%;
 }
 
-.maince4 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng3.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  font: 16pt Montserrat; 
-  font-weight: 700;
-  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black;
-  
-  
+.background3 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg9.png);
+ background-size: auto 100%;
 }
 
-.maince5 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng4.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  font: 16pt Montserrat; 
-  font-weight: 700;
-  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black;
-  
-  
+.background11 {
+ background: black;
+ background-size: auto 100%;
 }
 
-.maince6 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng6.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  font: 16pt Montserrat; 
-  font-weight: 700;
-  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black;
-  
-  
+.background31 {
+ background-image: url(../img/bg/bgw.png);
+ background-size: auto 100%;
+}
+
+.whiteword {
+color: gray;
+text-shadow: 0px 0px 0 black;
+}
+
+.whiteworld {
+  height: 200px;
 }
 
 .pict1 {
@@ -286,6 +228,11 @@ margin-top: 10px;
     font-weight: bold;
     font: 20pt Helvetica;
   }
+
+  .words {
+ text-align: left;
+ padding: 1.5%;
+}  
 
   .port {
   width: 116px;
@@ -327,10 +274,16 @@ margin-top: 10px;
 
 }
 
-.words {
- text-align: left;
- padding: 1.5%;
-} 
+.portgreen img {
+  border: 2px solid #00FF00;
+
+}
+
+.portgreen {
+  width: 116px;
+  color: #00FF00;
+  font: 16pt Helvetica;
+  font-weight: 700;
 
 
 .nameblue {
@@ -355,4 +308,5 @@ width: auto;
 
 .main {
   width: 100%;
+
 
