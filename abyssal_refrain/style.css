@@ -60,8 +60,11 @@ background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/he
 h1 {
   font: 20pt Montserrat; 
   font-weight: 700;
-  color: lightblue;
   text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black;
+}
+
+h1.title {
+  color: #96bced;
 }
 
 .nav {
@@ -84,6 +87,41 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
 }
+
+#floating-button-EN {
+  position: fixed;
+  z-index: 100;
+  bottom: 80px;
+  right: 70px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#floating-button-CN {
+  position: fixed;
+  z-index: 100;
+  bottom: 80px;
+  right: 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
  
 #floating-button:hover {
    background-color: #ff7961;
@@ -96,53 +134,62 @@ h1 {
   font-style: normal;
 }
 
+
+
+.blackscreen {
+  border: 0px;
+  margin: auto;
+  color: white;
+  background-color: #000000;
+  
+  text-align: left;
+  width: 1280px;
+  font: 16pt Montserrat; 
+  font-weight: 700; 
+}
+
 .background1 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_guild_blue_n.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg19.png);
  background-size: auto 100%;
 }
 
 .background2 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_0.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg12.png);
  background-size: auto 100%;
 }
 
 .background3 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_1.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg13.png);
  background-size: auto 100%;
 }
 
 .background4 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_2.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg14.png);
  background-size: auto 100%;
 }
 
 .background5 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_hms_7.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg20.png);
  background-size: auto 100%;
 }
 
 .background6 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_underwater.png);
- background-size: auto 100%;
-}
-
-.background7 {
- background-image:url(./img/star_level_bg_1104.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg23.png);
  background-size: auto 100%;
 }
 
 .background8 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_nepu2.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg21.png);
  background-size: auto 100%;
 }
 
 .background9 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_xiangting_3.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg24.png);
  background-size: auto 100%;
 }
 
 .background10 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_9.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg16.png);
  background-size: auto 100%;
 }
 
@@ -152,40 +199,39 @@ h1 {
 }
 
 .background12 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_7.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg15.png);
  background-size: auto 100%;
 }
 
 .background13 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_task1.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg22.png);
  background-size: auto 100%;
 }
 
 .background14 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_cccpv2_91.png);
- background-size: auto 100%;
-}
-
-.background15 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_11.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg11.png);
  background-size: auto 100%;
 }
 
 .background16 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_deepecho_12.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg17.png);
  background-size: auto 100%;
 }
 
 .background17 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/star_level_bg_116.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg25.png);
  background-size: auto 100%;
 }
 
 .background18 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_guild_blue.png);
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg18.png);
  background-size: auto 100%;
 }
 
+.background31 {
+ background-image: url(../img/bg/bgw.png);
+ background-size: auto 100%;
+}
 
 .whiteword {
 color: gray;
@@ -193,105 +239,7 @@ text-shadow: 0px 0px 0 black;
 }
 
 .whiteworld {
-  height: 500px;
-}
-
-.mainchapter { 
-  margin: auto;
-  color: white;
-  background-color: #000000;
-  padding: 3px;
-  width: 1280px;
-  font: 16pt Montserrat; 
-  font-weight: 700;
-  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black; 
-}
-
-.blackscreen {
-  margin: auto;
-  color: white;
-  background-color: #000000;
-  padding-left: 20%;
-  text-align: left;
-  width: 1280px;
-  font: 16pt Montserrat; 
-  font-weight: 700; 
-}
-
-.maince2 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng1.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  
-  
-}
-
-
-.maince3 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng2.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  
-  
-}
-
-.maince4 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng3.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  
-  
-}
-
-.maince5 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng4.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  
-  
-}
-
-.maince6 {
- 
-  margin: auto;
-  color: white;
-  background-color: #000099;
-  padding: 3px;
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/bg_story_tiancheng6.png);
-  background-size: auto 100%;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
-  width: 1280px;
-  border-spacing: 10px;
-  
-  
+  height: 200px;
 }
 
 .pict1 {
@@ -305,11 +253,63 @@ background-image: linear-gradient(180deg,rgba(213,254,255,0.2),rgba(213,254,255,
 
 }
 
+.blobfirst {
 
-body {
-  background-color: #b8c1c9;
-  text-align: center;  
-  } 
+background-image: linear-gradient(180deg,rgba(26,68,255,0.3),rgba(26,68,255,0.3))
+
+}
+
+.blobsecond {
+
+background-image: linear-gradient(180deg,rgba(206,58,0,0.3),rgba(206,58,0,0.3))
+
+}
+
+.blobthird {
+
+background-image: linear-gradient(180deg,rgba(255,234,0,0.3),rgba(255,234,0,0.3))
+
+}
+
+.blobfourth {
+
+background-image: linear-gradient(180deg,rgba(0,252,255,0.3),rgba(0,252,255,0.3))
+
+}
+
+.blobfifth {
+
+background-image: linear-gradient(180deg,rgba(6,255,0,0.3),rgba(6,255,0,0.3))
+
+}
+
+.blobsixth {
+
+background-image: linear-gradient(180deg,rgba(128,0,111,0.3),rgba(128,0,111,0.3))
+
+}
+
+
+.longname {
+    font: 14pt Helvetica !important;
+}
+
+
+
+.mainchapter {
+  border: 0px; 
+  margin: auto;
+  color: white;
+  background-color: #000000;
+  padding: 3px;
+  width: 1280px;
+  font: 16pt Montserrat; 
+  font-weight: 700;
+  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black; 
+}
+
+
+
 
    .chapter {
 background-color: #3c3838;
@@ -327,23 +327,36 @@ margin-top: 10px;
     font: 20pt Helvetica;
   }
 
+body {
+  background-color: #b8c1c9;
+  text-align: center;
+  text-stroke: 1px #FFFFFF;
+  font: 16pt Helvetica; 
+  font-weight: 500; 
+ } 
+
+
+.words {
+ text-align: left;
+ padding: 1.5%;
+}  
+
+.portyellow {
+  width: 116px;
+  color: #FFFF00;
+  font: 16pt Helvetica;
+  font-weight: 700;
+}
+
+.portyellow img {
+  border: 2px solid #FFFF00;
+}
   .port {
   width: 116px;
   color: #FF0000;
   font: 16pt Helvetica;
   font-weight: 700;
 
-}
-
-.portblue img {
-  border: 2px solid #6699FF;
-}
-
-.portblue {
-  width: 116px;
-  color: #6699FF;
-  font: 16pt Helvetica;
-  font-weight: 700;
 }
 
 .portgray {
@@ -355,6 +368,28 @@ margin-top: 10px;
 
 .portgray img {
   border: 2px solid gray;
+}
+
+.portorange img {
+  border: 2px solid orange;
+}
+
+.portorange {
+  width: 116px;
+  color: orange;
+  font: 16pt Helvetica;
+  font-weight: 700;
+}
+
+.portblue img {
+  border: 2px solid #6699FF;
+}
+
+.portblue {
+  width: 116px;
+  color: #6699FF;
+  font: 16pt Helvetica;
+  font-weight: 700;
 }
 
 .portwhite {
@@ -378,24 +413,6 @@ margin-top: 10px;
 
 }
 
-.portorange img {
-  border: 2px solid orange;
-
-}
-
-.portorange {
-  width: 116px;
-  color: orange;
-  font: 16pt Helvetica;
-  font-weight: 700;
-
-}
-
-.longname {
- font: 14pt Helvetica !important;
- 
-}
-
 .portgreen img {
   border: 2px solid #00FF00;
 
@@ -407,25 +424,7 @@ margin-top: 10px;
   font: 16pt Helvetica;
   font-weight: 700;
 
-}
 
-.portyellow {
-  width: 116px;
-  color: #FFFF00;
-  font: 16pt Helvetica;
-  font-weight: 700;
-
-}
-
-.portyellow img {
-  border: 2px solid #FFFF00;
-
-}
-
-.words {
- text-align: left;
- padding: 1.5%;
-} 
 
 
 .nameblue {
@@ -448,43 +447,10 @@ margin-top: 10px;
 width: auto;
 }
 
+
+
+
 .main {
   width: 100%;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.t1 {
-  position: fixed;
-        top: 0; 
-        left: 0; 
-        background: #333333;
-        color: #ffffff;
-        font: 20pt Helvetica;
-}
-
-
 
 
