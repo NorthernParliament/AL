@@ -17,28 +17,3 @@
   });
 });
 
-
-   let translations = {};
-
-    fetch('translations.json')
-      .then(response => response.json())
-      .then(data => {
-        translations = data;
-        const saved = localStorage.getItem('selectedVariant') || 'EN';
-        loadTranslation(saved);
-      });
-
-    function loadTranslation(variant) {
-      const data = translations[variant];
-      if (!data) return;
-
-      // Найти все элементы с data-key и заменить текст
-      document.querySelectorAll('[data-key]').forEach(el => {
-        const key = el.getAttribute('data-key');
-        if (data[key]) {
-          el.textContent = data[key];
-        }
-      });
-
-      localStorage.setItem('selectedVariant', variant);
-    }
