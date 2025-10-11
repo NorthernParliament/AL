@@ -168,63 +168,8 @@ h1.title {
  background-size: auto 100%;
 }
 
-.background5 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg20.png);
- background-size: auto 100%;
-}
-
-.background6 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg23.png);
- background-size: auto 100%;
-}
-
-.background8 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg21.png);
- background-size: auto 100%;
-}
-
-.background9 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg24.png);
- background-size: auto 100%;
-}
-
-.background10 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg16.png);
- background-size: auto 100%;
-}
-
 .background11 {
  background: black;
- background-size: auto 100%;
-}
-
-.background12 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg15.png);
- background-size: auto 100%;
-}
-
-.background13 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg22.png);
- background-size: auto 100%;
-}
-
-.background14 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg11.png);
- background-size: auto 100%;
-}
-
-.background16 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg17.png);
- background-size: auto 100%;
-}
-
-.background17 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg25.png);
- background-size: auto 100%;
-}
-
-.background18 {
- background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg18.png);
  background-size: auto 100%;
 }
 
