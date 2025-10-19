@@ -60,11 +60,18 @@ background: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/he
 h1 {
   font: 20pt Montserrat; 
   font-weight: 700;
+  color: white;
   text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black;
+  text-align: center;
 }
 
 h1.title {
   color: white;
+}
+
+
+td {
+  padding-top: 30px;
 }
 
 .nav {
@@ -90,8 +97,7 @@ h1.title {
 
 .content1 {
     width: 1200px;
-    padding: 16px 0 16px;
-    margin: 0 auto;
+      margin: 16px auto;
     border: 0;
     outline: 0;
     display: block;
@@ -99,10 +105,14 @@ h1.title {
     font-family: "Noto Sans", sans-serif;
     font-size: 1.0em;
     text-align: left;
+    background-color: #cfd9e0;
+    padding: 10px;
 }
 
 
-}
+
+
+
  
 #floating-button:hover {
    background-color: #ff7961;
@@ -115,14 +125,30 @@ h1.title {
   font-style: normal;
 }
 
+img{
+padding-top: 5px ;
+margin-top: 5px;
+}
 
+a {
+  color: white;
+}
+
+a:visited {
+  color: lightgray
+  ;
+}
+
+a:hover {
+  color: red
+  ;
+}
 
 .blackscreen {
   border: 0px;
   margin: auto;
   color: white;
-  background-color: #000000;
-  
+  background-color: #000000;  
   text-align: left;
   width: 1280px;
   font: 16pt Montserrat; 
@@ -226,7 +252,7 @@ background-image: linear-gradient(180deg,rgba(128,0,111,0.3),rgba(128,0,111,0.3)
   border: 0px; 
   margin: auto;
   color: white;
-  background-color: #000000;
+  background-color: #333333;
   padding: 3px;
   width: 1280px;
   font: 16pt Montserrat; 
