@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="{{ page.lang | default: site.lang | default: 'ru-ru' }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <title>{{ page.title }}</title>
+    
+  </head>
+<body>
+
+<header
+  class="head_ev head_ev_diverchess"
+  style="--header-bg: url('{{ '/events/' | append: page.slug | append: '/img/head.png' | relative_url }}');">
+
+    <div class="head_ev_info">
+        <a href="{{ '/' | relative_url }}" class="buitton_back">
+            <img src="{{ '/img/other/bb.png' | relative_url }}" width="20" height="20" alt="bb">
+            <img src="{{ '/img/other/bbh.png' | relative_url }}" width="20" height="20" alt="bbh" class="on">
+            На главную
+        </a>
+        
+        <h1 class="title">{{ page.title }}</h1>
+        
+        <img src="{{ '/events/' | append: page.slug | append: '/img/head.png' | relative_url }}" alt="">
+    </div>
+</header>
+{% if page.chapters_count %}
+<div class="nav">
+  {% for i in (1..page.chapters_count) %}
+    <a href="#part{{ i }}">
+      <img src="{{ '/events/' | append: page.slug | append: '/img/menu' | append: i | append: '.png' | relative_url }}"
+           alt="Глава {{ i }}">
+    </a>
+  {% endfor %}
+</div>
+{% endif %}
+
+
+<main class="main">
+{{ content }}
+
+
+
+<button id="floating-button">Наверх!</button>
+
+<script src="{{ '/assets/js/script.js' | relative_url }}" defer></script>
+
+</main>
+</body>
+</html>

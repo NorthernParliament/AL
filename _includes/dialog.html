@@ -1,0 +1,46 @@
+<table class="mainchapter {{ include.bg_class }}" 
+{% if include.bg_file %} 
+style="--bg: url('{{ include.bg_file | relative_url }}');" 
+{% endif %}>
+  
+  {% for row in include.rows %}
+  {% assign char_id = row.char | downcase %}
+  {% assign c = site.data.characters[row.char] %}
+  
+  {% assign status_class = row.status | default: "" %}
+  <tr>
+    {% if row.char %}
+    {% if row.side == "left" %}
+      <td class="{{ c.class }} {{ status_class }} name-container" style="text-align: center; vertical-align: top;">
+          <div class="name-box">
+          <span>{{ c.name }}</span>
+        </div>
+        <img src="{{ c.img | relative_url }}" class="port-img">      
+      </td>
+      
+      <td class="words blob">
+    {% for line in row.text %}<p>{{ line }}</p>{% endfor %}
+      </td>
+      <td class="port"></td>
+      
+    {% else %}
+      <td class="port"></td>
+      <td class="words blob">
+    {% for line in row.text %}<p>{{ line }}</p>{% endfor %}
+      </td>
+      <td class="{{ c.class }} {{ status_class }} name-container" style="text-align: center; vertical-align: top;">
+        <div class="name-box">
+          <span>{{ c.name }}</span>
+        </div>
+        <img src="{{ c.img | relative_url }}" class="port-img">
+      </td>
+    {% endif %}
+    {% else %}
+      <td class="port"></td> <td class="words narrate"> {% for line in row.text %}<p><i>{{ line }}</i></p>{% endfor %}
+      </td>
+      <td class="port"></td>
+    {% endif %}
+  </tr>
+{% endfor %}
+</table>
+

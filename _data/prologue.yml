@@ -1,0 +1,22 @@
+part1:
+  rows:
+    - left:
+        name: "Суффолк"
+        class: "portyellow blob"
+        img: "/img/port/royal/suff1.png"
+      middle:
+        - "Разведка сообщает, что новейшие боевые корабли Железной Крови собираются пройти через этот район."
+      right:
+        name: ""
+        class: "port"
+        img: ""
+    - left:
+        name: ""
+        class: "port"
+        img: ""
+      middle:
+        - "*Всхлипывает* Боевые корабли? Мы действительно сможем с ними справиться?"
+      right:
+        name: "Норфолк"
+        class: "portgreen blob"
+        img: "/img/port/royal/norf1.png"
