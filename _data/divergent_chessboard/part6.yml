@@ -1,0 +1,66 @@
+chapter1:
+  rows:
+
+    - char: gneisenau
+      side: left
+      status: is-red
+      text:
+        - "Данные в моей симуляции были неверны... Вы действительно сила, с которой стоит считаться..."
+        - "Но если я объединю силы со своей сестрой, наши шансы на победу возрастут до 80% и выше..."
+        - "...Пришло время для тактического отступления."
+
+    - char: tirpitz
+      side: right
+      status: is-red
+      text:
+        - "…"
+
+    - char: graf_zeppelin
+      side: left
+      status: is-red
+      text:
+        - "В чём дело?"
+
+    - char: tirpitz
+      side: right
+      status: is-red
+      text:
+        - "Каждый шаг, который «Белые» сделали до сих пор, отличается от того, что было в прошлый раз..."
+
+    - char: graf_zeppelin
+      side: left
+      status: is-red
+      text:
+        - "Понимаю. Возможно, именно на это и надеется «Судья»."
+
+    - char: tirpitz
+      side: right
+      status: is-red
+      text:
+        - "Я кое о чём думала... Что, если нам суждено быть всего лишь..."
+        - "...просто ступенями для «эволюции» «Белых»?"
+        - "Сирены дали нам наши силы... И что, если всё это — часть их плана..."
+
+    - char: graf_zeppelin
+      side: left
+      status: is-red
+      text:
+        - "Прекрати... Твоё «я» рухнет, если ты продолжишь так думать. Не делай её жертвы ради Железной Крови напрасными..."
+
+    - char: tirpitz
+      side: right
+      status: is-red
+      text:
+        - "«Её»?.."
+
+    - char: graf_zeppelin
+      side: left
+      status: is-red
+      text:
+        - "..Забудь. Она была мечтательницей, точь-в-точь как ты. Хм, какой же она была дурой, потеряв себя в своих идеалистических иллюзиях..."
+
+    - char: tirpitz
+      side: right
+      status: is-red
+      text:
+        - "……"

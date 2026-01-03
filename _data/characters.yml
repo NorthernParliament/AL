@@ -115,6 +115,82 @@ souryuu:
 # IRON BLOOD (Железная Кровь)
 # ==========================================================
 
+# A
+
+admiral_hipper:
+  name: "Адмирал Хиппер"
+  img: "/img/port/iron/admi1.png"
+  class: "blob"
+
+
+# B
+
+bismarck:
+  name: "Бисмарк"
+  img: "/img/port/iron/bism1.png"
+  class: "blob"
+
+bismarck?:
+  name: "? ? ?"
+  img: "/img/port/iron/bism1.png"
+  class: "blob"
+
+# D
+
+deutschland:
+  name: "Дойчланд"
+  img: "/img/port/iron/deut1.png"
+  class: "blob"
+
+# G
+
+graf_zeppelin:
+  name: "Граф Цеппелин"
+  img: "/img/port/iron/graf1.png"
+  class: "blob"
+
+
+gneisenau:
+  name: "Гнейзенау"
+  img: "/img/port/iron/gnei1.png"
+  class: "blob"
+
+# S
+
+
+scharnhorst:
+  name: "Шарнхорст"
+  img: "/img/port/iron/scha1.png"
+  class: "blob"
+
+# T
+
+tirpitz:
+  name: "Тирпиц"
+  img: "/img/port/iron/tirp1.png"
+  class: "blob"
+
+# U
+
+u47:
+  name: "U-47"
+  img: "/img/port/iron/u471.png"
+  class: "blob"
+
+u557:
+  name: "U-557"
+  img: "/img/port/iron/u5571.png"
+  class: "blob"
+
+
+# Z
+
+z46:
+  name: "Z46"
+  img: "/img/port/iron/z461.png"
+  class: "blob"
+
+
 
 # ==========================================================
 # Dragon Empery (Империя Дракона)
@@ -166,13 +242,31 @@ tester?:
   img: "/img/port/siren/test1.png"
   class: "blob"
 
+testerb:
+  name: "Тестер β"
+  img: "/img/port/siren/test1.png"
+  class: "blob"
+
+observer:
+  name: "Обсервер"
+  img: "/img/port/siren/obse1.png"
+  class: "blob"
+
+observer?:
+  name: "? ? ?"
+  img: "/img/port/siren/obse1.png"
+  class: "blob"
+
 # ==========================================================
 # Other
 # ==========================================================
 
 
-zzz:
-    class: "noeff"
+nop:
+  name: "? ? ?"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+    
 
 
 
