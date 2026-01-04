@@ -18,6 +18,28 @@ arizona:
 # ROYAL NAVI (Королевский Флот)
 # ==========================================================
 
+# E
+
+enterprise_r:
+  name: "Энтерпрайз"
+  img: "/img/port/royal/ente1.png"
+  class: "blob"
+
+# H
+
+howe:
+  name: "Хау"
+  img: "/img/port/royal/howe1.png"
+  class: "blob"
+
+# N
+
+newcastle:
+  name: "Ньюкасл"
+  img: "/img/port/royal/newc1.png"
+  class: "blob"
+
+
 
 # ==========================================================
 # SAKURA EMPIRE (Империя Сакуры)
@@ -212,10 +234,163 @@ z46:
 # Iris Libre (Ирис Либре)
 # ==========================================================
 
+# B
+
+bayard:
+  name: "Баярд"
+  img: "/img/port/iris/baya1.png"
+  class: "blob"
+
+bearn:
+  name: "Беарн"
+  img: "/img/port/iris/bear1.png"
+  class: "blob"
+
+# E
+
+emile_bertin:
+  name: "Эмиль Бертин"
+  img: "/img/port/iris/emil1.png"
+  class: "blob"
+
+# F
+
+forbin:
+  name: "Форбин"
+  img: "/img/port/iris/forb1.png"
+  class: "blob"
+
+# J
+
+jeanne_d_arc:
+  name: "Жанна д’Арк"
+  img: "/img/port/iris/jean1.png"
+  class: "blob"
+
+# L
+
+le_temeraire:
+  name: "Ле Темерер"
+  img: "/img/port/iris/letem1.png"
+  class: "blob"
+
+le_terrible:
+  name: "Ле Террибль"
+  img: "/img/port/iris/lete1.png"
+  class: "blob"
+
+le_triomphant:
+  name: "Ле Триомфан"
+  img: "/img/port/iris/letr1.png"
+  class: "blob"
+
+l_opiniatre:
+  name: "Л’Опиньятр"
+  img: "/img/port/iris/lopi1.png"
+  class: "blob"
+
+# M
+
+maille_breze:
+  name: "Майе Брезе"
+  img: "/img/port/iris/mail1.png"
+  class: "blob"
+
+# R
+
+richelieu:
+  name: "Ришелье"
+  img: "/img/port/iris/rich1.png"
+  class: "blob"
+
+
+
 
 # ==========================================================
 # Vichya Dominion (Доминион Вичья)
 # ==========================================================
+
+# A
+algerie:
+  name: "Алжири"
+  img: "/img/port/vichya/alge1.png"
+  class: "blob"
+
+# C
+
+clemenceau:
+  name: "Клемансо"
+  img: "/img/port/vichya/clem1.png"
+  class: "blob"
+
+# D
+
+dunkerque:
+  name: "Дюнкерк"
+  img: "/img/port/vichya/dunk1.png"
+  class: "blob"
+
+# F
+
+foch:
+  name: "Фош"
+  img: "/img/port/vichya/foch1.png"
+  class: "blob"
+
+fougueux:
+  name: "Фугё"
+  img: "/img/port/vichya/foug1.png"
+  class: "blob"
+
+# J
+
+jean_bart:
+  name: "Жан Бар"
+  img: "/img/port/vichya/jean1.png"
+  class: "blob"
+
+joffre:
+  name: "Жоффр"
+  img: "/img/port/vichya/joff1.png"
+  class: "blob"
+
+# K
+
+kersaint:
+  name: "Керсен"
+  img: "/img/port/vichya/kers1.png"
+  class: "blob"
+
+# L
+
+la_galissonniere:
+  name: "Ла Галиссоньер"
+  img: "/img/port/vichya/laga1.png"
+  class: "blob longname"
+
+le_malin:
+  name: "Ле Мален"
+  img: "/img/port/vichya/lema1.png"
+  class: "blob"
+
+l_indomptable:
+  name: "Л’Индомтабль"
+  img: "/img/port/vichya/lind1.png"
+  class: "blob longname"
+
+# T
+
+tartu:
+  name: "Тарту"
+  img: "/img/port/vichya/tart1.png"
+  class: "blob"
+
+# V
+
+vauquelin:
+  name: "Воклен"
+  img: "/img/port/vichya/vauq1.png"
+  class: "blob"
 
 
 # ==========================================================
