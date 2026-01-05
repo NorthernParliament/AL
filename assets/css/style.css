@@ -95,6 +95,36 @@ table.blackscreen p {
     line-height: 1.6;
 }
 
+table.whitescreen {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255); /* Убедимся, что фон черный */
+}
+
+/* Принудительно задаем боковым ячейкам 120px */
+table.whitescreen td.port {
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+/* Стили для текста в центральной ячейке */
+table.whitescreen td:not(.port) {
+    text-align: left; /* Обычно такие вступления центрируются */
+    color: rgb(70, 70, 70);
+    font: 16pt Montserrat; 
+    font-weight: 700; 
+    padding: 40px 0; /* Отступы сверху и снизу для солидности */
+    width: auto;
+}
+
+/* Убираем лишние отступы у параграфов внутри черного экрана */
+table.whitescreen p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
 .nav {
   margin: 5px;
   min-width: 1280px;
@@ -292,7 +322,7 @@ background-image: linear-gradient(180deg,rgba(128,0,111,0.3),rgba(128,0,111,0.3)
 
 
 .longname {
-    font: 12.5pt Helvetica !important;
+    font: 10pt "Segoe UI", Tahoma, sans-serif !important;
 }
 
 .blackport {
@@ -345,7 +375,9 @@ table.mainchapter td {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
     border-radius: 6px; /* Закругляем углы для эффекта пузыря */
     padding: 10px 15px;
-    vertical-align: middle;
+    position: relative; /* Чтобы имя привязывалось к пузырю */
+    padding-top: 25px;  /* Создаем место сверху внутри пузыря для имени */
+    vertical-align: top;
 }
 
 /* Портрет должен занимать свои 116px */
@@ -372,6 +404,8 @@ table.mainchapter td.words {
   font: 16pt Montserrat; 
   font-weight: 700;
   text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black; 
+  background-position: center;
+  z-index: 1;
 }
 
 .words.narrate {
@@ -381,6 +415,13 @@ table.mainchapter td.words {
     padding: 20px;
 }
 
+table.white-full .narrate {
+
+    color: #555555 !important;
+    text-shadow: none; 
+    
+}
+
 /* Убедимся, что пустые ячейки .port не имеют лишних рамок */
 td.port {
     border: none !important;
@@ -388,14 +429,13 @@ td.port {
 }
 
 
-   .chapter {
+.chapter {
 background-color: #3c3838;
 width: 1300px;
 margin: auto;
 padding: 10px;
 margin-top: 10px;
-
-   }
+}
 
   .title-1 {
     color:white;
@@ -456,50 +496,57 @@ padding: 1.5%;
     background-image: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), var(--bg); }
 
 .name-box {
-  display: block;
-    /* Сбрасываем все браузерные отступы */
-    margin: 8px auto 0;
-    padding: 2px 10px;
+
     
     /* Шрифт и текст */
     font-family: "Segoe UI", Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 0.9em;
-    color: #ffffff;
+    font-size: 1em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Читаемость на любом фоне */
     
-    /* Фоновая плашка */
-    background: rgba(0, 0, 0, 0.6);
-
-    display: inline-block; /* Плашка будет только по ширине текста */
+    position: absolute;
+    top: -12px;         /* Выносим имя чуть выше границы пузыря */
+    left: 10px;         /* Сдвиг от края (для левой стороны) */
+    z-index: 10;
     
+    background: #222;   /* Темный фон как на скриншоте */
+    padding: 2px 15px;
+}
 
+.side-right .name-box {
+    left: auto;
+    right: 10px;
 }
 
 
 
 .name-container {
-    --accent-color: #00ff5e; /* Стандартный Sakura/Union */
+    --accent-color:  #00ff15; /* Стандартный Sakura/Union */
+}
+
+.mainchapter tr {
+    --accent-color: #00ff15; /* По умолчанию зеленый */
 }
 
 /* Модификаторы для разных состояний */
 .is-red { --accent-color: #fc0909; } /* Красный */
 .is-yellow  { --accent-color: #ffdf00; } /* Желтый */
-.is-gray  { --accent-color: #aaaaaa; } /* Серый */
+.is-gray  { --accent-color: #666666; } /* Серый */
+.is-meta  { --accent-color: #ffc960; } /* Желтый */
 
 .name-box {
-    margin-top: 5px;
-     background: rgba(0, 0, 0, 0.7);
-    border-left: 3px solid var(--accent-color); /* Используем переменную! */
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.7);
     display: inline-block;
-    transform: skewX(-10deg);
+
 }
 
 .name-box span {
     display: inline-block;
-    transform: skewX(10deg);
-    color: var(--accent-color); /* Имя тоже красится */
+    color: var(--accent-color);
     font-weight: bold;
+    font-size: 1em;
+    white-space: nowrap; /* Имя может быть длинным, оно просто уйдет вправо */
 }
 
 /* Рамка вокруг портрета */
@@ -528,4 +575,196 @@ width: auto;
 
 .main {
   width: 100%;
+}
+
+.choice-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 15px 0;
+}
+
+.choice-label {
+    background: #222; /* Темный фон */
+    color: #ccc;      /* Светло-серый текст */
+    padding: 6px 40px;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #444;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Возвращаем текст внутри плашки в нормальное состояние */
+.choice-label span, 
+.choice-label {
+    display: inline-block;
+}
+
+/* Контейнер для всей строки */
+.mainchapter tr {
+    position: relative; /* База для позиционирования имени */
+}
+
+/* Общие стили для вспышки */
+.flash-gradient {
+
+    height: 300px;
+}
+
+/* Погружение: Прозрачный -> Белый */
+.flash-gradient.into-white {
+    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 1));
+    width: 1280px;
+    margin-left: 10px;
+
+}
+
+/* Выход: Белый -> Прозрачный */
+.flash-gradient.from-white {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), transparent);
+    width: 1280px;
+    margin-left: 10px;
+}
+
+.mainchapter.fog-effect {
+    position: relative;
+}
+
+.mainchapter.fog-effect::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, transparent 10%, rgba(255, 255, 255, 0.5) 100%);
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+/* Чтобы текст был выше тумана, поднимем tr */
+.mainchapter tr {
+    position: relative;
+    z-index: 2;
+}
+
+img.fog-effect {
+    filter: brightness(3) contrast(0.1) opacity(0.7);
+}
+
+.mainchapter.fog-effect-full {
+    position: relative;
+}
+
+.mainchapter.fog-effect-full::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+
+
+.mainchapter.white-full {
+    position: relative;
+    color: #555555;
+    text-shadow: none; 
+    
+}
+
+.mainchapter.white-full::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.mainchapter.blue-choise {
+    position: relative;
+}
+
+.mainchapter.blue-choise::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgb(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.mainchapter.red-choise {
+    position: relative;
+}
+
+.mainchapter.red-choise::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.mainchapter.yellow-choise {
+    position: relative;
+}
+
+.mainchapter.yellow-choise::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgb(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.mainchapter.sea-choise {
+    position: relative;
+}
+
+.mainchapter.sea-choise::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgb(0, 255, 255, 0.5), rgba(0, 255, 255, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.mainchapter.green-choise {
+    position: relative;
+}
+
+.mainchapter.green-choise::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.mainchapter.purple-choise {
+    position: relative;
+}
+
+.mainchapter.purple-choise::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgba(255, 0, 255, 0.5), rgba(255, 0, 255, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
 }

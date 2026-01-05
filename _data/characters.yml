@@ -14,6 +14,14 @@ arizona:
   img: "/img/port/eagle/ariz1.png"
   class: "blob"
 
+# S
+
+saratoga:
+  name: "Саратога"
+  img: "/img/port/eagle/sara1.png"
+  class: "blob"
+
+
 # ==========================================================
 # ROYAL NAVI (Королевский Флот)
 # ==========================================================
@@ -32,11 +40,40 @@ howe:
   img: "/img/port/royal/howe1.png"
   class: "blob"
 
+# K
+
+king_george_v:
+  name: "Кинг Георг V"
+  img: "/img/port/royal/king1.png"
+  class: "blob"
+
 # N
+
+neptune:
+  name: "Нептун"
+  img: "/img/port/royal/nept1.png"
+  class: "blob"
+
+neptune?:
+  name: "? ? ?"
+  img: "/img/port/royal/nept1.png"
+  class: "blob"
 
 newcastle:
   name: "Ньюкасл"
   img: "/img/port/royal/newc1.png"
+  class: "blob"
+
+# S
+
+sheffield:
+  name: "Шеффилд"
+  img: "/img/port/royal/shef1.png"
+  class: "blob"
+
+suffolk:
+  name: "Саффолк"
+  img: "/img/port/royal/suff1.png"
   class: "blob"
 
 
@@ -218,7 +255,12 @@ z46:
 # Dragon Empery (Империя Дракона)
 # ==========================================================
 
+# Y
 
+yat_sen:
+  name: "Ят Сен"
+  img: "/img/port/dragon/yats1.png"
+  class: "blob"
 
 # ==========================================================
 # SARDEGNA EMPIRE (Сардинская Империя)
@@ -228,6 +270,61 @@ z46:
 # ==========================================================
 # Northern Parlament (Северный Парламент)
 # ==========================================================
+
+# A
+
+arkhangelsk:
+  name: "Архангельск"
+  img: "/img/port/northern/arkh1.png"
+  class: "blob"
+
+avrora:
+  name: "Аврора"
+  img: "/img/port/northern/avro1.png"
+  class: "blob"
+
+# K
+
+kiev:
+  name: "Киев"
+  img: "/img/port/northern/kiev1.png"
+  class: "blob"
+
+kronshtadt:
+  name: "Кронштадт"
+  img: "/img/port/northern/kron1.png"
+  class: "blob"
+
+# S
+
+sovetskaya_belorussiya:
+  name: "Советская Белоруссия"
+  img: "/img/port/northern/sbel1.png"
+  class: "blob"
+
+sovetsky_soyuz_old:
+  name: "Советский Союз"
+  img: "/img/port/northern/sove10.png"
+  class: "blob"
+
+soobrazitelny:
+  name: "Сообразительный"
+  img: "/img/port/northern/soob1.png"
+  class: "blob"
+
+# T
+
+tashkent:
+  name: "Ташкент"
+  img: "/img/port/northern/tash1.png"
+  class: "blob"
+
+# V
+
+volga:
+  name: "Волга"
+  img: "/img/port/northern/volg1.png"
+  class: "blob"
 
 
 # ==========================================================
@@ -366,7 +463,7 @@ kersaint:
 la_galissonniere:
   name: "Ла Галиссоньер"
   img: "/img/port/vichya/laga1.png"
-  class: "blob longname"
+  class: "blob"
 
 le_malin:
   name: "Ле Мален"
@@ -432,6 +529,34 @@ observer?:
   img: "/img/port/siren/obse1.png"
   class: "blob"
 
+anzeel_dark:
+  name: "Женщина-исследователь"
+  img: "/img/port/other/anze2.png"
+  class: "blob"
+
+tb_dark:
+  name: "?"
+  img: "/img/port/other/zero2.png"
+  class: "blob"
+
+tb_rad:
+  name: "TБ"
+  img: "/img/port/other/zero1rad.png"
+  class: "blob"
+
+aoste_dark:
+  name: "Мужчина-исследователь"
+  img: "/img/port/other/aost2.png"
+  class: "blob"
+
+assistent?:
+  name: "■ ■ ■"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
+
+
+
 # ==========================================================
 # Other
 # ==========================================================
@@ -441,8 +566,23 @@ nop:
   name: "? ? ?"
   img: "/img/port/other/nop.png"
   class: "blob"
-    
 
+bon_omm_richard:
+  name: "Бон Омм Ричард"
+  img: "/img/port/meta/bonh1.png"
+
+bon_omm_richard1:
+  name: "Бон Омм Ричард"
+  img: "/img/port/meta/bonh2.png"
+
+bon_omm_richard?:
+  name: "? ? ?"
+  img: "/img/port/meta/bonh1.png"
+    
+communicator:
+  name: "Коммуникатор"
+  img: "/img/port/other/nop.png"
+  class: "blob"
 
 
 

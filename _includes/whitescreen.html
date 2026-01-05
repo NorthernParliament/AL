@@ -1,0 +1,15 @@
+<table class="whitescreen">
+  <tr>
+    <td class="port"></td>
+    <td>
+      {% if include.lines %}
+        {% for line in include.lines %}
+          <p>{{ line }}</p>
+        {% endfor %}
+      {% else %}
+        {{ include.text | markdownify }}
+      {% endif %}
+    </td>
+    <td class="port"></td>
+  </tr>
+</table>
