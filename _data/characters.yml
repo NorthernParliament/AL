@@ -338,6 +338,26 @@ yat_sen:
 # SARDEGNA EMPIRE (Сардинская Империя)
 # ==========================================================
 
+# L
+
+littorio:
+  name: "Литторио"
+  img: "/img/port/sardegna/litt1.png"
+  class: "blob"
+
+# T
+
+trento:
+  name: "Тренто"
+  img: "/img/port/sardegna/tren1.png"
+  class: "blob"
+
+# Z
+
+zara:
+  name: "Зара"
+  img: "/img/port/sardegna/zara1.png"
+  class: "blob"
 
 # ==========================================================
 # Northern Parlament (Северный Парламент)
