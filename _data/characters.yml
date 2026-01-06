@@ -194,11 +194,33 @@ bismarck?:
   img: "/img/port/iron/bism1.png"
   class: "blob"
 
+blucher:
+  name: "Блюхер"
+  img: "/img/port/iron/bluh1.png"
+  class: "blob"
+
+brunhilde:
+  name: "Брюнхильда"
+  img: "/img/port/iron/brun1.png"
+  class: "blob"
+
+brunhilde_rad:
+  name: "📡Брюнхильда"
+  img: "/img/port/iron/brun1rad.png"
+  class: "blob"
+
 # D
 
 deutschland:
   name: "Дойчланд"
   img: "/img/port/iron/deut1.png"
+  class: "blob"
+
+# F
+
+friedrich_der_grosse:
+  name: "Фридрих дер Гроссе"
+  img: "/img/port/iron/frie1.png"
   class: "blob"
 
 # G
@@ -208,10 +230,27 @@ graf_zeppelin:
   img: "/img/port/iron/graf1.png"
   class: "blob"
 
+graf_zeppelin?:
+  name: "Граф Цеппелин?"
+  img: "/img/port/iron/graf1.png"
+  class: "blob"
+
 
 gneisenau:
   name: "Гнейзенау"
   img: "/img/port/iron/gnei1.png"
+  class: "blob"
+
+# P
+
+prinz_eugen:
+  name: "Принц Ойген"
+  img: "/img/port/iron/prin1.png"
+  class: "blob"
+
+prinz_eugen?:
+  name: "Принц Ойген?"
+  img: "/img/port/iron/prin1.png"
   class: "blob"
 
 # S
@@ -241,14 +280,47 @@ u557:
   img: "/img/port/iron/u5571.png"
   class: "blob"
 
+ulrich_von_hutten:
+  name: "Ульрих фон Хуттен"
+  img: "/img/port/iron/ulri1.png"
+  class: "blob"
+
+ulrich_von_hutten?:
+  name: "Ульрих фон Хуттен?"
+  img: "/img/port/iron/ulri1.png"
+  class: "blob"
 
 # Z
+
+z16:
+  name: "Z16"
+  img: "/img/port/iron/z161.png"
+  class: "blob"
+
+z16rad:
+  name: "📡Z16"
+  img: "/img/port/iron/z161rad.png"
+  class: "blob"
+
+z2:
+  name: "Z2"
+  img: "/img/port/iron/z21.png"
+  class: "blob"
+
+z2?:
+  name: "Z2?"
+  img: "/img/port/iron/z21.png"
+  class: "blob"
 
 z46:
   name: "Z46"
   img: "/img/port/iron/z461.png"
   class: "blob"
 
+z46?:
+  name: "Z46?"
+  img: "/img/port/iron/z461.png"
+  class: "blob"
 
 
 # ==========================================================
@@ -540,7 +612,7 @@ tb_dark:
   class: "blob"
 
 tb_rad:
-  name: "TБ"
+  name: "📡TБ"
   img: "/img/port/other/zero1rad.png"
   class: "blob"
 
