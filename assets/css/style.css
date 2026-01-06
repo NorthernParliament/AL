@@ -532,7 +532,8 @@ padding: 1.5%;
 .is-red { --accent-color: #fc0909; } /* Красный */
 .is-yellow  { --accent-color: #ffdf00; } /* Желтый */
 .is-gray  { --accent-color: #666666; } /* Серый */
-.is-meta  { --accent-color: #ffc960; } /* Желтый */
+.is-meta  { --accent-color: #ffc960; } /* Meta */
+.is-white { --accent-color: #ffffff; } /* Белый */
 
 .name-box {
     margin-top: 10px;
