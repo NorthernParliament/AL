@@ -1,0 +1,59 @@
+chapter1:
+  rows:
+
+    - char: massachusetts
+      side: left
+      status: is-white
+      text:
+        - "Эти фанатики... неужели они всегда сражаются так отчаянно и экстремально?"
+        - "Эти снаряды... крупный калибр, линкорные. Это та «большая пушка» в порту? Как её там звали... Жан... Жан Поль?"
+
+    - char: ranger
+      side: right
+      status: is-white
+      text:
+        - "Жан Бар."
+
+    - char: massachusetts
+      side: left
+      status: is-white
+      text:
+        - "Любопытно. С ней этот бой может стать куда жарче~"
+
+    - char: ranger
+      side: right
+      status: is-white
+      text:
+        - "...Пожалуйста, не забывай о своих обязанностях флагмана оперативной группы."
+
+    - char: massachusetts
+      side: left
+      status: is-white
+      text:
+        - "Моя обязанность — устранить любую угрозу и свести к минимуму потери наших десантных групп."
+        - "Что ж, я выдвигаюсь."
+
+    - char: wichita
+      side: right
+      status: is-white
+      text:
+        - "Я тоже в деле!"
+
+    - char: cleveland
+      side: left
+      status: is-white
+      text:
+        - "Подождите меня!!"
+
+    - char: jenkins
+      side: right
+      status: is-white
+      text:
+        - "Я... я буду прикрывать вас!"
+
+    - char: ranger
+      side: left
+      status: is-white
+      text:
+        - "Эй, подождите..."
+        - "Эх, их уже не остановить... Сборище горячих голов."

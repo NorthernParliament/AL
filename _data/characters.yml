@@ -14,6 +14,41 @@ arizona:
   img: "/img/port/eagle/ariz1.png"
   class: "blob"
 
+# B
+
+brooklyn:
+  name: "Бруклин"
+  img: "/img/port/eagle/broo1.png"
+  class: "blob"
+
+# C
+
+cleveland:
+  name: "Кливленд"
+  img: "/img/port/eagle/clev1.png"
+  class: "blob"
+
+# J
+
+jenkins:
+  name: "Дженкинс"
+  img: "/img/port/eagle/jenk1.png"
+  class: "blob"
+
+# M
+
+massachusetts:
+  name: "Массачусетс"
+  img: "/img/port/eagle/mass1.png"
+  class: "blob"
+
+# R
+
+ranger:
+  name: "Рейнджер"
+  img: "/img/port/eagle/rang1.png"
+  class: "blob"
+
 # S
 
 saratoga:
@@ -21,10 +56,31 @@ saratoga:
   img: "/img/port/eagle/sara1.png"
   class: "blob"
 
+# W
+
+wichita:
+  name: "Уичита"
+  img: "/img/port/eagle/wich1.png"
+  class: "blob"
+
 
 # ==========================================================
 # ROYAL NAVI (Королевский Флот)
 # ==========================================================
+
+# A
+
+arethusa:
+  name: "Аретьюза"
+  img: "/img/port/royal/aret1.png"
+  class: "blob"
+
+ark_royal:
+  name: "Арк Роял"
+  img: "/img/port/royal/arkr1.png"
+  class: "blob"
+
+
 
 # E
 
@@ -34,6 +90,11 @@ enterprise_r:
   class: "blob"
 
 # H
+
+hood:
+  name: "Худ"
+  img: "/img/port/royal/hood1.png"
+  class: "blob"
 
 howe:
   name: "Хау"
@@ -62,6 +123,13 @@ neptune?:
 newcastle:
   name: "Ньюкасл"
   img: "/img/port/royal/newc1.png"
+  class: "blob"
+
+# R
+
+renown:
+  name: "Ринаун"
+  img: "/img/port/royal/reno1.png"
   class: "blob"
 
 # S
