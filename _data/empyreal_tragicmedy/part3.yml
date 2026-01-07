@@ -1,0 +1,92 @@
+chapter1:
+  rows:
+
+    - char: vittorio_veneto_rad
+      side: left
+      status: is-yellow
+      text:
+        - "Как обстановка? Флот Сирен полностью уничтожен?"
+
+    - char: giulio_cesare
+      side: right
+      status: is-yellow
+      text:
+        - "Обычный безмозглый мусор, они не представляли никакой угрозы."
+
+    - char: conte_di_cavour
+      side: left
+      status: is-yellow
+      text:
+        - "Враг... был не так силен. Ни один не ушел."
+
+    - char: zara
+      side: right
+      status: is-yellow
+      text:
+        - "Просто кучка слабаков, от которых даже азарт не просыпается. Согласна, Пола?"
+
+    - char: pola
+      side: left
+      status: is-yellow
+      text:
+        - "Именно так, сестра Зара. Пола тоже полностью зачистила свой сектор..."
+
+    - char: vittorio_veneto_rad
+      side: right
+      status: is-yellow
+      text:
+        - "Отлично, все потрудились на славу. Чезаре, веди флот в Ла-Специю на отдых. Я свяжусь с тыловыми службами порта, чтобы для всех подготовили достойную награду."
+
+    - char: zara
+      side: left
+      status: is-yellow
+      text:
+        - "Праздничный банкет? О, это стоит того, чтобы ждать! Ха-ха!"
+        - "Подождите... это еще что?"
+
+    - text: "Над горизонтом пролетает одинокий самолёт."
+
+    - char: zara
+      side: left
+      status: is-yellow
+      text:
+        - "Госпожа Флагман, разве мы запрашивали сегодня поддержку ВВС Империи?"
+
+    - char: conte_di_cavour
+      side: right
+      status: is-yellow
+      text:
+        - "Нет... Посмотрите на модель... Это разведчик Королевского Флота!"
+
+    - char: zara
+      side: left
+      status: is-yellow
+      text:
+        - "Всем силам — приготовиться к зенитному огню!!"
+
+    - char: pola
+      side: right
+      status: is-yellow
+      text:
+        - "Поздно... Враг уже вышел за пределы радиуса поражения..."
+
+    - char: zara
+      side: left
+      status: is-yellow
+      text:
+        - "Эти крысы из Королевского Флота... вечно шпионят, назойливые как мухи!"
+
+    - char: giulio_cesare
+      side: right
+      status: is-yellow
+      text:
+        - "Ладно, флоту — продолжить движение. Цель — Ла-Специя!"
+
+    - text: "... ... ..."
+
+    - char: littorio
+      side: left
+      status: is-yellow
+      text:
+        - "..."
+        - "(Всё идет точно по плану. Теперь... настоящее шоу начинается)."

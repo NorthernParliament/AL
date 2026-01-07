@@ -80,6 +80,13 @@ ark_royal:
   img: "/img/port/royal/arkr1.png"
   class: "blob"
 
+# B
+
+belfast:
+  name: "Белфаст"
+  img: "/img/port/royal/belf1.png"
+  class: "blob"
+
 
 
 # E
@@ -87,6 +94,13 @@ ark_royal:
 enterprise_r:
   name: "Энтерпрайз"
   img: "/img/port/royal/ente1.png"
+  class: "blob"
+
+# F
+
+formidable:
+  name: "Формидебл"
+  img: "/img/port/royal/form1.png"
   class: "blob"
 
 # H
@@ -99,6 +113,13 @@ hood:
 howe:
   name: "Хау"
   img: "/img/port/royal/howe1.png"
+  class: "blob"
+
+# I
+
+illustrious:
+  name: "Илластриес"
+  img: "/img/port/royal/illu1.png"
   class: "blob"
 
 # K
@@ -125,6 +146,13 @@ newcastle:
   img: "/img/port/royal/newc1.png"
   class: "blob"
 
+# Q
+
+queen_elizabeth:
+  name: "Куин Элизабет"
+  img: "/img/port/royal/quee1.png"
+  class: "blob"
+
 # R
 
 renown:
@@ -142,6 +170,32 @@ sheffield:
 suffolk:
   name: "Саффолк"
   img: "/img/port/royal/suff1.png"
+  class: "blob"
+
+# V
+
+victorious:
+  name: "Викториес"
+  img: "/img/port/royal/vict1.png"
+  class: "blob"
+
+# W
+
+warspite:
+  name: "Уорспайт"
+  img: "/img/port/royal/wars1.png"
+  class: "blob"
+
+warspite_kai:
+  name: "Уорспайт"
+  img: "/img/port/royal/wars2.png"
+  class: "blob"
+
+# Y
+
+york:
+  name: "Йорк"
+  img: "/img/port/royal/york1.png"
   class: "blob"
 
 
@@ -406,6 +460,25 @@ yat_sen:
 # SARDEGNA EMPIRE (Сардинская Империя)
 # ==========================================================
 
+# C
+
+carabiniere:
+  name: "Карабиньере"
+  img: "/img/port/sardegna/cara1.png"
+  class: "blob"
+
+conte_di_cavour:
+  name: "Конте ди Кавур"
+  img: "/img/port/sardegna/cont1.png"
+  class: "blob"
+
+# G
+
+giulio_cesare:
+  name: "Джулио Чезаре"
+  img: "/img/port/sardegna/guil1.png"
+  class: "blob"
+
 # L
 
 littorio:
@@ -413,11 +486,28 @@ littorio:
   img: "/img/port/sardegna/litt1.png"
   class: "blob"
 
+pola:
+  name: "Пола"
+  img: "/img/port/sardegna/pola1.png"
+  class: "blob"
+
 # T
 
 trento:
   name: "Тренто"
   img: "/img/port/sardegna/tren1.png"
+  class: "blob"
+
+# V
+
+vittorio_veneto:
+  name: "Витторио Венето"
+  img: "/img/port/sardegna/vitt1.png"
+  class: "blob"
+
+vittorio_veneto_rad:
+  name: "📡Витторио Венето"
+  img: "/img/port/sardegna/vitt1rad.png"
   class: "blob"
 
 # Z
@@ -676,6 +766,11 @@ tester?:
 
 testerb:
   name: "Тестер β"
+  img: "/img/port/siren/test1.png"
+  class: "blob"
+
+tester:
+  name: "Тестер"
   img: "/img/port/siren/test1.png"
   class: "blob"
 

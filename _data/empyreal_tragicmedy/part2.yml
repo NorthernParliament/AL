@@ -1,0 +1,57 @@
+chapter1:
+  rows:
+
+    - char: giulio_cesare
+      side: left
+      status: is-yellow
+      text:
+        - "Да как эти Сирены вообще умудрились проскочить сквозь блокаду Королевского Флота и ворваться сюда?!"
+
+    - char: conte_di_cavour
+      side: right
+      status: is-yellow
+      text:
+        - "Хм... Если бы действия Сирен всегда укладывались в рамки наших ожиданий, мы бы не оказались в таком плачевном положении, не так ли?"
+
+    - char: giulio_cesare
+      side: left
+      status: is-yellow
+      text:
+        - "А-а-а, ну вот, Кавур снова завел свою волынку с пессимистичными речами!"
+        - "Слушай, может, мы сначала уничтожим врага перед глазами, а уже потом ты займешься своими философскими размышлениями, а?"
+
+    - char: conte_di_cavour
+      side: right
+      status: is-yellow
+      text:
+        - "Я лишь спокойно анализирую текущую ситуацию. А враг... Враг, разумеется, будет уничтожен."
+
+    - char: carabiniere
+      side: left
+      status: is-yellow
+      text:
+        - "А вы двое, как я погляжу, всё так же близки и неразлучны."
+
+    - char: conte_di_cavour
+      side: right
+      status: is-yellow
+      text:
+        - "И с чего ты это взяла?! С какого это боку мы «неразлучны»?!"
+
+    - char: giulio_cesare
+      side: left
+      status: is-yellow
+      text:
+        - "И с чего ты это взяла?! С какого это боку мы «неразлучны»?!"
+
+    - char: carabiniere
+      side: right
+      status: is-yellow
+      text:
+        - "Ой... Ладно, пустые разговоры в сторону. Враг приближается."
+
+    - char: giulio_cesare
+      side: left
+      status: is-yellow
+      text:
+        - "Всем постам — открыть огонь! Мы сотрем этот проклятый флот Сирен в порошок до последнего корабля!"
