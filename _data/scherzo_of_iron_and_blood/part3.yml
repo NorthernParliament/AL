@@ -1,0 +1,38 @@
+chapter1:
+  rows:
+
+    - char: prinz_eugen
+      side: left
+      status: is-yellow
+      text:
+        - "Есть контакт на радаре. Похоже, за нами по пятам следуют две маленькие мышки~"
+
+    - char: norfolk
+      side: right
+      text:
+        - "Нас... нас обнаружили!"
+
+    - char: suffolk
+      side: left
+      text:
+        - "Ва-а-а-а! Скорее, отправляй депешу! Отправляй депешу!"
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Бисмарк, поиграем с ними немного?"
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Разрешаю вступить в бой. Прогони их."
+        - "Но не заигрывайся. Они наверняка уже передали координаты нашего местоположения."
+        - "Мы должны сделать всё возможное, чтобы не ввязываться в затяжную стычку."
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Поняла~ Готовлюсь к открытию огня!"

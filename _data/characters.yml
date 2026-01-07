@@ -146,6 +146,11 @@ newcastle:
   img: "/img/port/royal/newc1.png"
   class: "blob"
 
+norfolk:
+  name: "Норфолк"
+  img: "/img/port/royal/norf1.png"
+  class: "blob"
+
 # Q
 
 queen_elizabeth:
@@ -158,6 +163,11 @@ queen_elizabeth:
 renown:
   name: "Ринаун"
   img: "/img/port/royal/reno1.png"
+  class: "blob"
+
+rodney:
+  name: "Родни"
+  img: "/img/port/royal/rodn1.png"
   class: "blob"
 
 # S
@@ -395,6 +405,11 @@ tirpitz:
 u47:
   name: "U-47"
   img: "/img/port/iron/u471.png"
+  class: "blob"
+
+u556:
+  name: "U-556"
+  img: "/img/port/iron/u5561.png"
   class: "blob"
 
 u557:
@@ -784,6 +799,11 @@ observer?:
   img: "/img/port/siren/obse1.png"
   class: "blob"
 
+observer2:
+  name: "Обсервер"
+  img: "/img/port/siren/obse2.png"
+  class: "blob"
+
 anzeel_dark:
   name: "Женщина-исследователь"
   img: "/img/port/other/anze2.png"
@@ -839,6 +859,10 @@ communicator:
   img: "/img/port/other/nop.png"
   class: "blob"
 
+all:
+  name: "Все"
+  img: "/img/port/other/nop.png"
+  class: "blob"
 
 
 

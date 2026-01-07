@@ -1,0 +1,71 @@
+chapter1:
+  rows:
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Принц Уэльский уже отступила в юго-восточном направлении. На горизонте вражеских теней не обнаружено."
+        - "Может, сбавим немного скорость? Идти на полном ходу при таком состоянии моря — слишком суровое испытание для механизмов."
+        - "К тому же, в штабе Королевского Флота сейчас наверняка царит полный хаос. Вряд ли у них найдутся силы и решимость немедленно организовать преследование..."
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Не недооценивай врага! Королевский Флот не оставит это просто так. Они не успокоятся."
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "......"
+        - "Но твои раны..."
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Они не критичны. По сравнению с угрозой, которая дышит нам в спину, эти повреждения — сущий пустяк."
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Опять ты за своё."
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Ойген, выполняй приказ."
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Ну уж нет~ Я собираюсь немного передохнуть, а ты воспользуйся случаем и хоть немного подлатай себя."
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Ты..."
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Препятствовать безрассудству флагмана — это тоже обязанность корабля сопровождения, знаешь ли."
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Пожалуй, в искусстве софистики и умении спорить мне тебя не победить, Ойген."
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Благодарю за похвалу~"

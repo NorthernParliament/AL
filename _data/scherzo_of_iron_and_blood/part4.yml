@@ -1,0 +1,97 @@
+chapter1:
+  rows:
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Сигнал на радаре пропал. Мышки разбежались."
+        - "Что будем делать дальше? Основной флот Королевства, скорее всего, очень скоро перехватит нас."
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Ойген..."
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "М-м?"
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Операция «Рейнские учения» провалена. Прекратить выполнение задачи. Немедленно сменить курс и возвращаться в порт приписки."
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Но, позволь заметить, твои повреждения... Боюсь, ты не выдержишь столь долгий переход."
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Я имела в виду... что ты вернешься в одиночку. У меня другие планы."
+        
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Ты хочешь, чтобы я тебя бросила? Это звучит как очень плохая идея."
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Поблизости есть воды, контролируемые нашими союзниками. Если я смогу добраться туда, даже Королевский Флот не посмеет безрассудно продолжать преследование."
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Доминион Виши... Вот оно что."
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Надеюсь, ты подчинишься моему приказу. В этот раз я не позволю тебе своенравничать, Ойген."
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Я…"
+        - "Я поняла. Сейчас не время для споров, верно?"
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Тогда отправляйся немедленно, не теряй времени."
+        - "С этого момента начинается наша битва со временем."
+        - "Мы не можем останавливаться, пока не достигнем безопасных вод."
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Тяжелый крейсер «Принц Ойген» приказ приняла. Желаю удачи, Бисмарк."
+
+    - char: bismarck
+      side: left
+      status: is-yellow
+      text:
+        - "Удачи."
+        - "Eisen und Blut über alles!"
+
+    - char: prinz_eugen
+      side: right
+      status: is-yellow
+      text:
+        - "Eisen und Blut über alles!"
