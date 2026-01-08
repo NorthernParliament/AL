@@ -125,7 +125,7 @@ illustrious:
 # K
 
 king_george_v:
-  name: "Кинг Георг V"
+  name: "Кинг Джордж V"
   img: "/img/port/royal/king1.png"
   class: "blob"
 
@@ -149,6 +149,13 @@ newcastle:
 norfolk:
   name: "Норфолк"
   img: "/img/port/royal/norf1.png"
+  class: "blob"
+
+# P
+
+prince_of_wales:
+  name: "Принц Уэльский"
+  img: "/img/port/royal/prin1.png"
   class: "blob"
 
 # Q
@@ -382,6 +389,16 @@ prinz_eugen:
 
 prinz_eugen?:
   name: "Принц Ойген?"
+  img: "/img/port/iron/prin1.png"
+  class: "blob"
+
+prinz_eugen??:
+  name: "? ? ?"
+  img: "/img/port/iron/prin1.png"
+  class: "blob"
+
+prinz_eugen_bis?:
+  name: "Бисмарк ??"
   img: "/img/port/iron/prin1.png"
   class: "blob"
 
