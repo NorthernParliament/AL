@@ -94,6 +94,11 @@ saratoga:
   img: "/img/port/eagle/sara1.png"
   class: "blob"
 
+saratoga_rad:
+  name: "📡Саратога"
+  img: "/img/port/eagle/sara1rad.png"
+  class: "blob"
+
 # W
 
 wichita:
