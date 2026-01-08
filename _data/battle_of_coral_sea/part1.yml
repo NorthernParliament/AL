@@ -1,0 +1,9 @@
+chapter1:
+  rows:
+
+    - char: lexington
+      side: left
+      text:
+        - "Stand your ground. Don't fire unless fired upon. (Держите позиции. Не открывайте огонь, пока враг не выстрелит первым.)"
+        - "But if they mean to have a war... (Но если они намерены навязать нам войну...)"
+        - "Let it begin here! (Тогда пусть она начнется здесь!)"

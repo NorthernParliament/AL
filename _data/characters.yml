@@ -28,6 +28,13 @@ cleveland:
   img: "/img/port/eagle/clev1.png"
   class: "blob"
 
+# E
+
+enterprise:
+  name: "Энтерпрайз"
+  img: "/img/port/eagle/ente1.png"
+  class: "blob"
+
 # H
 
 hornet:
@@ -48,6 +55,11 @@ jenkins:
   class: "blob"
 
 # L
+
+lexington:
+  name: "Лексингтон"
+  img: "/img/port/eagle/lexi1.png"
+  class: "blob"
 
 long_island:
   name: "Лонг Айленд"
@@ -87,6 +99,13 @@ saratoga:
 wichita:
   name: "Уичита"
   img: "/img/port/eagle/wich1.png"
+  class: "blob"
+
+# Y
+
+yorktown:
+  name: "Йорктаун"
+  img: "/img/port/eagle/york1.png"
   class: "blob"
 
 
@@ -348,6 +367,11 @@ naka:
   class: "blob"
 
 # S
+
+shouhou:
+  name: "Сёхо"
+  img: "/img/port/sakura/shou1.png"
+  class: "blob"
 
 souryuu:
   name: "Сорю"

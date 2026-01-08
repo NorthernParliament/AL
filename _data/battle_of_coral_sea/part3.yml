@@ -1,0 +1,8 @@
+chapter1:
+  rows:
+
+    - char: shouhou
+      side: left
+      status: is-red
+      text:
+        - "Я... я перенапряглась... Какая ошибка..."
