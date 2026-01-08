@@ -28,6 +28,18 @@ cleveland:
   img: "/img/port/eagle/clev1.png"
   class: "blob"
 
+# H
+
+hornet:
+  name: "Хорнет"
+  img: "/img/port/eagle/horn1.png"
+  class: "blob"
+
+hornet?:
+  name: "Хорнет"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
 # J
 
 jenkins:
@@ -35,11 +47,25 @@ jenkins:
   img: "/img/port/eagle/jenk1.png"
   class: "blob"
 
+# L
+
+long_island:
+  name: "Лонг Айленд"
+  img: "/img/port/eagle/long1.png"
+  class: "blob"
+
 # M
 
 massachusetts:
   name: "Массачусетс"
   img: "/img/port/eagle/mass1.png"
+  class: "blob"
+
+# P
+
+pennsylvania:
+  name: "Пенсильвания"
+  img: "/img/port/eagle/penn1.png"
   class: "blob"
 
 # R
@@ -233,6 +259,11 @@ akaginop:
   img: "/img/port/other/nop.png"
   class: "blob"
 
+akagi?:
+  name: "? ? ?"
+  img: "/img/port/sakura/akag1.png"
+  class: "blob"
+
 amagi:
   name: "Амаги"
   img: "/img/port/sakura/amag1.png"
@@ -272,6 +303,11 @@ kaga:
   img: "/img/port/sakura/kaga1.png"
   class: "blob"
 
+kaga?:
+  name: "? ? ?"
+  img: "/img/port/sakura/kaga1.png"
+  class: "blob"
+
 kaganop:
   name: "Кага"
   img: "/img/port/other/nop.png"
@@ -280,6 +316,16 @@ kaganop:
 kagabb:
   name: "Кага (Линкор)"
   img: "/img/port/sakura/kagab1.png"
+  class: "blob"
+
+kirishima:
+  name: "Кирисима"
+  img: "/img/port/sakura/kiri1.png"
+  class: "blob"
+
+kirishima?:
+  name: "? ? ?"
+  img: "/img/port/sakura/kiri1.png"
   class: "blob"
 
 # M
@@ -306,6 +352,13 @@ naka:
 souryuu:
   name: "Сорю"
   img: "/img/port/sakura/sour1.png"
+  class: "blob"
+
+# T
+
+tone?:
+  name: "? ? ?"
+  img: "/img/port/sakura/tone1.png"
   class: "blob"
 
 

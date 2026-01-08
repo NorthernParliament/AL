@@ -1,0 +1,43 @@
+chapter1:
+  rows:
+
+    - char: long_island
+      side: left
+      text:
+        - "Обнаружен флагман ударной группы противника!"
+
+    - char: akagi?
+      side: right
+      status: is-white
+      text:
+        - "Хе-хе-хе-хе... Кучка никчемных насекомых всё-таки притащилась сюда, идя по следу."
+
+    - char: kaga?
+      side: left
+      status: is-white
+      text:
+        - "Внешний оборонительный рубеж был прорван?.. Этого не было в наших планах."
+
+    - char: akagi?
+      side: right
+      status: is-white
+      text:
+        - "Неважно. Основная миссия уже выполнена. Всё, что осталось — это время для игр с этими букашками~ Хе-хе-хе-хе..."
+
+    - char: akagi
+      side: right
+      status: is-red
+      text:
+        - "Империя Сакуры, первая дивизия авианосцев — Акаги."
+
+    - char: kaga
+      side: left
+      status: is-red
+      text:
+        - "Империя Сакуры, первая дивизия авианосцев — Кага."
+
+    - char: akagi
+      side: right
+      status: is-red
+      text:
+        - "В бой!"
