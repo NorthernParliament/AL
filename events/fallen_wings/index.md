@@ -21,7 +21,7 @@ black_scene1:
 ---
 
 <div class="chapter" id="part1"> <!-- начало главы -->
-<p class="title-1">Первая часть - Рассвет</p>
+<p class="title-1">Пролог</p>
 {% include blackscreen.html lines=page.black_scene %}
 <img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg35.png" alt="">
 {% assign rows = site.data.fallen_wings.part1.chapter1.rows %}
