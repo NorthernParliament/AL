@@ -37,6 +37,11 @@ enterprise:
 
 # H
 
+helena:
+  name: "Хелена"
+  img: "/img/port/eagle/hele1.png"
+  class: "blob"
+
 hornet:
   name: "Хорнет"
   img: "/img/port/eagle/horn1.png"
@@ -73,6 +78,13 @@ massachusetts:
   img: "/img/port/eagle/mass1.png"
   class: "blob"
 
+# N
+
+north_carolina:
+  name: "Норт Кэролайн"
+  img: "/img/port/eagle/nort1.png"
+  class: "blob"
+
 # P
 
 pennsylvania:
@@ -100,6 +112,11 @@ saratoga_rad:
   class: "blob"
 
 # W
+
+washington:
+  name: "Вашингтон"
+  img: "/img/port/eagle/wash1.png"
+  class: "blob"
 
 wichita:
   name: "Уичита"
@@ -994,6 +1011,20 @@ vauquelin:
 # МЕТА
 # ==========================================================
 
+enterprise_meta_mono:
+  name: "Энтерпрайз"
+  img: "/img/port/meta/ente2.png"
+  class: "blob"
+
+enterprise_meta1:
+  name: "Энтерпрайз"
+  img: "/img/port/meta/ente1.png"
+  class: "blob"
+
+enterprise_meta?:
+  name: "? ? ?"
+  img: "/img/port/meta/ente1.png"
+  class: "blob"
 
 # ==========================================================
 # Tempesta (Темпеста)
@@ -1038,6 +1069,28 @@ observer?:
 observer2:
   name: "Обсервер"
   img: "/img/port/siren/obse2.png"
+  class: "blob"
+
+observer2a:
+  name: "Обсервер α"
+  img: "/img/port/siren/obse2.png"
+  class: "blob"
+
+observera:
+  name: "Обсервер α"
+  img: "/img/port/siren/obse1.png"
+  class: "blob"
+
+
+
+zero:
+  name: "Обсервер Зеро"
+  img: "/img/port/siren/zero1.png"
+  class: "blob"
+
+zerod:
+  name: "Дримвивер"
+  img: "/img/port/siren/zero1.png"
   class: "blob"
 
 anzeel_dark:

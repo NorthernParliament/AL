@@ -1,0 +1,55 @@
+chapter1:
+  rows:
+
+    - text: "Log_AtX15.00252.5.142 —— Начало записи"
+
+    - char: observer2a
+      side: left
+      status: is-red
+      text:
+        - "Поздравляю! Ты снова уничтожила всех противников и одержала победу в этом раунде~"
+
+    - char: enterprise_meta_mono
+      side: right
+      status: is-red
+      text:
+        - "……"
+
+    - char: observer2a
+      side: left
+      status: is-red
+      text:
+        - "Как и ожидалось от «Ключевой точки G». В этот раз ты снова так чисто и решительно «спасла мир»~ Хи-хи-хи-хи."
+
+    - char: enterprise_meta_mono
+      side: right
+      status: is-red
+      text:
+        - "……Вы издеваетесь надо мной?"
+
+    - char: observer2a
+      side: left
+      status: is-red
+      text:
+        - "О, что ты, как можно! Ты ведь та самая «Ключевая точка», утвержденная самим Господином 【Творцом】."
+        - "Мы все, в той или иной степени, рождены из твоих 【Мемов】(информационных генов/памяти)... Хи-хи-хи."
+
+    - char: enterprise_meta_mono
+      side: right
+      status: is-red
+      text:
+        - "..."
+
+    - char: observer2a
+      side: left
+      status: is-red
+      text:
+        - "Что ж, согласно нашему уговору, мы позволим тебе сыграть еще в один раунд «игры». Каков твой выбор?"
+
+    - char: enterprise_meta_mono
+      side: right
+      status: is-red
+      text:
+        - "Продолжать..."
+        - "Сколько бы раз ни потребовалось... я выбираю продолжать..."
+        - "До тех пор... пока не найду того человека ——"
