@@ -181,6 +181,11 @@ king_george_v:
 
 # N
 
+nelson:
+  name: "Нельсон"
+  img: "/img/port/royal/nels1.png"
+  class: "blob"
+
 neptune:
   name: "Нептун"
   img: "/img/port/royal/nept1.png"
@@ -975,7 +980,7 @@ tartu:
 # V
 
 vauquelin:
-  name: "Воклен"
+  name: "Вокелен"
   img: "/img/port/vichya/vauq1.png"
   class: "blob"
 
