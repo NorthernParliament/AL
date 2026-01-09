@@ -1,0 +1,49 @@
+chapter1:
+  rows:
+
+    - char: yamashiro_kai1
+      side: right
+      status: is-red
+      text:
+        - "У-у-у... Ямасиро-тян проиграла... Даже с силой, дарованной Богами, Дзуйкаку-тин безжалостно меня одолела... Хнык..."
+
+    - char: zuikaku
+      side: left
+      text:
+        - "Ты ведь... поддалась мне в самый ответственный момент, верно?"
+
+    - char: yamashiro_kai1
+      side: right
+      status: is-red
+      text:
+        - "Вовсе... вовсе нет! И я совсем не собиралась рассказывать тебе, что сестра Сёкаку на самом деле заперта в том большом особняке в самом центре Святилища!"
+
+    - char: zuikaku
+      side: left
+      text:
+        - "Спасибо! Я пошла."
+
+    - char: yamashiro_kai1
+      side: right
+      status: is-red
+      text:
+        - "Погоди!"
+
+    - char: zuikaku
+      side: left
+      text:
+        - "Что такое? Передумала?"
+
+    - char: yamashiro_kai1
+      side: right
+      status: is-red
+      text:
+        - "Пожалуйста... Обязательно спаси наше будущее... Они... они не плохие девочки..."
+
+    - char: zuikaku
+      side: left
+      text:
+        - "......"
+        - "Обещаю!"
+
+

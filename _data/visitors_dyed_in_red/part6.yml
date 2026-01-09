@@ -1,0 +1,25 @@
+chapter1:
+  rows:
+
+    - char: zuikaku
+      side: left
+      text:
+        - "Сигнал бедствия был от... Исэ и Хьюга?! Вы в порядке..."
+        - "......Значит, подготовили подделки не только для Акацуки, но и для вас двоих?"
+
+    - char: ise
+      side: right
+      status: is-red
+      text:
+        - "……"
+
+    - char: hyuuga
+      side: right
+      status: is-red
+      text:
+        - "……"
+
+    - char: zuikaku
+      side: left
+      text:
+        - "Всё ясно… Всем приготовиться к бою!"

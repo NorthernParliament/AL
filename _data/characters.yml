@@ -288,6 +288,16 @@ akagi?:
   img: "/img/port/sakura/akag1.png"
   class: "blob"
 
+akatsuki:
+  name: "Акацуки"
+  img: "/img/port/sakura/akat1.png"
+  class: "blob"
+
+akatsuki?:
+  name: "? ? ?"
+  img: "/img/port/sakura/akat1.png"
+  class: "blob"
+
 amagi:
   name: "Амаги"
   img: "/img/port/sakura/amag1.png"
@@ -318,6 +328,18 @@ hiryuu:
 houshou:
   name: "Хосё"
   img: "/img/port/sakura/hous1.png"
+  class: "blob"
+
+hyuuga:
+  name: "Хьюга"
+  img: "/img/port/sakura/hyuu1.png"
+  class: "blob"
+
+# I
+
+ise:
+  name: "Исе"
+  img: "/img/port/sakura/ise1.png"
   class: "blob"
 
 # K
@@ -371,11 +393,21 @@ naka:
   img: "/img/port/sakura/naka1.png"
   class: "blob"
 
+nowaki:
+  name: "Новаки"
+  img: "/img/port/sakura/nowa1.png"
+  class: "blob"
+
 # S
 
 shouhou:
   name: "Сёхо"
   img: "/img/port/sakura/shou1.png"
+  class: "blob"
+
+shoukaku:
+  name: "Сёкаку"
+  img: "/img/port/sakura/shouk1.png"
   class: "blob"
 
 souryuu:
@@ -388,6 +420,30 @@ souryuu:
 tone?:
   name: "? ? ?"
   img: "/img/port/sakura/tone1.png"
+  class: "blob"
+
+# Y
+
+yamashiro:
+  name: "Ямасиро"
+  img: "/img/port/sakura/yama1.png"
+  class: "blob"
+
+yamashiro_kai:
+  name: "Ямасиро"
+  img: "/img/port/sakura/yama1kai.png"
+  class: "blob"
+
+yamashiro_kai1:
+  name: "Ямасиро (Ретрофит)"
+  img: "/img/port/sakura/yama1kai.png"
+  class: "blob"
+
+# Z
+
+zuikaku:
+  name: "Дзуйкаку"
+  img: "/img/port/sakura/zuik1.png"
   class: "blob"
 
 
