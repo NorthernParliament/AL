@@ -313,11 +313,31 @@ ashigara:
   img: "/img/port/sakura/ashi1.png"
   class: "blob"
 
+atago:
+  name: "Атаго"
+  img: "/img/port/sakura/atag1.png"
+  class: "blob"
+
+ayanami:
+  name: "Аянами"
+  img: "/img/port/sakura/ayan1.png"
+  class: "blob"
+
 # H
 
 hatakaze:
   name: "Хатакадзэ"
   img: "/img/port/sakura/hata1.png"
+  class: "blob"
+
+hiei:
+  name: "Хиэй"
+  img: "/img/port/sakura/hiei1.png"
+  class: "blob"
+
+hiei?:
+  name: "? ? ?"
+  img: "/img/port/sakura/hiei1.png"
   class: "blob"
 
 hiryuu:
@@ -336,6 +356,16 @@ hyuuga:
   class: "blob"
 
 # I
+
+ikazuchi:
+  name: "Икадзути"
+  img: "/img/port/sakura/ikaz1.png"
+  class: "blob"
+
+inazuma:
+  name: "Инадзума"
+  img: "/img/port/sakura/inaz1.png"
+  class: "blob"
 
 ise:
   name: "Исе"
@@ -364,6 +394,11 @@ kagabb:
   img: "/img/port/sakura/kagab1.png"
   class: "blob"
 
+kagero:
+  name: "Кагэро"
+  img: "/img/port/sakura/kage1.png"
+  class: "blob"
+
 kirishima:
   name: "Кирисима"
   img: "/img/port/sakura/kiri1.png"
@@ -375,6 +410,16 @@ kirishima?:
   class: "blob"
 
 # M
+
+mikasa:
+  name: "Микаса"
+  img: "/img/port/sakura/mika1.png"
+  class: "blob"
+
+mikasa?:
+  name: "? ? ?"
+  img: "/img/port/sakura/mika1.png"
+  class: "blob"
 
 mutsu:
   name: "Муцу"
@@ -400,6 +445,21 @@ nowaki:
 
 # S
 
+shigure:
+  name: "Сигурэ"
+  img: "/img/port/sakura/shig1.png"
+  class: "blob"
+
+shiranui:
+  name: "Сирануи"
+  img: "/img/port/sakura/shira1.png"
+  class: "blob"
+
+shiratsuyu:
+  name: "Сирацую"
+  img: "/img/port/sakura/shir1.png"
+  class: "blob"
+
 shouhou:
   name: "Сёхо"
   img: "/img/port/sakura/shou1.png"
@@ -416,6 +476,11 @@ souryuu:
   class: "blob"
 
 # T
+
+takao:
+  name: "Такао"
+  img: "/img/port/sakura/taka1.png"
+  class: "blob"
 
 tone?:
   name: "? ? ?"
@@ -437,6 +502,11 @@ yamashiro_kai:
 yamashiro_kai1:
   name: "Ямасиро (Ретрофит)"
   img: "/img/port/sakura/yama1kai.png"
+  class: "blob"
+
+yuudachi:
+  name: "Юдати"
+  img: "/img/port/sakura/yuud1.png"
   class: "blob"
 
 # Z
@@ -938,6 +1008,12 @@ testerb:
   name: "Тестер β"
   img: "/img/port/siren/test1.png"
   class: "blob"
+
+testera:
+  name: "Тестер α"
+  img: "/img/port/siren/test1.png"
+  class: "blob"
+
 
 tester:
   name: "Тестер"
