@@ -178,19 +178,10 @@ table.whitescreen p {
   cursor: pointer;
 }
 
-
-
-
 #floating-button:hover {
 background-color: #ff7961;
 }
 
-.montserrat-<uniquifier> {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
 .blackscreen {
   border: 0px;
@@ -447,7 +438,6 @@ margin-top: 10px;
 body {
   background-color: #b8c1c9;
   text-align: center;
-  text-stroke: 1px #FFFFFF;
   font: 16pt Helvetica; 
   font-weight: 500; 
 } 
