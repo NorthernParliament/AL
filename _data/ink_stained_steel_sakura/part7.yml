@@ -1,0 +1,58 @@
+chapter1:
+  rows:
+
+    - char: kawakaze
+      side: left
+      status: is-white
+      text:
+        - "Стоять. Кто идет?!"
+
+    - char: zuikaku
+      side: right
+      status: is-white
+      text:
+        - "Мы — Новый Объединенный Флот Империи Сакуры. Мы прибыли сюда в поисках способа спасти Священное Древо."
+
+    - char: kawakaze
+      side: left
+      status: is-white
+      text:
+        - "…Уходите. Госпожа Священное Дитя не желает, чтобы кто-либо тревожил её покой."
+
+    - char: mikasa
+      side: right
+      status: is-white
+      text:
+        - "Священное Дитя… Вы говорите о сестрах Нагато? Наша цель в этом походе — найти их."
+
+    - char: kawakaze
+      side: left
+      status: is-white
+      text:
+        - "Госпожа Нагато уже взвалила на себя слишком много бремени, которое ей никогда не должно было принадлежать."
+        - "Поэтому я дала ей обещание: пока она спит, я не позволю никому её беспокоить."
+        - "Да. Даже вам… прохода не будет."
+
+    - char: zuikaku
+      side: right
+      status: is-white
+      text:
+        - "А-а… Ну и «деревянная голова»! Мы же вообще-то мир спасать пришли!!"
+
+    - char: kawakaze
+      side: left
+      status: is-white
+      text:
+        - "Если так… тогда продемонстрируйте мне свою решимость."
+
+    - char: zuikaku
+      side: right
+      status: is-white
+      text:
+        - "Э?! Опять?! Опять такой поворот событий?!"
+
+    - char: kawakaze
+      side: left
+      status: is-white
+      text:
+        - "Не волнуйтесь. Всё закончится в одно мгновение!"

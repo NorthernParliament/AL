@@ -438,6 +438,11 @@ kagero:
   img: "/img/port/sakura/kage1.png"
   class: "blob"
 
+kawakaze:
+  name: "Кавакадзэ"
+  img: "/img/port/sakura/kawa1.png"
+  class: "blob"
+
 kirishima:
   name: "Кирисима"
   img: "/img/port/sakura/kiri1.png"
@@ -1147,7 +1152,6 @@ assistent?:
 # Other
 # ==========================================================
 
-
 nop:
   name: "? ? ?"
   img: "/img/port/other/nop.png"
@@ -1164,7 +1168,7 @@ bon_omm_richard1:
 bon_omm_richard?:
   name: "? ? ?"
   img: "/img/port/meta/bonh1.png"
-    
+
 communicator:
   name: "Коммуникатор"
   img: "/img/port/other/nop.png"
@@ -1175,8 +1179,12 @@ all:
   img: "/img/port/other/nop.png"
   class: "blob"
 
+citizena:
+  name: "Горожанин А"
+  img: "/img/port/other/nop.png"
+  class: "blob"
 
-
-
-
-
+citizenb:
+  name: "Горожанин Б"
+  img: "/img/port/other/nop.png"
+  class: "blob"
