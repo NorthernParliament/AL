@@ -28,6 +28,17 @@ cleveland:
   img: "/img/port/eagle/clev1.png"
   class: "blob"
 
+columbia:
+  name: "Колумбия"
+  img: "/img/port/eagle/colu1.png"
+  class: "blob"
+
+# D
+
+denver:
+  name: "Денвер"
+  img: "/img/port/eagle/denv1.png"
+  class: "blob"
 # E
 
 enterprise:
@@ -61,6 +72,11 @@ jenkins:
 
 # L
 
+langley:
+  name: "Лэнгли"
+  img: "/img/port/eagle/lang1.png"
+  class: "blob"
+
 lexington:
   name: "Лексингтон"
   img: "/img/port/eagle/lexi1.png"
@@ -76,6 +92,16 @@ long_island:
 massachusetts:
   name: "Массачусетс"
   img: "/img/port/eagle/mass1.png"
+  class: "blob"
+
+memphis:
+  name: "Мемфис"
+  img: "/img/port/eagle/memp1.png"
+  class: "blob"
+
+montpelier:
+  name: "Монпелье"
+  img: "/img/port/eagle/mont1.png"
   class: "blob"
 
 # N
@@ -109,6 +135,13 @@ saratoga:
 saratoga_rad:
   name: "📡Саратога"
   img: "/img/port/eagle/sara1rad.png"
+  class: "blob"
+
+# V
+
+vestal:
+  name: "Вестал"
+  img: "/img/port/eagle/vest1.png"
   class: "blob"
 
 # W
