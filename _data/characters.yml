@@ -154,7 +154,12 @@ belfast:
   img: "/img/port/royal/belf1.png"
   class: "blob"
 
+# D
 
+duke_of_york:
+  name: "Дюк оф Йорк"
+  img: "/img/port/royal/duke1.png"
+  class: "blob"
 
 # E
 
@@ -194,6 +199,18 @@ illustrious:
 king_george_v:
   name: "Кинг Джордж V"
   img: "/img/port/royal/king1.png"
+  class: "blob"
+
+# M
+
+musketeer:
+  name: "Маскетир"
+  img: "/img/port/royal/musk1.png"
+  class: "blob"
+
+matchless:
+  name: "Матчлес"
+  img: "/img/port/royal/matc1.png"
   class: "blob"
 
 # N
@@ -1034,6 +1051,11 @@ enterprise_meta?:
 # ==========================================================
 # Sirens and alfa 
 # ==========================================================
+
+purifier:
+  name: "Пьюрифайер"
+  img: "/img/port/siren/puri1.png"
+  class: "blob"
 
 tester?:
   name: "? ? ?"
