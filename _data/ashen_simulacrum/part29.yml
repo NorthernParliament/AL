@@ -1,0 +1,151 @@
+chapter1:
+  rows:
+
+    - char: washington
+      side: left
+      text:
+        - "Наконец-то мы сошлись лицом к лицу! Помнишь меня? Не думала, что мы встретимся снова так скоро!"
+
+    - char: saratoga
+      side: right
+      text:
+        - "Во время того нападения нам пришлось отпустить вас, чтобы защитить Нью-Йорк, но сегодня у нас нет таких ограничений!"
+        - "Учитывая твои прошлые поступки, я поначалу думала, что мы могли бы сделать тебя союзником…"
+        - "Но, похоже, вы с Сиренами и впрямь одного поля ягоды, «мисc Загадка»!"
+
+    - char: victorious
+      side: left
+      text:
+        - "Такое мощное электромагнитное поле… Совсем как тогда, в северных водах. Я думала…"
+        - "Теперь ясно: «Корона» изначально была твоим творением!"
+
+    - char: enterprise_meta?
+      side: right
+      status: is-red
+      text:
+        - "..."
+
+    - char: enterprise
+      side: left
+      text:
+        - "..."
+
+chapter2:
+  rows:
+
+    - char: victorious
+      side: left
+      text:
+        - "Энтерпрайз!!!"
+
+    - char: enterprise
+      side: right
+      text:
+        - "Не подходите!!"
+
+    - char: enterprise_meta?
+      side: left
+      status: is-red
+      text:
+        - "О чём ты думаешь в этот самый момент, Энтерпрайз?"
+
+    - char: enterprise
+      side: right
+      text:
+        - "……Почему ты не отвечаешь на их вопросы? Почему не объяснишься?"
+
+    - char: enterprise_meta?
+      side: left
+      status: is-red
+      text:
+        - "Я всеми силами старалась избежать встречи с тобой. Но вы… вы глупо позволили Антиоху обмануть себя."
+        - "И даже сами привели «Её» прямо ко мне."
+
+    - char: enterprise
+      side: right
+      text:
+        - "………?!"
+        - "…Всем боевая готовность! Защищайте флагман! Её цель — Командир!!"
+
+    - char: enterprise_meta?
+      side: left
+      status: is-red
+      text:
+        - "Не волнуйся. Я не трону «Её»."
+        - "По крайней мере, до тех пор, пока «Она» не очнется и не сможет ответить на мои вопросы…"
+
+    - char: enterprise
+      side: right
+      text:
+        - "Так кто ты — друг или враг?!"
+
+    - char: enterprise_meta?
+      side: left
+      status: is-red
+      text:
+        - "..."
+
+    - char: enterprise
+      side: right
+      text:
+        - "ОТВЕЧАЙ!"
+
+    - text: "БАБАХ!!!"
+
+    - char: saratoga
+      side: left
+      text:
+        - "ЭНТЕРПРАЙЗ!!!"
+
+    - char: enterprise
+      side: right
+      text:
+        - "Я… я в порядке! Это был снаряд с большой дистанции. Всем приготовиться к обстрелу! Враг не один!"
+        - "……!!"
+
+chapter3:
+  rows:
+
+    - char: enterprise
+      side: left
+      text:
+        - "Это же…"
+        - "«Дежавю»…"
+
+    - char: takao_meta?
+      side: right
+      status: is-red
+      text:
+        - "Я же говорила тебе: избегай ненужных контактов в этой временной точке."
+        - "Я задержу их. Иди и закончи то, что должна."
+
+    - char: enterprise_meta?
+      side: left
+      status: is-red
+      text:
+        - "Тогда оставляю это на тебя."
+
+    - char: takao_meta?
+      side: right
+      status: is-red
+      text:
+        - "Их много. Будь осторожна в бою."
+
+    - char: enterprise_meta?
+      side: left
+      status: is-red
+      text:
+        - "Поняла."
+
+    - char: enterprise
+      side: right
+      text:
+        - "Не думай, что сможешь просто так сбежать! А ну стой!.."
+
+    - char: takao_meta?
+      side: left
+      status: is-red
+      text:
+        - "Вы ещё не достойны того, чтобы сражаться с ней."
+        - "Смотрите на врага перед собой! Да, вашим противником буду Я!"
+        - "Посмотрим, чем эта временная точка отличается от всех прочих!"

@@ -14,7 +14,42 @@ arizona:
   img: "/img/port/eagle/ariz1.png"
   class: "blob"
 
+aulick:
+  name: "Олик"
+  img: "/img/port/eagle/auli1.png"
+  class: "blob"
+
+aylwin:
+  name: "Элвин"
+  img: "/img/port/eagle/aylw1.png"
+  class: "blob"
+
 # B
+
+baltimore:
+  name: "Балтимор"
+  img: "/img/port/eagle/balt1.png"
+  class: "blob"
+
+baltimore1?:
+  name: "Балтимор ?"
+  img: "/img/port/eagle/balt1.png"
+  class: "blob"
+
+bataan:
+  name: "Батаан"
+  img: "/img/port/eagle/bata1.png"
+  class: "blob"
+
+birmingham:
+  name: "Бирмингем"
+  img: "/img/port/eagle/birm1.png"
+  class: "blob"
+
+bogue:
+  name: "Боуг"
+  img: "/img/port/eagle/bogu1.png"
+  class: "blob"
 
 brooklyn:
   name: "Бруклин"
@@ -22,6 +57,11 @@ brooklyn:
   class: "blob"
 
 # C
+
+charles_ausburne:
+  name: "Чарльз Осборн"
+  img: "/img/port/eagle/char1.png"
+  class: "blob"
 
 cleveland:
   name: "Кливленд"
@@ -39,11 +79,29 @@ denver:
   name: "Денвер"
   img: "/img/port/eagle/denv1.png"
   class: "blob"
+
+dewey:
+  name: "Дьюи"
+  img: "/img/port/eagle/dewe1.png"
+  class: "blob"
+
 # E
 
 enterprise:
   name: "Энтерпрайз"
   img: "/img/port/eagle/ente1.png"
+  class: "blob"
+
+essex:
+  name: "Эссекс"
+  img: "/img/port/eagle/esse1.png"
+  class: "blob"
+
+# F
+
+foote:
+  name: "Фут"
+  img: "/img/port/eagle/foot1.png"
   class: "blob"
 
 # H
@@ -63,11 +121,21 @@ hornet?:
   img: "/img/port/other/nop.png"
   class: "blob"
 
+hornet?1:
+  name: "Хорнет ?"
+  img: "/img/port/eagle/horn1.png"
+  class: "blob"
+
 # J
 
 jenkins:
   name: "Дженкинс"
   img: "/img/port/eagle/jenk1.png"
+  class: "blob"
+
+juneau:
+  name: "Джуно"
+  img: "/img/port/eagle/june1.png"
   class: "blob"
 
 # L
@@ -127,6 +195,16 @@ ranger:
 
 # S
 
+san_diego:
+  name: "Сан-Диего"
+  img: "/img/port/eagle/sand1.png"
+  class: "blob"
+
+san_juan:
+  name: "Сан-Хуан"
+  img: "/img/port/eagle/sanj1.png"
+  class: "blob"
+
 saratoga:
   name: "Саратога"
   img: "/img/port/eagle/sara1.png"
@@ -135,6 +213,11 @@ saratoga:
 saratoga_rad:
   name: "📡Саратога"
   img: "/img/port/eagle/sara1rad.png"
+  class: "blob"
+
+shangri_la:
+  name: "Шангри-Ла"
+  img: "/img/port/eagle/shan1.png"
   class: "blob"
 
 # V
@@ -1081,6 +1164,21 @@ enterprise_meta?:
   img: "/img/port/meta/ente1.png"
   class: "blob"
 
+enterprise_meta?1:
+  name: "? ? ?"
+  img: "/img/port/meta/ente3.png"
+  class: "blob"
+
+takao_meta?1:
+  name: "? ? ?"
+  img: "/img/port/meta/taka2.png"
+  class: "blob"
+
+takao_meta?:
+  name: "? ? ?"
+  img: "/img/port/meta/taka1.png"
+  class: "blob"
+
 # ==========================================================
 # Tempesta (Темпеста)
 # ==========================================================
@@ -1178,7 +1276,15 @@ assistent?:
   img: "/img/port/other/nop.png"
   class: "blob"
 
+commander:
+  name: "Командир"
+  img: "/img/port/other/comm1.png"
+  class: "blob"
 
+empress:
+  name: "Арбитр Императрица III"
+  img: "/img/port/siren/empr1.png"
+  class: "blob"
 
 
 # ==========================================================
