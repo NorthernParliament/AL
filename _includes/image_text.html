@@ -1,0 +1,10 @@
+<div class="scene-container {{ include.class }}">
+  <img src="{{ include.src | relative_url }}" alt="">
+  {% if include.text %}
+    <div class="scene-overlay">
+      <div class="scene-text">
+        {{ include.text | markdownify }}
+      </div>
+    </div>
+  {% endif %}
+</div>

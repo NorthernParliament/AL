@@ -63,6 +63,11 @@ charles_ausburne:
   img: "/img/port/eagle/char1.png"
   class: "blob"
 
+clarence_k_bronson:
+  name: "Кларенс К. Бронсон"
+  img: "/img/port/eagle/clar1.png"
+  class: "blob"
+
 cleveland:
   name: "Кливленд"
   img: "/img/port/eagle/clev1.png"
@@ -71,6 +76,11 @@ cleveland:
 columbia:
   name: "Колумбия"
   img: "/img/port/eagle/colu1.png"
+  class: "blob"
+
+cowpens:
+  name: "Каупенс"
+  img: "/img/port/eagle/cowp1.png"
   class: "blob"
 
 # D
@@ -109,6 +119,11 @@ foote:
 helena:
   name: "Хелена"
   img: "/img/port/eagle/hele1.png"
+  class: "blob"
+
+helena_kai:
+  name: "Хелена"
+  img: "/img/port/eagle/hele1kai.png"
   class: "blob"
 
 hornet:
@@ -150,6 +165,11 @@ lexington:
   img: "/img/port/eagle/lexi1.png"
   class: "blob"
 
+lexington_ii:
+  name: "Лексингтон II"
+  img: "/img/port/eagle/lexiII1.png"
+  class: "blob"
+
 long_island:
   name: "Лонг Айленд"
   img: "/img/port/eagle/long1.png"
@@ -167,6 +187,11 @@ memphis:
   img: "/img/port/eagle/memp1.png"
   class: "blob"
 
+memphis_rad:
+  name: "📡Мемфис"
+  img: "/img/port/eagle/memp1rad.png"
+  class: "blob"
+
 montpelier:
   name: "Монпелье"
   img: "/img/port/eagle/mont1.png"
@@ -180,6 +205,11 @@ north_carolina:
   class: "blob"
 
 # P
+
+pasadena:
+  name: "Пасадена"
+  img: "/img/port/eagle/pasa1.png"
+  class: "blob"
 
 pennsylvania:
   name: "Пенсильвания"
@@ -215,6 +245,11 @@ saratoga_rad:
   img: "/img/port/eagle/sara1rad.png"
   class: "blob"
 
+saratoga_kai:
+  name: "Саратога"
+  img: "/img/port/eagle/sara1kai.png"
+  class: "blob"
+
 shangri_la:
   name: "Шангри-Ла"
   img: "/img/port/eagle/shan1.png"
@@ -237,6 +272,11 @@ washington:
 wichita:
   name: "Уичита"
   img: "/img/port/eagle/wich1.png"
+  class: "blob"
+
+william_d_porter:
+  name: "Уильям Д. Портер"
+  img: "/img/port/eagle/will1.png"
   class: "blob"
 
 # Y
@@ -368,6 +408,11 @@ prince_of_wales:
 queen_elizabeth:
   name: "Куин Элизабет"
   img: "/img/port/royal/quee1.png"
+  class: "blob"
+
+queen_elizabeth_rad:
+  name: "📡Куин Элизабет"
+  img: "/img/port/royal/quee1rad.png"
   class: "blob"
 
 # R
@@ -696,6 +741,11 @@ bismarck:
   img: "/img/port/iron/bism1.png"
   class: "blob"
 
+bismarck_z:
+  name: "Бисмарк Цвай"
+  img: "/img/port/iron/bismz1.png"
+  class: "blob"
+
 bismarck?:
   name: "? ? ?"
   img: "/img/port/iron/bism1.png"
@@ -889,6 +939,13 @@ littorio:
 pola:
   name: "Пола"
   img: "/img/port/sardegna/pola1.png"
+  class: "blob"
+
+# M
+
+marco_polo:
+  name: "Марко Поло"
+  img: "/img/port/sardegna/marc1.png"
   class: "blob"
 
 # T
@@ -1149,6 +1206,26 @@ vauquelin:
 # МЕТА
 # ==========================================================
 
+boise_meta:
+  name: "Бойсе META"
+  img: "/img/port/meta/bois1.png"
+  class: "blob"
+
+cleveland_meta:
+  name: "Кливленд МЕТА"
+  img: "/img/port/meta/clev1.png"
+  class: "blob"
+
+dewey_meta:
+  name: "Дьюи МЕТА"
+  img: "/img/port/meta/dewe1.png"
+  class: "blob"
+
+enterprise_meta:
+  name: "Энтерпрайз МЕТА"
+  img: "/img/port/meta/ente1.png"
+  class: "blob"
+
 enterprise_meta_mono:
   name: "Энтерпрайз"
   img: "/img/port/meta/ente2.png"
@@ -1169,6 +1246,116 @@ enterprise_meta?1:
   img: "/img/port/meta/ente3.png"
   class: "blob"
 
+erebus_meta:
+  name: "Эребус META"
+  img: "/img/port/meta/ereb1.png"
+  class: "blob"
+
+essex_meta:
+  name: "Эссекс МЕТА"
+  img: "/img/port/meta/esse1.png"
+  class: "blob"
+
+gneisenau_meta:
+  name: "Гнейзенау МЕТА"
+  img: "/img/port/meta/gnei1.png"
+  class: "blob"
+
+glorious_meta:
+  name: "Глориес META"
+  img: "/img/port/meta/glor1.png"
+  class: "blob"
+
+grenville_meta:
+  name: "Гренвилл META"
+  img: "/img/port/meta/gren1.png"
+  class: "blob"
+
+helena_meta:
+  name: "Хелена МЕТА"
+  img: "/img/port/meta/hele1.png"
+  class: "blob"
+
+helena_meta_rad:
+  name: "📡Хелена МЕТА"
+  img: "/img/port/meta/hele1rad.png"
+  class: "blob"
+
+hiryuu_meta:
+  name: "Хирю МЕТА"
+  img: "/img/port/meta/hiry1.png"
+  class: "blob"
+
+hornet_meta:
+  name: "Хорнет МЕТА"
+  img: "/img/port/meta/horn1.png"
+  class: "blob"
+
+hunter_meta:
+  name: "Хантер META"
+  img: "/img/port/meta/hunt1.png"
+  class: "blob"
+
+kimberly_meta:
+  name: "Кимберли МЕТА"
+  img: "/img/port/meta/kimb1.png"
+  class: "blob"
+
+kirov_meta:
+  name: "Киров META"
+  img: "/img/port/meta/kiro1.png"
+  class: "blob"
+
+memphis_meta:
+  name: "Мемфис МЕТА"
+  img: "/img/port/meta/memp1.png"
+  class: "blob"
+
+memphis_meta_rad:
+  name: "📡Мемфис МЕТА"
+  img: "/img/port/meta/memp1rad.png"
+  class: "blob"
+
+nevada_meta:
+  name: "Невада МЕТА"
+  img: "/img/port/meta/neva1.png"
+  class: "blob"
+
+prinston_meta:
+  name: "Принстон МЕТА"
+  img: "/img/port/meta/prin1.png"
+  class: "blob"
+
+renown_meta:
+  name: "Ринаун МЕТА"
+  img: "/img/port/meta/reno1.png"
+  class: "blob"
+
+repulse_meta:
+  name: "Рипалс МЕТА"
+  img: "/img/port/meta/repu1.png"
+  class: "blob"
+
+rodney_meta:
+  name: "Родни META"
+  img: "/img/port/meta/rodn1.png"
+  class: "blob"
+
+scharnhorst_meta:
+  name: "Шарнхорст МЕТА"
+  img: "/img/port/meta/scha1.png"
+  class: "blob"
+
+sheffield_meta:
+  name: "Шеффилд META"
+  img: "/img/port/meta/shef1.png"
+  class: "blob"
+
+sheffield_meta_rad:
+  name: "📡Шеффилд META"
+  img: "/img/port/meta/shef1rad.png"
+  class: "blob"
+
 takao_meta?1:
   name: "? ? ?"
   img: "/img/port/meta/taka2.png"
@@ -1177,6 +1364,48 @@ takao_meta?1:
 takao_meta?:
   name: "? ? ?"
   img: "/img/port/meta/taka1.png"
+  class: "blob"
+
+takao_meta:
+  name: "Такао МЕТА"
+  img: "/img/port/meta/taka1.png"
+  class: "blob"
+
+
+queen_elizabeth_meta:
+  name: "Куин Элизабет МЕТА"
+  img: "/img/port/meta/quee1.png"
+  class: "blob"
+
+queen_elizabeth_meta_rad:
+  name: "📡Куин Элизабет МЕТА"
+  img: "/img/port/meta/quee1rad.png"
+  class: "blob"
+
+vestal_meta:
+  name: "Вестал МЕТА"
+  img: "/img/port/meta/vest1.png"
+  class: "blob"
+
+wichita_meta:
+  name: "Уичита МЕТА"
+  img: "/img/port/meta/wich1.png"
+  class: "blob"
+
+
+yorktown_meta:
+  name: "Йорктаун МЕТА"
+  img: "/img/port/meta/york1.png"
+  class: "blob"
+
+yorktown_meta_rad:
+  name: "📡Йорктаун МЕТА"
+  img: "/img/port/meta/york1rad.png"
+  class: "blob"
+
+yuudachi_meta:
+  name: "Юдати МЕТА"
+  img: "/img/port/meta/yuud1.png"
   class: "blob"
 
 # ==========================================================
@@ -1246,6 +1475,11 @@ zero:
   img: "/img/port/siren/zero1.png"
   class: "blob"
 
+zero_tb:
+  name: "Обсервер Зеро"
+  img: "/img/port/other/zero1.png"
+  class: "blob"
+
 zerod:
   name: "Дримвивер"
   img: "/img/port/siren/zero1.png"
@@ -1254,6 +1488,11 @@ zerod:
 anzeel_dark:
   name: "Женщина-исследователь"
   img: "/img/port/other/anze2.png"
+  class: "blob"
+
+anzeel:
+  name: "Д-р Анзил"
+  img: "/img/port/other/anze1.png"
   class: "blob"
 
 tb_dark:
@@ -1271,9 +1510,44 @@ aoste_dark:
   img: "/img/port/other/aost2.png"
   class: "blob"
 
+aoste:
+  name: "Д-р Аосте"
+  img: "/img/port/other/aost1.png"
+  class: "blob"
+
 assistent?:
   name: "■ ■ ■"
   img: "/img/port/other/nop.png"
+  class: "blob"
+
+collet:
+  name: "Коллет"
+  img: "/img/port/other/cole1.png"
+  class: "blob"
+
+eutopia:
+  name: "Ютопия Савой"
+  img: "/img/port/other/euto1.png"
+  class: "blob"
+
+maria:
+  name: "Мария"
+  img: "/img/port/other/mari1.png"
+  class: "blob"
+
+ryouko:
+  name: "Рёко Амахара"
+  img: "/img/port/other/ryou1.png"
+  class: "blob"
+
+sophia:
+  name: "София"
+  img: "/img/port/other/soph1.png"
+  class: "blob"
+
+silver_fox:
+  name: "Серебряная Лиса"
+  img: "/img/port/other/soph2.png"
   class: "blob"
 
 commander:
@@ -1281,9 +1555,104 @@ commander:
   img: "/img/port/other/comm1.png"
   class: "blob"
 
+magican:
+  name: "Арбитр Фокусник I"
+  img: "/img/port/siren/magi1.png"
+  class: "blob"
+
+magican_rad:
+  name: "📡Арбитр Фокусник I"
+  img: "/img/port/siren/magi1rad.png"
+  class: "blob"
+
 empress:
   name: "Арбитр Императрица III"
   img: "/img/port/siren/empr1.png"
+  class: "blob"
+
+lovers:
+  name: "Арбитр Влюблённые VI"
+  img: "/img/port/siren/love1.png"
+  class: "blob"
+
+chariot:
+  name: "Арбитр Колесница VII"
+  img: "/img/port/siren/char1.png"
+  class: "blob"
+
+fortress:
+  name: "Боевой протокол Крепость"
+  img: "/img/port/siren/fort1.png"
+  class: "blob"
+
+strength:
+  name: "Арбитр Сила VIII"
+  img: "/img/port/siren/stre1.png"
+  class: "blob"
+
+tower:
+  name: "Арбитр Башня XVI"
+  img: "/img/port/siren/towe1.png"
+  class: "blob"
+
+hermit:
+  name: "Арбитр Отшельник IX"
+  img: "/img/port/siren/herm1.png"
+  class: "blob"
+
+hermit_rad:
+  name: "📡Арбитр Отшельник IX"
+  img: "/img/port/siren/herm1rad.png"
+  class: "blob"
+
+temperance:
+  name: "Арбитр Умеренность XIV"
+  img: "/img/port/siren/temp1.png"
+  class: "blob"
+
+temperance_rad:
+  name: "📡Арбитр Умеренность XIV"
+  img: "/img/port/siren/temp1rad.png"
+  class: "blob"
+
+star:
+  name: "Арбитр Звезда XVII"
+  img: "/img/port/siren/star1.png"
+  class: "blob"
+
+moon_luna:
+  name: "луна"
+  img: "/img/port/siren/moon1.png"
+  class: "blob"
+
+moon_war:
+  name: "Военный Протокол Луна"
+  img: "/img/port/siren/moon1.png"
+  class: "blob"
+
+moon_war_rad:
+  name: "📡Военный Протокол Луна"
+  img: "/img/port/siren/moon1rad.png"
+  class: "blob"
+
+project_h:
+  name: "Проект H"
+  img: "/img/port/siren/hier1.png"
+  class: "blob"
+
+project_m:
+  name: "Проект М"
+  img: "/img/port/other/mada1.png"
+  class: "blob"
+
+miss_d:
+  name: "Мисс D"
+  img: "/img/port/siren/miss1.png"
+  class: "blob"
+
+miss_d_rad:
+  name: "📡Мисс D"
+  img: "/img/port/siren/miss1rad.png"
   class: "blob"
 
 
@@ -1296,13 +1665,40 @@ nop:
   img: "/img/port/other/nop.png"
   class: "blob"
 
+nop_stiven:
+  name: "Стивен Младший"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
+nop_lihua:
+  name: "Ли Хуа"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
+nop_fortress:
+  name: "Боевой протокол Крепость"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
+nop_x:
+  name: "▮▮▮▮"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
 bon_omm_richard:
   name: "Бон Омм Ричард"
   img: "/img/port/meta/bonh1.png"
+  class: "blob"
 
 bon_omm_richard1:
   name: "Бон Омм Ричард"
   img: "/img/port/meta/bonh2.png"
+  class: "blob"
+
+bon_omm_richard2:
+  name: "Бон Омм Ричард"
+  img: "/img/port/meta/bonh3.png"
+  class: "blob"
 
 bon_omm_richard?:
   name: "? ? ?"
