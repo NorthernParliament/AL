@@ -518,6 +518,11 @@ atago:
   img: "/img/port/sakura/atag1.png"
   class: "blob"
 
+atago???:
+  name: "? ? ?"
+  img: "/img/port/sakura/atag1.png"
+  class: "blob"
+
 ayanami:
   name: "Аянами"
   img: "/img/port/sakura/ayan1.png"
@@ -528,6 +533,11 @@ ayanami:
 hatakaze:
   name: "Хатакадзэ"
   img: "/img/port/sakura/hata1.png"
+  class: "blob"
+
+hibiki:
+  name: "Хибики"
+  img: "/img/port/sakura/hibi1.png"
   class: "blob"
 
 hiei:
@@ -572,6 +582,18 @@ ise:
   img: "/img/port/sakura/ise1.png"
   class: "blob"
 
+# J
+
+jintsuu:
+  name: "Дзинцу"
+  img: "/img/port/sakura/jint1.png"
+  class: "blob"
+
+jintsuu???:
+  name: "? ? ?"
+  img: "/img/port/sakura/jint1.png"
+  class: "blob"
+
 # K
 
 kaga:
@@ -599,9 +621,29 @@ kagero:
   img: "/img/port/sakura/kage1.png"
   class: "blob"
 
+kasumi:
+  name: "Касуми"
+  img: "/img/port/sakura/kasu1.png"
+  class: "blob"
+
+kasumi?:
+  name: "Касуми ?"
+  img: "/img/port/sakura/kasu1.png"
+  class: "blob"
+
 kawakaze:
   name: "Кавакадзэ"
   img: "/img/port/sakura/kawa1.png"
+  class: "blob"
+
+kinu:
+  name: "Кину"
+  img: "/img/port/sakura/kinu1.png"
+  class: "blob"
+
+kinu?:
+  name: "Кину ?"
+  img: "/img/port/sakura/kinu1.png"
   class: "blob"
 
 kirishima:
@@ -643,9 +685,31 @@ naka:
   img: "/img/port/sakura/naka1.png"
   class: "blob"
 
+noshiro:
+  name: "Носиро"
+  img: "/img/port/sakura/nosh1.png"
+  class: "blob"
+
+noshiro?:
+  name: "? ? ?"
+  img: "/img/port/sakura/nosh1.png"
+  class: "blob"
+
 nowaki:
   name: "Новаки"
   img: "/img/port/sakura/nowa1.png"
+  class: "blob"
+
+# R
+
+ryuuhou:
+  name: "Рюхо"
+  img: "/img/port/sakura/ryuu1.png"
+  class: "blob"
+
+ryuuhou_rad:
+  name: "📡Рюхо"
+  img: "/img/port/sakura/ryuu1rad.png"
   class: "blob"
 
 # S
@@ -680,10 +744,20 @@ souryuu:
   img: "/img/port/sakura/sour1.png"
   class: "blob"
 
+suruga:
+  name: "Суруга"
+  img: "/img/port/sakura/suru1.png"
+  class: "blob"
+
 # T
 
 takao:
   name: "Такао"
+  img: "/img/port/sakura/taka1.png"
+  class: "blob"
+
+takao???:
+  name: "? ? ?"
   img: "/img/port/sakura/taka1.png"
   class: "blob"
 
@@ -711,6 +785,11 @@ yamashiro_kai1:
 
 yuudachi:
   name: "Юдати"
+  img: "/img/port/sakura/yuud1.png"
+  class: "blob"
+
+yuudachi???:
+  name: "? ? ?"
   img: "/img/port/sakura/yuud1.png"
   class: "blob"
 
@@ -1448,13 +1527,18 @@ observer:
   img: "/img/port/siren/obse1.png"
   class: "blob"
 
+observer_rad:
+  name: "📡Обсервер"
+  img: "/img/port/siren/obse1rad.png"
+  class: "blob"
+
 observer?:
   name: "? ? ?"
   img: "/img/port/siren/obse1.png"
   class: "blob"
 
 observer2:
-  name: "Обсервер"
+  name: "📡Обсервер"
   img: "/img/port/siren/obse2.png"
   class: "blob"
 

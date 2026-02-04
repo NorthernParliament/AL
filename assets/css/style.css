@@ -207,6 +207,8 @@ background-color: #ff7961;
   display: inline-block;
   position: relative;    
   line-height: 0;
+  color: rgb(72, 72, 72) !important;
+  text-shadow: none !important;
 }
 
 
@@ -415,6 +417,13 @@ table.mainchapter td.words {
 }
 
 table.white-full .narrate {
+
+    color: #555555 !important;
+    text-shadow: none; 
+    
+}
+
+table.mist .narrate {
 
     color: #555555 !important;
     text-shadow: none; 
@@ -808,4 +817,12 @@ img.fog-effect {
     border-radius: 4px;
     font-size: 1.1em; /* Чуть уменьшим размер для больших объемов */
     white-space: pre-line;
+}
+
+.inline-img {
+    max-width: 100%;    /* Чтобы не вылезло за границы диалога */
+    height: auto;       /* Сохраняем пропорции */
+    display: block;     /* Убираем лишние отступы снизу */
+    margin: 10px auto;  /* Центрируем, если картинка одна в строке */
+    border-radius: 4px; /* Легкое закругление в стиле интерфейса игры */
 }
