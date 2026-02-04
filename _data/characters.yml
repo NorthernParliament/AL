@@ -46,6 +46,16 @@ birmingham:
   img: "/img/port/eagle/birm1.png"
   class: "blob"
 
+bluegill:
+  name: "Блюгилл"
+  img: "/img/port/eagle/blue1.png"
+  class: "blob"
+
+bluegill???:
+  name: "? ? ?"
+  img: "/img/port/eagle/blue1.png"
+  class: "blob"
+
 bogue:
   name: "Боуг"
   img: "/img/port/eagle/bogu1.png"
