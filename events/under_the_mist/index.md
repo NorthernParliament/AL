@@ -46,8 +46,8 @@ black_scene99:
 <img class="pict1 fog-effect" src="{{ site.baseurl }}/img/bg/bg24.png" alt="">
 {% assign rows = site.data.under_the_mist.part4.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg mist" bg_file="/img/bg/bg24.png" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg23.png" alt="">
+<img class="pict1 fog-effect" src="{{ site.baseurl }}/img/bg/bg23.png" alt="">
 {% include loc.html td_class="loc" text="Где-то в море к востоку от крепости — ???" %}
 {% assign rows = site.data.under_the_mist.part4.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg23.png" %}
+{% include dialog.html rows=rows bg_class="table-bg mist" bg_file="/img/bg/bg23.png" %}
 </div> <!-- конец главы -->
