@@ -1,0 +1,91 @@
+chapter1:
+  rows:
+
+    - char: purifier_d
+      side: left
+      status: is-red
+      text:
+        - "А-а-а-а… Как же я уста-а-а-ла-а-а-а!"
+
+    - char: compiler???_d
+      side: right
+      status: is-red
+      text:
+        - "Надо же, ты вернулась."
+
+    - char: purifier_d
+      side: left
+      status: is-red
+      text:
+        - "Ну, знаешь, есть такая поговорка: «Если не стремиться к победе, то никогда не проиграешь»! Хе-хе~"
+
+    - char: compiler???_d
+      side: right
+      status: is-red
+      text:
+        - "Оу."
+
+    - char: purifier_d
+      side: left
+      status: is-red
+      text:
+        - "Слушай, а зачем ты и здесь всё туманом затянула? В этом же нет никакой необходимости…"
+
+    - char: compiler???_d
+      side: right
+      status: is-red
+      text:
+        - "Ради атмосферы таинственности."
+
+    - char: purifier_d
+      side: left
+      status: is-red
+      text:
+        - "......"
+
+    - char: compiler???_d
+      side: right
+      status: is-red
+      text:
+        - "..."
+
+    - char: purifier_d
+      side: left
+      status: is-red
+      text:
+        - "Эй! У нас тут редкий случай совместной операции нескольких систем, не будь ты такой холодной и занудной!"
+
+    - char: compiler???_d
+      side: right
+      status: is-red
+      text:
+        - "Я не очень-то люблю проявлять активность."
+        - "И вообще…"
+        - "Блокировка связи — выполнена. Блокировка навигации — выполнена. Блокировка радаров — выполнена. Плотность тумана — увеличить на 30%. Коэффициент смешивания — повысить на 50%…"
+        - "Я сейчас работаю."
+        - "Если тебе так скучно, почему бы не сходить и не потянуть время ещё немного?"
+
+    - char: purifier_d
+      side: left
+      status: is-red
+      text:
+        - "Э? Ну уж нет! Свою часть миссии я выполнила безупречно. Пора отправляться в следующее интересное местечко~"
+
+    - char: compiler???_d
+      side: right
+      status: is-red
+      text:
+        - "Тогда проваливай поскорее и не мешай мне работать."
+
+    - char: purifier_d
+      side: left
+      status: is-red
+      text:
+        - "Слушаюсь и повинуюсь! Иду-иду-иду~!!"
+
+    - char: compiler???_d
+      side: right
+      status: is-red
+      text:
+        - "..."
+        - "Что ж… Теперь используем вот этот фрагмент…"

@@ -1,0 +1,133 @@
+chapter1:
+  rows:
+
+    - text:
+      - "Флот передислокации под командованием Балтимор ведет ожесточенный бой с Пьюрифайер в густом тумане..."
+
+    - char: purifier
+      side: left
+      status: is-red
+      text:
+        - "А вот и нет!"
+
+    - char: baltimore
+      side: right
+      text:
+        - "Эй! Хватит увиливать, сразись со мной лицом к лицу!"
+
+    - char: purifier
+      side: left
+      status: is-red
+      text:
+        - "И не подумаю~ В этот раз задача не в сборе данных, так что я не собираюсь тратить силы впустую."
+
+    - char: memphis
+      side: right
+      text:
+        - "Она так нагло и открыто тянет время... а мы ничего не можем с этим поделать!.."
+
+    - text:
+      - "БУУУУУМ!!!!!"
+
+    - char: helena
+      side: left
+      text:
+        - "В этом секторе... кто-то ещё ведет бой!"
+
+    - char: purifier
+      side: right
+      status: is-red
+      text:
+        - "*про себя* Флот-приманка уничтожен. Наконец-то заглотили наживку."
+        - "Ой-ой... ка-кая жаль... мне-по-ра-от-сту-пать... *читает по бумажке*."
+
+    - char: baltimore
+      side: left
+      text:
+        - "Стой!!!"
+
+    - text:
+      - "Почти в тот же миг, когда Пьюрифайер скрылась из виду, под эхо взрывов из тумана появилась «знакомая» фигура."
+
+    - char: enterprise_meta?
+      side: left
+      status: is-meta
+      text:
+        - "......"
+
+    - char: baltimore
+      side: right
+      text:
+        - "…Э-Эмбер?!!"
+
+    - char: enterprise_meta?
+      side: left
+      status: is-meta
+      text:
+        - "Значит, в этот раз ваш Командир не с вами."
+
+    - char: baltimore
+      side: right
+      text:
+        - "……Без комментариев. Я не могу выдавать тебе такую информацию."
+
+    - char: enterprise_meta?
+      side: left
+      status: is-meta
+      text:
+        - "Вот как……… *разворачивается*."
+
+    - char: memphis
+      side: right
+      text:
+        - "Пожалуйста... подождите! Спасибо, что помогли нам!"
+
+    - char: enterprise_meta?
+      side: left
+      status: is-meta
+      text:
+        - "......"
+
+    - char: memphis
+      side: right
+      text:
+        - "Скажите! Вы знаете, что это за туман и откуда он взялся?.."
+
+    - char: enterprise_meta?
+      side: left
+      status: is-meta
+      text:
+        - "…Трюк Сирен, чтобы скрывать передвижения войск и брать врага в кольцо."
+
+    - char: helena
+      side: right
+      text:
+        - "Нас унесло так далеко от курса в этой мгле... Хотя по изменениям в составе воды мы должны были заметить неладное гораздо раньше..."
+
+    - char: enterprise_meta?
+      side: left
+      status: is-meta
+      text:
+        - "«Ассорти Микрослоёв» — официальное название этого тумана. Вас постоянно водят за нос эти выскочки... когда же вы уже повзрослеете..."
+
+    - char: baltimore
+      side: right
+      text:
+        - "Значит, во всём виноват этот туман... Плохо дело."
+
+    - char: memphis
+      side: left
+      text:
+        - "Скажите... как мы можем вернуться? У нас очень срочное задание..."
+
+    - char: baltimore
+      side: right
+      text:
+        - "Разумеется, если вы предпочтете бой — мы готовы!"
+
+    - char: enterprise_meta?
+      side: left
+      status: is-meta
+      text:
+        - "……Как же хлопотно."
+        - "Эх... Направление, откуда прилетел тот разведчик... кажется, это было………"
