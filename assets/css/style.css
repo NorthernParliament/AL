@@ -204,7 +204,6 @@ background-color: #ff7961;
 }
 
 .mist {
-  display: inline-block;
   position: relative;    
   line-height: 0;
   color: rgb(72, 72, 72) !important;
@@ -825,4 +824,32 @@ img.fog-effect {
     display: block;     /* Убираем лишние отступы снизу */
     margin: 10px auto;  /* Центрируем, если картинка одна в строке */
     border-radius: 4px; /* Легкое закругление в стиле интерфейса игры */
+}
+
+.image-overlay-container {
+    position: relative; /* Создаем систему координат для вложенных элементов */
+    width: 1280px;        /* Или фиксированная ширина, например 800px */
+    line-height: 0;     /* Убираем лишние зазоры под картинкой */
+    margin-left: 10px;
+}
+
+.base-image {
+    width: 1280px;        /* Занимает всю ширину контейнера */
+    height: auto;
+    display: block;
+}
+
+.overlay-layer {
+    position: absolute; /* Накладываем поверх */
+
+    width: 1280px;        /* Растягиваем до краев базовой картинки */
+    height: 100%;
+    
+    opacity: 1;       /* Уровень полупрозрачности (от 0 до 1) */
+    pointer-events: none; /* Чтобы клики проходили сквозь туман на нижние ссылки, если они есть */
+    top: 0;
+    left: 0;
+    
+    /* Дополнительно: можно добавить эффект смешивания, как в Photoshop */
+    /* mix-blend-mode: screen; (для тумана) или overlay */
 }
