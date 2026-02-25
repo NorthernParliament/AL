@@ -36,6 +36,11 @@ baltimore1?:
   img: "/img/port/eagle/balt1.png"
   class: "blob"
 
+bunker_hill:
+  name: "Банкер Хилл"
+  img: "/img/port/eagle/bunk1.png"
+  class: "blob"
+
 bataan:
   name: "Батаан"
   img: "/img/port/eagle/bata1.png"
@@ -61,12 +66,27 @@ bogue:
   img: "/img/port/eagle/bogu1.png"
   class: "blob"
 
+bremerton:
+  name: "Бремертон"
+  img: "/img/port/eagle/brem1.png"
+  class: "blob"
+
 brooklyn:
   name: "Бруклин"
   img: "/img/port/eagle/broo1.png"
   class: "blob"
 
 # C
+
+casablanca:
+  name: "Касабланка"
+  img: "/img/port/eagle/casa1.png"
+  class: "blob"
+
+casablanca_rad:
+  name: "📡Касабланка"
+  img: "/img/port/eagle/casa1rad.png"
+  class: "blob"
 
 charles_ausburne:
   name: "Чарльз Осборн"
@@ -86,6 +106,11 @@ cleveland:
 columbia:
   name: "Колумбия"
   img: "/img/port/eagle/colu1.png"
+  class: "blob"
+
+cooper:
+  name: "Купер"
+  img: "/img/port/eagle/coop1.png"
   class: "blob"
 
 cowpens:
@@ -151,6 +176,13 @@ hornet?1:
   img: "/img/port/eagle/horn1.png"
   class: "blob"
 
+# I
+
+intrepid:
+  name: "Интрепид"
+  img: "/img/port/eagle/intr1.png"
+  class: "blob"
+
 # J
 
 jenkins:
@@ -186,6 +218,11 @@ long_island:
   class: "blob"
 
 # M
+
+marblehead:
+  name: "Марблхед"
+  img: "/img/port/eagle/marb1.png"
+  class: "blob"
 
 massachusetts:
   name: "Массачусетс"
@@ -231,6 +268,11 @@ pennsylvania:
 ranger:
   name: "Рейнджер"
   img: "/img/port/eagle/rang1.png"
+  class: "blob"
+
+reno:
+  name: "Рино"
+  img: "/img/port/eagle/reno1.png"
   class: "blob"
 
 # S
@@ -1506,9 +1548,29 @@ yuudachi_meta:
 # Sirens and alfa 
 # ==========================================================
 
+compiler:
+  name: "Компилятор"
+  img: "/img/port/siren/comp1.png"
+  class: "blob"
+
+compiler???_d:
+  name: "? ? ?"
+  img: "/img/port/siren/comp2.png"
+  class: "blob"
+
+compiler???:
+  name: "? ? ?"
+  img: "/img/port/siren/comp1.png"
+  class: "blob"
+
 purifier:
   name: "Пьюрифайер"
   img: "/img/port/siren/puri1.png"
+  class: "blob"
+
+purifier_d:
+  name: "Пьюрифайер"
+  img: "/img/port/siren/puri2.png"
   class: "blob"
 
 tester?:
