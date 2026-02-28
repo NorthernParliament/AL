@@ -1,0 +1,160 @@
+
+html body { 
+    background-color: #b8c1c9;
+    text-align: center;
+}
+
+/* Контейнер поиска */
+.search-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#eventSearch {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid #00eeee;
+    color: white;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+/* Сетка карточек */
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 25px;
+
+background-color: #3c3838;
+padding: 10px;
+margin-top: 10px;
+}
+
+/* Сама карточка */
+.event-card {
+    position: relative;
+    height: 240px;
+    background: #1a1a1a;
+    border: 1px solid rgba(0, 238, 238, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    border-color: #00eeee;
+    box-shadow: 0 0 15px rgba(0, 238, 238, 0.4);
+}
+
+.card-bg {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.35); /* Затемнение фона */
+    transition: 0.3s;
+}
+
+.event-card:hover .card-bg {
+    filter: brightness(0.5);
+}
+
+.card-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.en-title {
+    font-size: 0.7rem;
+    color: #00eeee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.ru-title {
+    margin: 5px 0 0 0;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.card-desc {
+    font-size: 0.85rem;
+    color: #ccc;
+    font-style: italic;
+    /* border-left: 2px solid #00eeee; */
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.status-online { color: #00ff00; text-shadow: 0 0 5px #00ff00; }
+
+/* Отступы между арками */
+.arc-section {
+    margin-bottom: 10px;
+}
+
+/* Стиль заголовка арки */
+.arc-header {
+    font-family: 'Orbitron', sans-serif; /* Или любой технологичный шрифт */
+    background-color: #3c3838;
+    color: #ffffff;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom: 1px solid rgba(4, 66, 66, 0.3);
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.arc-icon {
+    margin-right: 15px;
+    font-size: 1.2rem;
+    text-shadow: 0 0 8px #00eeee;
+}
+
+/* Сетка ивентов теперь внутри арки */
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.welcome-briefing {
+    position: relative;
+    margin: 20px auto 30px auto;
+    max-width: 1200px; /* Чтобы текст не растягивался слишком широко и удобно читался */
+    background: #3c3838; /* Очень легкий оттенок акцентного цвета */
+    border: 1px solid rgba(0, 238, 238, 0.2);
+    padding: 15px 20px;
+    border-radius: 2px;
+}
+
+.briefing-label {
+    font-size: 0.7rem;
+    color: #00eeee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.briefing-text {
+    color: #e0e0e0;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
