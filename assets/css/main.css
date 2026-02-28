@@ -1,6 +1,25 @@
 
 html body { 
-    background-color: #b8c1c9;
+    margin: 0;
+    padding: 0;
+    /* Фиксируем фон, чтобы он не прокручивался вместе с контентом */
+    background-attachment: fixed;
+    
+    /* Слой 1: Линейный градиент (создает глубину, если картинка не загрузится) */
+    /* Слой 2: Твое изображение неба */
+    background: 
+        linear-gradient(to bottom, rgba(11, 22, 40, 0.4), rgba(11, 22, 40, 0.7)),
+        url(./bg.png) no-repeat center center;
+    
+    /* Растягиваем изображение так, чтобы оно всегда заполняло экран без искажений */
+    background-size: cover;
+    
+    /* Добавляем мягкое свечение для всей страницы в тон небу */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tittle99 {
     text-align: center;
 }
 
@@ -27,7 +46,7 @@ html body {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 25px;
 
-background-color: #3c3838;
+background-color: rgba(0, 0, 0, 0.4);
 padding: 10px;
 margin-top: 10px;
 }
@@ -96,6 +115,7 @@ margin-top: 10px;
     margin: 0;
 }
 
+.system-status {margin-left: 10px;}
 .status-online { color: #00ff00; text-shadow: 0 0 5px #00ff00; }
 
 /* Отступы между арками */
@@ -106,12 +126,13 @@ margin-top: 10px;
 /* Стиль заголовка арки */
 .arc-header {
     font-family: 'Orbitron', sans-serif; /* Или любой технологичный шрифт */
-    background-color: #3c3838;
+    background-color: rgba(0, 0, 0, 0.4);
     color: #ffffff;
     font-size: 1.6rem;
     text-transform: uppercase;
     letter-spacing: 4px;
     border-bottom: 1px solid rgba(4, 66, 66, 0.3);
+    padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     margin-bottom: 10px;
@@ -136,7 +157,7 @@ margin-top: 10px;
     position: relative;
     margin: 20px auto 30px auto;
     max-width: 1200px; /* Чтобы текст не растягивался слишком широко и удобно читался */
-    background: #3c3838; /* Очень легкий оттенок акцентного цвета */
+    background-color: rgba(0, 0, 0, 0.4); /* Очень легкий оттенок акцентного цвета */
     border: 1px solid rgba(0, 238, 238, 0.2);
     padding: 15px 20px;
     border-radius: 2px;
@@ -150,6 +171,7 @@ margin-top: 10px;
     margin-bottom: 8px;
     font-weight: bold;
     opacity: 0.8;
+    text-align: center;
 }
 
 .briefing-text {
@@ -173,4 +195,38 @@ margin-top: 10px;
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.top-banner-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.main-banner {
+    width: 1280px;      /* Фиксированная ширина для ПК */
+    max-width: 95%;    /* Чтобы не вылезал за края на экранах чуть меньше 1280px */
+    height: auto;      /* Сохраняем пропорции */
+    display: block;
+    border-radius: 4px; /* Мягкое скругление углов */
+    box-shadow: 0 0 20px rgba(0, 238, 238, 0.2); /* Легкое свечение в стиле интерфейса */
+    transition: all 0.3s ease;
+}
+
+/* Настройки для мобильных устройств (ширина экрана менее 768px) */
+@media (max-width: 768px) {
+    .main-banner {
+        width: 100%;    /* На мобильных растягивается на всю ширину */
+        max-width: 100%;
+        border-radius: 0; /* Убираем скругление для эффекта "на весь экран" */
+        /* Если вы хотите полностью СКРЫТЬ баннер на мобильных, 
+           раскомментируйте строку ниже и удалите строки выше: */
+        /* display: none; */
+    }
+    
+    .top-banner-container {
+        padding: 0; /* Убираем лишние отступы на смартфонах */
+    }
 }
