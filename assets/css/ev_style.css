@@ -1,0 +1,872 @@
+---
+---
+
+.buitton_back {
+    display: block;
+    margin-bottom: 8px;
+    padding-left: 22px;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0px 1px 4px #000;
+    text-shadow: 0px 1px 4px 0px #000;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    font: 14pt Arial;
+    text-align: left;
+}
+
+.buitton_back img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -10px;
+}
+
+.buitton_back img.on {
+    opacity: 0;
+}
+
+.buitton_back a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    
+    }
+
+.head_ev {
+
+  
+      width: 100%;
+    height: 360px;
+    position: relative;
+}
+
+.head_ev_diverchess {
+  min-width: 1280px;
+
+  background:
+    linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), var(--header-bg), #192455;
+  background-attachment: fixed;
+}
+
+.head_ev_info {
+
+  min-width: 1280px;
+  margin: 0 auto;
+  padding-top: 8px
+}
+
+h1 {
+  font: 20pt Montserrat; 
+  font-weight: 700;
+  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black;
+}
+
+h1.title {
+  color: #ffffff;
+}
+
+table.blackscreen {
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: black; /* Убедимся, что фон черный */
+}
+
+/* Принудительно задаем боковым ячейкам 120px */
+table.blackscreen td.port {
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+/* Стили для текста в центральной ячейке */
+table.blackscreen td:not(.port) {
+    text-align: left; /* Обычно такие вступления центрируются */
+    color: white;
+    padding: 40px 0; /* Отступы сверху и снизу для солидности */
+    width: auto;
+}
+
+/* Убираем лишние отступы у параграфов внутри черного экрана */
+table.blackscreen p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+table.whitescreen {
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255); /* Убедимся, что фон черный */
+}
+
+/* Принудительно задаем боковым ячейкам 120px */
+table.whitescreen td.port {
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+/* Стили для текста в центральной ячейке */
+table.whitescreen td:not(.port) {
+    text-align: left; /* Обычно такие вступления центрируются */
+    color: rgb(70, 70, 70);
+    font: 16pt Montserrat; 
+    font-weight: 700; 
+    padding: 40px 0; /* Отступы сверху и снизу для солидности */
+    width: auto;
+}
+
+/* Убираем лишние отступы у параграфов внутри черного экрана */
+table.whitescreen p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.nav {
+  margin: 5px;
+  min-width: 1280px;
+}
+
+#floating-button {
+  position: fixed;
+  z-index: 100;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#floating-button-EN {
+  position: fixed;
+  z-index: 100;
+  bottom: 80px;
+  right: 70px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#floating-button-CN {
+  position: fixed;
+  z-index: 100;
+  bottom: 80px;
+  right: 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#floating-button:hover {
+background-color: #ff7961;
+}
+
+
+.blackscreen {
+  border: 0px;
+  margin: auto;
+  color: white;
+  background-color: #000000;
+  
+  text-align: left;
+  width: 1280px;
+  font: 16pt Montserrat; 
+  font-weight: 700; 
+}
+
+.whitescreen {
+  border: 0px;
+  margin: auto;
+  text-align: left;
+  width: 1280px;
+  font: 16pt Montserrat; 
+  font-weight: 700; 
+}
+
+.mist {
+  position: relative;    
+  line-height: 0;
+  color: rgb(72, 72, 72) !important;
+  text-shadow: none !important;
+}
+
+
+
+.mist:after {
+
+content: "";
+  display: block;    
+  width: 100%;
+  height: 100%;    
+  position: absolute;
+  top: 0;      
+  left: 0;   
+  background: transparent;
+  background-image: linear-gradient(to left, #FFFFFF, #8F8F8F);
+  opacity: 0.9;
+
+}
+
+.mem {
+  display: inline-block;
+  position: relative;    
+  line-height: 0;
+}
+
+.mem:after {
+
+content: "";
+  display: block;    
+  width: 100%;
+  height: 100%;    
+  position: absolute;
+  top: 0;      
+  left: 0;   
+  background: transparent;
+  background-image: radial-gradient( rgba(255, 0, 0, 0.0) 55%, #FFFFFF);
+  opacity: 0.9;
+}
+
+
+
+.background1 {
+ background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg/bg46.png);
+ background-size: auto 100%;
+}
+
+.backgroundblk {
+ background: black;
+ background-size: auto 100%;
+}
+
+.backgroundwht {
+ background-image: url(../img/bg/bgw.png);
+ background-size: auto 100%;
+}
+
+.whiteword {
+color: gray;
+text-shadow: 0px 0px 0 black;
+}
+
+.whiteworld {
+  height: 200px;
+}
+
+.pict1 {
+
+  width: 1280px;
+}
+
+.blob {
+
+background-image: linear-gradient(180deg,rgba(213,254,255,0.2),rgba(213,254,255,0.2))
+
+}
+
+.blobfirst {
+
+background-image: linear-gradient(180deg,rgba(26,68,255,0.3),rgba(26,68,255,0.3))
+
+}
+
+.blobsecond {
+
+background-image: linear-gradient(180deg,rgba(206,58,0,0.3),rgba(206,58,0,0.3))
+
+}
+
+.blobthird {
+
+background-image: linear-gradient(180deg,rgba(255,234,0,0.3),rgba(255,234,0,0.3))
+
+}
+
+.blobfourth {
+
+background-image: linear-gradient(180deg,rgba(0,252,255,0.3),rgba(0,252,255,0.3))
+
+}
+
+.blobfifth {
+
+background-image: linear-gradient(180deg,rgba(6,255,0,0.3),rgba(6,255,0,0.3))
+
+}
+
+.blobsixth {
+
+background-image: linear-gradient(180deg,rgba(128,0,111,0.3),rgba(128,0,111,0.3))
+
+}
+
+
+.longname {
+    font: 10pt "Segoe UI", Tahoma, sans-serif !important;
+}
+
+.blackport {
+  display: inline-block;
+  position: relative;    
+  line-height: 0;
+}
+
+.blackport:after {
+
+content: "";
+  display: block;    
+  width: 100%;
+  height: 100%;    
+  position: absolute;
+  top: 0;      
+  left: 0;   
+  background: transparent;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95) 45%, rgba(0, 0, 0, 0.3) );
+  opacity: 1.0;
+}
+
+table.mainchapter {
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0 2px;
+}
+
+/* Задаем жесткую ширину боковым колонкам */
+table.mainchapter td.name-container, 
+table.mainchapter td.port {
+    width: 120px; /* 116px портрет + 4px на рамки */
+    min-width: 120px;
+    max-width: 120px;
+    overflow: hidden; /* Чтобы ничего не вылезало за границы */
+    word-wrap: break-word;
+}
+
+table.mainchapter td {
+    border: none;
+}
+
+.name-container {
+    background: rgba(255, 255, 255, 0.3); /* Легкая подложка под портрет */
+    border-radius: 6px 0 0 6px; /* Скругляем только внешние углы */
+}
+
+.words.blob {
+    /* Ваш градиент теперь будет работать внутри каждой ячейки отдельно  */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    border-radius: 6px; /* Закругляем углы для эффекта пузыря */
+    padding: 10px 15px;
+    position: relative; /* Чтобы имя привязывалось к пузырю */
+    padding-top: 25px;  /* Создаем место сверху внутри пузыря для имени */
+    vertical-align: top;
+}
+
+/* Портрет должен занимать свои 116px */
+.port-img {
+    width: 116px;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box; /* Чтобы рамка не увеличивала ширину картинки */
+}
+
+/* Центральный столбец с текстом заберет всё оставшееся место автоматически */
+table.mainchapter td.words {
+    width: auto;
+}
+
+
+.mainchapter {
+  border: 0px; 
+  margin: auto;
+  color: white;
+  background-color: #000000;
+  padding: 3px;
+  width: 1280px;
+  font: 16pt Montserrat; 
+  font-weight: 700;
+  text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black, 1px 1px 0 black; 
+  background-position: center;
+  z-index: 1;
+}
+
+.words.narrate {
+    text-align: left;
+    color: #cccccc; /* Светло-серый цвет для описаний */
+    font-style: italic;
+    padding: 20px;
+}
+
+table.white-full .narrate {
+
+    color: #555555 !important;
+    text-shadow: none; 
+    
+}
+
+table.mist .narrate {
+
+    color: #555555 !important;
+    text-shadow: none; 
+    
+}
+
+/* Убедимся, что пустые ячейки .port не имеют лишних рамок */
+td.port {
+    border: none !important;
+    background: none !important;
+}
+
+
+.chapter {
+background-color: rgba(0, 0, 0, 0.4);
+border: 1px solid rgba(0, 238, 238, 0.2);
+width: 1300px;
+margin: auto;
+padding: 10px;
+margin-top: 10px;
+}
+
+  .title-1 {
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font: 20pt Helvetica;
+  }
+
+body {
+      margin: 0;
+    padding: 0;
+    /* Фиксируем фон, чтобы он не прокручивался вместе с контентом */
+    background-attachment: fixed;
+    
+    /* Слой 1: Линейный градиент (создает глубину, если картинка не загрузится) */
+    /* Слой 2: Твое изображение неба */
+    background: 
+        linear-gradient(to bottom, rgba(11, 22, 40, 0.6), rgba(11, 22, 40, 0.9)),
+        url("../../img/bg/main_bg.png");
+    
+    /* Растягиваем изображение так, чтобы оно всегда заполняло экран без искажений */
+    background-size: cover;
+  text-align: center;
+  font: 16pt Helvetica; 
+  font-weight: 500; 
+} 
+
+.scene-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0; /* Отступы сверху и снизу от разделителя */
+}
+
+.memory-segment { filter: sepia(0.5) brightness(1.2); }
+
+
+.scene-divider::before,
+.scene-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    /* Линия плавно появляется из прозрачности в белый и обратно */
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+    /* Добавим эффект свечения (ауры) */
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.scene-divider .dots {
+    margin: 0 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: serif;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    opacity: 0.8;
+}
+
+.words {
+text-align: left;
+padding: 1.5%;
+}
+
+/* Общий класс для всех таблиц с фоном */
+  .table-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), var(--bg); }
+
+.name-box {
+
+    
+    /* Шрифт и текст */
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Читаемость на любом фоне */
+    
+    position: absolute;
+    top: -12px;         /* Выносим имя чуть выше границы пузыря */
+    left: 10px;         /* Сдвиг от края (для левой стороны) */
+    z-index: 10;
+    
+    background: #222;   /* Темный фон как на скриншоте */
+    padding: 2px 15px;
+}
+
+.side-right .name-box {
+    left: auto;
+    right: 10px;
+}
+
+
+
+.name-container {
+    --accent-color:  #00ff15; /* Стандартный Sakura/Union */
+}
+
+.mainchapter tr {
+    --accent-color: #00ff15; /* По умолчанию зеленый */
+}
+
+/* Модификаторы для разных состояний */
+.is-red { --accent-color: #fc0909; } /* Красный */
+.is-yellow  { --accent-color: #ffdf00; } /* Желтый */
+.is-gray  { --accent-color: #666666; } /* Серый */
+.is-meta  { --accent-color: #ffc960; } /* Meta */
+.is-white { --accent-color: #ffffff; } /* Белый */
+.is-purple { --accent-color: #cc99ff; } /* Фиолетовый */
+
+.name-box {
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+
+}
+
+.name-box span {
+    display: inline-block;
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 1em;
+    white-space: nowrap; /* Имя может быть длинным, оно просто уйдет вправо */
+}
+
+/* Рамка вокруг портрета */
+.port-img {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid var(--accent-color);
+    border-radius: 4px;
+    transition: border 0.3s; /* Плавная смена цвета */
+    max-width: 116px; /* Настройте под ваш размер портретов */
+    height: auto;
+}
+
+
+
+.loc {
+ text-align: center; 
+}
+
+.pict {
+width: auto;
+}
+
+
+
+
+.main {
+  width: 100%;
+}
+
+.choice-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 15px 0;
+}
+
+.choice-label {
+    background: #222; /* Темный фон */
+    color: #ccc;      /* Светло-серый текст */
+    padding: 6px 40px;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #444;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Возвращаем текст внутри плашки в нормальное состояние */
+.choice-label span, 
+.choice-label {
+    display: inline-block;
+}
+
+/* Контейнер для всей строки */
+.mainchapter tr {
+    position: relative; /* База для позиционирования имени */
+}
+
+/* Общие стили для вспышки */
+.flash-gradient {
+
+    height: 300px;
+}
+
+/* Погружение: Прозрачный -> Белый */
+.flash-gradient.into-white {
+    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 1));
+    width: 1280px;
+    margin-left: 10px;
+
+}
+
+/* Выход: Белый -> Прозрачный */
+.flash-gradient.from-white {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), transparent);
+    width: 1280px;
+    margin-left: 10px;
+}
+
+.mainchapter.fog-effect {
+    position: relative;
+}
+
+.mainchapter.fog-effect::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, transparent 10%, rgba(255, 255, 255, 0.5) 100%);
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+/* Чтобы текст был выше тумана, поднимем tr */
+.mainchapter tr {
+    position: relative;
+    z-index: 2;
+}
+
+img.fog-effect {
+    filter: brightness(3) contrast(0.1) opacity(0.7);
+}
+
+.mainchapter.fog-effect-full {
+    position: relative;
+}
+
+.mainchapter.fog-effect-full::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+
+
+.mainchapter.white-full {
+    position: relative;
+    color: #555555;
+    text-shadow: none; 
+    
+}
+
+.mainchapter.white-full::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.mainchapter.blue-choise {
+    position: relative;
+}
+
+.mainchapter.blue-choise::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgb(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.mainchapter.red-choise {
+    position: relative;
+}
+
+.mainchapter.red-choise::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.mainchapter.yellow-choise {
+    position: relative;
+}
+
+.mainchapter.yellow-choise::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgb(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.mainchapter.sea-choise {
+    position: relative;
+}
+
+.mainchapter.sea-choise::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgb(0, 255, 255, 0.5), rgba(0, 255, 255, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.mainchapter.green-choise {
+    position: relative;
+}
+
+.mainchapter.green-choise::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.mainchapter.purple-choise {
+    position: relative;
+}
+
+.mainchapter.purple-choise::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgba(255, 0, 255, 0.5), rgba(255, 0, 255, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+.scene-container {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+    line-height: 0; /* Убирает лишние отступы под картинкой */
+}
+
+.scene-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.scene-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; /* Центровка по вертикали */
+    justify-content: center; /* Центровка по горизонтали */
+    background: rgba(0, 0, 0, 0.2); /* Легкое затемнение всей картинки, как в игре */
+}
+
+.scene-text {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 2px 2px 4px rgba(0, 0, 0, 1);
+    padding: 20px;
+    max-width: 80%;
+    line-height: 1.4;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(0, 0, 0, 0.4); /* Полупрозрачный бокс для текста */
+    border-radius: 4px;
+    font-size: 1.1em; /* Чуть уменьшим размер для больших объемов */
+    white-space: pre-line;
+}
+
+.inline-img {
+    max-width: 100%;    /* Чтобы не вылезло за границы диалога */
+    height: auto;       /* Сохраняем пропорции */
+    display: block;     /* Убираем лишние отступы снизу */
+    margin: 10px auto;  /* Центрируем, если картинка одна в строке */
+    border-radius: 4px; /* Легкое закругление в стиле интерфейса игры */
+}
+
+.image-overlay-container {
+    position: relative; /* Создаем систему координат для вложенных элементов */
+    width: 1280px;        /* Или фиксированная ширина, например 800px */
+    line-height: 0;     /* Убираем лишние зазоры под картинкой */
+    margin-left: 10px;
+}
+
+.base-image {
+    width: 1280px;        /* Занимает всю ширину контейнера */
+    height: auto;
+    display: block;
+}
+
+.overlay-layer {
+    position: absolute; /* Накладываем поверх */
+
+    width: 1280px;        /* Растягиваем до краев базовой картинки */
+    height: 100%;
+    
+    opacity: 1;       /* Уровень полупрозрачности (от 0 до 1) */
+    pointer-events: none; /* Чтобы клики проходили сквозь туман на нижние ссылки, если они есть */
+    top: 0;
+    left: 0;
+    
+    /* Дополнительно: можно добавить эффект смешивания, как в Photoshop */
+    /* mix-blend-mode: screen; (для тумана) или overlay */
+}
+

@@ -307,6 +307,11 @@ shangri_la:
   img: "/img/port/eagle/shan1.png"
   class: "blob"
 
+south_dakota:
+  name: "Саут Дакота"
+  img: "/img/port/eagle/sout1.png"
+  class: "blob"
+
 # V
 
 vestal:
@@ -1121,6 +1126,41 @@ avrora:
   img: "/img/port/northern/avro1.png"
   class: "blob"
 
+# C
+
+chapayev:
+  name: "Чапаев"
+  img: "/img/port/northern/chap1.png"
+  class: "blob"
+
+chapayev???d:
+  name: "? ? ?"
+  img: "/img/port/northern/chap1d.png"
+  class: "blob"
+
+# G
+
+gangut:
+  name: "Гангут"
+  img: "/img/port/northern/gang1.png"
+  class: "blob"
+
+gangut???d:
+  name: "? ? ?"
+  img: "/img/port/northern/gang1d.png"
+  class: "blob"
+
+grozny:
+  name: "Грозный"
+  img: "/img/port/northern/groz1.png"
+  class: "blob"
+
+grozny???d:
+  name: "? ? ?"
+  img: "/img/port/northern/groz1d.png"
+  class: "blob"
+
+
 # K
 
 kiev:
@@ -1128,9 +1168,33 @@ kiev:
   img: "/img/port/northern/kiev1.png"
   class: "blob"
 
+kirov:
+  name: "Киров"
+  img: "/img/port/northern/kiro1.png"
+  class: "blob"
+
 kronshtadt:
   name: "Кронштадт"
   img: "/img/port/northern/kron1.png"
+  class: "blob"
+
+# M
+
+minsk:
+  name: "Минск"
+  img: "/img/port/northern/mins1.png"
+  class: "blob"
+
+# P
+
+pamiat_merkuria:
+  name: "Память Меркурия"
+  img: "/img/port/northern/pami1.png"
+  class: "blob"
+
+pamiat_merkuria???d:
+  name: "? ? ?"
+  img: "/img/port/northern/pami1d.png"
   class: "blob"
 
 # S
@@ -1140,10 +1204,26 @@ sovetskaya_belorussiya:
   img: "/img/port/northern/sbel1.png"
   class: "blob"
 
+sovetskaya_rossiya:
+  name: "Советская Россия"
+  img: "/img/port/northern/sros1.png"
+  class: "blob"
+
+sovetskaya_rossiya???d:
+  name: "? ? ?"
+  img: "/img/port/northern/sros1d.png"
+  class: "blob"
+
 sovetsky_soyuz_old:
   name: "Советский Союз"
   img: "/img/port/northern/sove10.png"
   class: "blob"
+
+sovetsky_soyuz_old?:
+  name: "? ? ?"
+  img: "/img/port/northern/sove10.png"
+  class: "blob"
+
 
 soobrazitelny:
   name: "Сообразительный"
@@ -1155,6 +1235,11 @@ soobrazitelny:
 tashkent:
   name: "Ташкент"
   img: "/img/port/northern/tash1.png"
+  class: "blob"
+
+tashkent???d:
+  name: "? ? ?"
+  img: "/img/port/northern/tash1d.png"
   class: "blob"
 
 # V
@@ -1561,6 +1646,11 @@ compiler???_d:
 compiler???:
   name: "? ? ?"
   img: "/img/port/siren/comp1.png"
+  class: "blob"
+
+omitter:
+  name: "Омиттер"
+  img: "/img/port/siren/omit1.png"
   class: "blob"
 
 purifier:

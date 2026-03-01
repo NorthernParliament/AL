@@ -371,8 +371,8 @@ table.mainchapter td {
 }
 
 .words.blob {
-    /* Ваш градиент теперь будет работать внутри каждой ячейки отдельно */
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+    /* Ваш градиент теперь будет работать внутри каждой ячейки отдельно  */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
     border-radius: 6px; /* Закругляем углы для эффекта пузыря */
     padding: 10px 15px;
     position: relative; /* Чтобы имя привязывалось к пузырю */
@@ -437,7 +437,8 @@ td.port {
 
 
 .chapter {
-background-color: #3c3838;
+background-color: rgba(0, 0, 0, 0.4);
+border: 1px solid rgba(0, 238, 238, 0.2);
 width: 1300px;
 margin: auto;
 padding: 10px;
@@ -452,7 +453,19 @@ margin-top: 10px;
   }
 
 body {
-  background-color: #b8c1c9;
+      margin: 0;
+    padding: 0;
+    /* Фиксируем фон, чтобы он не прокручивался вместе с контентом */
+    background-attachment: fixed;
+    
+    /* Слой 1: Линейный градиент (создает глубину, если картинка не загрузится) */
+    /* Слой 2: Твое изображение неба */
+    background: 
+        linear-gradient(to bottom, rgba(11, 22, 40, 0.6), rgba(11, 22, 40, 0.9)),
+        url("../../img/bg/main_bg.png");
+    
+    /* Растягиваем изображение так, чтобы оно всегда заполняло экран без искажений */
+    background-size: cover;
   text-align: center;
   font: 16pt Helvetica; 
   font-weight: 500; 

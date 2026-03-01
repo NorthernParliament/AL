@@ -1,0 +1,24 @@
+{% include flash.html type="into-white" %}
+{% include whitescreen.html lines=page.white_scene1 %}
+{% include flash.html type="from-white" %}
+
+{% include divider.html %}
+
+{% include choice_header.html %}
+{% assign rows = site.data.abyssal_refrain.part29.chapter5.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg11.png" bg_overlay="blue-choise" %}
+{% assign rows = site.data.abyssal_refrain.part29.chapter6.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg11.png" bg_overlay="red-choise" %}
+{% assign rows = site.data.abyssal_refrain.part29.chapter7.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg11.png" bg_overlay="yellow-choise" %} 
+{% assign rows = site.data.abyssal_refrain.part29.chapter8.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg11.png" bg_overlay="sea-choise" %}
+{% assign rows = site.data.abyssal_refrain.part29.chapter9.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg11.png" bg_overlay="green-choise" %}
+{% assign rows = site.data.abyssal_refrain.part29.chapter10.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg11.png" bg_overlay="purple-choise" %}
+
+{% include loc.html td_class="loc" text="Острова Империи Сакуры - Много лет назад" %}
+
+
+
