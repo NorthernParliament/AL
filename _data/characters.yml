@@ -388,6 +388,16 @@ formidable:
   img: "/img/port/royal/form1.png"
   class: "blob"
 
+fortune:
+  name: "Форчун"
+  img: "/img/port/royal/fort1.png"
+  class: "blob"
+
+fortune_rad:
+  name: "📡Форчун"
+  img: "/img/port/royal/fort1rad.png"
+  class: "blob"
+
 # H
 
 hood:
@@ -623,6 +633,16 @@ hyuuga:
   class: "blob"
 
 # I
+
+i26:
+  name: "I-26"
+  img: "/img/port/sakura/i261.png"
+  class: "blob"
+
+i58:
+  name: "I-58"
+  img: "/img/port/sakura/i581.png"
+  class: "blob"
 
 ikazuchi:
   name: "Икадзути"
@@ -1287,11 +1307,21 @@ jeanne_d_arc:
   img: "/img/port/iris/jean1.png"
   class: "blob"
 
+jeanne_d_arc_rad:
+  name: "📡Жанна д’Арк"
+  img: "/img/port/iris/jean1rad.png"
+  class: "blob"
+
 # L
 
 le_temeraire:
   name: "Ле Темерер"
   img: "/img/port/iris/letem1.png"
+  class: "blob"
+
+le_temeraire_rad:
+  name: "📡Ле Темерер"
+  img: "/img/port/iris/letem1rad.png"
   class: "blob"
 
 le_terrible:
@@ -1309,6 +1339,11 @@ l_opiniatre:
   img: "/img/port/iris/lopi1.png"
   class: "blob"
 
+l_opiniatre_rad:
+  name: "📡Л’Опиньятр"
+  img: "/img/port/iris/lopi1rad.png"
+  class: "blob" 
+
 # M
 
 maille_breze:
@@ -1323,6 +1358,11 @@ richelieu:
   img: "/img/port/iris/rich1.png"
   class: "blob"
 
+richelieu_rad:
+  name: "📡Ришелье"
+  img: "/img/port/iris/rich1rad.png"
+  class: "blob"
+
 
 
 
@@ -1334,6 +1374,17 @@ richelieu:
 algerie:
   name: "Алжири"
   img: "/img/port/vichya/alge1.png"
+  class: "blob"
+
+# A
+algerie?d:
+  name: "Алжири?"
+  img: "/img/port/vichya/alge1d.png"
+  class: "blob"
+
+algerie_rad:
+  name: "📡Алжири"
+  img: "/img/port/vichya/alge1rad.png"
   class: "blob"
 
 # C
@@ -1362,11 +1413,23 @@ fougueux:
   img: "/img/port/vichya/foug1.png"
   class: "blob"
 
+# G
+
+gascogne:
+  name: "Гасконь"
+  img: "/img/port/vichya/gasc1.png"
+  class: "blob"
+
 # J
 
 jean_bart:
   name: "Жан Бар"
   img: "/img/port/vichya/jean1.png"
+  class: "blob"
+
+jean_bart???d:
+  name: "? ? ?"
+  img: "/img/port/vichya/jean1d.png"
   class: "blob"
 
 joffre:
