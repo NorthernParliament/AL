@@ -137,6 +137,11 @@ enterprise:
   img: "/img/port/eagle/ente1.png"
   class: "blob"
 
+enterprise_rad:
+  name: "📡Энтерпрайз"
+  img: "/img/port/eagle/ente1rad.png"
+  class: "blob"
+
 essex:
   name: "Эссекс"
   img: "/img/port/eagle/esse1.png"
@@ -367,6 +372,11 @@ belfast:
   img: "/img/port/royal/belf1.png"
   class: "blob"
 
+belfast_rad:
+  name: "📡Белфаст"
+  img: "/img/port/royal/belf1rad.png"
+  class: "blob"
+
 # D
 
 duke_of_york:
@@ -375,6 +385,16 @@ duke_of_york:
   class: "blob"
 
 # E
+
+eagle:
+  name: "Игл"
+  img: "/img/port/royal/eagl1.png"
+  class: "blob"
+
+edinburgh:
+  name: "Эдинбург"
+  img: "/img/port/royal/edin1.png"
+  class: "blob"
 
 enterprise_r:
   name: "Энтерпрайз"
@@ -400,6 +420,11 @@ fortune_rad:
 
 # H
 
+hermione:
+  name: "Гермиона"
+  img: "/img/port/royal/herm1.png"
+  class: "blob"
+
 hood:
   name: "Худ"
   img: "/img/port/royal/hood1.png"
@@ -412,9 +437,26 @@ howe:
 
 # I
 
+icarus:
+  name: "Икарус"
+  img: "/img/port/royal/icar1.png"
+  class: "blob"
+
 illustrious:
   name: "Илластриес"
   img: "/img/port/royal/illu1.png"
+  class: "blob"
+
+illustrious_skin2:
+  name: "Илластриес"
+  img: "/img/port/royal/illu2.png"
+  class: "blob"
+
+# J
+
+jamaica:
+  name: "Ямайка"
+  img: "/img/port/royal/jama1.png"
   class: "blob"
 
 # K
@@ -465,6 +507,11 @@ norfolk:
 
 # P
 
+perseus:
+  name: "Персей"
+  img: "/img/port/royal/pers1.png"
+  class: "blob"
+
 prince_of_wales:
   name: "Принц Уэльский"
   img: "/img/port/royal/prin1.png"
@@ -479,6 +526,11 @@ queen_elizabeth:
 
 queen_elizabeth_rad:
   name: "📡Куин Элизабет"
+  img: "/img/port/royal/quee1rad.png"
+  class: "blob"
+
+queen_elizabeth_rad?:
+  name: "📡Куин Элизабет ?"
   img: "/img/port/royal/quee1rad.png"
   class: "blob"
 
@@ -506,7 +558,25 @@ suffolk:
   img: "/img/port/royal/suff1.png"
   class: "blob"
 
+# U
+
+unicorn:
+  name: "Юникорн"
+  img: "/img/port/royal/unic1.png"
+  class: "blob"
+
+
 # V
+
+valiant:
+  name: "Вэлиант"
+  img: "/img/port/royal/vali1.png"
+  class: "blob"
+
+vampire:
+  name: "Вампир"
+  img: "/img/port/royal/vamp1.png"
+  class: "blob"
 
 victorious:
   name: "Викториес"
@@ -889,6 +959,11 @@ admiral_hipper:
   img: "/img/port/iron/admi1.png"
   class: "blob"
 
+admiral_graf_spee:
+  name: "Адмирал Граф Шпее"
+  img: "/img/port/iron/spee1.png"
+  class: "blob"
+
 
 # B
 
@@ -927,6 +1002,11 @@ brunhilde_rad:
 deutschland:
   name: "Дойчланд"
   img: "/img/port/iron/deut1.png"
+  class: "blob"
+
+deutschland_rad:
+  name: "📡Дойчланд"
+  img: "/img/port/iron/deut1rad.png"
   class: "blob"
 
 # F
@@ -993,9 +1073,19 @@ tirpitz:
 
 # U
 
+u-101:
+  name: "U-101"
+  img: "/img/port/iron/u-1011.png"
+  class: "blob"
+
 u47:
   name: "U-47"
   img: "/img/port/iron/u471.png"
+  class: "blob"
+
+u-522:
+  name: "U-522"
+  img: "/img/port/iron/u-5221.png"
   class: "blob"
 
 u556:
@@ -1006,6 +1096,16 @@ u556:
 u557:
   name: "U-557"
   img: "/img/port/iron/u5571.png"
+  class: "blob"
+
+u-73:
+  name: "U-73"
+  img: "/img/port/iron/u-731.png"
+  class: "blob"
+
+u-81:
+  name: "U-81"
+  img: "/img/port/iron/u-811.png"
   class: "blob"
 
 ulrich_von_hutten:
@@ -1035,9 +1135,19 @@ z2:
   img: "/img/port/iron/z21.png"
   class: "blob"
 
+z2_rad:
+  name: "📡Z2"
+  img: "/img/port/iron/z21rad.png"
+  class: "blob"
+
 z2?:
   name: "Z2?"
   img: "/img/port/iron/z21.png"
+  class: "blob"
+
+z36:
+  name: "Z36"
+  img: "/img/port/iron/z361.png"
   class: "blob"
 
 z46:
