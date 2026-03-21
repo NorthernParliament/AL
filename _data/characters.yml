@@ -201,6 +201,10 @@ juneau:
   class: "blob"
 
 # L
+laffey:
+  name: "Лаффи"
+  img: "/img/port/eagle/laff1.png"
+  class: "blob"
 
 langley:
   name: "Лэнгли"
@@ -312,6 +316,11 @@ shangri_la:
   img: "/img/port/eagle/shan1.png"
   class: "blob"
 
+shangri_la_rad:
+  name: "📡Шангри-Ла"
+  img: "/img/port/eagle/shan1rad.png"
+  class: "blob"
+
 south_dakota:
   name: "Саут Дакота"
   img: "/img/port/eagle/sout1.png"
@@ -354,6 +363,11 @@ yorktown:
 # ==========================================================
 
 # A
+
+amazon:
+  name: "Амазон"
+  img: "/img/port/royal/amaz1.png"
+  class: "blob"
 
 arethusa:
   name: "Аретьюза"
@@ -583,6 +597,11 @@ victorious:
   img: "/img/port/royal/vict1.png"
   class: "blob"
 
+victorious_rad:
+  name: "📡Викториес"
+  img: "/img/port/royal/vict1rad.png"
+  class: "blob"
+
 # W
 
 warspite:
@@ -630,6 +649,11 @@ akatsuki:
   img: "/img/port/sakura/akat1.png"
   class: "blob"
 
+akashi:
+  name: "Акаши"
+  img: "/img/port/sakura/akas1.png"
+  class: "blob"
+
 akatsuki?:
   name: "? ? ?"
   img: "/img/port/sakura/akat1.png"
@@ -665,7 +689,44 @@ ayanami:
   img: "/img/port/sakura/ayan1.png"
   class: "blob"
 
+# C
+
+chitose:
+  name: "Титосэ"
+  img: "/img/port/sakura/chit1.png"
+  class: "blob"
+
+chitose_rad:
+  name: "📡Титосэ"
+  img: "/img/port/sakura/chit1rad.png"
+  class: "blob"
+
+chiyoda:
+  name: "Тиёда"
+  img: "/img/port/sakura/chiy1.png"
+  class: "blob"
+
+chiyoda_rad:
+  name: "📡Тиёда"
+  img: "/img/port/sakura/chiy1rad.png"
+  class: "blob"
+
 # H
+
+hamakaze:
+  name: "Хамакадзэ"
+  img: "/img/port/sakura/hama1.png"
+  class: "blob"
+
+hanazuki:
+  name: "Ханадзуки"
+  img: "/img/port/sakura/hana1.png"
+  class: "blob"
+
+hanazuki_rad:
+  name: "📡Ханадзуки"
+  img: "/img/port/sakura/hana1.png"
+  class: "blob"
 
 hatakaze:
   name: "Хатакадзэ"
@@ -729,6 +790,11 @@ ise:
   img: "/img/port/sakura/ise1.png"
   class: "blob"
 
+isokaze:
+  name: "Исокадзэ"
+  img: "/img/port/sakura/isok1.png"
+  class: "blob"
+
 # J
 
 jintsuu:
@@ -768,6 +834,16 @@ kagero:
   img: "/img/port/sakura/kage1.png"
   class: "blob"
 
+kashino:
+  name: "Касино"
+  img: "/img/port/sakura/kash1.png"
+  class: "blob"
+
+kashino_rad:
+  name: "📡Касино"
+  img: "/img/port/sakura/kash1rad.png"
+  class: "blob"
+
 kasumi:
   name: "Касуми"
   img: "/img/port/sakura/kasu1.png"
@@ -781,6 +857,11 @@ kasumi?:
 kawakaze:
   name: "Кавакадзэ"
   img: "/img/port/sakura/kawa1.png"
+  class: "blob"
+
+kii:
+  name: "Кии"
+  img: "/img/port/sakura/kii1.png"
   class: "blob"
 
 kinu:
@@ -801,6 +882,11 @@ kirishima:
 kirishima?:
   name: "? ? ?"
   img: "/img/port/sakura/kiri1.png"
+  class: "blob"
+
+kumano:
+  name: "Кумано"
+  img: "/img/port/sakura/kuma1.png"
   class: "blob"
 
 # M
@@ -830,6 +916,11 @@ nagato:
 naka:
   name: "Нака"
   img: "/img/port/sakura/naka1.png"
+  class: "blob"
+
+niizuki:
+  name: "Ниизуки"
+  img: "/img/port/sakura/niiz1.png"
   class: "blob"
 
 noshiro:
@@ -866,6 +957,11 @@ shigure:
   img: "/img/port/sakura/shig1.png"
   class: "blob"
 
+shinano:
+  name: "Синано"
+  img: "/img/port/sakura/shin1.png"
+  class: "blob"
+
 shiranui:
   name: "Сирануи"
   img: "/img/port/sakura/shira1.png"
@@ -896,11 +992,21 @@ suruga:
   img: "/img/port/sakura/suru1.png"
   class: "blob"
 
+suzutsuki:
+  name: "Сузуцуки"
+  img: "/img/port/sakura/suzu1.png"
+  class: "blob"
+
 # T
 
 takao:
   name: "Такао"
   img: "/img/port/sakura/taka1.png"
+  class: "blob"
+
+takao_rad:
+  name: "📡Такао"
+  img: "/img/port/sakura/taka1rad.png"
   class: "blob"
 
 takao???:
@@ -928,6 +1034,16 @@ yamashiro_kai:
 yamashiro_kai1:
   name: "Ямасиро (Ретрофит)"
   img: "/img/port/sakura/yama1kai.png"
+  class: "blob"
+
+yukikaze:
+  name: "Юкикадзэ"
+  img: "/img/port/sakura/yuki1.png"
+  class: "blob"
+
+yuubari:
+  name: "Юбари"
+  img: "/img/port/sakura/yuub1.png"
   class: "blob"
 
 yuudachi:
