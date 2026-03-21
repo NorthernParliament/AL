@@ -387,7 +387,7 @@ black_scene:
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part41"> <!-- начало главы -->
-<p class="title-1">Секрет Ватацумиа</p>
+<p class="title-1">Секрет Ватацуми</p>
 {% include loc.html td_class="loc" text="Главные острова Империи Сакуры, секретное место" %}
 {% assign rows = site.data.dreamwaker_butterfly.part41.chapter1.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
