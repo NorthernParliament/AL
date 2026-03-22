@@ -52,6 +52,10 @@
   background:
     linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), var(--header-bg), #192455;
   background-attachment: fixed;
+    background-image: var(--header-bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .head_ev_info {

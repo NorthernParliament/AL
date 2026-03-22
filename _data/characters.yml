@@ -1372,6 +1372,11 @@ avrora:
   img: "/img/port/northern/avro1.png"
   class: "blob"
 
+avrora_rad:
+  name: "📡Аврора"
+  img: "/img/port/northern/avro1rad.png"
+  class: "blob"
+
 # C
 
 chapayev:
@@ -1394,6 +1399,16 @@ gangut:
 gangut???d:
   name: "? ? ?"
   img: "/img/port/northern/gang1d.png"
+  class: "blob"
+
+gremyashchy:
+  name: "Гремящий"
+  img: "/img/port/northern/grem1.png"
+  class: "blob"
+
+gromky:
+  name: "Громкий"
+  img: "/img/port/northern/grom1.png"
   class: "blob"
 
 grozny:
@@ -1431,6 +1446,16 @@ minsk:
   img: "/img/port/northern/mins1.png"
   class: "blob"
 
+murmansk:
+  name: "Мурманск"
+  img: "/img/port/northern/murm1.png"
+  class: "blob"
+
+murmansk_rad:
+  name: "📡Мурманск"
+  img: "/img/port/northern/murm1rad.png"
+  class: "blob"
+
 # P
 
 pamiat_merkuria:
@@ -1465,6 +1490,11 @@ sovetsky_soyuz_old:
   img: "/img/port/northern/sove10.png"
   class: "blob"
 
+sovetsky_soyuz_old_rad:
+  name: "📡Советский Союз"
+  img: "/img/port/northern/sove10rad.png"
+  class: "blob"
+
 sovetsky_soyuz_old?:
   name: "? ? ?"
   img: "/img/port/northern/sove10.png"
@@ -1478,9 +1508,24 @@ soobrazitelny:
 
 # T
 
+tallinn:
+  name: "Таллин"
+  img: "/img/port/northern/tall1.png"
+  class: "blob"
+
+tallinn_rad:
+  name: "📡Таллин"
+  img: "/img/port/northern/tall1rad.png"
+  class: "blob"
+
 tashkent:
   name: "Ташкент"
   img: "/img/port/northern/tash1.png"
+  class: "blob"
+
+tashkent_rad:
+  name: "📡Ташкент"
+  img: "/img/port/northern/tash1rad.png"
   class: "blob"
 
 tashkent???d:
@@ -2020,8 +2065,23 @@ zerod:
   img: "/img/port/siren/zero1.png"
   class: "blob"
 
+zero_rec:
+  name: "📡Записанный голос"
+  img: "/img/port/siren/zero1rad.png"
+  class: "blob"
+
 anzeel_dark:
   name: "Женщина-исследователь"
+  img: "/img/port/other/anze2.png"
+  class: "blob"
+
+anzeel_d?:
+  name: "? ?"
+  img: "/img/port/other/anze2.png"
+  class: "blob"
+
+anzeel_d:
+  name: "Д-р Анзил"
   img: "/img/port/other/anze2.png"
   class: "blob"
 
@@ -2042,6 +2102,16 @@ tb_rad:
 
 aoste_dark:
   name: "Мужчина-исследователь"
+  img: "/img/port/other/aost2.png"
+  class: "blob"
+
+aoste_d?:
+  name: "? ? ?"
+  img: "/img/port/other/aost2.png"
+  class: "blob"
+
+aoste_d:
+  name: "Д-р Аосте"
   img: "/img/port/other/aost2.png"
   class: "blob"
 

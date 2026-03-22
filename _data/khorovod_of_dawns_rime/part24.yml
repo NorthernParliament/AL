@@ -1,0 +1,158 @@
+chapter1:
+  rows:
+
+    - text:
+      - "Двери зала по-прежнему распахнуты, но выйти невозможно. Словно возникла невидимая стена, преграждающая путь наружу."
+
+    - char: zero_rec
+      side: left
+      status: is-yellow
+      text:
+        - "Внимание. В данной зоне активирован режим безопасности. До снятия блокировки осталось 1147 секунд."
+
+    - text:
+      - "В застывшем, словно в стазисе, зале внезапно появилась проекция."
+
+    - char: commander
+      side: left
+      text:
+        - "Ты... Сирена?"
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "Отрицательно. Данное устройство является лишь механизмом регистрации, установленным здесь для записи и воспроизведения архивов."
+
+    - char: commander
+      side: left
+      text:
+        - "Что это за флоты, сражающиеся на экранах?"
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "Это флоты Революционного Фронта."
+
+    - char: commander
+      side: left
+      text:
+        - "Что такое «Революционный Фронт»?.."
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "В данной базе данных соответствующие записи отсутствуют."
+
+    - char: commander
+      side: left
+      text:
+        - "С кем сражаются эти флоты?"
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "С Врагом."
+
+    - char: commander
+      side: left
+      text:
+        - "Этот Враг — Сирены?"
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "Отрицательно. То, что представлено на экранах — лишь симуляция, собранная из фрагментов. Программа не может воссоздать внешний облик Врага на основе имеющейся информации."
+
+    - char: commander
+      side: left
+      text:
+        - "...Являются ли Сирены врагами?"
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "В данной базе данных соответствующие записи отсутствуют."
+
+    - char: commander
+      side: left
+      text:
+        - "Является ли «Антиох» врагом?"
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "В данной базе данных соответствующие записи отсутствуют."
+
+    - char: commander
+      side: left
+      text:
+        - "Кто командует этим флотом?"
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "В данной базе данных соответствующие записи отсутствуют."
+
+    - char: commander
+      side: left
+      text:
+        - "Каков был итог того сражения?"
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "В данной базе данных соответствующие записи отсутствуют."
+
+    - char: commander
+      side: left
+      text:
+        - "...Они тоже сражались, чтобы защитить что-то?"
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "Да."
+
+    - char: commander
+      side: left
+      text:
+        - "Это похоже на то, что происходит сейчас?"
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "Масштаб флота под вашим командованием несопоставим с масштабом флота в записях."
+        - "Масштаб врага, с которым столкнулись вы, также несопоставим с масштабом Врага в записях."
+
+    - char: commander
+      side: left
+      text:
+        - "Как всем эвакуироваться отсюда?"
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "Здесь нет пути для отступления."
+
+    - char: commander
+      side: left
+      text:
+        - "......."
+
+    - char: zero_rec
+      side: right
+      status: is-yellow
+      text:
+        - "Сражайтесь, пока свет не угаснет."
