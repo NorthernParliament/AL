@@ -166,6 +166,11 @@ helena_kai:
   img: "/img/port/eagle/hele1kai.png"
   class: "blob"
 
+hornet_rad:
+  name: "📡Хорнет"
+  img: "/img/port/eagle/horn1rad.png"
+  class: "blob"
+
 hornet:
   name: "Хорнет"
   img: "/img/port/eagle/horn1.png"
@@ -442,6 +447,11 @@ hermione:
 hood:
   name: "Худ"
   img: "/img/port/royal/hood1.png"
+  class: "blob"
+
+hood_rad:
+  name: "📡Худ"
+  img: "/img/port/royal/hood1rad.png"
   class: "blob"
 
 howe:
@@ -1187,6 +1197,11 @@ tirpitz:
   img: "/img/port/iron/tirp1.png"
   class: "blob"
 
+tirpitz_rad:
+  name: "📡Тирпиц"
+  img: "/img/port/iron/tirp1rad.png"
+  class: "blob"
+
 # U
 
 u-101:
@@ -1833,6 +1848,11 @@ helena_meta_rad:
 
 hiryuu_meta:
   name: "Хирю МЕТА"
+  img: "/img/port/meta/hiry1.png"
+  class: "blob"
+
+hiryuu_meta?:
+  name: "? ? ?"
   img: "/img/port/meta/hiry1.png"
   class: "blob"
 

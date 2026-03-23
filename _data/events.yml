@@ -255,6 +255,13 @@
   desc: "О воины, повелители пронзительного холода, станьте яростным предрассветным штормом, что разгонит тьму ночи!"
   arc: "01 Первая часть"
 
+- title_ru: "Следы пепельных крыльев"
+  title_en: "Trails of Ashen Wings"
+  slug: "os_trails_of_ashen_wings"
+  image: "/img/main/trail.png" 
+  desc: "В водах Северной Атлантики началась масштабная операция против Сирен. Отдавайте приказы, Командир!"
+  arc: "01 Первая часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"
