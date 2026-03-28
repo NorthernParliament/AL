@@ -1,0 +1,63 @@
+chapter1:
+  rows:
+
+    - char: communicator
+      side: right
+      text:
+        - "........."
+
+    - char: prinz_eugen
+      side: left
+      text:
+        - "........."
+
+    - char: communicator
+      side: right
+      text:
+        - "........."
+
+    - char: prinz_eugen
+      side: left
+      text:
+        - "В последнее время……"
+
+    - char: communicator
+      side: right
+      text:
+        - "........."
+
+    - char: prinz_eugen
+      side: left
+      text:
+        - "Хех, а я и не знаю, что сказать теперь, когда всё это случилось…"
+
+    - char: communicator
+      side: right
+      text:
+        - "........."
+
+    - char: prinz_eugen
+      side: left
+      text:
+        - "Это место… для тебя оно и впрямь стало самым подходящим пристанищем для отдыха…"
+
+    - char: communicator
+      side: right
+      text:
+        - "........."
+
+    - char: prinz_eugen
+      side: left
+      text:
+        - "........."
+
+    - char: communicator
+      side: right
+      text:
+        - "........."
+
+    - char: prinz_eugen
+      side: left
+      text:
+        - "Давно не виделись, мой друг…"
+        - "Eisen und Blut über alles… (Железо и кровь превыше всего…)"

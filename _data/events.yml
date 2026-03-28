@@ -262,6 +262,13 @@
   desc: "В водах Северной Атлантики началась масштабная операция против Сирен. Отдавайте приказы, Командир!"
   arc: "01 Первая часть"
 
+- title_ru: "Инвертированный ортант"
+  title_en: "Inverted Orthant"
+  slug: "inverted_orthant"
+  image: "/img/main/orthant.png" 
+  desc: "«Системный журнал»: Ввод данных в Зеркальное море T2-XI-N002 завершен. Испытательный полигон развернут. Начало эксперимента."
+  arc: "01 Первая часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"

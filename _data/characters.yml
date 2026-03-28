@@ -490,6 +490,11 @@ king_george_v:
   img: "/img/port/royal/king1.png"
   class: "blob"
 
+king_george_v(?):
+  name: "Кинг Джордж V ?"
+  img: "/img/port/royal/king1.png"
+  class: "blob"
+
 # M
 
 musketeer:
@@ -894,6 +899,17 @@ kirishima?:
   img: "/img/port/sakura/kiri1.png"
   class: "blob"
 
+kongou:
+  name: "Конго"
+  img: "/img/port/sakura/kong1.png"
+  class: "blob"
+
+kongou_rad:
+  name: "📡Конго"
+  img: "/img/port/sakura/kong1rad.png"
+  class: "blob"
+
+
 kumano:
   name: "Кумано"
   img: "/img/port/sakura/kuma1.png"
@@ -992,6 +1008,11 @@ shoukaku:
   img: "/img/port/sakura/shouk1.png"
   class: "blob"
 
+shoukaku_rad:
+  name: "📡Сёкаку"
+  img: "/img/port/sakura/shouk1rad.png"
+  class: "blob"
+
 souryuu:
   name: "Сорю"
   img: "/img/port/sakura/sour1.png"
@@ -1036,6 +1057,11 @@ yamashiro:
   img: "/img/port/sakura/yama1.png"
   class: "blob"
 
+yamashiro_rad:
+  name: "📡Ямасиро"
+  img: "/img/port/sakura/yama1rad.png"
+  class: "blob"
+
 yamashiro_kai:
   name: "Ямасиро"
   img: "/img/port/sakura/yama1kai.png"
@@ -1071,6 +1097,11 @@ yuudachi???:
 zuikaku:
   name: "Дзуйкаку"
   img: "/img/port/sakura/zuik1.png"
+  class: "blob"
+
+zuikaku_rad:
+  name: "📡Дзуйкаку"
+  img: "/img/port/sakura/zuik1rad.png"
   class: "blob"
 
 
@@ -1160,11 +1191,33 @@ gneisenau:
   img: "/img/port/iron/gnei1.png"
   class: "blob"
 
+# N
+
+nurnberg:
+  name: "Нюрнберг"
+  img: "/img/port/iron/nurn1.png"
+  class: "blob"
+
 # P
+
+peter_strasser:
+  name: "Петер Штрассер"
+  img: "/img/port/iron/pete1.png"
+  class: "blob"
+
+peter_strasser_rad:
+  name: "📡Петер Штрассер"
+  img: "/img/port/iron/pete1rad.png"
+  class: "blob"
 
 prinz_eugen:
   name: "Принц Ойген"
   img: "/img/port/iron/prin1.png"
+  class: "blob"
+
+prinz_eugen_rad:
+  name: "📡Принц Ойген"
+  img: "/img/port/iron/prin1rad.png"
   class: "blob"
 
 prinz_eugen?:
@@ -1180,6 +1233,16 @@ prinz_eugen??:
 prinz_eugen_bis?:
   name: "Бисмарк ??"
   img: "/img/port/iron/prin1.png"
+  class: "blob"
+
+prinz_heinrich:
+  name: "Принц Генрих"
+  img: "/img/port/iron/hein1.png"
+  class: "blob"
+
+prinz_heinrich_rad:
+  name: "📡Принц Генрих"
+  img: "/img/port/iron/hein1rad.png"
   class: "blob"
 
 # S
@@ -1207,6 +1270,16 @@ tirpitz_rad:
 u-101:
   name: "U-101"
   img: "/img/port/iron/u-1011.png"
+  class: "blob"
+
+u-37:
+  name: "U-37"
+  img: "/img/port/iron/u371.png"
+  class: "blob"
+
+u-37_rad:
+  name: "📡U-37"
+  img: "/img/port/iron/u371rad.png"
   class: "blob"
 
 u47:
@@ -1249,6 +1322,18 @@ ulrich_von_hutten?:
   img: "/img/port/iron/ulri1.png"
   class: "blob"
 
+# W
+
+weser:
+  name: "Везер"
+  img: "/img/port/iron/wese1.png"
+  class: "blob"
+
+weser_rad:
+  name: "📡Везер"
+  img: "/img/port/iron/wese1rad.png"
+  class: "blob"
+
 # Z
 
 z16:
@@ -1276,6 +1361,21 @@ z2?:
   img: "/img/port/iron/z21.png"
   class: "blob"
 
+z24:
+  name: "Z24"
+  img: "/img/port/iron/z241.png"
+  class: "blob"
+
+z28:
+  name: "Z28"
+  img: "/img/port/iron/z281.png"
+  class: "blob"
+
+z28_rad:
+  name: "📡Z28"
+  img: "/img/port/iron/z281rad.png"
+  class: "blob"
+
 z36:
   name: "Z36"
   img: "/img/port/iron/z361.png"
@@ -1284,6 +1384,11 @@ z36:
 z46:
   name: "Z46"
   img: "/img/port/iron/z461.png"
+  class: "blob"
+
+z46_rad:
+  name: "📡Z46"
+  img: "/img/port/iron/z461rad.png"
   class: "blob"
 
 z46?:
@@ -1314,9 +1419,19 @@ carabiniere:
   img: "/img/port/sardegna/cara1.png"
   class: "blob"
 
+carabiniere_rad:
+  name: "📡Карабиньере"
+  img: "/img/port/sardegna/cara1rad.png"
+  class: "blob"
+
 conte_di_cavour:
   name: "Конте ди Кавур"
   img: "/img/port/sardegna/cont1.png"
+  class: "blob"
+
+conte_di_cavour_rad:
+  name: "📡Конте ди Кавур"
+  img: "/img/port/sardegna/cont1rad.png"
   class: "blob"
 
 # G
@@ -1990,6 +2105,11 @@ yuudachi_meta:
 compiler:
   name: "Компилятор"
   img: "/img/port/siren/comp1.png"
+  class: "blob"
+
+compiler_rad:
+  name: "📡Компилятор"
+  img: "/img/port/siren/comp1rad.png"
   class: "blob"
 
 compiler???_d:
