@@ -269,6 +269,13 @@
   desc: "«Системный журнал»: Ввод данных в Зеркальное море T2-XI-N002 завершен. Испытательный полигон развернут. Начало эксперимента."
   arc: "01 Первая часть"
 
+- title_ru: "Приказы Королевы"
+  title_en: "Queen's Orders"
+  slug: "queen_orders"
+  image: "/img/main/queen.png" 
+  desc: "Район операции разделен на четыре зоны. Королевский Флот, поднять паруса! Курс на Зону B!"
+  arc: "01 Первая часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"

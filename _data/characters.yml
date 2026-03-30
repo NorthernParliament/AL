@@ -9,6 +9,11 @@ alabama:
   img: "/img/port/eagle/alab1.png"
   class: "blob"
 
+atlanta:
+  name: "Атланта"
+  img: "/img/port/eagle/atla1.png"
+  class: "blob"
+
 arizona:
   name: "Алабама"
   img: "/img/port/eagle/ariz1.png"
@@ -74,6 +79,11 @@ bremerton:
 brooklyn:
   name: "Бруклин"
   img: "/img/port/eagle/broo1.png"
+  class: "blob"
+
+bush:
+  name: "Буш"
+  img: "/img/port/eagle/bush1.png"
   class: "blob"
 
 # C
@@ -437,6 +447,13 @@ fortune_rad:
   img: "/img/port/royal/fort1rad.png"
   class: "blob"
 
+# G
+
+grenville:
+  name: "Гренвилл"
+  img: "/img/port/royal/gren1.png"
+  class: "blob"
+
 # H
 
 hermione:
@@ -485,6 +502,11 @@ jamaica:
 
 # K
 
+kent:
+  name: "Кент"
+  img: "/img/port/royal/kent1.png"
+  class: "blob"
+
 king_george_v:
   name: "Кинг Джордж V"
   img: "/img/port/royal/king1.png"
@@ -529,6 +551,11 @@ newcastle:
   img: "/img/port/royal/newc1.png"
   class: "blob"
 
+newcastle_rad:
+  name: "📡Ньюкасл"
+  img: "/img/port/royal/newc1rad.png"
+  class: "blob"
+
 norfolk:
   name: "Норфолк"
   img: "/img/port/royal/norf1.png"
@@ -544,6 +571,11 @@ perseus:
 prince_of_wales:
   name: "Принц Уэльский"
   img: "/img/port/royal/prin1.png"
+  class: "blob"
+
+prince_of_wales_rad:
+  name: "📡Принц Уэльский"
+  img: "/img/port/royal/prin1rad.png"
   class: "blob"
 
 # Q
@@ -2332,6 +2364,11 @@ fortress:
 
 strength:
   name: "Арбитр Сила VIII"
+  img: "/img/port/siren/stre1.png"
+  class: "blob"
+
+strength???:
+  name: "? ? ?"
   img: "/img/port/siren/stre1.png"
   class: "blob"
 
