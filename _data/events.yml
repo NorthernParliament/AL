@@ -276,6 +276,13 @@
   desc: "Район операции разделен на четыре зоны. Королевский Флот, поднять паруса! Курс на Зону B!"
   arc: "01 Первая часть"
 
+- title_ru: "Лабиринт морей"
+  title_en: "Labyrinthine Sea"
+  slug: "labyrinthine_sea"
+  image: "/img/main/labyrinthine.png" 
+  desc: "На многочисленных фронтах разворачиваются ожесточённые сражения. Союз Орла, покажи Сиренам свою новую силу!"
+  arc: "01 Первая часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"

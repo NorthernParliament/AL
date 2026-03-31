@@ -2382,6 +2382,11 @@ hermit:
   img: "/img/port/siren/herm1.png"
   class: "blob"
 
+hermit?:
+  name: "? ? ?"
+  img: "/img/port/siren/herm1.png"
+  class: "blob"
+
 hermit_rad:
   name: "📡Арбитр Отшельник IX"
   img: "/img/port/siren/herm1rad.png"
@@ -2394,6 +2399,11 @@ temperance:
 
 temperance_rad:
   name: "📡Арбитр Умеренность XIV"
+  img: "/img/port/siren/temp1rad.png"
+  class: "blob"
+
+temperance_rad?:
+  name: "📡? ? ?"
   img: "/img/port/siren/temp1rad.png"
   class: "blob"
 
