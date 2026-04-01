@@ -147,6 +147,11 @@ enterprise:
   img: "/img/port/eagle/ente1.png"
   class: "blob"
 
+enterprise_d?:
+  name: "Энтерпрайз?"
+  img: "/img/port/eagle/ente1d.png"
+  class: "blob"
+
 enterprise_rad:
   name: "📡Энтерпрайз"
   img: "/img/port/eagle/ente1rad.png"
@@ -189,6 +194,11 @@ hornet:
 hornet?:
   name: "Хорнет"
   img: "/img/port/other/nop.png"
+  class: "blob"
+
+hornet?d:
+  name: "Хорнет?"
+  img: "/img/port/eagle/horn1d.png"
   class: "blob"
 
 hornet?1:
@@ -370,6 +380,11 @@ william_d_porter:
 yorktown:
   name: "Йорктаун"
   img: "/img/port/eagle/york1.png"
+  class: "blob"
+
+yorktown_d?:
+  name: "Йорктаун?"
+  img: "/img/port/eagle/york1d.png"
   class: "blob"
 
 
@@ -709,6 +724,11 @@ akatsuki?:
 amagi:
   name: "Амаги"
   img: "/img/port/sakura/amag1.png"
+  class: "blob"
+
+amagi_d?:
+  name: "Амаги?"
+  img: "/img/port/sakura/amag1d.png"
   class: "blob"
 
 amaginop:
