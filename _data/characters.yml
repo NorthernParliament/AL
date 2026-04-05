@@ -394,6 +394,16 @@ yorktown_d?:
 
 # A
 
+ajax:
+  name: "Аякс"
+  img: "/img/port/royal/ajax1.png"
+  class: "blob"
+
+ajax_rad:
+  name: "📡Аякс"
+  img: "/img/port/royal/ajax1rad.png"
+  class: "blob"
+
 amazon:
   name: "Амазон"
   img: "/img/port/royal/amaz1.png"
@@ -1464,6 +1474,13 @@ yat_sen:
 # SARDEGNA EMPIRE (Сардинская Империя)
 # ==========================================================
 
+# A
+
+aquila:
+  name: "Аквила"
+  img: "/img/port/sardegna/aqui1.png"
+  class: "blob"
+
 # C
 
 carabiniere:
@@ -1486,6 +1503,13 @@ conte_di_cavour_rad:
   img: "/img/port/sardegna/cont1rad.png"
   class: "blob"
 
+# D
+
+duca_degli_abruzzi:
+  name: "Дука дельи Абруцци"
+  img: "/img/port/sardegna/duca1.png"
+  class: "blob"
+
 # G
 
 giulio_cesare:
@@ -1500,6 +1524,16 @@ littorio:
   img: "/img/port/sardegna/litt1.png"
   class: "blob"
 
+littorio_rad:
+  name: "📡Литторио"
+  img: "/img/port/sardegna/litt1rad.png"
+  class: "blob"
+
+libeccio:
+  name: "Либеччио"
+  img: "/img/port/sardegna/libe1.png"
+  class: "blob"
+
 pola:
   name: "Пола"
   img: "/img/port/sardegna/pola1.png"
@@ -1507,9 +1541,21 @@ pola:
 
 # M
 
+maestrale:
+  name: "Маэстрале"
+  img: "/img/port/sardegna/maes1.png"
+  class: "blob"
+
 marco_polo:
   name: "Марко Поло"
   img: "/img/port/sardegna/marc1.png"
+  class: "blob"
+
+# N
+
+nicoloso_da_recco:
+  name: "Николозо да Рекко"
+  img: "/img/port/sardegna/nico1.png"
   class: "blob"
 
 # T
@@ -1519,7 +1565,17 @@ trento:
   img: "/img/port/sardegna/tren1.png"
   class: "blob"
 
+torricelli:
+  name: "Торричелли"
+  img: "/img/port/sardegna/torr1.png"
+  class: "blob"
+
 # V
+
+vincenzo_gioberti:
+  name: "Винченцо Джоберти"
+  img: "/img/port/sardegna/vinc1.png"
+  class: "blob"
 
 vittorio_veneto:
   name: "Витторио Венето"
@@ -1686,6 +1742,11 @@ sovetsky_soyuz_old?:
 soobrazitelny:
   name: "Сообразительный"
   img: "/img/port/northern/soob1.png"
+  class: "blob"
+
+stremitelny:
+  name: "Стремительный"
+  img: "/img/port/northern/stre1.png"
   class: "blob"
 
 # T
@@ -2191,6 +2252,11 @@ purifier_d:
 
 tester?:
   name: "? ? ?"
+  img: "/img/port/siren/test1.png"
+  class: "blob"
+
+tester???:
+  name: "?????"
   img: "/img/port/siren/test1.png"
   class: "blob"
 
