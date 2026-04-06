@@ -251,6 +251,11 @@ long_island:
   img: "/img/port/eagle/long1.png"
   class: "blob"
 
+long_island_rad:
+  name: "📡Лонг Айленд"
+  img: "/img/port/eagle/long1rad.png"
+  class: "blob"
+
 # M
 
 marblehead:
@@ -438,11 +443,21 @@ duke_of_york:
   img: "/img/port/royal/duke1.png"
   class: "blob"
 
+duke_of_york_rad:
+  name: "📡Дюк оф Йорк"
+  img: "/img/port/royal/duke1rad.png"
+  class: "blob"
+
 # E
 
 eagle:
   name: "Игл"
   img: "/img/port/royal/eagl1.png"
+  class: "blob"
+
+eagle_rad:
+  name: "📡Игл"
+  img: "/img/port/royal/eagl1rad.png"
   class: "blob"
 
 edinburgh:
@@ -460,6 +475,11 @@ enterprise_r:
 formidable:
   name: "Формидебл"
   img: "/img/port/royal/form1.png"
+  class: "blob"
+
+formidable_rad:
+  name: "📡Формидебл"
+  img: "/img/port/royal/form1rad.png"
   class: "blob"
 
 fortune:
@@ -501,6 +521,11 @@ howe:
   img: "/img/port/royal/howe1.png"
   class: "blob"
 
+howe_rad:
+  name: "📡Хау"
+  img: "/img/port/royal/howe1rad.png"
+  class: "blob"
+
 # I
 
 icarus:
@@ -535,6 +560,11 @@ kent:
 king_george_v:
   name: "Кинг Джордж V"
   img: "/img/port/royal/king1.png"
+  class: "blob"
+
+king_george_v_rad:
+  name: "📡Кинг Джордж V"
+  img: "/img/port/royal/king1rad.png"
   class: "blob"
 
 king_george_v(?):
@@ -591,6 +621,11 @@ norfolk:
 perseus:
   name: "Персей"
   img: "/img/port/royal/pers1.png"
+  class: "blob"
+
+perseus_rad:
+  name: "📡Персей"
+  img: "/img/port/royal/pers1rad.png"
   class: "blob"
 
 prince_of_wales:
@@ -1349,6 +1384,16 @@ u47:
   img: "/img/port/iron/u471.png"
   class: "blob"
 
+u47_rad:
+  name: "📡U-47"
+  img: "/img/port/iron/u471rad.png"
+  class: "blob"
+
+u47_rad?:
+  name: "📡???"
+  img: "/img/port/iron/u471rad.png"
+  class: "blob"
+
 u-522:
   name: "U-522"
   img: "/img/port/iron/u-5221.png"
@@ -1999,6 +2044,16 @@ vauquelin:
 # МЕТА
 # ==========================================================
 
+ark_royal_meta:
+  name: "Арк Роял META"
+  img: "/img/port/meta/arkr1.png"
+  class: "blob"
+
+ark_royal_meta?:
+  name: "????"
+  img: "/img/port/meta/arkr1.png"
+  class: "blob"
+
 boise_meta:
   name: "Бойсе META"
   img: "/img/port/meta/bois1.png"
@@ -2017,6 +2072,11 @@ dewey_meta:
 enterprise_meta:
   name: "Энтерпрайз МЕТА"
   img: "/img/port/meta/ente1.png"
+  class: "blob"
+
+enterprise_meta_d:
+  name: "Энтерпрайз МЕТА"
+  img: "/img/port/meta/ente3.png"
   class: "blob"
 
 enterprise_meta_mono:
@@ -2077,6 +2137,11 @@ helena_meta_rad:
 hiryuu_meta:
   name: "Хирю МЕТА"
   img: "/img/port/meta/hiry1.png"
+  class: "blob"
+
+hiryuu_meta_rad:
+  name: "📡Хирю МЕТА"
+  img: "/img/port/meta/hiry1rad.png"
   class: "blob"
 
 hiryuu_meta?:
