@@ -9,6 +9,21 @@ alabama:
   img: "/img/port/eagle/alab1.png"
   class: "blob"
 
+allen_m_sumner:
+  name: "Аллен М. Самнер"
+  img: "/img/port/eagle/alle1.png"
+  class: "blob"
+
+allen_m_sumner_rad:
+  name: "📡Аллен М. Самнер"
+  img: "/img/port/eagle/alle1rad.png"
+  class: "blob"
+
+archerfish:
+  name: "Арчерфиш"
+  img: "/img/port/eagle/arch1.png"
+  class: "blob"
+
 atlanta:
   name: "Атланта"
   img: "/img/port/eagle/atla1.png"
@@ -34,6 +49,11 @@ aylwin:
 baltimore:
   name: "Балтимор"
   img: "/img/port/eagle/balt1.png"
+  class: "blob"
+
+baltimore_rad:
+  name: "📡Балтимор"
+  img: "/img/port/eagle/balt1rad.png"
   class: "blob"
 
 baltimore1?:
@@ -69,6 +89,16 @@ bluegill???:
 bogue:
   name: "Боуг"
   img: "/img/port/eagle/bogu1.png"
+  class: "blob"
+
+boise:
+  name: "Бойсе"
+  img: "/img/port/eagle/bois1.png"
+  class: "blob"
+
+boise_rad:
+  name: "📡Бойсе"
+  img: "/img/port/eagle/bois1rad.png"
   class: "blob"
 
 bremerton:
@@ -171,9 +201,29 @@ foote:
 
 # H
 
+hammann:
+  name: "Хамманн"
+  img: "/img/port/eagle/hamm1.png"
+  class: "blob"
+
+hammann_rad:
+  name: "📡Хамманн"
+  img: "/img/port/eagle/hamm1rad.png"
+  class: "blob"
+
+hammann?:
+  name: "Хамманн?"
+  img: "/img/port/eagle/hamm1.png"
+  class: "blob"
+
 helena:
   name: "Хелена"
   img: "/img/port/eagle/hele1.png"
+  class: "blob"
+
+helena_rad:
+  name: "📡Хелена"
+  img: "/img/port/eagle/hele1rad.png"
   class: "blob"
 
 helena_kai:
@@ -183,6 +233,11 @@ helena_kai:
 
 hornet_rad:
   name: "📡Хорнет"
+  img: "/img/port/eagle/horn1rad.png"
+  class: "blob"
+
+hornet_rad?:
+  name: "📡Хорнет?"
   img: "/img/port/eagle/horn1rad.png"
   class: "blob"
 
@@ -278,12 +333,27 @@ memphis_rad:
   img: "/img/port/eagle/memp1rad.png"
   class: "blob"
 
+morrison:
+  name: "Моррисон"
+  img: "/img/port/eagle/morr1.png"
+  class: "blob"
+
+morrison_rad:
+  name: "📡Моррисон"
+  img: "/img/port/eagle/morr1rad.png"
+  class: "blob"
+
 montpelier:
   name: "Монпелье"
   img: "/img/port/eagle/mont1.png"
   class: "blob"
 
 # N
+
+new_jersey:
+  name: "Нью-Джерси"
+  img: "/img/port/eagle/newj1.png"
+  class: "blob"
 
 north_carolina:
   name: "Норт Кэролайн"
@@ -321,6 +391,11 @@ san_diego:
   img: "/img/port/eagle/sand1.png"
   class: "blob"
 
+san_francisco:
+  name: "Сан-Франциско"
+  img: "/img/port/eagle/sanf1.png"
+  class: "blob"
+
 san_juan:
   name: "Сан-Хуан"
   img: "/img/port/eagle/sanj1.png"
@@ -356,6 +431,13 @@ south_dakota:
   img: "/img/port/eagle/sout1.png"
   class: "blob"
 
+# T
+
+ticonderoga:
+  name: "Тикондерога"
+  img: "/img/port/eagle/tico1.png"
+  class: "blob"
+
 # V
 
 vestal:
@@ -385,6 +467,11 @@ william_d_porter:
 yorktown:
   name: "Йорктаун"
   img: "/img/port/eagle/york1.png"
+  class: "blob"
+
+yorktown_rad:
+  name: "📡Йорктаун"
+  img: "/img/port/eagle/york1rad.png"
   class: "blob"
 
 yorktown_d?:
@@ -741,6 +828,11 @@ akagi:
   img: "/img/port/sakura/akag1.png"
   class: "blob"
 
+akagi_rad:
+  name: "📡Акаги"
+  img: "/img/port/sakura/akag1rad.png"
+  class: "blob"
+
 akaginop:
   name: "Акаги"
   img: "/img/port/other/nop.png"
@@ -865,6 +957,11 @@ hiryuu:
   img: "/img/port/sakura/hiry1.png"
   class: "blob"
 
+hiryuu_rad:
+  name: "📡Хирю"
+  img: "/img/port/sakura/hiry1rad.png"
+  class: "blob"
+
 houshou:
   name: "Хосё"
   img: "/img/port/sakura/hous1.png"
@@ -912,6 +1009,11 @@ isokaze:
 jintsuu:
   name: "Дзинцу"
   img: "/img/port/sakura/jint1.png"
+  class: "blob"
+
+jintsuu_rad:
+  name: "📡Дзинцу"
+  img: "/img/port/sakura/jint1rad.png"
   class: "blob"
 
 jintsuu???:
@@ -1083,6 +1185,16 @@ shigure:
 shinano:
   name: "Синано"
   img: "/img/port/sakura/shin1.png"
+  class: "blob"
+
+shinano_rad:
+  name: "📡Синано"
+  img: "/img/port/sakura/shin1rad.png"
+  class: "blob"
+
+shinano_rad?:
+  name: "📡? ? ?"
+  img: "/img/port/sakura/shin1rad.png"
   class: "blob"
 
 shiranui:
@@ -2129,8 +2241,18 @@ helena_meta:
   img: "/img/port/meta/hele1.png"
   class: "blob"
 
+helena_meta???:
+  name: "? ? ?"
+  img: "/img/port/meta/hele1.png"
+  class: "blob"
+
 helena_meta_rad:
   name: "📡Хелена МЕТА"
+  img: "/img/port/meta/hele1rad.png"
+  class: "blob"
+
+helena_meta_rad???:
+  name: "? ? ?"
   img: "/img/port/meta/hele1rad.png"
   class: "blob"
 
@@ -2219,6 +2341,21 @@ sheffield_meta_rad:
   img: "/img/port/meta/shef1rad.png"
   class: "blob"
 
+souryuu_meta:
+  name: "Сорю META"
+  img: "/img/port/meta/sour1.png"
+  class: "blob"
+
+souryuu_meta_d:
+  name: "Сорю META"
+  img: "/img/port/meta/sour1d.png"
+  class: "blob"
+
+souryuu_meta_d???:
+  name: "? ? ?"
+  img: "/img/port/meta/sour1d.png"
+  class: "blob"
+
 takao_meta?1:
   name: "? ? ?"
   img: "/img/port/meta/taka2.png"
@@ -2258,6 +2395,11 @@ wichita_meta:
 
 yorktown_meta:
   name: "Йорктаун МЕТА"
+  img: "/img/port/meta/york1.png"
+  class: "blob"
+
+yorktown_meta???:
+  name: "? ? ?"
   img: "/img/port/meta/york1.png"
   class: "blob"
 

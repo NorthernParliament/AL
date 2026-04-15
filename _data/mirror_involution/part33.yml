@@ -1,0 +1,124 @@
+chapter1:
+  rows:
+
+    - char: helena_meta
+      side: left
+      status: is-meta
+      text:
+        - "В самом деле, она появилась, и её связи с Сиренами… ох, как же всё запутано."
+        - "Как ты догадалась, что под этим слоем был ещё один Зеркальный слой?"
+
+    - char: yorktown_meta???
+      side: right
+      status: is-purple
+      text:
+        - "Просто… однажды я уже видела нечто подобное…"
+
+    - char: helena_meta
+      side: left
+      status: is-meta
+      text:
+        - "Понятно. Значит, в вашем мире тоже проводились подобные эксперименты."
+
+    - char: yorktown_meta???
+      side: right
+      status: is-purple
+      text:
+        - "Хелена, почему ты ушла из «Пепла»?"
+
+    - char: helena_meta
+      side: left
+      status: is-meta
+      text:
+        - "Хм? А разве я говорила, что когда-либо вступала в «Пепел»?"
+
+    - char: yorktown_meta???
+      side: right
+      status: is-purple
+      text:
+        - "Просто предположение… У вас схожая аура. Слишком много знаете, и говорите обе так уклончиво…"
+
+    - char: helena_meta
+      side: left
+      status: is-meta
+      text:
+        - "…Прости, есть вещи, о которых я пока не хочу говорить."
+
+    - char: yorktown_meta???
+      side: right
+      status: is-purple
+      text:
+        - "Не бери в голову. Не обсуждать прошлое — это наше молчаливое соглашение."
+
+    - char: helena_meta
+      side: left
+      status: is-meta
+      text:
+        - "В конце концов, для нас «прошлое» почти всегда является синонимом «печали»."
+        - "«Пепел», что после Эвакуации действовал заодно с Сиренами, а затем разошёлся с ними, наращивая мощь на бесчисленных полигонах."
+        - "И Сирены, которые со дня Эвакуации изо дня в день усердно исполняют Проект «Судья»."
+
+    - char: yorktown_meta???
+      side: right
+      status: is-purple
+      text:
+        - "И мы, те, кто узнал обо всём этом, но предпочёл наблюдать издалека…"
+        - "Мы действительно застряли в сложной спирали…"
+
+    - char: helena_meta
+      side: left
+      status: is-meta
+      text:
+        - "Но ведь, по крайней мере, мы — союзники Командира, не так ли?"
+
+    - char: yorktown_meta???
+      side: right
+      status: is-purple
+      text:
+        - "Да. Мы — союзники, и только союзники Командира."
+
+    - char: helena_meta
+      side: left
+      status: is-meta
+      text:
+        - "За то время, что я отсутствовала, странные «флэшбэки» продолжались?"
+
+    - char: yorktown_meta???
+      side: right
+      status: is-purple
+      text:
+        - "Угу… И после прибытия сюда они стали ещё чаще."
+        - "Её состояние уже критическое, если не получить помощь, возможно, скоро…"
+
+    - char: helena_meta
+      side: left
+      status: is-meta
+      text:
+        - "…Понятно."
+
+    - char: yorktown_meta???
+      side: right
+      status: is-purple
+      text:
+        - "Хелена, у тебя правда не возникало этих «флэшбэков»? В этот раз ты даже…"
+
+    - char: helena_meta
+      side: left
+      status: is-meta
+      text:
+        - "Я…"
+        - "Нет. Я ничего не чувствовала."
+        - "Кстати, что там с Энтерпрайз?"
+
+    - char: yorktown_meta???
+      side: right
+      status: is-purple
+      text:
+        - "Действия Энтерпрайз очень странные… Столь медлительный подход совсем не похож на её стиль работы…"
+        - "Но, благодаря шумихе, которую они подняли, Арбитры вряд ли заметят наше присутствие в ближайшее время…"
+
+    - char: helena_meta
+      side: left
+      status: is-meta
+      text:
+        - "Тогда пойдём. Впереди дел — как звёзд на небе…"

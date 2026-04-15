@@ -1,0 +1,177 @@
+chapter1:
+  rows:
+
+    - char: helena_meta_rad???
+      side: left
+      status: is-yellow
+      text:
+        - "Сан-Франциско, Арчерфиш, Хелена, Командир и даже Синано — поистине странная компания."
+
+    - char: shinano_rad
+      side: right
+      status: is-yellow
+      text:
+        - "Ты тоже можешь ощущать моё присутствие?"
+
+    - char: helena_meta_rad???
+      side: left
+      status: is-yellow
+      text:
+        - "Ощущаю очень отчётливо. В конце концов, в этот раз настоящая «ты» находится совсем неподалёку."
+
+    - char: shinano_rad
+      side: right
+      status: is-yellow
+      text:
+        - "Неужели ты осведомлена даже о моих снах?"
+
+    - char: helena_meta_rad???
+      side: left
+      status: is-yellow
+      text:
+        - "О снах — нет. Но о причинах их возникновения, равно как и о том, что здесь происходит, я знаю немало."
+
+    - char: shinano_rad
+      side: right
+      status: is-yellow
+      text:
+        - "Вот оно что."
+
+    - char: san_francisco
+      side: left
+      text:
+        - "Какое ещё «вот оно что»…! Эй, Синано! Ты слишком быстро принимаешь такие внезапные повороты событий!"
+        - "А ты, кто бы там ни вклинился в наш канал связи, кто ты такая?!"
+
+    - char: helena_meta_rad???
+      side: right
+      status: is-yellow
+      text:
+        - "А как ты сама думаешь, кто я?"
+
+    - char: san_francisco
+      side: left
+      text:
+        - "Ха…? Тебе никто не говорил, что отвечать вопросом на вопрос — дурной тон?!"
+
+    - char: helena_meta_rad???
+      side: right
+      status: is-yellow
+      text:
+        - "Попробуй угадать."
+
+    - char: san_francisco
+      side: left
+      text:
+        - "Тогда ты… — «загадочная личность»!"
+
+    - char: helena_meta_rad???
+      side: right
+      status: is-yellow
+      text:
+        - "К сожалению, неверно."
+
+    - char: san_francisco
+      side: left
+      text:
+        - "Да уж, было бы странно, если бы я угадала взяв версию с потолка?!"
+
+    - char: helena_meta_rad???
+      side: right
+      status: is-yellow
+      text:
+        - "И правда ли это так? Может быть, Командир, что стоит там, сможет угадать правильный ответ?"
+
+    - char: san_francisco
+      side: left
+      text:
+        - "Э?! Правда, Командир? В такой сюрреалистичной ситуации ты и правда можешь догадаться, как её зовут?!"
+
+    - char: commander
+      side: right
+      text:
+        - "Хотя я не могу быть уверен на сто процентов, но, судя по её облачению и общему ощущению, это..."
+
+chapter2:
+  rows:
+
+    - char: commander
+      side: right
+      text:
+        - "Хелена META"
+
+chapter3:
+  rows:
+
+    - char: commander
+      side: right
+      text:
+        - "Хелена БЛЭК"
+
+chapter4:
+  rows:
+
+    - char: commander
+      side: right
+      text:
+        - "Хелена АЛЬТЕР"
+
+chapter5:
+  rows:
+
+    - char: helena_meta_rad???
+      side: left
+      status: is-yellow
+      text:
+        - "Тс-с… прошу, пускай это пока останется нашим секретом. Мы раскроем карты, когда наступит подходящий момент."
+        - "Сейчас не время для праздных вопросов, ты ведь не хочешь, чтобы ситуация стала ещё сложнее, верно?"
+
+    - char: commander
+      side: right
+      text:
+        - "В этом есть смысл…"
+
+    - char: san_francisco
+      side: left
+      text:
+        - "Пф… вечно вы напускаете тумана. Раз Командир тебе доверяет, мне остаётся только подчиниться, но у меня есть последний вопрос!"
+        - "Ты нам союзник или враг?"
+
+    - char: helena_meta_rad???
+      side: right
+      status: is-yellow
+      text:
+        - "Я — союзник Командира."
+
+    - char: san_francisco
+      side: left
+      text:
+        - "Ну, тогда ладно~ Раз мы на одной стороне, давай посмотрим, на что ты способна в деле!"
+
+    - char: helena_meta_rad???
+      side: right
+      status: is-yellow
+      text:
+        - "Хелена, ты ведь тоже не против?"
+
+    - char: helena
+      side: left
+      text:
+        - "А… я…? Нет, я… я не против…"
+
+    - char: archerfish
+      side: right
+      text:
+        - "О-о… число людей, от разговора с которыми можно окончательно вымотаться, снова растёт…"
+
+    - char: san_francisco
+      side: left
+      text:
+        - "Не будем терять времени. Как именно ты собираешься нам помочь?"
+
+    - char: helena_meta_rad???
+      side: right
+      status: is-yellow
+      text:
+        - "Взлом запущен. Снятие пространственной блокировки.........Завершено."
+        - "Готово. Теперь вы можете выйти и посмотреть, что происходит снаружи."

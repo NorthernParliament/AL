@@ -1,0 +1,159 @@
+chapter1:
+  rows:
+
+    - char: souryuu_meta_d???
+      side: right
+      status: is-red
+      text:
+        - "........."
+
+    - char: new_jersey
+      side: left
+      text:
+        - "Наконец-то ты показалась, враг, скрывавшийся в тени! Истинный виновник этой серии атак!"
+
+    - char: ticonderoga
+      side: right
+      text:
+        - "Её внешний вид… она похожа на…"
+
+    - char: helena_meta???
+      side: left
+      status: is-yellow
+      text:
+        - "Сорю. Или, точнее, Сорю META."
+
+    - char: new_jersey
+      side: right
+      text:
+        - "Тц… она вся пропитана яростью и безумием. В её глазах я не вижу ни искорки разума."
+        - "В «Пепле» тоже есть такие члены?"
+
+    - char: helena_meta???
+      side: left
+      status: is-yellow
+      text:
+        - "Я же сказала… это META! А не «Пепел»."
+
+    - char: new_jersey
+      side: right
+      text:
+        - "Хорошо…! М E T A!"
+
+    - char: helena_meta???
+      side: left
+      status: is-yellow
+      text:
+        - "Это монстр, рождённый среди META в результате чрезмерной METAморфозы."
+
+    - char: new_jersey
+      side: right
+      text:
+        - "Э-э… я не совсем понимаю."
+
+    - char: commander
+      side: left
+      text:
+        - "Ты имеешь в виду… это один из возможных исходов после процесса METAморфозы?"
+
+    - char: helena_meta???
+      side: right
+      status: is-yellow
+      text:
+        - "Можно понимать и так."
+        - "Хотя она выглядит как Сорю, этот монстр — совершенно иное существо, нежели Хирю из «Пепла», которую ты знаешь. Между ними нет никакой связи."
+        - "«Пепел» ни за что не станет сосуществовать с таким чудовищем… Лучше даже не проводить между ними параллелей."
+
+    - char: commander
+      side: left
+      text:
+        - "Почему вообще появляются такие существа?"
+
+    - char: helena_meta???
+      side: right
+      status: is-yellow
+      text:
+        - "Проект «Мерцание» (Glimmer) — вот первопричина всего. А то, что довело эту идею до предела… это, должно быть, «Проект Судья» (Judgment)."
+
+    - char: commander
+      side: left
+      text:
+        - "Проект «Мерцание» и… Проект «Судья»?"
+
+    - char: helena_meta???
+      side: right
+      status: is-yellow
+      text:
+        - "Похоже, ты действительно ничего не знаешь… Это чувство «знакомой незнакомки»… такое странное ощущение."
+        - "Кажется, я начинаю понимать, почему Энтерпрайз так колеблется."
+
+    - char: commander
+      side: left
+      text:
+        - "Прошу прощения, мы с тобой где-то встречались?"
+
+    - char: helena_meta???
+      side: right
+      status: is-yellow
+      text:
+        - "Кто знает? Возможно, во снах~"
+
+chapter2:
+  rows:
+
+    - char: commander
+      side: left
+      text:
+        - "Хватит копировать манеру речи Синано!"
+
+chapter3:
+  rows:
+
+    - char: commander
+      side: left
+      text:
+        - "........."
+
+chapter4:
+  rows:
+
+    - char: souryuu_meta_d
+      side: right
+      status: is-red
+      text:
+        - ".......!!!"
+
+    - char: helena_meta???
+      side: left
+      status: is-yellow
+      text:
+        - "Плохо дело… сейчас не время для пустой болтовни."
+
+    - char: archerfish
+      side: right
+      text:
+        - "У-уа! И-и-испугалась… Что с этим человеком происходит?!"
+        - "Эй! Если что-то нужно, говори нормально, чего так орать-то?!"
+
+    - char: helena_meta???
+      side: left
+      status: is-yellow
+      text:
+        - "Оставь... С монстром договориться невозможно."
+
+    - char: archerfish
+      side: right
+      text:
+        - "О-она, она, правда, сразу пошла в атаку—?!"
+
+    - char: helena_meta???
+      side: left
+      status: is-yellow
+      text:
+        - "Нью-Джерси."
+
+    - char: new_jersey
+      side: right
+      text:
+        - "Прямо как дикий зверь, да~? Но ей придётся столкнуться с кое-кем поопаснее любого зверя — с Чёрным Драконом Союза Орла!"
+        - "Система управления огнем, взять цель на прицел! Пусть этот монстр, посмевший напасть на Командира, узнает мощь самого большого и самого сильного линкора Союза Орла!"
