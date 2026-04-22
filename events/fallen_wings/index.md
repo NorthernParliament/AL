@@ -82,7 +82,7 @@ black_scene1:
 <div class="chapter" id="part9"> <!-- начало главы -->
 <p class="title-1">Сцена IV</p>
 {% include divider.html %}
-{% assign rows = site.data.fallen_wings.part6.chapter1.rows %}
+{% assign rows = site.data.fallen_wings.part9.chapter1.rows %}
 {% include dialog.html rows=rows bg_class="table-bg memory-segment" %}
 {% include divider.html %}
 </div> <!-- конец главы -->
