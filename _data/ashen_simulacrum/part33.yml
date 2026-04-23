@@ -9,7 +9,7 @@ chapter1:
     - char: zero
       side: right
       text:
-        - "Господин Арбитр сейчас никого не принимает."
+        - "Господин Магистр сейчас никого не принимает."
 
     - char: enterprise_meta?
       side: left
