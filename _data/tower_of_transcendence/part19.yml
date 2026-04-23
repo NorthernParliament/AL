@@ -1,0 +1,120 @@
+chapter1:
+  rows:
+
+    - text:
+      - "БУУУМ!!!"
+
+    - char: scharnhorst_meta_d1?
+      side: left
+      status: is-yellow
+      text:
+        - "Звуки боя… Похоже, мы задержались слишком надолго, и враг успел сомкнуть кольцо."
+
+    - char: gneisenau_meta
+      side: right
+      status: is-yellow
+      text:
+        - "Надо же, они просто бросили меня здесь и полезли в драку сами…"
+
+    - char: scharnhorst_meta_d1?
+      side: left
+      status: is-yellow
+      text:
+        - "Собираешься поддержать их?"
+
+    - char: gneisenau_meta
+      side: right
+      status: is-yellow
+      text:
+        - " У них есть обязательства передо мной, которые они ещё не выполнили."
+
+    - char: scharnhorst_meta_d1?
+      side: left
+      status: is-yellow
+      text:
+        - "Думаешь, с этими Сиренами будет так просто совладать?"
+
+    - char: gneisenau_meta
+      side: right
+      status: is-yellow
+      text:
+        - "Что за глупый вопрос? Я только тем и занималась, что сражалась с ними… Раз ты тоже META, должна это прекрасно понимать."
+
+    - char: scharnhorst_meta_d1?
+      side: left
+      status: is-yellow
+      text:
+        - "Понимаю. Но ещё лучше я понимаю истинное могущество Сирен."
+        - "Те несколько групп приметных гуманоидов, что затесались во флот… Ты видела их раньше?"
+
+    - char: gneisenau_meta
+      side: right
+      status: is-yellow
+      text:
+        - "Не припоминаю. Не видела. Что бы это ни было, скоро оно превратится в груду обломков."
+
+    - char: scharnhorst_meta_d1?
+      side: left
+      status: is-yellow
+      text:
+        - "Это Энфорсеры, прихвостни Арбитров."
+        - "Энфорсеры всегда действуют бок о бок со своим Арбитром. Их появление в этой акватории означает лишь одно: Арбитр уже где‑то совсем рядом."
+
+    - char: gneisenau_meta
+      side: right
+      status: is-yellow
+      text:
+        - "Энфорсеры… Арбитры… Что ж, выучила пару новых слов. Так теперь будут называться те обломки, что я оставлю после себя?"
+
+    - char: scharnhorst_meta_d1?
+      side: left
+      status: is-yellow
+      text:
+        - "…… После META‑морфозы ты наверняка возомнила себя достаточно сильной, чтобы сражаться с Сиренами на равных, не так ли?"
+        - "Вспоминая начало войны, когда нам приходилось прятаться и убегать — неужели ты не чувствуешь сейчас гордость за свою мощь?"
+
+    - char: gneisenau_meta
+      side: right
+      status: is-yellow
+      text:
+        - "......"
+
+    - char: scharnhorst_meta_d1?
+      side: left
+      status: is-yellow
+      text:
+        - "Но ты ошибаешься… Сирены с самого начала сдерживали свои силы. Твоя хваленая сила — ничто перед лицом их истинных возможностей."
+
+    - char: gneisenau_meta
+      side: right
+      status: is-yellow
+      text:
+        - "А что насчёт тебя?"
+
+    - char: scharnhorst_meta_d1?
+      side: left
+      status: is-yellow
+      text:
+        - "Даже моё вмешательство не изменит этого факта."
+
+    - char: gneisenau_meta
+      side: right
+      status: is-yellow
+      text:
+        - "Тогда стой в сторонке и смотри во все глаза… Разговор окончен, мне надоело."
+
+    - char: scharnhorst_meta_d1?
+      side: left
+      status: is-yellow
+      text:
+        - "Что ж. Я буду молчаливым свидетелем вашего финала."
+
+    - char: gneisenau_meta
+      side: right
+      status: is-yellow
+      text:
+        - "Вечно ты нагнетаешь…"
+
+    - text:
+      - "Гнейзенау резко набрала скорость и устремилась к месту столкновения. Поднятая ею огромная волна окатила Шарнхорст, намочив её полы одежды."
+      - "Однако Шарнхорст даже не шелохнулась. Она лишь молча стояла, провожая взглядом удаляющийся силуэт Гнейзенау, пока тот окончательно не растворился в пороховом дыму."

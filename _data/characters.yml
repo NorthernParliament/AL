@@ -1477,6 +1477,13 @@ deutschland_rad:
   img: "/img/port/iron/deut1rad.png"
   class: "blob"
 
+# E
+
+elbe:
+  name: "Эльба"
+  img: "/img/port/iron/elbe1.png"
+  class: "blob"
+
 # F
 
 friedrich_der_grosse:
@@ -1500,6 +1507,18 @@ graf_zeppelin?:
 gneisenau:
   name: "Гнейзенау"
   img: "/img/port/iron/gnei1.png"
+  class: "blob"
+
+# M
+
+mainz:
+  name: "Майнц"
+  img: "/img/port/iron/main1.png"
+  class: "blob"
+
+magdeburg:
+  name: "Магдебург"
+  img: "/img/port/iron/magd1.png"
   class: "blob"
 
 # N
@@ -1526,6 +1545,11 @@ peter_strasser:
 peter_strasser_rad:
   name: "📡Петер Штрассер"
   img: "/img/port/iron/pete1rad.png"
+  class: "blob"
+
+prinz_adalbert:
+  name: "Принц Адальберт"
+  img: "/img/port/iron/adal1.png"
   class: "blob"
 
 prinz_eugen:
@@ -1563,6 +1587,13 @@ prinz_heinrich_rad:
   img: "/img/port/iron/hein1rad.png"
   class: "blob"
 
+# R
+
+roon:
+  name: "Роон"
+  img: "/img/port/iron/roon1.png"
+  class: "blob"
+
 # S
 
 
@@ -1588,6 +1619,16 @@ tirpitz_rad:
 u-101:
   name: "U-101"
   img: "/img/port/iron/u-1011.png"
+  class: "blob"
+
+u1206:
+  name: "U-1206"
+  img: "/img/port/iron/u1201.png"
+  class: "blob"
+
+u1206_rad:
+  name: "📡U-1206"
+  img: "/img/port/iron/u1201rad.png"
   class: "blob"
 
 u-37:
@@ -1729,6 +1770,20 @@ z46?:
 # Dragon Empery (Империя Дракона)
 # ==========================================================
 
+# A
+
+an_shan:
+  name: "Ань Шань"
+  img: "/img/port/dragon/ansh1.png"
+  class: "blob"
+
+# C
+
+chang_chun:
+  name: "Чан Чунь"
+  img: "/img/port/dragon/chan1.png"
+  class: "blob"
+
 # Y
 
 yat_sen:
@@ -1815,6 +1870,11 @@ maestrale:
 marco_polo:
   name: "Марко Поло"
   img: "/img/port/sardegna/marc1.png"
+  class: "blob"
+
+marco_polo_rad:
+  name: "📡Марко Поло"
+  img: "/img/port/sardegna/marc1rad.png"
   class: "blob"
 
 # N
@@ -2295,6 +2355,11 @@ enterprise_meta:
   img: "/img/port/meta/ente1.png"
   class: "blob"
 
+enterprise_meta_rad:
+  name: "📡Энтерпрайз МЕТА"
+  img: "/img/port/meta/ente1rad.png"
+  class: "blob"
+
 enterprise_meta_d:
   name: "Энтерпрайз МЕТА"
   img: "/img/port/meta/ente3.png"
@@ -2438,6 +2503,16 @@ rodney_meta:
 scharnhorst_meta:
   name: "Шарнхорст МЕТА"
   img: "/img/port/meta/scha1.png"
+  class: "blob"
+
+scharnhorst_meta_d1?:
+  name: "Шарнхорст"
+  img: "/img/port/meta/scha1d.png"
+  class: "blob"
+
+scharnhorst_meta_d1?_rad:
+  name: "Шарнхорст"
+  img: "/img/port/meta/scha1drad.png"
   class: "blob"
 
 sheffield_meta:
