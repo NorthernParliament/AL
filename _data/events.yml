@@ -325,6 +325,20 @@
   desc: "Эта операция станет проверкой всего, чем гордится Железная Кровь, и прежде всего — их дерзости превзойти самого Бога."
   arc: "01 Первая часть"
 
+- title_ru: "Тьма перед рассветом"
+  title_en: "Darkness Within Dawn"
+  slug: "darkness_within_dawn"
+  image: "/img/main/darkness.png" 
+  desc: "Виньетка из далекого прошлого, пролившая свет на забытые данные. Темнее всего — именно перед рассветом."
+  arc: "01 Первая часть"
+
+- title_ru: "Глубинный Рефрен - 2"
+  title_en: "Abyssal Refrain - Part2"
+  slug: "abyssal_refrain"
+  image: "/img/main/abyssal2.png" 
+  desc: "Я выполню миссию и благополучно верну своих товарищей домой — это моё обещание и моя клятва родине!"
+  arc: "01 Первая часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"

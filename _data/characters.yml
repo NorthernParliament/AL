@@ -2027,6 +2027,11 @@ pamiat_merkuria:
   img: "/img/port/northern/pami1.png"
   class: "blob"
 
+pamiat_merkuria_kai:
+  name: "Память Меркурия"
+  img: "/img/port/northern/pami1kai.png"
+  class: "blob"
+
 pamiat_merkuria???d:
   name: "? ? ?"
   img: "/img/port/northern/pami1d.png"
