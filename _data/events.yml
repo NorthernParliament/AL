@@ -330,14 +330,21 @@
   slug: "darkness_within_dawn"
   image: "/img/main/darkness.png" 
   desc: "Виньетка из далекого прошлого, пролившая свет на забытые данные. Темнее всего — именно перед рассветом."
-  arc: "01 Первая часть"
+  arc: "02 Вторая часть"
 
 - title_ru: "Глубинный Рефрен - 2"
   title_en: "Abyssal Refrain - Part2"
   slug: "abyssal_refrain"
   image: "/img/main/abyssal2.png" 
   desc: "Я выполню миссию и благополучно верну своих товарищей домой — это моё обещание и моя клятва родине!"
-  arc: "01 Первая часть"
+  arc: "02 Вторая часть"
+
+- title_ru: "Рондо в конце радуги"
+  title_en: "Rondo at Rainbow's End"
+  slug: "rondo_at_rainbows_end"
+  image: "/img/main/rainbow.png" 
+  desc: "«Перезапустите Башню Радуги и исполните финальную мелодию. Боги мертвы»."
+  arc: "02 Вторая часть"
 
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"

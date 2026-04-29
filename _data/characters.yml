@@ -172,6 +172,11 @@ dewey:
 
 # E
 
+eldridge:
+  name: "Элдридж"
+  img: "/img/port/eagle/eldr1.png"
+  class: "blob"
+
 enterprise:
   name: "Энтерпрайз"
   img: "/img/port/eagle/ente1.png"
@@ -192,11 +197,28 @@ essex:
   img: "/img/port/eagle/esse1.png"
   class: "blob"
 
+essex_rad:
+  name: "📡Эссекс"
+  img: "/img/port/eagle/esse1rad.png"
+  class: "blob"
+
 # F
 
 foote:
   name: "Фут"
   img: "/img/port/eagle/foot1.png"
+  class: "blob"
+
+# G
+
+georgia:
+  name: "Джорджия"
+  img: "/img/port/eagle/geor1.png"
+  class: "blob"
+
+georgia_rad:
+  name: "📡Джорджия"
+  img: "/img/port/eagle/geor1rad.png"
   class: "blob"
 
 # H
@@ -263,9 +285,19 @@ hornet?1:
 
 # I
 
+independence:
+  name: "Индепенденс"
+  img: "/img/port/eagle/inde1.png"
+  class: "blob"
+
 intrepid:
   name: "Интрепид"
   img: "/img/port/eagle/intr1.png"
+  class: "blob"
+
+intrepid_rad:
+  name: "📡Интрепид"
+  img: "/img/port/eagle/intr1rad.png"
   class: "blob"
 
 # J
@@ -350,9 +382,19 @@ montpelier:
 
 # N
 
+nevada:
+  name: "Невада"
+  img: "/img/port/eagle/neva1.png"
+  class: "blob"
+
 new_jersey:
   name: "Нью-Джерси"
   img: "/img/port/eagle/newj1.png"
+  class: "blob"
+
+new_jersey_rad:
+  name: "📡Нью-Джерси"
+  img: "/img/port/eagle/newj1rad.png"
   class: "blob"
 
 north_carolina:
@@ -365,6 +407,11 @@ north_carolina:
 pasadena:
   name: "Пасадена"
   img: "/img/port/eagle/pasa1.png"
+  class: "blob"
+
+pensacola:
+  name: "Пенсакола"
+  img: "/img/port/eagle/pens1.png"
   class: "blob"
 
 pennsylvania:
@@ -450,6 +497,11 @@ vestal:
 washington:
   name: "Вашингтон"
   img: "/img/port/eagle/wash1.png"
+  class: "blob"
+
+washington_rad:
+  name: "📡Вашингтон"
+  img: "/img/port/eagle/wash1rad.png"
   class: "blob"
 
 wichita:
@@ -781,6 +833,11 @@ valiant:
   img: "/img/port/royal/vali1.png"
   class: "blob"
 
+valiant_nop:
+  name: "Вэлиант"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
 vampire:
   name: "Вампир"
   img: "/img/port/royal/vamp1.png"
@@ -801,6 +858,11 @@ victorious_rad:
 warspite:
   name: "Уорспайт"
   img: "/img/port/royal/wars1.png"
+  class: "blob"
+
+warspite_nop:
+  name: "Уорспайт"
+  img: "/img/port/other/nop.png"
   class: "blob"
 
 warspite_kai:
@@ -1378,6 +1440,11 @@ yukikaze:
   img: "/img/port/sakura/yuki1.png"
   class: "blob"
 
+yukikaze_rad:
+  name: "📡Юкикадзэ"
+  img: "/img/port/sakura/yuki1rad.png"
+  class: "blob"
+
 yuubari:
   name: "Юбари"
   img: "/img/port/sakura/yuub1.png"
@@ -1432,6 +1499,25 @@ admiral_graf_spee:
   img: "/img/port/iron/spee1.png"
   class: "blob"
 
+agir:
+  name: "Эгир"
+  img: "/img/port/iron/agir1.png"
+  class: "blob"
+
+agir_rad:
+  name: "📡Эгир"
+  img: "/img/port/iron/agir1.png"
+  class: "blob"
+
+august_von_parseval:
+  name: "Август фон Парсеваль"
+  img: "/img/port/iron/pars1.png"
+  class: "blob"
+
+august_von_parseval_rad:
+  name: "📡Август фон Парсеваль"
+  img: "/img/port/iron/pars1rad.png"
+  class: "blob"
 
 # B
 
@@ -1484,11 +1570,26 @@ elbe:
   img: "/img/port/iron/elbe1.png"
   class: "blob"
 
+elbing:
+  name: "Эльбинг"
+  img: "/img/port/iron/elbi1.png"
+  class: "blob"
+
+emden:
+  name: "Эмден"
+  img: "/img/port/iron/emde1.png"
+  class: "blob"
+
 # F
 
 friedrich_der_grosse:
   name: "Фридрих дер Гроссе"
   img: "/img/port/iron/frie1.png"
+  class: "blob"
+
+friedrich_der_grosse_rad:
+  name: "📡Фридрих дер Гроссе"
+  img: "/img/port/iron/frie1rad.png"
   class: "blob"
 
 # G
@@ -1507,6 +1608,13 @@ graf_zeppelin?:
 gneisenau:
   name: "Гнейзенау"
   img: "/img/port/iron/gnei1.png"
+  class: "blob"
+
+# L
+
+lutzow:
+  name: "Лютцов"
+  img: "/img/port/iron/lutz1.png"
   class: "blob"
 
 # M
@@ -1535,6 +1643,11 @@ odin:
   img: "/img/port/iron/odin1.png"
   class: "blob"
 
+odin_rad:
+  name: "📡Один"
+  img: "/img/port/iron/odin1rad.png"
+  class: "blob"
+
 # P
 
 peter_strasser:
@@ -1550,6 +1663,11 @@ peter_strasser_rad:
 prinz_adalbert:
   name: "Принц Адальберт"
   img: "/img/port/iron/adal1.png"
+  class: "blob"
+
+prinz_adalbert_rad:
+  name: "📡Принц Адальберт"
+  img: "/img/port/iron/adal1rad.png"
   class: "blob"
 
 prinz_eugen:
@@ -1594,6 +1712,11 @@ roon:
   img: "/img/port/iron/roon1.png"
   class: "blob"
 
+roon_rad:
+  name: "📡Роон"
+  img: "/img/port/iron/roon1rad.png"
+  class: "blob"
+
 # S
 
 
@@ -1601,6 +1724,11 @@ scharnhorst:
   name: "Шарнхорст"
   img: "/img/port/iron/scha1.png"
   class: "blob"
+
+seydlitz:
+  name: "Зайдлиц"
+  img: "/img/port/iron/seyd1.png"
+  class: "blob" 
 
 # T
 
@@ -1612,6 +1740,11 @@ tirpitz:
 tirpitz_rad:
   name: "📡Тирпиц"
   img: "/img/port/iron/tirp1rad.png"
+  class: "blob"
+
+thuringen:
+  name: "Тюрингия"
+  img: "/img/port/iron/thur1.png"
   class: "blob"
 
 # U
@@ -1681,6 +1814,11 @@ u-81:
   img: "/img/port/iron/u-811.png"
   class: "blob"
 
+u-81_rad:
+  name: "📡U-81"
+  img: "/img/port/iron/u-811rad.png"
+  class: "blob"
+
 ulrich_von_hutten:
   name: "Ульрих фон Хуттен"
   img: "/img/port/iron/ulri1.png"
@@ -1701,6 +1839,13 @@ weser:
 weser_rad:
   name: "📡Везер"
   img: "/img/port/iron/wese1rad.png"
+  class: "blob"
+
+# Y
+
+yorck:
+  name: "Йорк"
+  img: "/img/port/iron/yorc1.png"
   class: "blob"
 
 # Z
@@ -2047,6 +2192,11 @@ sovetskaya_belorussiya:
 sovetskaya_rossiya:
   name: "Советская Россия"
   img: "/img/port/northern/sros1.png"
+  class: "blob"
+
+sovetskaya_rossiya_rad:
+  name: "📡Советская Россия"
+  img: "/img/port/northern/sros1rad.png"
   class: "blob"
 
 sovetskaya_rossiya???d:
@@ -2508,6 +2658,11 @@ rodney_meta:
 scharnhorst_meta:
   name: "Шарнхорст МЕТА"
   img: "/img/port/meta/scha1.png"
+  class: "blob"
+
+scharnhorst_meta_rad:
+  name: "📡Шарнхорст МЕТА"
+  img: "/img/port/meta/scha1rad.png"
   class: "blob"
 
 scharnhorst_meta_d1?:
