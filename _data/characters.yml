@@ -538,6 +538,11 @@ yorktown_d?:
 
 # A
 
+abercrombie:
+  name: "Аберкромби"
+  img: "/img/port/royal/aber1.png"
+  class: "blob"
+
 ajax:
   name: "Аякс"
   img: "/img/port/royal/ajax1.png"
@@ -546,6 +551,16 @@ ajax:
 ajax_rad:
   name: "📡Аякс"
   img: "/img/port/royal/ajax1rad.png"
+  class: "blob"
+
+ajax_kai:
+  name: "Аякс"
+  img: "/img/port/royal/ajax1kai.png"
+  class: "blob"
+
+ajax(retrofit):
+  name: "Аякс(Ретрофит)"
+  img: "/img/port/royal/ajax1kai.png"
   class: "blob"
 
 amazon:
@@ -563,6 +578,16 @@ ark_royal:
   img: "/img/port/royal/arkr1.png"
   class: "blob"
 
+ark_royal_kai:
+  name: "Арк Роял"
+  img: "/img/port/royal/arkr1kai.png"
+  class: "blob"
+
+ark_royal(retrofit):
+  name: "Арк Роял (Ретрофит)"
+  img: "/img/port/royal/arkr1kai.png"
+  class: "blob"
+
 # B
 
 belfast:
@@ -573,6 +598,18 @@ belfast:
 belfast_rad:
   name: "📡Белфаст"
   img: "/img/port/royal/belf1rad.png"
+  class: "blob"
+
+bellona:
+  name: "Беллона"
+  img: "/img/port/royal/bell1.png"
+  class: "blob"
+
+# C
+
+cheshire:
+  name: "Чешир"
+  img: "/img/port/royal/ches1.png"
   class: "blob"
 
 # D
@@ -682,11 +719,26 @@ illustrious_skin2:
   img: "/img/port/royal/illu2.png"
   class: "blob"
 
+indomitable:
+  name: "Индомитебл"
+  img: "/img/port/royal/indo1.png"
+  class: "blob"
+
 # J
 
 jamaica:
   name: "Ямайка"
   img: "/img/port/royal/jama1.png"
+  class: "blob"
+
+janus:
+  name: "Джанус"
+  img: "/img/port/royal/janu1.png"
+  class: "blob"
+
+jervis:
+  name: "Джервис"
+  img: "/img/port/royal/jerv1.png"
   class: "blob"
 
 # K
@@ -712,6 +764,11 @@ king_george_v(?):
   class: "blob"
 
 # M
+
+monarch:
+  name: "Монарх"
+  img: "/img/port/royal/mona1.png"
+  class: "blob"
 
 musketeer:
   name: "Маскетир"
@@ -801,6 +858,16 @@ renown:
   img: "/img/port/royal/reno1.png"
   class: "blob"
 
+repulse:
+  name: "Рипалс"
+  img: "/img/port/royal/repu1.png"
+  class: "blob"
+
+revenge:
+  name: "Ревендж"
+  img: "/img/port/royal/reve1.png"
+  class: "blob"
+
 rodney:
   name: "Родни"
   img: "/img/port/royal/rodn1.png"
@@ -818,11 +885,31 @@ suffolk:
   img: "/img/port/royal/suff1.png"
   class: "blob"
 
+suffolk_kai:
+  name: "Саффолк"
+  img: "/img/port/royal/suff1kai.png"
+  class: "blob"
+
+suffolk(retrofit):
+  name: "Саффолк (Ретрофит)"
+  img: "/img/port/royal/suff1kai.png"
+  class: "blob"
+
 # U
 
 unicorn:
   name: "Юникорн"
   img: "/img/port/royal/unic1.png"
+  class: "blob"
+
+unicorn_kai:
+  name: "Юникорн"
+  img: "/img/port/royal/unic1kai.png"
+  class: "blob"
+
+unicorn(retrofit):
+  name: "Юникорн(Ретрофит)"
+  img: "/img/port/royal/unic1kai.png"
   class: "blob"
 
 
@@ -841,6 +928,11 @@ valiant_nop:
 vampire:
   name: "Вампир"
   img: "/img/port/royal/vamp1.png"
+  class: "blob"
+
+vanguard:
+  name: "Вангард"
+  img: "/img/port/royal/vang1.png"
   class: "blob"
 
 victorious:
@@ -867,6 +959,11 @@ warspite_nop:
 
 warspite_kai:
   name: "Уорспайт"
+  img: "/img/port/royal/wars2.png"
+  class: "blob"
+
+warspite(retrofit):
+  name: "Уорспайт(Ретрофит)"
   img: "/img/port/royal/wars2.png"
   class: "blob"
 
@@ -2550,6 +2647,11 @@ essex_meta:
   img: "/img/port/meta/esse1.png"
   class: "blob"
 
+fusou_meta:
+  name: "Фусо META"
+  img: "/img/port/meta/fuso1.png"
+  class: "blob"
+
 gneisenau_meta:
   name: "Гнейзенау МЕТА"
   img: "/img/port/meta/gnei1.png"
@@ -2647,6 +2749,11 @@ renown_meta:
 
 repulse_meta:
   name: "Рипалс МЕТА"
+  img: "/img/port/meta/repu1.png"
+  class: "blob"
+
+repulse_meta?:
+  name: "? ? ?"
   img: "/img/port/meta/repu1.png"
   class: "blob"
 
@@ -3012,6 +3119,11 @@ strength???:
 tower:
   name: "Арбитр Башня XVI"
   img: "/img/port/siren/towe1.png"
+  class: "blob"
+
+tower544:
+  name: "544845544F574552 (Башня)"
+  img: "/img/port/siren/5448.png"
   class: "blob"
 
 hermit:

@@ -1,0 +1,82 @@
+chapter1:
+  rows:
+  - char: "repulse_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Сестра, ты тоже сюда пришла?..."
+  - char: "renown_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Сама не заметила, как здесь оказалась."
+      - "Мы ведь давно решили оставить рыцарское звание и клятвы в прошлом... Зачем же мы тогда вообще построили этот зал со круглым столом?.."
+  - char: "repulse_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "И правда, зачем... Наверное, истинную суть рыцаря внутри нас не так-то просто скрыть."
+  - char: "renown_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Возможно..."
+  - char: "repulse_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "О, сестрёнка! Посмотри в сторону моря, там только что вспыхнул золотой свет!"
+  - char: "renown_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "О? Неужели Вангард и остальные так быстро закончили свои дела?"
+  - char: "repulse_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Ой, беда... Мы так заностальгировались, что я совсем не собрала вещи!.."
+  - char: "renown_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "А нам разве нужно что-то брать с собой?"
+  - char: "repulse_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Конечно! А как же наш особый травяной «чай»!"
+      - "Ты разве не видела, какое лицо было у Индомитебл, когда она его попробовала?.. Такой отличной вещью нужно обязательно угостить всех остальных!"
+  - char: "renown_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Ха-ха... Твоя правда. Что ж, тогда пускай они немного подождут."
+  - char: "repulse_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "А, сестрёнка!"
+  - char: "renown_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "...Что на этот раз?"
+  - char: "repulse_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Люди, выходящие из кольца... это не Вангард и её группа."
+  - char: "repulse_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Хм...? Дай-ка посмотрю..."
+      - "Впереди Шеффилд, рядом Уорспайт, а следом за ними Юникорн?"
+      - "Что-то сегодня многовато гостей, один за другим находят дорогу к нашему порогу..."
+  - char: "repulse_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Хе-хе, кажется, становится весело."
+      - "Спустя столько лет пробил час вновь исполнить клятву!"

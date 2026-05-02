@@ -346,6 +346,20 @@
   desc: "«Перезапустите Башню Радуги и исполните финальную мелодию. Боги мертвы»."
   arc: "02 Вторая часть"
 
+- title_ru: "Письма и Поездки"
+  title_en: "Letters and Travels"
+  slug: "letters_and_travels"
+  image: "/img/main/letters.png" 
+  desc: "Монарх закаляет свою решимость защищать славу Королевского Флота..."
+  arc: "02 Вторая часть"
+
+- title_ru: "Обет Сиятельного Двора"
+  title_en: "Pledge of the Radiant Court"
+  slug: "pledge_of_the_radiant_court"
+  image: "/img/main/pledge.png" 
+  desc: "«Нежен, словно летний бриз; прохладен, точно весенняя река. В нём — кокетство юной леди и строгость королевского гвардейца. Сиятельный обет, замок золотого света»."
+  arc: "02 Вторая часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"
