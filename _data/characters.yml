@@ -714,6 +714,11 @@ illustrious:
   img: "/img/port/royal/illu1.png"
   class: "blob"
 
+illustrious_rad:
+  name: "📡Илластриес"
+  img: "/img/port/royal/illu1rad.png"
+  class: "blob"
+
 illustrious_skin2:
   name: "Илластриес"
   img: "/img/port/royal/illu2.png"
@@ -1272,6 +1277,11 @@ kii:
   img: "/img/port/sakura/kii1.png"
   class: "blob"
 
+kii_rad:
+  name: "📡Кии"
+  img: "/img/port/sakura/kii1rad.png"
+  class: "blob"
+
 kinu:
   name: "Кину"
   img: "/img/port/sakura/kinu1.png"
@@ -1621,6 +1631,11 @@ august_von_parseval_rad:
 bismarck:
   name: "Бисмарк"
   img: "/img/port/iron/bism1.png"
+  class: "blob"
+
+bismarck_rad:
+  name: "📡Бисмарк"
+  img: "/img/port/iron/bism1rad.png"
   class: "blob"
 
 bismarck_z:
@@ -2024,6 +2039,18 @@ an_shan:
 chang_chun:
   name: "Чан Чунь"
   img: "/img/port/dragon/chan1.png"
+  class: "blob"
+
+chen_hai:
+  name: "Чэнь Хай"
+  img: "/img/port/dragon/chen1.png"
+  class: "blob"
+
+# H
+
+harbin:
+  name: "Харбин"
+  img: "/img/port/dragon/harb1.png"
   class: "blob"
 
 # Y
