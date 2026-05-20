@@ -49,15 +49,13 @@
 .head_ev_diverchess {
   min-width: 1280px;
 
-  background:
-    linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), var(--header-bg), #192455;
-  background-attachment: fixed;
+   background: #0a1f56; 
+     background-attachment: fixed;
     background-image: var(--header-bg);
-    background-size: cover;
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
 }
-
+/*  linear-gradient(180deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), */ 
 .head_ev_info {
 
   min-width: 1280px;
@@ -639,7 +637,7 @@ width: auto;
 /* Общие стили для вспышки */
 .flash-gradient {
 
-    height: 300px;
+    height: 150px;
 }
 
 /* Погружение: Прозрачный -> Белый */

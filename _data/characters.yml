@@ -19,6 +19,11 @@ allen_m_sumner_rad:
   img: "/img/port/eagle/alle1rad.png"
   class: "blob"
 
+anchorage:
+  name: "Анкоридж"
+  img: "/img/port/eagle/anch1.png"
+  class: "blob"
+
 archerfish:
   name: "Арчерфиш"
   img: "/img/port/eagle/arch1.png"
@@ -243,6 +248,16 @@ hammann?:
   img: "/img/port/eagle/hamm1.png"
   class: "blob"
 
+hammann_ii:
+  name: "Хамманн II"
+  img: "/img/port/eagle/hammii1.png"
+  class: "blob"
+
+hammann_ii_rad:
+  name: "📡Хамманн II"
+  img: "/img/port/eagle/hammii1rad.png"
+  class: "blob"
+
 helena:
   name: "Хелена"
   img: "/img/port/eagle/hele1.png"
@@ -257,6 +272,12 @@ helena_kai:
   name: "Хелена"
   img: "/img/port/eagle/hele1kai.png"
   class: "blob"
+
+helena_kai_r:
+  name: "Хелена (Ретрофит)"
+  img: "/img/port/eagle/hele1kai.png"
+  class: "blob"
+
 
 hornet_rad:
   name: "📡Хорнет"
@@ -286,6 +307,16 @@ hornet?d:
 hornet?1:
   name: "Хорнет ?"
   img: "/img/port/eagle/horn1.png"
+  class: "blob"
+
+hornet_ii:
+  name: "Хорнет II"
+  img: "/img/port/eagle/hornii1.png"
+  class: "blob"
+
+hornet_ii_rad:
+  name: "📡Хорнет II"
+  img: "/img/port/eagle/hornii1rad.png"
   class: "blob"
 
 # I
@@ -331,6 +362,11 @@ laffey:
 langley:
   name: "Лэнгли"
   img: "/img/port/eagle/lang1.png"
+  class: "blob"
+
+langley_ii:
+  name: "Лэнгли II"
+  img: "/img/port/eagle/langii1.png"
   class: "blob"
 
 lexington:
@@ -410,6 +446,16 @@ new_jersey_rad:
 north_carolina:
   name: "Норт Кэролайн"
   img: "/img/port/eagle/nort1.png"
+  class: "blob"
+
+northampton_ii:
+  name: "Нортгемптон II"
+  img: "/img/port/eagle/northii1.png"
+  class: "blob"
+
+northampton_ii_rad:
+  name: "📡Нортгемптон II"
+  img: "/img/port/eagle/northii1rad.png"
   class: "blob"
 
 # P
@@ -529,6 +575,16 @@ william_d_porter:
 yorktown:
   name: "Йорктаун"
   img: "/img/port/eagle/york1.png"
+  class: "blob"
+
+yorktown_ii:
+  name: "Йорктаун II"
+  img: "/img/port/eagle/yorkII1.png"
+  class: "blob"
+
+yorktown_ii_rad:
+  name: "📡Йорктаун II"
+  img: "/img/port/eagle/yorkII1rad.png"
   class: "blob"
 
 yorktown_rad:
@@ -1101,6 +1157,11 @@ chiyoda_rad:
 
 # H
 
+haguro:
+  name: "Хагуро"
+  img: "/img/port/sakura/hagu1.png"
+  class: "blob"
+
 hakuryuu:
   name: "Хакурю"
   img: "/img/port/sakura/hakur1.png"
@@ -1131,6 +1192,21 @@ hanazuki_rad:
   img: "/img/port/sakura/hana1.png"
   class: "blob"
 
+haruna:
+  name: "Харуна"
+  img: "/img/port/sakura/haru1.png"
+  class: "blob"
+
+harutsuki:
+  name: "Харуцуки"
+  img: "/img/port/sakura/hart1.png"
+  class: "blob"
+
+harutsuki_rad:
+  name: "📡Харуцуки"
+  img: "/img/port/sakura/hart1rad.png"
+  class: "blob"
+
 hatakaze:
   name: "Хатакадзэ"
   img: "/img/port/sakura/hata1.png"
@@ -1144,6 +1220,11 @@ hibiki:
 hiei:
   name: "Хиэй"
   img: "/img/port/sakura/hiei1.png"
+  class: "blob"
+
+hiei_rad:
+  name: "📡Хиэй"
+  img: "/img/port/sakura/hiei1rad.png"
   class: "blob"
 
 hiei?:
@@ -1225,6 +1306,11 @@ jintsuu???:
 kaga:
   name: "Кага"
   img: "/img/port/sakura/kaga1.png"
+  class: "blob"
+
+kaga_rad:
+  name: "📡Кага"
+  img: "/img/port/sakura/kaga1rad.png"
   class: "blob"
 
 kaga?:
@@ -1312,6 +1398,11 @@ kirishima?:
   img: "/img/port/sakura/kiri1.png"
   class: "blob"
 
+kisaragi:
+  name: "Кисараги"
+  img: "/img/port/sakura/kisa1.png"
+  class: "blob"
+
 kongou:
   name: "Конго"
   img: "/img/port/sakura/kong1.png"
@@ -1345,9 +1436,39 @@ mikasa?:
   img: "/img/port/sakura/mika1.png"
   class: "blob"
 
+minazuki:
+  name: "Минадзуки"
+  img: "/img/port/sakura/mina1.png"
+  class: "blob"
+
+miyuki:
+  name: "Миюки"
+  img: "/img/port/sakura/miyu1.png"
+  class: "blob"
+
+miyuki_rad:
+  name: "📡Миюки"
+  img: "/img/port/sakura/miyu1rad.png"
+  class: "blob"
+
+musashi:
+  name: "Мусаси"
+  img: "/img/port/sakura/musa1.png"
+  class: "blob"
+
+musashi???:
+  name: "???"
+  img: "/img/port/sakura/musa1.png"
+  class: "blob"
+
 mutsu:
   name: "Муцу"
   img: "/img/port/sakura/muts1.png"
+  class: "blob"
+
+mutsuki:
+  name: "Муцуки"
+  img: "/img/port/sakura/mutsu1.png"
   class: "blob"
 
 # N
@@ -1400,6 +1521,16 @@ ryuuhou_rad:
   class: "blob"
 
 # S
+
+sakawa:
+  name: "Сакава"
+  img: "/img/port/sakura/saka1.png"
+  class: "blob"
+
+sakawa_rad:
+  name: "📡Сакава"
+  img: "/img/port/sakura/saka1rad.png"
+  class: "blob"
 
 shigure:
   name: "Сигурэ"
@@ -1518,6 +1649,18 @@ umikaze:
 umikaze_rad:
   name: "📡Умикадзэ"
   img: "/img/port/sakura/umik1rad.png"
+  class: "blob"
+
+# w
+
+wakatsuki:
+  name: "Вакацуки"
+  img: "/img/port/sakura/waka1.png"
+  class: "blob"
+
+wakatsuki_rad:
+  name: "📡Вакацуки"
+  img: "/img/port/sakura/waka1rad.png"
   class: "blob"
 
 # Y
@@ -2437,6 +2580,15 @@ sovetsky_soyuz_old?:
   img: "/img/port/northern/sove10.png"
   class: "blob"
 
+sovetsky_soyuz:
+  name: "Советский Союз"
+  img: "/img/port/northern/sove1.png"
+  class: "blob"
+
+sovetsky_soyuz_rad:
+  name: "📡Советский Союз"
+  img: "/img/port/northern/sove1rad.png"
+  class: "blob"
 
 soobrazitelny:
   name: "Сообразительный"
@@ -2607,6 +2759,11 @@ clemenceau:
   img: "/img/port/vichya/clem1.png"
   class: "blob"
 
+clemenceau_rad:
+  name: "📡Клемансо"
+  img: "/img/port/vichya/clem1rad.png"
+  class: "blob"
+
 # D
 
 dunkerque:
@@ -2723,6 +2880,16 @@ dewey_meta:
   img: "/img/port/meta/dewe1.png"
   class: "blob"
 
+elbe_meta:
+  name: "Эльба МЕТА"
+  img: "/img/port/meta/elbe1.png"
+  class: "blob"
+
+elbe_meta_unitas:
+  name: "Эльба МЕТА (Хранитель морей Священной Империи Юнитас)"
+  img: "/img/port/meta/elbe1.png"
+  class: "blob"
+
 enterprise_meta:
   name: "Энтерпрайз МЕТА"
   img: "/img/port/meta/ente1.png"
@@ -2833,6 +3000,11 @@ hunter_meta:
   img: "/img/port/meta/hunt1.png"
   class: "blob"
 
+jintsuu_meta:
+  name: "Дзинцу META"
+  img: "/img/port/meta/jint1.png"
+  class: "blob"
+
 kimberly_meta:
   name: "Кимберли МЕТА"
   img: "/img/port/meta/kimb1.png"
@@ -2841,6 +3013,26 @@ kimberly_meta:
 kirov_meta:
   name: "Киров META"
   img: "/img/port/meta/kiro1.png"
+  class: "blob"
+
+koln_meta:
+  name: "Кёльн МЕТА"
+  img: "/img/port/meta/koln1.png"
+  class: "blob"
+
+koln_meta_unitas:
+  name: "Кёльн МЕТА (Архиепископ Священной Империи Юнитас)"
+  img: "/img/port/meta/koln1.png"
+  class: "blob"
+
+konigsberg_meta:
+  name: "Кёнигсберг МЕТА"
+  img: "/img/port/meta/koni1.png"
+  class: "blob"
+
+konigsberg_meta_unitas:
+  name: "Кёнигсберг МЕТА (Хранитель рубежей Священной Империи Юнитас)"
+  img: "/img/port/meta/koni1.png"
   class: "blob"
 
 memphis_meta:
@@ -2866,6 +3058,16 @@ prinston_meta:
 renown_meta:
   name: "Ринаун МЕТА"
   img: "/img/port/meta/reno1.png"
+  class: "blob"
+
+regensburg_meta:
+  name: "Регенсбург МЕТА"
+  img: "/img/port/meta/rege1.png"
+  class: "blob"
+
+regensburg_meta_unitas:
+  name: "Регенсбург МЕТА (Архиепископ Священной Империи Юнитас)"
+  img: "/img/port/meta/rege1.png"
   class: "blob"
 
 repulse_meta:
@@ -3116,6 +3318,16 @@ zero_rec:
   img: "/img/port/siren/zero1rad.png"
   class: "blob"
 
+zero_kid??:
+  name: "? ?"
+  img: "/img/port/other/tbba1.png"
+  class: "blob"
+
+zero_kid??2:
+  name: "? ?"
+  img: "/img/port/other/tbba2.png"
+  class: "blob"
+
 anzeel_dark:
   name: "Женщина-исследователь"
   img: "/img/port/other/anze2.png"
@@ -3136,13 +3348,53 @@ anzeel:
   img: "/img/port/other/anze1.png"
   class: "blob"
 
+anzeel_rad:
+  name: "📡Д-р Анзил"
+  img: "/img/port/other/anze1rad.png"
+  class: "blob"
+
+anzeel1:
+  name: "Анзил"
+  img: "/img/port/other/anze1.png"
+  class: "blob"
+
+anzeel???:
+  name: "???"
+  img: "/img/port/other/anze1.png"
+  class: "blob"
+
+anzeel_rec:
+  name: "Рекордер"
+  img: "/img/port/other/anze1.png"
+  class: "blob"
+
 tb_dark:
   name: "?"
   img: "/img/port/other/zero2.png"
   class: "blob"
 
+tb:
+  name: "TБ"
+  img: "/img/port/other/zero1.png"
+  class: "blob"
+
 tb_rad:
   name: "📡TБ"
+  img: "/img/port/other/zero1rad.png"
+  class: "blob"
+
+tb_rad???:
+  name: "📡???"
+  img: "/img/port/other/zero1rad.png"
+  class: "blob"
+
+tb_zero?:
+  name: "Зеро?"
+  img: "/img/port/other/zero1.png"
+  class: "blob"
+
+tb_zero?_rad:
+  name: "📡Зеро?"
   img: "/img/port/other/zero1rad.png"
   class: "blob"
 
@@ -3174,6 +3426,16 @@ assistent?:
 collet:
   name: "Коллет"
   img: "/img/port/other/cole1.png"
+  class: "blob"
+
+devil:
+  name: "Арбитр Дьявол XV"
+  img: "/img/port/siren/devi1.png"
+  class: "blob"
+
+the_devil:
+  name: "Дьявол XV"
+  img: "/img/port/siren/devi1.png"
   class: "blob"
 
 eutopia:
@@ -3219,6 +3481,11 @@ magican_rad:
 empress:
   name: "Арбитр Императрица III"
   img: "/img/port/siren/empr1.png"
+  class: "blob"
+
+lady_e:
+  name: "Леди Е"
+  img: "/img/port/other/lady1.png"
   class: "blob"
 
 lovers:
@@ -3380,6 +3647,11 @@ communicator:
   img: "/img/port/other/nop.png"
   class: "blob"
 
+communicator?:
+  name: "Коммуникатор?"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
 all:
   name: "Все"
   img: "/img/port/other/nop.png"
@@ -3398,5 +3670,25 @@ citizena:
 
 citizenb:
   name: "Горожанин Б"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
+robot_waiter:
+  name: "Робот-официант"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
+bon_omm_richard_ad:
+  name: "Голос Бон Омм Ричард в рекламе"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
+ad_voice:
+  name: "Голос рекламного диктора"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
+voice_an:
+  name: "Система общего оповещения"
   img: "/img/port/other/nop.png"
   class: "blob"
