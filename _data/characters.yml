@@ -359,6 +359,11 @@ laffey:
   img: "/img/port/eagle/laff1.png"
   class: "blob"
 
+laffey_ii:
+  name: "Лаффи II"
+  img: "/img/port/eagle/laffii1.png"
+  class: "blob"
+
 langley:
   name: "Лэнгли"
   img: "/img/port/eagle/lang1.png"
@@ -3626,6 +3631,11 @@ nop_x:
 bon_omm_richard:
   name: "Бон Омм Ричард"
   img: "/img/port/meta/bonh1.png"
+  class: "blob"
+
+bon_omm_richard_rad:
+  name: "📡Бон Омм Ричард"
+  img: "/img/port/meta/bonh1rad.png"
   class: "blob"
 
 bon_omm_richard1:
