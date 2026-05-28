@@ -47,6 +47,8 @@ black_scene6:
   - "Построй могучий корабль. И плыви к горизонту надежды."
 black_scene7:
   - "Альянс перед Хагиобуллой — Конец"
+black_scene8:
+  - "Тем временем..."
 black_scene99:
   - "..."
 white_scene99:
@@ -790,4 +792,56 @@ white_scene99:
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="white-full" %}
 {% include blackscreen.html lines=page.black_scene6 %}
 {% include blackscreen.html lines=page.black_scene7 %}
+</div> <!-- конец главы -->
+
+<div class="chapter" id="part36"> <!-- начало главы -->
+<p class="title-1">Невыполненный контракт</p>
+<img class="pict1" src="{{ site.baseurl }}/img/bg/bg91.png" alt="">
+{% include loc.html td_class="loc" text="Неизвестное местоположение — «Рука Трибунала»" %}
+{% assign rows = site.data.alliance_before_the_hagiobull.part36.chapter1.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg91.png" %}
+</div> <!-- конец главы -->
+
+<div class="chapter" id="part37"> <!-- начало главы -->
+<p class="title-1">Новое начало</p>
+<img class="pict1" src="{{ site.baseurl }}/img/bg/bg112.png" alt="">
+{% include loc.html td_class="loc" text="Священная Империя Юнитас — Северная граница — Через неделю, после поражения преисподней..." %}
+{% assign rows = site.data.alliance_before_the_hagiobull.part37.chapter1.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg112.png" %}
+</div> <!-- конец главы -->
+
+<div class="chapter" id="part38"> <!-- начало главы -->
+<p class="title-1">Тыловая база</p>
+<img class="pict1" src="{{ site.baseurl }}/img/bg/bg90.png" alt="">
+{% include loc.html td_class="loc" text="Компилирующее поле — Неизвестное местоположение" %}
+{% assign rows = site.data.alliance_before_the_hagiobull.part38.chapter1.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg90.png" %}
+</div> <!-- конец главы -->
+
+<div class="chapter" id="part39"> <!-- начало главы -->
+<p class="title-1">Мотылёк, летящий на свет</p>
+<img class="pict1" src="{{ site.baseurl }}/img/bg/bg183.png" alt="">
+{% include loc.html td_class="loc" text="??? — Неизвестное время — Неизвестное местоположение" %}
+{% assign rows = site.data.alliance_before_the_hagiobull.part39.chapter1.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg183.png" %}
+{% include blackscreen.html lines=page.black_scene99 %}
+<img class="pict1" src="{{ site.baseurl }}/img/bg/bg184.png" alt="">
+{% assign rows = site.data.alliance_before_the_hagiobull.part39.chapter2.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg184.png" %}
+{% include whitescreen.html lines=page.white_scene99 %}
+{% assign rows = site.data.alliance_before_the_hagiobull.part39.chapter3.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg184.png" %}
+{% include blackscreen.html lines=page.black_scene8 %}
+{% include whitescreen.html lines=page.white_scene99 %}
+<img class="pict1" src="{{ site.baseurl }}/img/bg/bg163.png" alt="">
+{% include loc.html td_class="loc" text="???" %}
+{% assign rows = site.data.alliance_before_the_hagiobull.part39.chapter4.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg163.png" %}
+{% include choice_header.html %}
+{% assign rows = site.data.alliance_before_the_hagiobull.part39.chapter5.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg170.png" bg_overlay="blue-choise" %}
+{% assign rows = site.data.alliance_before_the_hagiobull.part39.chapter6.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg170.png" bg_overlay="red-choise" %}
+{% assign rows = site.data.alliance_before_the_hagiobull.part39.chapter7.rows %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg170.png" bg_overlay="yellow-choise" %}
 </div> <!-- конец главы -->
