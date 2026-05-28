@@ -116,6 +116,11 @@ bristol:
   img: "/img/port/eagle/bris1.png"
   class: "blob"
 
+bristol_tales:
+  name: "Бристоль?"
+  img: "/img/port/eagle/bris2.png"
+  class: "blob"
+
 brooklyn:
   name: "Бруклин"
   img: "/img/port/eagle/broo1.png"
@@ -4048,9 +4053,15 @@ bon_omm_richard2:
   img: "/img/port/meta/bonh3.png"
   class: "blob"
 
+ bon_omm_richard2?:
+  name: "Бон Омм Ричард?"
+  img: "/img/port/meta/bonh3.png"
+  class: "blob"
+  
 bon_omm_richard?:
   name: "? ? ?"
   img: "/img/port/meta/bonh1.png"
+  class: "blob"
 
 communicator:
   name: "Коммуникатор"
