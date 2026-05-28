@@ -1862,7 +1862,42 @@ friedrich_der_grosse_rad:
   img: "/img/port/iron/frie1rad.png"
   class: "blob"
 
+friedrich_der_grosse_emp:
+  name: "Фридрих дер Гроссе (Император)"
+  img: "/img/port/iron/frie1.png"
+  class: "blob"
+
+friedrich_der_grosse_emp_rad:
+  name: "📡Фридрих дер Гроссе (Император)"
+  img: "/img/port/iron/frie1rad.png"
+  class: "blob"
+
 # G
+
+gneisenau:
+  name: "Гнейзенау"
+  img: "/img/port/iron/gnei1.png"
+  class: "blob"
+
+gotz_von_berlichingen:
+  name: "Гёц фон Берлихинген"
+  img: "/img/port/iron/gotz1.png"
+  class: "blob"
+
+gotz_von_berlichingen_rad:
+  name: "📡Гёц фон Берлихинген"
+  img: "/img/port/iron/gotz1rad.png"
+  class: "blob"
+
+gotz_von_berlichingen_unitas:
+  name: "Гёц фон Берлихинген (Священная Империя Юнитас)"
+  img: "/img/port/iron/gotz1.png"
+  class: "blob"
+
+gotz_von_berlichingen_unitas_rad:
+  name: "📡Гёц фон Берлихинген (Священная Империя Юнитас)"
+  img: "/img/port/iron/gotz1rad.png"
+  class: "blob"
 
 graf_zeppelin:
   name: "Граф Цеппелин"
@@ -1872,12 +1907,6 @@ graf_zeppelin:
 graf_zeppelin?:
   name: "Граф Цеппелин?"
   img: "/img/port/iron/graf1.png"
-  class: "blob"
-
-
-gneisenau:
-  name: "Гнейзенау"
-  img: "/img/port/iron/gnei1.png"
   class: "blob"
 
 # L
@@ -1975,6 +2004,26 @@ prinz_heinrich_rad:
   img: "/img/port/iron/hein1rad.png"
   class: "blob"
 
+prinz_moritz:
+  name: "Принц Мориц"
+  img: "/img/port/iron/pmor1.png"
+  class: "blob"
+
+prinz_moritz_rad:
+  name: "📡Принц Мориц"
+  img: "/img/port/iron/pmor1rad.png"
+  class: "blob"
+
+prinz_moritz_unitas:
+  name: "Принц Мориц (Священная Империя Юнитас)"
+  img: "/img/port/iron/pmor1.png"
+  class: "blob"
+
+prinz_moritz_unitas_rad:
+  name: "📡Принц Мориц (Священная Империя Юнитас)"
+  img: "/img/port/iron/pmor1rad.png"
+  class: "blob"
+
 prinz_rupprecht:
   name: "Принц Руппрехт"
   img: "/img/port/iron/rupp1.png"
@@ -2037,6 +2086,26 @@ u1206:
 u1206_rad:
   name: "📡U-1206"
   img: "/img/port/iron/u1201rad.png"
+  class: "blob"
+
+u2501:
+  name: "U-2501"
+  img: "/img/port/iron/u2501.png"
+  class: "blob"
+
+u2501_rad:
+  name: "📡U-2501"
+  img: "/img/port/iron/u2501rad.png"
+  class: "blob"
+
+u2501_unitas:
+  name: "U-2501 (Священная Империя Юнитас)"
+  img: "/img/port/iron/u2501.png"
+  class: "blob"
+
+u2501_unitas_rad:
+  name: "📡U-2501 (Священная Империя Юнитас)"
+  img: "/img/port/iron/u2501rad.png"
   class: "blob"
 
 u-37:
@@ -2124,6 +2193,46 @@ yorck:
   class: "blob"
 
 # Z
+
+z14:
+  name: "Z14"
+  img: "/img/port/iron/z141.png"
+  class: "blob"
+
+z14_rad:
+  name: "📡Z14"
+  img: "/img/port/iron/z141rad.png"
+  class: "blob"
+
+z14_unitas:
+  name: "Z14 (Священная Империя Юнитас)"
+  img: "/img/port/iron/z141.png"
+  class: "blob"
+
+z14_unitas_rad:
+  name: "📡Z14 (Священная Империя Юнитас)"
+  img: "/img/port/iron/z141rad.png"
+  class: "blob"
+
+z15:
+  name: "Z15"
+  img: "/img/port/iron/z151.png"
+  class: "blob"
+
+z15_rad:
+  name: "📡Z15"
+  img: "/img/port/iron/z151rad.png"
+  class: "blob"
+
+z15_unitas:
+  name: "Z15 (Священная Империя Юнитас)"
+  img: "/img/port/iron/z151.png"
+  class: "blob"
+
+z15_unitas_rad:
+  name: "📡Z15 (Священная Империя Юнитас)"
+  img: "/img/port/iron/z151rad.png"
+  class: "blob"
 
 z16:
   name: "Z16"
@@ -2239,6 +2348,16 @@ yat_sen:
 
 # A
 
+alberto_di_giussano:
+  name: "Альберто ди Джуссано"
+  img: "/img/port/sardegna/albe1.png"
+  class: "blob"
+
+alberto_di_giussano_unitas:
+  name: "Альберто ди Джуссано (Священная Империя Юнитас)"
+  img: "/img/port/sardegna/albe1.png"
+  class: "blob"
+
 alfredo_oriani:
   name: "Альфредо Ориани"
   img: "/img/port/sardegna/alfr1.png"
@@ -2247,6 +2366,11 @@ alfredo_oriani:
 alfredo_oriani_rad:
   name: "📡Альфредо Ориани"
   img: "/img/port/sardegna/alfr1rad.png"
+  class: "blob"
+
+andrea_doria:
+  name: "Андреа Дориа"
+  img: "/img/port/sardegna/andr1.png"
   class: "blob"
 
 aquila:
@@ -2302,7 +2426,29 @@ emanuele_pessagno_rad:
   img: "/img/port/sardegna/eman1rad.png"
   class: "blob"
 
+# F
+
+francesco_caracciolo:
+  name: "Франческо Караччоло"
+  img: "/img/port/sardegna/fran1.png"
+  class: "blob"
+
+francesco_caracciolo_sic:
+  name: "Франческо Караччоло (Королевство Сицилия)"
+  img: "/img/port/sardegna/fran1.png"
+  class: "blob"
+
 # G
+
+giosue_carducci:
+  name: "Джозуэ Кардуччи"
+  img: "/img/port/sardegna/gios1.png"
+  class: "blob"
+
+giosue_carducci_league:
+  name: "Джозуэ Кардуччи (Лига Сардинии)"
+  img: "/img/port/sardegna/gios1.png"
+  class: "blob"
 
 giulio_cesare:
   name: "Джулио Чезаре"
@@ -2349,9 +2495,29 @@ maestrale:
   img: "/img/port/sardegna/maes1.png"
   class: "blob"
 
+maggiore_baracca:
+  name: "Маджоре Баракка"
+  img: "/img/port/sardegna/magg1.png"
+  class: "blob"
+
+maggiore_baracca_league:
+  name: "Маджоре Баракка (Лига Сардинии)"
+  img: "/img/port/sardegna/magg1.png"
+  class: "blob"
+
 marco_polo:
   name: "Марко Поло"
   img: "/img/port/sardegna/marc1.png"
+  class: "blob"
+
+marco_polo_a:
+  name: "Марко Поло (Апостол)"
+  img: "/img/port/sardegna/marc1.png"
+  class: "blob"
+
+marco_polo_a_rad:
+  name: "📡Марко Поло (Апостол)"
+  img: "/img/port/sardegna/marc1rad.png"
   class: "blob"
 
 marco_polo_rad:
@@ -2374,6 +2540,16 @@ pola:
   class: "blob"
 
 # R
+
+raffaello:
+  name: "Раффаэлло"
+  img: "/img/port/sardegna/raff1.png"
+  class: "blob"
+
+raffaello_league:
+  name: "Раффаэлло (Лига Сардинии)"
+  img: "/img/port/sardegna/raff1.png"
+  class: "blob"
 
 roma:
   name: "Рома"
@@ -2656,6 +2832,68 @@ bearn:
   img: "/img/port/iris/bear1.png"
   class: "blob"
 
+bois_belleau:
+  name: "Буа Белло"
+  img: "/img/port/iris/bois1.png"
+  class: "blob"
+
+bois_belleau_rad:
+  name: "📡Буа Белло"
+  img: "/img/port/iris/bois1rad.png"
+  class: "blob"
+
+bois_belleau_iris:
+  name: "Буа Белло (Ортодоксия Ирис)"
+  img: "/img/port/iris/bois1.png"
+  class: "blob"
+
+bois_belleau_iris_rad:
+  name: "📡Буа Белло (Ортодоксия Ирис)"
+  img: "/img/port/iris/bois1rad.png"
+  class: "blob"
+
+# D
+
+duguay_trouin:
+  name: "Дюге-Труэн"
+  img: "/img/port/iris/dugu1.png"
+  class: "blob"
+
+duguay_trouin_rad:
+  name: "📡Дюге-Труэн"
+  img: "/img/port/iris/dugu1rad.png"
+  class: "blob"
+
+duguay_trouin_iris:
+  name: "Дюге-Труэн (Ортодоксия Ирис)"
+  img: "/img/port/iris/dugu1.png"
+  class: "blob"
+
+duguay_trouin_iris_rad:
+  name: "📡Дюге-Труэн (Ортодоксия Ирис)"
+  img: "/img/port/iris/dugu1rad.png"
+  class: "blob"
+
+duquesne:
+  name: "Дюкен"
+  img: "/img/port/iris/duqu1.png"
+  class: "blob"
+
+duquesne_rad:
+  name: "📡Дюкен"
+  img: "/img/port/iris/duqu1rad.png"
+  class: "blob"
+
+duquesne_iris:
+  name: "Дюкен (Ортодоксия Ирис)"
+  img: "/img/port/iris/duqu1.png"
+  class: "blob"
+
+duquesne_iris_rad:
+  name: "📡Дюкен (Ортодоксия Ирис)"
+  img: "/img/port/iris/duqu1rad.png"
+  class: "blob"
+
 # E
 
 emile_bertin:
@@ -2683,6 +2921,26 @@ jeanne_d_arc_rad:
   class: "blob"
 
 # L
+
+le_hardi:
+  name: "Ле Арди"
+  img: "/img/port/iris/leha1.png"
+  class: "blob"
+
+le_hardi_rad:
+  name: "📡Ле Арди"
+  img: "/img/port/iris/leha1.png"
+  class: "blob"
+
+le_hardi_iris:
+  name: "Ле Арди (Ортодоксия Ирис)"
+  img: "/img/port/iris/leha1.png"
+  class: "blob"
+
+le_hardi_iris_rad:
+  name: "📡Ле Арди (Ортодоксия Ирис)"
+  img: "/img/port/iris/leha1.png"
+  class: "blob"
 
 le_temeraire:
   name: "Ле Темерер"
@@ -2719,6 +2977,26 @@ l_opiniatre_rad:
 maille_breze:
   name: "Майе Брезе"
   img: "/img/port/iris/mail1.png"
+  class: "blob"
+
+massena:
+  name: "Массена"
+  img: "/img/port/iris/mass1.png"
+  class: "blob"
+
+massena_rad:
+  name: "📡Массена"
+  img: "/img/port/iris/mass1rad.png"
+  class: "blob"
+
+massena_iris:
+  name: "Массена (Ортодоксия Ирис)"
+  img: "/img/port/iris/mass1.png"
+  class: "blob"
+
+massena_iris_rad:
+  name: "📡Массена (Ортодоксия Ирис)"
+  img: "/img/port/iris/mass1rad.png"
   class: "blob"
 
 # R
@@ -2826,6 +3104,11 @@ la_galissonniere:
   img: "/img/port/vichya/laga1.png"
   class: "blob"
 
+la_galissonniere_rad:
+  name: "📡Ла Галиссоньер"
+  img: "/img/port/vichya/laga1rad.png"
+  class: "blob"
+
 le_malin:
   name: "Ле Мален"
   img: "/img/port/vichya/lema1.png"
@@ -2860,6 +3143,26 @@ vauquelin:
 # МЕТА
 # ==========================================================
 
+algerie_meta:
+  name: "Алжири META"
+  img: "/img/port/meta/alge1.png"
+  class: "blob"
+
+algerie_meta_rad:
+  name: "📡Алжири META"
+  img: "/img/port/meta/alge1rad.png"
+  class: "blob"
+
+andrea_doria_meta:
+  name: "Андреа Дориа META"
+  img: "/img/port/meta/andr1.png"
+  class: "blob"
+
+andrea_doria_meta_league:
+  name: "Андреа Дориа META (Лига Сардинии)"
+  img: "/img/port/meta/andr1.png"
+  class: "blob"
+
 ark_royal_meta:
   name: "Арк Роял META"
   img: "/img/port/meta/arkr1.png"
@@ -2873,6 +3176,26 @@ ark_royal_meta?:
 boise_meta:
   name: "Бойсе META"
   img: "/img/port/meta/bois1.png"
+  class: "blob"
+
+carabiniere_meta:
+  name: "Карабиньере МЕТА"
+  img: "/img/port/meta/cara1.png"
+  class: "blob"
+
+carabiniere_meta_rad:
+  name: "📡Карабиньере МЕТА"
+  img: "/img/port/meta/cara1rad.png"
+  class: "blob"
+
+carabiniere_meta_unitas:
+  name: "Карабиньере МЕТА (Священная Империя Юнитас)"
+  img: "/img/port/meta/cara1.png"
+  class: "blob"
+
+carabiniere_meta_unitas_rad:
+  name: "📡Карабиньере МЕТА (Священная Империя Юнитас)"
+  img: "/img/port/meta/cara1rad.png"
   class: "blob"
 
 cleveland_meta:
@@ -2943,6 +3266,16 @@ essex_meta:
 fusou_meta:
   name: "Фусо META"
   img: "/img/port/meta/fuso1.png"
+  class: "blob"
+
+giulio_cesare_meta:
+  name: "Джулио Чезаре META"
+  img: "/img/port/meta/guil1.png"
+  class: "blob"
+
+giulio_cesare_meta_league:
+  name: "Джулио Чезаре META (Лига Сардинии)"
+  img: "/img/port/meta/giul1.png"
   class: "blob"
 
 gneisenau_meta:
@@ -3038,6 +3371,16 @@ konigsberg_meta:
 konigsberg_meta_unitas:
   name: "Кёнигсберг МЕТА (Хранитель рубежей Священной Империи Юнитас)"
   img: "/img/port/meta/koni1.png"
+  class: "blob"
+
+la_galissonniere_meta:
+  name: "Ла Галиссоньер МЕТА"
+  img: "/img/port/meta/laga1.png"
+  class: "blob"
+
+la_galissonniere_meta_rad:
+  name: "📡Ла Галиссоньер МЕТА"
+  img: "/img/port/meta/laga1rad.png"
   class: "blob"
 
 memphis_meta:
@@ -3433,16 +3776,6 @@ collet:
   img: "/img/port/other/cole1.png"
   class: "blob"
 
-devil:
-  name: "Арбитр Дьявол XV"
-  img: "/img/port/siren/devi1.png"
-  class: "blob"
-
-the_devil:
-  name: "Дьявол XV"
-  img: "/img/port/siren/devi1.png"
-  class: "blob"
-
 eutopia:
   name: "Ютопия Савой"
   img: "/img/port/other/euto1.png"
@@ -3474,17 +3807,17 @@ commander:
   class: "blob"
 
 magican:
-  name: "Арбитр Фокусник I"
+  name: "Арбитр: Фокусник I"
   img: "/img/port/siren/magi1.png"
   class: "blob"
 
 magican_rad:
-  name: "📡Арбитр Фокусник I"
+  name: "📡Арбитр: Фокусник I"
   img: "/img/port/siren/magi1rad.png"
   class: "blob"
 
 empress:
-  name: "Арбитр Императрица III"
+  name: "Арбитр: Императрица III"
   img: "/img/port/siren/empr1.png"
   class: "blob"
 
@@ -3493,13 +3826,63 @@ lady_e:
   img: "/img/port/other/lady1.png"
   class: "blob"
 
+emperor:
+  name: "Арбитр: Император IV"
+  img: "/img/port/siren/empe1.png"
+  class: "blob"
+
+emperor_rad:
+  name: "📡Арбитр: Император IV"
+  img: "/img/port/siren/empe1rad.png"
+  class: "blob"
+
+emperor???:
+  name: "???"
+  img: "/img/port/siren/empe1.png"
+  class: "blob"
+
+emperor_rad???:
+  name: "📡???"
+  img: "/img/port/siren/empe1rad.png"
+  class: "blob"
+
+hierophant:
+  name: "Арбитр: Иерофант V"
+  img: "/img/port/siren/hier1.png"
+  class: "blob"
+
+hierophant_rad:
+  name: "📡Арбитр: Иерофант V"
+  img: "/img/port/siren/hier1rad.png"
+  class: "blob"
+
+hierophant_rad???:
+  name: "📡???"
+  img: "/img/port/siren/hier1rad.png"
+  class: "blob"
+
+hierophant_x:
+  name: "▆И█▆ер▆▅оф▆▅▄"
+  img: "/img/port/siren/hier1.png"
+  class: "blob"
+
+hierophant_rad_x:
+  name: "📡▆И█▆ер▆▅оф▆▅▄"
+  img: "/img/port/siren/hier1rad.png"
+  class: "blob"
+
+project_h:
+  name: "Проект H"
+  img: "/img/port/siren/hier1.png"
+  class: "blob"
+
 lovers:
-  name: "Арбитр Влюблённые VI"
+  name: "Арбитр: Влюблённые VI"
   img: "/img/port/siren/love1.png"
   class: "blob"
 
 chariot:
-  name: "Арбитр Колесница VII"
+  name: "Арбитр: Колесница VII"
   img: "/img/port/siren/char1.png"
   class: "blob"
 
@@ -3509,7 +3892,7 @@ fortress:
   class: "blob"
 
 strength:
-  name: "Арбитр Сила VIII"
+  name: "Арбитр: Сила VIII"
   img: "/img/port/siren/stre1.png"
   class: "blob"
 
@@ -3518,18 +3901,8 @@ strength???:
   img: "/img/port/siren/stre1.png"
   class: "blob"
 
-tower:
-  name: "Арбитр Башня XVI"
-  img: "/img/port/siren/towe1.png"
-  class: "blob"
-
-tower544:
-  name: "544845544F574552 (Башня)"
-  img: "/img/port/siren/5448.png"
-  class: "blob"
-
 hermit:
-  name: "Арбитр Отшельник IX"
+  name: "Арбитр: Отшельник IX"
   img: "/img/port/siren/herm1.png"
   class: "blob"
 
@@ -3539,17 +3912,17 @@ hermit?:
   class: "blob"
 
 hermit_rad:
-  name: "📡Арбитр Отшельник IX"
+  name: "📡Арбитр: Отшельник IX"
   img: "/img/port/siren/herm1rad.png"
   class: "blob"
 
 temperance:
-  name: "Арбитр Умеренность XIV"
+  name: "Арбитр: Умеренность XIV"
   img: "/img/port/siren/temp1.png"
   class: "blob"
 
 temperance_rad:
-  name: "📡Арбитр Умеренность XIV"
+  name: "📡Арбитр: Умеренность XIV"
   img: "/img/port/siren/temp1rad.png"
   class: "blob"
 
@@ -3558,8 +3931,38 @@ temperance_rad?:
   img: "/img/port/siren/temp1rad.png"
   class: "blob"
 
+devil:
+  name: "Арбитр: Дьявол XV"
+  img: "/img/port/siren/devi1.png"
+  class: "blob"
+
+the_devil:
+  name: "Дьявол XV"
+  img: "/img/port/siren/devi1.png"
+  class: "blob"
+
+devil_rad:
+  name: "📡Арбитр: Дьявол XV"
+  img: "/img/port/siren/devi1rad.png"
+  class: "blob"
+
+devil_rad???:
+  name: "📡???"
+  img: "/img/port/siren/devi1rad.png"
+  class: "blob"
+
+tower:
+  name: "Арбитр: Башня XVI"
+  img: "/img/port/siren/towe1.png"
+  class: "blob"
+
+tower544:
+  name: "544845544F574552 (Башня)"
+  img: "/img/port/siren/5448.png"
+  class: "blob"
+
 star:
-  name: "Арбитр Звезда XVII"
+  name: "Арбитр: Звезда XVII"
   img: "/img/port/siren/star1.png"
   class: "blob"
 
@@ -3578,11 +3981,6 @@ moon_war_rad:
   img: "/img/port/siren/moon1rad.png"
   class: "blob"
 
-project_h:
-  name: "Проект H"
-  img: "/img/port/siren/hier1.png"
-  class: "blob"
-
 project_m:
   name: "Проект М"
   img: "/img/port/other/mada1.png"
@@ -3597,6 +3995,8 @@ miss_d_rad:
   name: "📡Мисс D"
   img: "/img/port/siren/miss1rad.png"
   class: "blob"
+
+
 
 
 # ==========================================================
