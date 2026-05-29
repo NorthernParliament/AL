@@ -4062,10 +4062,11 @@ bon_omm_richard2?:
   name: "Бон Омм Ричард?"
   img: "/img/port/meta/bonh3.png"
   class: "blob"
-
+  
 bon_omm_richard?:
   name: "? ? ?"
   img: "/img/port/meta/bonh1.png"
+  class: "blob"
 
 communicator:
   name: "Коммуникатор"
