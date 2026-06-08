@@ -1,0 +1,70 @@
+chapter1:
+  rows:
+  - text:
+      - "БАБАХ!!!"
+  - char: "sheffield_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Я пришла на помощь, как обстановка?"
+  - char: "hunter_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Опоздали на шаг, осталась только мелкая сошка, «кит» ушел."
+  - char: "sheffield_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Жаль. Есть какие-то другие зацепки?"
+  - char: "hunter_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Держи, это собранные остаточные данные, взгляни."
+  - char: "sheffield_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "......Так я и думала, в кажущемся случайным перемещении «кита» кроется определенная цель."
+  - char: "hunter_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Поэтому я совершенно не понимаю, чем они тут занимаются... Разве проект Магистр может продолжаться в таком виде?"
+      - "Или же... это тоже часть проекта Магистр?"
+  - char: "sheffield_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Почему ты спрашиваешь об этом меня?"
+  - char: "hunter_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Потому что у тебя впечатляющий послужной список."
+  - char: "sheffield_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Поблизости есть кое-кто с послужным списком куда более впечатляющим, чем мой. Если тебе так любопытно, почему бы не спросить «Мисс D»?"
+  - char: "hunter_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Естественно, я спрашивала... Но она сказала, что пока мы не поймаем «кита», она мне ничего не расскажет."
+  - char: "sheffield_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Значит, продолжаем ловить «кита»."
+  - char: "hunter_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Я поняла..."
+  - char: "sheffield_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Но не сейчас. Ее Величество велела нам возвращаться."

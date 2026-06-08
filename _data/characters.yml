@@ -644,6 +644,16 @@ amazon:
   img: "/img/port/royal/amaz1.png"
   class: "blob"
 
+argus:
+  name: "Аргус"
+  img: "/img/port/royal/argu1.png"
+  class: "blob"
+
+argus_rad:
+  name: "📡Аргус"
+  img: "/img/port/royal/argu1rad.png"
+  class: "blob"
+
 arethusa:
   name: "Аретьюза"
   img: "/img/port/royal/aret1.png"
@@ -763,6 +773,16 @@ hermione:
   img: "/img/port/royal/herm1.png"
   class: "blob"
 
+hero:
+  name: "Хиро"
+  img: "/img/port/royal/hero1.png"
+  class: "blob"
+
+hero_rad:
+  name: "📡Хиро"
+  img: "/img/port/royal/hero1rad.png"
+  class: "blob"
+
 hood:
   name: "Худ"
   img: "/img/port/royal/hood1.png"
@@ -803,6 +823,16 @@ illustrious_rad:
 illustrious_skin2:
   name: "Илластриес"
   img: "/img/port/royal/illu2.png"
+  class: "blob"
+
+implacable:
+  name: "Имплакабл"
+  img: "/img/port/royal/impl1.png"
+  class: "blob"
+
+implacable_rad:
+  name: "📡Имплакабл"
+  img: "/img/port/royal/impl1rad.png"
   class: "blob"
 
 indomitable:
@@ -937,6 +967,11 @@ queen_elizabeth_rad?:
   img: "/img/port/royal/quee1rad.png"
   class: "blob"
 
+queen_elizabeth_xd:
+  name: "█ █ █ █ █"
+  img: "/img/port/royal/quee1d.png"
+  class: "blob"
+
 # R
 
 renown:
@@ -959,7 +994,22 @@ rodney:
   img: "/img/port/royal/rodn1.png"
   class: "blob"
 
+royal_oak:
+  name: "Ройял Оук"
+  img: "/img/port/royal/roya1.png"
+  class: "blob"
+
+royal_oak_rad:
+  name: "📡Ройял Оук"
+  img: "/img/port/royal/roya1rad.png"
+  class: "blob"
+
 # S
+
+scylla:
+  name: "Сцилла"
+  img: "/img/port/royal/scyl1.png"
+  class: "blob"
 
 sheffield:
   name: "Шеффилд"
@@ -1865,6 +1915,11 @@ emden:
 friedrich_der_grosse:
   name: "Фридрих дер Гроссе"
   img: "/img/port/iron/frie1.png"
+  class: "blob"
+
+friedrich_der_grosse_xd:
+  name: "█ █ █ █ █"
+  img: "/img/port/iron/frie1d.png"
   class: "blob"
 
 friedrich_der_grosse_rad:
@@ -2842,6 +2897,11 @@ bearn:
   img: "/img/port/iris/bear1.png"
   class: "blob"
 
+bearn_rad:
+  name: "📡Беарн"
+  img: "/img/port/iris/bear1rad.png"
+  class: "blob"
+
 bois_belleau:
   name: "Буа Белло"
   img: "/img/port/iris/bois1.png"
@@ -3092,6 +3152,11 @@ jean_bart:
 
 jean_bart???d:
   name: "? ? ?"
+  img: "/img/port/vichya/jean1d.png"
+  class: "blob"
+
+jean_bart_xd:
+  name: "█ █ █ █ █"
   img: "/img/port/vichya/jean1d.png"
   class: "blob"
 
@@ -3521,6 +3586,11 @@ queen_elizabeth_meta:
 queen_elizabeth_meta_rad:
   name: "📡Куин Элизабет МЕТА"
   img: "/img/port/meta/quee1rad.png"
+  class: "blob"
+
+queen_elizabeth_meta???:
+  name: "???"
+  img: "/img/port/meta/quee1.png"
   class: "blob"
 
 vestal_meta:
@@ -4038,6 +4108,11 @@ nop_x:
   img: "/img/port/other/nop.png"
   class: "blob"
 
+nop_x1:
+  name: "█ █ █ █ █"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
 bon_omm_richard:
   name: "Бон Омм Ричард"
   img: "/img/port/meta/bonh1.png"
@@ -4062,11 +4137,10 @@ bon_omm_richard2?:
   name: "Бон Омм Ричард?"
   img: "/img/port/meta/bonh3.png"
   class: "blob"
-  
+
 bon_omm_richard?:
   name: "? ? ?"
   img: "/img/port/meta/bonh1.png"
-  class: "blob"
 
 communicator:
   name: "Коммуникатор"

@@ -402,6 +402,20 @@
   desc: "«От случайности к точности, от бесконечного к конечному — текущее состояние сворачивается. Бабочка находится одновременно и здесь, и там»."
   arc: "02 Вторая часть"
 
+- title_ru: "Обычный день Королевы"
+  title_en: "The Queen's Ordinary Day"
+  slug: "the_queen_ordinary_day"
+  image: "/img/main/the_queen_ordinary_day.png" 
+  desc: "Планы на день начинаются утром. Когда солнечные лучи пробиваются сквозь занавески, начинается грандиозный день королевы."
+  arc: "02 Вторая часть"
+
+- title_ru: "Откровения праха"
+  title_en: "Revelations of Dust"
+  slug: "revelations_of_dust"
+  image: "/img/main/revelations_of_dust.png" 
+  desc: "В песках времени свидетельства событий обращаются в прах, а истина навсегда остается сокрытой в руинах."
+  arc: "02 Вторая часть"
+
 
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"

@@ -1,0 +1,73 @@
+chapter1:
+  rows:
+  - text:
+      - "Седьмой день контроля 00:00:00"
+      - "Флот Свободного Ириса"
+      - "Остров Кергелен · Навигационный маяк Базилики"
+  - text:
+      - "Звон колокола возвестил о наступлении нового дня."
+      - "Кардинал Ришелье, утомленная заботами последних дней, сейчас мирно спала за своим рабочим столом."
+
+chapter2:
+  rows:
+  - char: "richelieu"
+    side: "left"
+    text:
+      - ".....Опять это видение."
+      - "Черное солнце, спустившееся в мир людей..."
+  - char: "nop_x1"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂▁▅▎▌█▊▇▊▇"
+  - char: "richelieu"
+    side: "left"
+    text:
+      - "Раздался голос... Откуда же он исходит?"
+  - char: "nop_x1"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■"
+  - char: "richelieu"
+    side: "left"
+    text:
+      - "Я... не могу понять."
+      - "Кто это говорит, не мог бы ты показать свое истинное лицо?"
+  - char: "jean_bart_xd"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "█▊▇▊▇▅▁▂▋▄▊▌█▌"
+  - char: "richelieu"
+    side: "left"
+    text:
+      - ".....Жан Бар?"
+  - char: "jean_bart_xd"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "█▎■бе▋▂▁▅▎▌регись▇▊▇"
+  - char: "richelieu"
+    side: "left"
+    text:
+      - "...Берегись? Чего беречься?!"
+  - char: "jean_bart_xd"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "█▆▎най█▎█"
+      - "█▎█▎ди▅█▎█▎▌меня▅▎▌█"
+  - char: "richelieu"
+    side: "left"
+    text:
+      - "Погоди... не уходи, Жан Бар!"
+
+chapter3:
+  rows:
+  - char: "richelieu"
+    side: "left"
+    text:
+      - "Жан Бар......"
+      - ".......Это что, был кошмар?"
+      - "Всего лишь кошмар... и ничего больше... да?"

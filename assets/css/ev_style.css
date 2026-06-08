@@ -561,6 +561,7 @@ padding: 1.5%;
 .is-white { --accent-color: #ffffff; } /* Белый */
 .is-purple { --accent-color: #cc99ff; } /* Фиолетовый */
 .is-blue { --accent-color: #3125dd; } /* Синий */
+.is-orange { --accent-color: #ff8800; } /* Оранжевый */
 
 .name-box {
     margin-top: 10px;

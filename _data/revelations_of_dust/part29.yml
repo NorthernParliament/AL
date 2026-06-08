@@ -1,0 +1,60 @@
+chapter1:
+  rows:
+  - char: "ulrich_von_hutten"
+    side: "left"
+    text:
+      - "...Я в этот самый момент должна была бы находиться в комплексе крепостей на парящих островах."
+      - "А значит... сейчас я сплю, и всё это лишь сон."
+  - text:
+      - "Никто не ответил на бормотание Ульрих фон Хуттен, лишь черное солнце безмолвно пылало в вышине."
+  - char: "ulrich_von_hutten"
+    side: "left"
+    text:
+      - "Черное солнце... Это какой-то религиозный символ?"
+      - "Почему оно появилось в моем сне..."
+  - char: "friedrich_der_grosse_xd"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂▁▅▎▌█▊▇▊▇"
+  - char: "ulrich_von_hutten"
+    side: "left"
+    text:
+      - "Фридрих?!"
+  - char: "friedrich_der_grosse_xd"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■"
+  - char: "ulrich_von_hutten"
+    side: "left"
+    text:
+      - "Что ты говоришь...? Я совершенно не могу понять."
+  - char: "friedrich_der_grosse_xd"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "█▎■бе▋▂▁▅▎▌регись▇▊▇"
+  - char: "ulrich_von_hutten"
+    side: "left"
+    text:
+      - "Берегись? Чего ты хочешь, чтобы я береглась?"
+  - char: "friedrich_der_grosse_xd"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "█▆▎най█▎█"
+      - "█▎█▎ди▅█▎█▎▌меня▅▎▌█"
+  - char: "ulrich_von_hutten"
+    side: "left"
+    text:
+      - "Что... что ты только что сказала?!"
+  - char: "friedrich_der_grosse_xd"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "█▊▇▊▇▅▁▂▋▄▊▌█▌"
+  - char: "ulrich_von_hutten"
+    side: "left"
+    text:
+      - "Погоди, объясни всё толком, прежде чем уходить!"
