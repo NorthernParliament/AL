@@ -416,6 +416,20 @@
   desc: "В песках времени свидетельства событий обращаются в прах, а истина навсегда остается сокрытой в руинах."
   arc: "02 Вторая часть"
 
+- title_ru: "Предзнаменование Ткача"
+  title_en: "The Weaver's Omen"
+  slug: "the_weavers_omen"
+  image: "/img/main/the_weavers_omen.png" 
+  desc: "Мудрец, погруженный в раздумья. Паук, неустанно плетущий свою сеть. Звёзды в вышине, море... паутина уже опутала всё сущее."
+  arc: "02 Вторая часть"
+
+- title_ru: "Слияние Небытия"
+  title_en: "Confluence of Nothingness"
+  slug: "confluence_of_nothingness"
+  image: "/img/main/confluence_of_nothingness.png" 
+  desc: "«Где на астролябии сойдутся бесфазные звёзды?»"
+  arc: "02 Вторая часть"
+
 
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"

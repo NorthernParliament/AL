@@ -1652,6 +1652,11 @@ shoukaku:
   img: "/img/port/sakura/shouk1.png"
   class: "blob"
 
+shoukaku?:
+  name: "Сёкаку?"
+  img: "/img/port/sakura/shouk1.png"
+  class: "blob"
+
 shoukaku_rad:
   name: "📡Сёкаку"
   img: "/img/port/sakura/shouk1rad.png"
@@ -1861,6 +1866,11 @@ bismarck_z:
   img: "/img/port/iron/bismz1.png"
   class: "blob"
 
+bismarck_z_rad:
+  name: "📡Бисмарк Цвай"
+  img: "/img/port/iron/bismz1rad.png"
+  class: "blob"
+
 bismarck?:
   name: "? ? ?"
   img: "/img/port/iron/bism1.png"
@@ -1974,6 +1984,18 @@ graf_zeppelin?:
   img: "/img/port/iron/graf1.png"
   class: "blob"
 
+# J
+
+jade:
+  name: "Джейд"
+  img: "/img/port/iron/jade1.png"
+  class: "blob"
+
+jade_rad:
+  name: "📡Джейд"
+  img: "/img/port/iron/jade1rad.png"
+  class: "blob"
+
 # L
 
 lutzow:
@@ -2010,6 +2032,16 @@ odin:
 odin_rad:
   name: "📡Один"
   img: "/img/port/iron/odin1rad.png"
+  class: "blob"
+
+otto_von_alvensleben:
+  name: "Отто фон Альвенслебен"
+  img: "/img/port/iron/otto1.png"
+  class: "blob"
+
+otto_von_alvensleben_rad:
+  name: "📡Отто фон Альвенслебен"
+  img: "/img/port/iron/otto1rad.png"
   class: "blob"
 
 # P
@@ -2095,6 +2127,16 @@ prinz_rupprecht:
   class: "blob"
 
 # R
+
+regensburg:
+  name: "Регенсбург"
+  img: "/img/port/iron/rege1.png"
+  class: "blob"
+
+regensburg_rad:
+  name: "📡Регенсбург"
+  img: "/img/port/iron/rege1rad.png"
+  class: "blob"
 
 roon:
   name: "Роон"
@@ -2208,6 +2250,11 @@ u556:
   img: "/img/port/iron/u5561.png"
   class: "blob"
 
+u556_rad:
+  name: "📡U-556"
+  img: "/img/port/iron/u5561rad.png"
+  class: "blob"
+
 u557:
   name: "U-557"
   img: "/img/port/iron/u5571.png"
@@ -2231,6 +2278,11 @@ u-81_rad:
 ulrich_von_hutten:
   name: "Ульрих фон Хуттен"
   img: "/img/port/iron/ulri1.png"
+  class: "blob"
+
+ulrich_von_hutten_rad:
+  name: "📡Ульрих фон Хуттен"
+  img: "/img/port/iron/ulri1rad.png"
   class: "blob"
 
 ulrich_von_hutten?:
@@ -3238,6 +3290,16 @@ andrea_doria_meta_league:
   img: "/img/port/meta/andr1.png"
   class: "blob"
 
+arizona_meta:
+  name: "Аризона META"
+  img: "/img/port/meta/ariz1.png"
+  class: "blob"
+
+arizona_meta_rad:
+  name: "📡Аризона META"
+  img: "/img/port/meta/ariz1rad.png"
+  class: "blob"
+
 ark_royal_meta:
   name: "Арк Роял META"
   img: "/img/port/meta/arkr1.png"
@@ -3343,6 +3405,11 @@ fusou_meta:
   img: "/img/port/meta/fuso1.png"
   class: "blob"
 
+fusou_meta_rad:
+  name: "📡Фусо META"
+  img: "/img/port/meta/fuso1rad.png"
+  class: "blob"
+
 giulio_cesare_meta:
   name: "Джулио Чезаре META"
   img: "/img/port/meta/guil1.png"
@@ -3356,6 +3423,11 @@ giulio_cesare_meta_league:
 gneisenau_meta:
   name: "Гнейзенау МЕТА"
   img: "/img/port/meta/gnei1.png"
+  class: "blob"
+
+gneisenau_meta_rad:
+  name: "📡Гнейзенау МЕТА"
+  img: "/img/port/meta/gnei1rad.png"
   class: "blob"
 
 glorious_meta:
@@ -3403,6 +3475,16 @@ hiryuu_meta?:
   img: "/img/port/meta/hiry1.png"
   class: "blob"
 
+hiyou_meta:
+  name: "Хиё META"
+  img: "/img/port/meta/hiyo1.png"
+  class: "blob"
+
+hiyou_meta_rad:
+  name: "📡Хиё META"
+  img: "/img/port/meta/hiyo1rad.png"
+  class: "blob"
+
 hornet_meta:
   name: "Хорнет МЕТА"
   img: "/img/port/meta/horn1.png"
@@ -3416,6 +3498,16 @@ hunter_meta:
 jintsuu_meta:
   name: "Дзинцу META"
   img: "/img/port/meta/jint1.png"
+  class: "blob"
+
+junyou_meta:
+  name: "Дзюнъё META"
+  img: "/img/port/meta/juny1.png"
+  class: "blob"
+
+junyou_meta_rad:
+  name: "📡Дзюнъё META"
+  img: "/img/port/meta/juny1rad.png"
   class: "blob"
 
 kimberly_meta:
@@ -3568,6 +3660,11 @@ takao_meta:
   img: "/img/port/meta/taka1.png"
   class: "blob"
 
+takao_meta_rad:
+  name: "📡Такао МЕТА"
+  img: "/img/port/meta/taka1rad.png"
+  class: "blob"
+
 trento_meta:
   name: "Тренто META"
   img: "/img/port/meta/tren1.png"
@@ -3596,6 +3693,21 @@ queen_elizabeth_meta???:
 vestal_meta:
   name: "Вестал МЕТА"
   img: "/img/port/meta/vest1.png"
+  class: "blob"
+
+vestal_meta???:
+  name: "???"
+  img: "/img/port/meta/vest1.png"
+  class: "blob"
+
+u556_meta:
+  name: "U-556 МЕТА"
+  img: "/img/port/meta/u5561.png"
+  class: "blob"
+
+u556_meta?:
+  name: "U-556 МЕТА?"
+  img: "/img/port/meta/u5561.png"
   class: "blob"
 
 wichita_meta:
@@ -3986,6 +4098,11 @@ hermit:
   img: "/img/port/siren/herm1.png"
   class: "blob"
 
+hermit??:
+  name: "Арбитр: Отшельник IX ?"
+  img: "/img/port/siren/herm1.png"
+  class: "blob"
+
 hermit?:
   name: "? ? ?"
   img: "/img/port/siren/herm1.png"
@@ -4039,6 +4156,11 @@ tower:
 tower544:
   name: "544845544F574552 (Башня)"
   img: "/img/port/siren/5448.png"
+  class: "blob"
+
+tower544_rad:
+  name: "544845544F574552 (Башня)"
+  img: "/img/port/siren/5448rad.png"
   class: "blob"
 
 star:
@@ -4154,6 +4276,16 @@ communicator?:
 
 all:
   name: "Все"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
+gerion:
+  name: "Герион"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
+u556?:
+  name: "U556?"
   img: "/img/port/other/nop.png"
   class: "blob"
 
