@@ -2757,6 +2757,17 @@ chapayev???d:
   img: "/img/port/northern/chap1d.png"
   class: "blob"
 
+chkalov:
+  name: "Чкалов"
+  img: "/img/port/northern/chka1.png"
+  class: "blob"
+
+chkalov_rad:
+  name: "📡Чкалов"
+  img: "/img/port/northern/chka1rad.png"
+  class: "blob"
+
+
 # G
 
 gangut:
@@ -2802,9 +2813,34 @@ kirov:
   img: "/img/port/northern/kiro1.png"
   class: "blob"
 
+kirov_rad:
+  name: "📡Киров"
+  img: "/img/port/northern/kiro1rad.png"
+  class: "blob"
+
 kronshtadt:
   name: "Кронштадт"
   img: "/img/port/northern/kron1.png"
+  class: "blob"
+
+kursk:
+  name: "Курск"
+  img: "/img/port/northern/kurs1.png"
+  class: "blob"
+
+kursk_rad:
+  name: "📡Курск"
+  img: "/img/port/northern/kurs1rad.png"
+  class: "blob"
+
+kuybyshev:
+  name: "Куйбышев"
+  img: "/img/port/northern/kuyb1.png"
+  class: "blob"
+
+kuybyshev_rad:
+  name: "📡Куйбышев"
+  img: "/img/port/northern/kuyb1rad.png"
   class: "blob"
 
 # M
@@ -2843,9 +2879,24 @@ pamiat_merkuria???d:
 
 # S
 
+sevastopol:
+  name: "Севастополь"
+  img: "/img/port/northern/seva1.png"
+  class: "blob"
+
+sevastopol_rad:
+  name: "📡Севастополь"
+  img: "/img/port/northern/seva1rad.png"
+  class: "blob"
+
 sovetskaya_belorussiya:
   name: "Советская Белоруссия"
   img: "/img/port/northern/sbel1.png"
+  class: "blob"
+
+sovetskaya_belorussiya_rad:
+  name: "📡Советская Белоруссия"
+  img: "/img/port/northern/sbel1rad.png"
   class: "blob"
 
 sovetskaya_rossiya:
@@ -2930,6 +2981,16 @@ tashkent???d:
 volga:
   name: "Волга"
   img: "/img/port/northern/volg1.png"
+  class: "blob"
+
+voroshilov:
+  name: "Ворошилов"
+  img: "/img/port/northern/voro1.png"
+  class: "blob"
+
+voroshilov_rad:
+  name: "📡Ворошилов"
+  img: "/img/port/northern/voro1rad.png"
   class: "blob"
 
 
