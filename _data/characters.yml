@@ -2490,6 +2490,16 @@ andrea_doria:
   img: "/img/port/sardegna/andr1.png"
   class: "blob"
 
+attilio_regolo:
+  name: "Аттилио Реголо"
+  img: "/img/port/sardegna/atti1.png"
+  class: "blob"
+
+attilio_regolo_rad:
+  name: "📡Аттилио Реголо"
+  img: "/img/port/sardegna/atti1rad.png"
+  class: "blob"
+
 aquila:
   name: "Аквила"
   img: "/img/port/sardegna/aqui1.png"
@@ -2575,6 +2585,16 @@ giulio_cesare:
 giuseppe_garibaldi:
   name: "Джузеппе Гарибальди"
   img: "/img/port/sardegna/gius1.png"
+  class: "blob"
+
+gorizia:
+  name: "Гориция"
+  img: "/img/port/sardegna/gori1.png"
+  class: "blob"
+
+gorizia_rad:
+  name: "📡Гориция"
+  img: "/img/port/sardegna/gori1rad.png"
   class: "blob"
 
 # L
@@ -3306,6 +3326,23 @@ l_indomptable:
   name: "Л’Индомтабль"
   img: "/img/port/vichya/lind1.png"
   class: "blob longname"
+
+# M
+
+marseillaise:
+  name: "Марсельеза"
+  img: "/img/port/vichya/mars1.png"
+  class: "blob"
+
+marseillaise_rad:
+  name: "📡Марсельеза"
+  img: "/img/port/vichya/mars1rad.png"
+  class: "blob"
+
+marseillaise_x:
+  name: "█ █ █ █ █"
+  img: "/img/port/vichya/mars1.png"
+  class: "blob"
 
 # T
 
@@ -4327,6 +4364,11 @@ bon_omm_richard?:
 
 communicator:
   name: "Коммуникатор"
+  img: "/img/port/other/nop.png"
+  class: "blob"
+
+radio:
+  name: "Радио"
   img: "/img/port/other/nop.png"
   class: "blob"
 

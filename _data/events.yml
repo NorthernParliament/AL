@@ -437,6 +437,20 @@
   desc: "Операция «Ледяной дождь» начнется в 01:00. Быстро выдвигайтесь на свои позиции и готовьтесь к бою. На этом всё, товарищи. Удачи."
   arc: "02 Вторая часть"
 
+- title_ru: "Отражения оазиса"
+  title_en: "Reflections of the Oasis"
+  slug: "reflections_of_the_oasis"
+  image: "/img/main/reflections_of_the_oasis.png" 
+  desc: "Оазис превратился в отрезанный от мира остров посреди песчаной бури. Раз уж делать всё равно нечего, давай рассказывать старые истории!"
+  arc: "02 Вторая часть"
+
+- title_ru: "Гимн памяти"
+  title_en: "Anthem of Remembrance"
+  slug: "anthem_of_remembrance"
+  image: "/img/main/anthem_of_remembrance.png" 
+  desc: "Ришелье и её отряд отправляются в путь, чтобы спасти своих товарищей и вернуть Корону Святого Престола. Однако грядущее путешествие таит в себе множество опасностей."
+  arc: "02 Вторая часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"

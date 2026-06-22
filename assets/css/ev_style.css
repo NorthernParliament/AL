@@ -671,12 +671,6 @@ width: auto;
     z-index: 0;
 }
 
-/* Чтобы текст был выше тумана, поднимем tr */
-.mainchapter tr {
-    position: relative;
-    z-index: 2;
-}
-
 img.fog-effect {
     filter: brightness(3) contrast(0.1) opacity(0.7);
 }
@@ -695,6 +689,48 @@ img.fog-effect {
     z-index: 0;
 }
 
+.mainchapter.fog-effect-red {
+    position: relative;
+}
+
+.mainchapter.fog-effect-red::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(112, 1, 1, 0.7));*/
+    background:
+    radial-gradient(circle at 10% 30%, rgba(139, 0, 0, 0.3) 0%, transparent 60%),
+    radial-gradient(circle at 85% 40%, rgba(90, 0, 0, 0.4) 0%, transparent 50%),
+    radial-gradient(circle at 50% 80%, rgba(100, 5, 5, 0.35) 0%, transparent 55%),
+    radial-gradient(circle at 30% 60%, rgba(40, 0, 0, 0.5) 0%, transparent 45%);
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+img.fog-effect-red {
+    filter: brightness(3) contrast(0.1) opacity(0.7);
+}
+
+.mainchapter.fog-effect-full {
+    position: relative;
+}
+
+.mainchapter.fog-effect-full::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Градиент тумана */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    pointer-events: none; /* Чтобы таблица оставалась кликабельной */
+    z-index: 0;
+}
+
+/* Чтобы текст был выше тумана, поднимем tr */
+.mainchapter tr {
+    position: relative;
+    z-index: 2;
+}
 
 
 .mainchapter.white-full {
