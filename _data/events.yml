@@ -451,6 +451,20 @@
   desc: "Ришелье и её отряд отправляются в путь, чтобы спасти своих товарищей и вернуть Корону Святого Престола. Однако грядущее путешествие таит в себе множество опасностей."
   arc: "02 Вторая часть"
 
+- title_ru: "Канун Сумерек"
+  title_en: "Eventide's Eve"
+  slug: "eventides_eve"
+  image: "/img/main/eventidws_eve.png" 
+  desc: "Какие бы планы и интриги ни строились, этой ночью им придет конец. Завтра свершится суд. Завтра явится Он."
+  arc: "03 Третья часть"
+
+- title_ru: "Весы Глупца"
+  title_en: "The Fool's Scales"
+  slug: "the_fools_scales"
+  image: "/img/main/the_fools_scales.png" 
+  desc: "«Кто же тот самый глупец в этом представлении под названием „Весы Глупца“, и что это за весы?»"
+  arc: "03 Третья часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"

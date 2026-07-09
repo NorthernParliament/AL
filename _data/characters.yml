@@ -879,6 +879,13 @@ king_george_v(?):
   img: "/img/port/royal/king1.png"
   class: "blob"
 
+# L
+
+london:
+  name: "Лондон"
+  img: "/img/port/royal/lond1.png"
+  class: "blob"
+
 # M
 
 monarch:
@@ -901,6 +908,11 @@ matchless:
 nelson:
   name: "Нельсон"
   img: "/img/port/royal/nels1.png"
+  class: "blob"
+
+nelson_rad:
+  name: "📡Нельсон"
+  img: "/img/port/royal/nels1rad.png"
   class: "blob"
 
 neptune:
@@ -994,6 +1006,11 @@ rodney:
   img: "/img/port/royal/rodn1.png"
   class: "blob"
 
+rodney_rad:
+  name: "📡Родни"
+  img: "/img/port/royal/rodn1rad.png"
+  class: "blob"
+
 royal_oak:
   name: "Ройял Оук"
   img: "/img/port/royal/roya1.png"
@@ -1014,6 +1031,11 @@ scylla:
 sheffield:
   name: "Шеффилд"
   img: "/img/port/royal/shef1.png"
+  class: "blob"
+
+sheffield_rad:
+  name: "📡Шеффилд"
+  img: "/img/port/royal/shef1rad.png"
   class: "blob"
 
 suffolk:
@@ -1561,6 +1583,11 @@ niizuki:
 noshiro:
   name: "Носиро"
   img: "/img/port/sakura/nosh1.png"
+  class: "blob"
+
+noshiro_rad:
+  name: "📡Носиро"
+  img: "/img/port/sakura/nosh1rad.png"
   class: "blob"
 
 noshiro?:
@@ -2126,6 +2153,11 @@ prinz_rupprecht:
   img: "/img/port/iron/rupp1.png"
   class: "blob"
 
+prinz_rupprecht_rad:
+  name: "📡Принц Руппрехт"
+  img: "/img/port/iron/rupp1rad.png"
+  class: "blob"
+
 # R
 
 regensburg:
@@ -2435,6 +2467,11 @@ chen_hai:
   img: "/img/port/dragon/chen1.png"
   class: "blob"
 
+chen_hai_rad:
+  name: "📡Чэнь Хай"
+  img: "/img/port/dragon/chen1rad.png"
+  class: "blob"
+
 # H
 
 hai_chi:
@@ -2541,6 +2578,11 @@ duca_degli_abruzzi:
   img: "/img/port/sardegna/duca1.png"
   class: "blob"
 
+duca_degli_abruzzi_rad:
+  name: "📡Дука дельи Абруцци"
+  img: "/img/port/sardegna/duca1rad.png"
+  class: "blob"
+
 # E
 
 emanuele_pessagno:
@@ -2597,6 +2639,18 @@ gorizia_rad:
   img: "/img/port/sardegna/gori1rad.png"
   class: "blob"
 
+# I
+
+impero:
+  name: "Имперо"
+  img: "/img/port/sardegna/impe1.png"
+  class: "blob"
+
+impero_rad:
+  name: "📡Имперо"
+  img: "/img/port/sardegna/impe1rad.png"
+  class: "blob"
+
 # L
 
 leonardo_da_vinci:
@@ -2647,6 +2701,11 @@ marco_polo:
   img: "/img/port/sardegna/marc1.png"
   class: "blob"
 
+marco_polo?d:
+  name: "Марко Поло?"
+  img: "/img/port/sardegna/marc1d.png"
+  class: "blob"
+
 marco_polo_a:
   name: "Марко Поло (Апостол)"
   img: "/img/port/sardegna/marc1.png"
@@ -2691,6 +2750,11 @@ raffaello_league:
 roma:
   name: "Рома"
   img: "/img/port/sardegna/roma1.png"
+  class: "blob"
+
+roma_rad:
+  name: "📡Рома"
+  img: "/img/port/sardegna/roma1rad.png"
   class: "blob"
 
 roma_ghost:
@@ -2934,6 +2998,11 @@ sovetskaya_rossiya???d:
   img: "/img/port/northern/sros1d.png"
   class: "blob"
 
+sovetskaya_rossiya_xd:
+  name: "█ █ █ █ █"
+  img: "/img/port/northern/sros1d.png"
+  class: "blob"
+
 sovetsky_soyuz_old:
   name: "Советский Союз"
   img: "/img/port/northern/sove10.png"
@@ -2967,6 +3036,11 @@ soobrazitelny:
 stremitelny:
   name: "Стремительный"
   img: "/img/port/northern/stre1.png"
+  class: "blob"
+
+stremitelny_rad:
+  name: "📡Стремительный"
+  img: "/img/port/northern/stre1rad.png"
   class: "blob"
 
 # T
@@ -3055,6 +3129,18 @@ bois_belleau_iris_rad:
   img: "/img/port/iris/bois1rad.png"
   class: "blob"
 
+# C
+
+champagne:
+  name: "Шампань"
+  img: "/img/port/iris/cham1.png"
+  class: "blob"
+
+champagne_rad:
+  name: "📡Шампань"
+  img: "/img/port/iris/cham1rad.png"
+  class: "blob"
+
 # D
 
 duguay_trouin:
@@ -3111,6 +3197,13 @@ forbin:
   img: "/img/port/iris/forb1.png"
   class: "blob"
 
+# G
+
+guichen:
+  name: "Гишен"
+  img: "/img/port/iris/guic1.png"
+  class: "blob"
+
 # J
 
 jeanne_d_arc:
@@ -3165,6 +3258,16 @@ le_triomphant:
   img: "/img/port/iris/letr1.png"
   class: "blob"
 
+lyon:
+  name: "Лион"
+  img: "/img/port/iris/lyon1.png"
+  class: "blob"
+
+lyon_rad:
+  name: "📡Лион"
+  img: "/img/port/iris/lyon1rad.png"
+  class: "blob"
+
 l_opiniatre:
   name: "Л’Опиньятр"
   img: "/img/port/iris/lopi1.png"
@@ -3202,6 +3305,18 @@ massena_iris_rad:
   img: "/img/port/iris/mass1rad.png"
   class: "blob"
 
+# P
+
+painleve:
+  name: "Пенлеве"
+  img: "/img/port/iris/pain1.png"
+  class: "blob"
+
+painleve_rad:
+  name: "📡Пенлеве"
+  img: "/img/port/iris/pain1rad.png"
+  class: "blob"
+
 # R
 
 richelieu:
@@ -3214,7 +3329,22 @@ richelieu_rad:
   img: "/img/port/iris/rich1rad.png"
   class: "blob"
 
+# S
 
+saint_louis:
+  name: "Сан-Луи"
+  img: "/img/port/iris/sain1.png"
+  class: "blob"
+
+saint_louis_rad:
+  name: "📡Сан-Луи"
+  img: "/img/port/iris/sain1rad.png"
+  class: "blob"
+
+suffren:
+  name: "Сюффрен"
+  img: "/img/port/iris/suff1.png"
+  class: "blob"
 
 
 # ==========================================================
@@ -3257,6 +3387,11 @@ dunkerque:
   img: "/img/port/vichya/dunk1.png"
   class: "blob"
 
+dunkerque_rad:
+  name: "📡Дюнкерк"
+  img: "/img/port/vichya/dunk1rad.png"
+  class: "blob"
+
 # F
 
 foch:
@@ -3283,6 +3418,11 @@ jean_bart:
   img: "/img/port/vichya/jean1.png"
   class: "blob"
 
+jean_bart_rad:
+  name: "📡Жан Бар"
+  img: "/img/port/vichya/jean1rad.png"
+  class: "blob"
+
 jean_bart???d:
   name: "? ? ?"
   img: "/img/port/vichya/jean1d.png"
@@ -3298,11 +3438,21 @@ joffre:
   img: "/img/port/vichya/joff1.png"
   class: "blob"
 
+joffre_rad:
+  name: "📡Жоффр"
+  img: "/img/port/vichya/joff1rad.png"
+  class: "blob"
+
 # K
 
 kersaint:
   name: "Керсен"
   img: "/img/port/vichya/kers1.png"
+  class: "blob"
+
+kersaint_rad:
+  name: "📡Керсен"
+  img: "/img/port/vichya/kers1rad.png"
   class: "blob"
 
 # L
@@ -3320,6 +3470,21 @@ la_galissonniere_rad:
 le_malin:
   name: "Ле Мален"
   img: "/img/port/vichya/lema1.png"
+  class: "blob"
+
+le_malin_rad:
+  name: "📡Ле Мален"
+  img: "/img/port/vichya/lema1rad.png"
+  class: "blob"
+
+le_mars:
+  name: "Ле Мар"
+  img: "/img/port/vichya/lemar1.png"
+  class: "blob"
+
+le_mars_rad:
+  name: "📡Ле Мар"
+  img: "/img/port/vichya/lemar1rad.png"
   class: "blob"
 
 l_indomptable:
@@ -3351,6 +3516,11 @@ tartu:
   img: "/img/port/vichya/tart1.png"
   class: "blob"
 
+tartu_rad:
+  name: "📡Тарту"
+  img: "/img/port/vichya/tart1rad.png"
+  class: "blob"
+
 # V
 
 vauquelin:
@@ -3358,6 +3528,10 @@ vauquelin:
   img: "/img/port/vichya/vauq1.png"
   class: "blob"
 
+vauquelin_rad:
+  name: "📡Вокелен"
+  img: "/img/port/vichya/vauq1rad.png"
+  class: "blob"
 
 # ==========================================================
 # Tulipa (Тулпа)
@@ -3401,6 +3575,11 @@ arizona_meta_rad:
 ark_royal_meta:
   name: "Арк Роял META"
   img: "/img/port/meta/arkr1.png"
+  class: "blob"
+
+ark_royal_meta_rad:
+  name: "📡Арк Роял META"
+  img: "/img/port/meta/arkr1rad.png"
   class: "blob"
 
 ark_royal_meta?:
@@ -3671,6 +3850,11 @@ prinston_meta:
 renown_meta:
   name: "Ринаун МЕТА"
   img: "/img/port/meta/reno1.png"
+  class: "blob"
+
+renown_meta_rad:
+  name: "📡Ринаун МЕТА"
+  img: "/img/port/meta/reno1rad.png"
   class: "blob"
 
 regensburg_meta:
