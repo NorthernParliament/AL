@@ -8,7 +8,7 @@ title: "Azur Lane на русском"
     <h1 class="tittle99">Azur Lane на русском</h1>
     <p class="system-status">System Status: <span class="status-online">Online</span></p>
  <div class="top-banner-container">
-    <img src="{{ site.baseurl }}/img/main/head1.png" alt="" class="main-banner">
+    <img src="{{ site.baseurl }}/img/main/head1.webp" alt="" class="main-banner">
 </div>
 <div class="content1"></div>
   </div>
