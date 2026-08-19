@@ -66,146 +66,146 @@ white_scene99:
 
 <div class="chapter" id="part1"> <!-- начало главы -->
 <p class="title-1">Предзнаменование</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg26-1.png" alt="">
+<img class="pict1" src="../../img/bg/i/bg1-1.webp" alt="">
 {% assign rows = site.data.anthem_of_remembrance.part1.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg26-1.png"  %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg137-1.png" alt="">
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg1-1.webp"  %}
+<img class="pict1" src="../../img/bg/p/bg85-1.webp" alt="">
 {% include blackscreen.html lines=page.black_scene %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg176.png" alt="">
+<img class="pict1" src="../../img/bg/i/bg6.webp" alt="">
 {% include loc.html td_class="loc" text="█ █ █·█ █ █ █ █ █" %}
 {% assign rows = site.data.anthem_of_remembrance.part1.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg176.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg6.webp"  %}
 {% include flash.html type="into-white" %}
 {% assign rows = site.data.anthem_of_remembrance.part1.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="white-full" %}
 {% include flash.html type="from-white" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg18.png" alt="">
+<img class="pict1" src="../../img/bg/y/bg2.webp" alt="">
 {% assign rows = site.data.anthem_of_remembrance.part1.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg18.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/y/bg2.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part2"> <!-- начало главы -->
 <p class="title-1">Изгнание</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg2.png" alt="">
+<img class="pict1" src="../../img/bg/y/bg1.webp" alt="">
 {% include loc.html td_class="loc" text="Годы назад - Доминион Виши - Командный центр - Воспоминание Марсельезе" %}
 {% assign rows = site.data.anthem_of_remembrance.part2.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg2.png"  %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg157.png" alt="">
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/y/bg1.webp"  %}
+<img class="pict1" src="../../img/bg/x/bg15.webp" alt="">
 {% include loc.html td_class="loc" text="Наши дни - Где-то в Атлантическом океане - Основной флот Свободного Ириса" %}
 {% assign rows = site.data.anthem_of_remembrance.part2.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg157.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/x/bg15.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part3"> <!-- начало главы -->
 <p class="title-1">Проверка</p>
 {% include blackscreen.html lines=page.black_scene1 %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg157.png" alt="">
+<img class="pict1" src="../../img/bg/x/bg15.webp" alt="">
 {% assign rows = site.data.anthem_of_remembrance.part3.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg157.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/x/bg15.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part4"> <!-- начало главы -->
 <p class="title-1">Старая знакомая</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg157.png" alt="">
+<img class="pict1" src="../../img/bg/x/bg15.webp" alt="">
 {% include loc.html td_class="loc" text="Годы назад - Доминион Виши - Командный центр - Воспоминание Марсельезе" %}
 {% assign rows = site.data.anthem_of_remembrance.part4.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg157.png"  %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg189.png" alt="">
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/x/bg15.webp"  %}
+<img class="pict1" src="../../img/bg/i/bg7.webp" alt="">
 {% include loc.html td_class="loc" text="Наши дни - Окрестности острова Святой Елены - Основной флот Свободного Ириса" %}
 {% assign rows = site.data.anthem_of_remembrance.part4.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg189.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg7.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part5"> <!-- начало главы -->
 <p class="title-1">Подкрепление</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg189.png" alt="">
+<img class="pict1" src="../../img/bg/i/bg7.webp" alt="">
 {% include loc.html td_class="loc" text="Наши дни - Остров Святой Елены" %}
 {% assign rows = site.data.anthem_of_remembrance.part5.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg189.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg7.webp"  %}
 {% include blackscreen.html lines=page.black_scene99 %}
 {% assign rows = site.data.anthem_of_remembrance.part5.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg189.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg7.webp"  %}
 {% include blackscreen.html lines=page.black_scene99 %}
 {% assign rows = site.data.anthem_of_remembrance.part5.chapter3.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg189.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg7.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part6"> <!-- начало главы -->
 <p class="title-1">Крушение</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg27-1.png" alt="">
+<img class="pict1" src="../../img/bg/i/bg2-2.webp" alt="">
 {% include loc.html td_class="loc" text="Годы назад - Столица Ортодоксии Ирис - Воспоминание Марсельезе" %}
 {% assign rows = site.data.anthem_of_remembrance.part6.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg27-1.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg2-2.webp"  %}
 {% include blackscreen.html lines=page.black_scene99 %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg189.png" alt="">
+<img class="pict1" src="../../img/bg/i/bg7.webp" alt="">
 {% include loc.html td_class="loc" text="Наши дни - Окрестности острова Святой Елены - ▇█▎■▄▆▋▂" %}
 {% assign rows = site.data.anthem_of_remembrance.part6.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/bg189.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/i/bg7.webp"  %}
 {% include blackscreen.html lines=page.black_scene99 %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg176.png" alt="">
+<img class="pict1" src="../../img/bg/i/bg6.webp" alt="">
 {% assign rows = site.data.anthem_of_remembrance.part6.chapter3.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg176.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg6.webp"  %}
 {% include blackscreen.html lines=page.black_scene99 %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg189.png" alt="">
+<img class="pict1" src="../../img/bg/i/bg7.webp" alt="">
 {% assign rows = site.data.anthem_of_remembrance.part6.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/bg189.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/i/bg7.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part7"> <!-- начало главы -->
 <p class="title-1">Одинокий путь</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg190.png" alt="">
+<img class="pict1" src="../../img/bg/bg2.webp" alt="">
 {% include loc.html td_class="loc" text="Годы назад - Остров Святой Елены - Секретная база Трибунала - Воспоминание Марсельезе" %}
 {% assign rows = site.data.anthem_of_remembrance.part7.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg190.png"  %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg189.png" alt="">
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg2.webp"  %}
+<img class="pict1" src="../../img/bg/i/bg7.webp" alt="">
 {% include loc.html td_class="loc" text="Наши дни - Окрестности острова Святой Елены - ▇█▎■▄▆▋▂" %}
 {% assign rows = site.data.anthem_of_remembrance.part7.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/bg189.png"  %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg195.png" alt="">
+{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/i/bg7.webp"  %}
+<img class="pict1" src="../../img/bg/p/bg136.webp" alt="">
 {% assign rows = site.data.anthem_of_remembrance.part7.chapter3.rows %}
-{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/bg189.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/i/bg7.webp"  %}
 {% include whitescreen.html lines=page.white_scene99 %}
 {% assign rows = site.data.anthem_of_remembrance.part7.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/bg189.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/i/bg7.webp"  %}
 {% include whitescreen.html lines=page.white_scene99 %}
 {% assign rows = site.data.anthem_of_remembrance.part7.chapter5.rows %}
-{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/bg189.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/i/bg7.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part8"> <!-- начало главы -->
 <p class="title-1">Свет</p>
 {% include blackscreen.html lines=page.black_scene2 %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg189.png" alt="">
+<img class="pict1" src="../../img/bg/i/bg7.webp" alt="">
 {% assign rows = site.data.anthem_of_remembrance.part8.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/bg189.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg fog-effect-red" bg_file="/img/bg/i/bg7.webp"  %}
 {% include flash.html type="into-white" %}
 {% assign rows = site.data.anthem_of_remembrance.part8.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="white-full" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg195-1.png" alt="">
+<img class="pict1" src="../../img/bg/p/bg136-1.webp" alt="">
 {% assign rows = site.data.anthem_of_remembrance.part8.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="white-full" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg189.png" alt="">
+<img class="pict1" src="../../img/bg/i/bg7.webp" alt="">
 {% assign rows = site.data.anthem_of_remembrance.part8.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg189.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg7.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part9"> <!-- начало главы -->
 <p class="title-1">Новое будущее</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg2.png" alt="">
+<img class="pict1" src="../../img/bg/y/bg1.webp" alt="">
 {% include loc.html td_class="loc" text="Остров Святой Елены - Секретная база Трибунала - Объединённый флот Ирис и Виши" %}
 {% assign rows = site.data.anthem_of_remembrance.part9.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg2.png"  %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg189.png" alt="">
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/y/bg1.webp"  %}
+<img class="pict1" src="../../img/bg/i/bg7.webp" alt="">
 {% include loc.html td_class="loc" text="Остров Святой Елены · Прибрежная акватория" %}
 {% assign rows = site.data.anthem_of_remembrance.part9.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg189.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg7.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part10"> <!-- начало главы -->
 <p class="title-1">Ожидание</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg2.png" alt="">
+<img class="pict1" src="../../img/bg/y/bg1.webp" alt="">
 {% include loc.html td_class="loc" text="На следующий день в крепости Трибунала." %}
 {% assign rows = site.data.anthem_of_remembrance.part10.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg2.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/y/bg1.webp"  %}
 {% include blackscreen.html lines=page.black_scene3 %}
 </div> <!-- конец главы -->

@@ -13,14 +13,14 @@ chapters_count: 3
 
 <div class="chapter" id="part2"> <!-- начало главы -->
 <p class="title-1">После Первой Битвы</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.one_small_promise.part2.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы --> 
 
 <div class="chapter" id="part3"> <!-- начало главы -->
 <p class="title-1">Тьма</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.one_small_promise.part3.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->

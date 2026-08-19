@@ -48,79 +48,79 @@ record_text3: >
 <p class="title-1">Путь домой</p>
 {% assign rows = site.data.mirror_involution.part1.chapter1.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg36.png" alt="">
+<img class="pict1" src="../../img/bg/x/bg4.webp" alt="">
 {% assign rows = site.data.mirror_involution.part1.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg36.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/x/bg4.webp" %}
 {% include choice_header.html %}
 {% assign rows = site.data.mirror_involution.part1.chapter3.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg36.png" bg_overlay="blue-choise" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/x/bg4.webp" bg_overlay="blue-choise" %}
 {% assign rows = site.data.mirror_involution.part1.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg36.png" bg_overlay="red-choise" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/x/bg4.webp" bg_overlay="red-choise" %}
 {% assign rows = site.data.mirror_involution.part1.chapter5.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg36.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/x/bg4.webp" %}
 {% include blackscreen.html lines=page.black_scene99 %}
 {% assign rows = site.data.mirror_involution.part1.chapter6.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg36.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/x/bg4.webp" %}
 {% include blackscreen.html lines=page.black_scene %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part2"> <!-- начало главы -->
 <p class="title-1">Передача дел</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3.webp" alt="">
 {% include loc.html td_class="loc" text="Гавань PH · Кабинет Командира" %}
 {% assign rows = site.data.mirror_involution.part2.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp"  %}
 {% include choice_header.html %}
 {% assign rows = site.data.mirror_involution.part2.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png" bg_overlay="blue-choise" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp" bg_overlay="blue-choise" %}
 {% assign rows = site.data.mirror_involution.part2.chapter3.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png" bg_overlay="red-choise" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp" bg_overlay="red-choise" %}
 {% assign rows = site.data.mirror_involution.part2.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part3"> <!-- начало главы -->
 <p class="title-1">Передача дел</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75-1.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3-1.webp" alt="">
 {% include loc.html td_class="loc" text="Гавань PH · Кабинет Командира. Семь часов спустя." %}
 {% assign rows = site.data.mirror_involution.part3.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-1.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-1.webp"  %}
 {% include choice_header.html %}
 {% assign rows = site.data.mirror_involution.part3.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-1.png" bg_overlay="blue-choise" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-1.webp" bg_overlay="blue-choise" %}
 {% assign rows = site.data.mirror_involution.part3.chapter3.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-1.png" bg_overlay="red-choise" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75.png" alt="">
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-1.webp" bg_overlay="red-choise" %}
+<img class="pict1" src="../../img/bg/a/bg3.webp" alt="">
 {% assign rows = site.data.mirror_involution.part3.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part4"> <!-- начало главы -->
 <p class="title-1">Противник</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3.webp" alt="">
 {% assign rows = site.data.mirror_involution.part4.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp"  %}
 {% include blackscreen.html lines=page.black_scene99 %}
 {% assign rows = site.data.mirror_involution.part4.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part5"> <!-- начало главы -->
 <p class="title-1">Разворот</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg36.png" alt="">
+<img class="pict1" src="../../img/bg/x/bg4.webp" alt="">
 {% include loc.html td_class="loc" text="Флот Нью-Джерси" %}
 {% assign rows = site.data.mirror_involution.part5.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg36.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/x/bg4.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part6"> <!-- начало главы -->
 <p class="title-1">Заместитель</p>
 {% include loc.html td_class="loc" text="Флот Нью-Джерси · Спустя несколько часов" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg124.png" alt="">
+<img class="pict1" src="../../img/bg/p/bg73.webp" alt="">
 {% assign rows = site.data.mirror_involution.part6.chapter1.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 {% assign rows = site.data.mirror_involution.part6.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part7"> <!-- начало главы -->
@@ -132,31 +132,31 @@ record_text3: >
 
 <div class="chapter" id="part8"> <!-- начало главы -->
 <p class="title-1">Оценка ущерба</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3.webp" alt="">
 {% include loc.html td_class="loc" text="Прибрежные воды гавани PH" %}
 {% assign rows = site.data.mirror_involution.part8.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part9"> <!-- начало главы -->
 <p class="title-1">Медвежонок</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3.webp" alt="">
 {% assign rows = site.data.mirror_involution.part9.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part10"> <!-- начало главы -->
 <p class="title-1">Реконструкция</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3.webp" alt="">
 {% assign rows = site.data.mirror_involution.part10.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part11"> <!-- начало главы -->
 <p class="title-1">Неполная Реконструкция</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3.webp" alt="">
 {% assign rows = site.data.mirror_involution.part11.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png"  %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp"  %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part12"> <!-- начало главы -->
@@ -175,17 +175,17 @@ record_text3: >
 
 <div class="chapter" id="part13"> <!-- начало главы -->
 <p class="title-1">Союзники</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3.webp" alt="">
 {% include loc.html td_class="loc" text="Акватория к юго-западу от AF" %}
 {% assign rows = site.data.mirror_involution.part13.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part14"> <!-- начало главы -->
 <p class="title-1">Серебряные крылья</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3.webp" alt="">
 {% assign rows = site.data.mirror_involution.part14.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part15"> <!-- начало главы -->
@@ -203,11 +203,11 @@ record_text3: >
 {% assign rows = site.data.mirror_involution.part16.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg mist" %}
 {% include whitescreen.html lines=page.white_scene99 %}
-{% include image_text.html src="/img/bg/bg75-2.png" text=page.record_text1 %}
+{% include image_text.html src="/img/bg/a/bg3-2.webp" text=page.record_text1 %}
 {% include whitescreen.html lines=page.white_scene99 %}
-{% include image_text.html src="/img/bg/bg75-2.png" text=page.record_text2 %}
+{% include image_text.html src="/img/bg/a/bg3-2.webp" text=page.record_text2 %}
 {% include whitescreen.html lines=page.white_scene99 %}
-{% include image_text.html src="/img/bg/bg75-2.png" text=page.record_text3 %}
+{% include image_text.html src="/img/bg/a/bg3-2.webp" text=page.record_text3 %}
 {% include whitescreen.html lines=page.white_scene99 %}
 {% assign rows = site.data.mirror_involution.part16.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg mist" %}
@@ -215,25 +215,25 @@ record_text3: >
 
 <div class="chapter" id="part17"> <!-- начало главы -->
 <p class="title-1">Призраки прошлого</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75-1.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3-1.webp" alt="">
 {% include loc.html td_class="loc" text="Акватория к юго-западу от AF, внутри морского тумана" %}
 {% assign rows = site.data.mirror_involution.part17.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-1.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-1.webp" %}
 {% include blackscreen.html lines=page.black_scene1 %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part18"> <!-- начало главы -->
 <p class="title-1">Безмолвие</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75-1.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3-1.webp" alt="">
 {% assign rows = site.data.mirror_involution.part18.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-1.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part19"> <!-- начало главы -->
 <p class="title-1">Тестирование закономерностей</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75-1.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3-1.webp" alt="">
 {% assign rows = site.data.mirror_involution.part19.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-1.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part20"> <!-- начало главы -->
@@ -260,137 +260,137 @@ record_text3: >
 
 <div class="chapter" id="part22"> <!-- начало главы -->
 <p class="title-1">Напролом</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75-1.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3-1.webp" alt="">
 {% include loc.html td_class="loc" text="Акватория к юго-западу от AF, внутри морского тумана" %}
 {% assign rows = site.data.mirror_involution.part22.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-1.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part23"> <!-- начало главы -->
 <p class="title-1">Невидимое</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75-1.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3-1.webp" alt="">
 {% assign rows = site.data.mirror_involution.part23.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-1.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-1.webp" %}
 {% include whitescreen.html lines=page.white_scene99 %}
 {% assign rows = site.data.mirror_involution.part23.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-1.png" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75-3.png" alt="">
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-1.webp" %}
+<img class="pict1" src="../../img/bg/a/bg3-3.webp" alt="">
 {% assign rows = site.data.mirror_involution.part23.chapter3.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-3.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-3.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part24"> <!-- начало главы -->
 <p class="title-1">Видеокассета</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75-2.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3-2.webp" alt="">
 {% include loc.html td_class="loc" text="？？？·？？？" %}
 {% assign rows = site.data.mirror_involution.part24.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-2.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-2.webp" %}
 {% include whitescreen.html lines=page.white_scene99 %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg132.png" alt="">
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg133.png" alt="">
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg134.png" alt="">
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg135.png" alt="">
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg136.png" alt="">
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg115.png" alt="">
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg111-1.png" alt="">
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg111.png" alt="">
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg137-1.png" alt="">
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg133-1.png" alt="">
+<img class="pict1" src="../../img/bg/m/bg1-1.webp" alt="">
+<img class="pict1" src="../../img/bg/m/bg2.webp" alt="">
+<img class="pict1" src="../../img/bg/m/bg2-1.webp" alt="">
+<img class="pict1" src="../../img/bg/m/bg2-2.webp" alt="">
+<img class="pict1" src="../../img/bg/m/bg1-2.webp" alt="">
+<img class="pict1" src="../../img/bg/p/bg64.webp" alt="">
+<img class="pict1" src="../../img/bg/c/bg3-1.webp" alt="">
+<img class="pict1" src="../../img/bg/c/bg3.webp" alt="">
+<img class="pict1" src="../../img/bg/m/bg1-4.webp" alt="">
+<img class="pict1" src="../../img/bg/m/bg2-3.webp" alt="">
 {% include whitescreen.html lines=page.white_scene99 %}
 {% assign rows = site.data.mirror_involution.part24.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-2.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-2.webp" %}
 {% include blackscreen.html lines=page.black_scene99 %}
 {% assign rows = site.data.mirror_involution.part24.chapter3.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-2.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-2.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part25"> <!-- начало главы -->
 <p class="title-1">Пролом</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg125.png" alt="">
+<img class="pict1" src="../../img/bg/p/bg74.webp" alt="">
 {% assign rows = site.data.mirror_involution.part25.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-3.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-3.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part26"> <!-- начало главы -->
 <p class="title-1">Воссоединение</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75-2.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3-2.webp" alt="">
 {% assign rows = site.data.mirror_involution.part26.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-2.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-2.webp" %}
 {% include blackscreen.html lines=page.black_scene99 %}
 {% assign rows = site.data.mirror_involution.part26.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-2.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-2.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part27"> <!-- начало главы -->
 <p class="title-1">Тогда и сейчас</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75-2.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3-2.webp" alt="">
 {% assign rows = site.data.mirror_involution.part27.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-2.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-2.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part28"> <!-- начало главы -->
 <p class="title-1">Классификация META</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75-2.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3-2.webp" alt="">
 {% assign rows = site.data.mirror_involution.part28.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-2.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-2.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part29"> <!-- начало главы -->
 <p class="title-1">Старая знакомая</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75-2.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3-2.webp" alt="">
 {% assign rows = site.data.mirror_involution.part29.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-2.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-2.webp" %}
 {% include choice_header.html %}
 {% assign rows = site.data.mirror_involution.part29.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="blue-choise" %}
 {% assign rows = site.data.mirror_involution.part29.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="red-choise" %}
 {% assign rows = site.data.mirror_involution.part29.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-2.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-2.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part30"> <!-- начало главы -->
 <p class="title-1">Модернизация флота</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg126.png" alt="">
+<img class="pict1" src="../../img/bg/p/bg75.webp" alt="">
 {% assign rows = site.data.mirror_involution.part30.chapter1.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part31"> <!-- начало главы -->
 <p class="title-1">Многослойная ловушка</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg126.png" alt="">
+<img class="pict1" src="../../img/bg/p/bg75.webp" alt="">
 {% assign rows = site.data.mirror_involution.part31.chapter1.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg127.png" alt="">
+<img class="pict1" src="../../img/bg/p/bg75-1.webp" alt="">
 {% assign rows = site.data.mirror_involution.part31.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 {% assign rows = site.data.mirror_involution.part31.chapter3.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75-2.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3-2.webp" %}
 {% include whitescreen.html lines=page.white_scene99 %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg75.png" alt="">
+<img class="pict1" src="../../img/bg/a/bg3.webp" alt="">
 {% assign rows = site.data.mirror_involution.part31.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp" %}
 {% include choice_header.html %}
 {% assign rows = site.data.mirror_involution.part31.chapter5.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="blue-choise" %}
 {% assign rows = site.data.mirror_involution.part31.chapter6.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="red-choise" %}
 {% assign rows = site.data.mirror_involution.part31.chapter7.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg75.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/a/bg3.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part32"> <!-- начало главы -->
 <p class="title-1">Новое расследование</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg18.png" alt="">
+<img class="pict1" src="../../img/bg/y/bg2.webp" alt="">
 {% include loc.html td_class="loc" text="Несколько дней спустя. Объект Союза Орла." %}
 {% assign rows = site.data.mirror_involution.part32.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg18.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/y/bg2.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part33"> <!-- начало главы -->
 <p class="title-1">Обновление правил</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg90.png" alt="">
+<img class="pict1" src="../../img/bg/c/bg4.webp" alt="">
 {% include loc.html td_class="loc" text="？？？·？？？" %}
 {% assign rows = site.data.mirror_involution.part33.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg90.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/c/bg4.webp" %}
 </div> <!-- конец главы -->

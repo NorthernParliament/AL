@@ -217,6 +217,11 @@ essex_rad:
   img: "/img/port/eagle/esse1rad.png"
   class: "blob"
 
+essex_detective:
+  name: "Эссекс"
+  img: "/img/port/eagle/esse2.webp"
+  class: "blob"
+
 # F
 
 foote:
@@ -2934,6 +2939,16 @@ minsk:
   img: "/img/port/northern/mins1.png"
   class: "blob"
 
+moskva:
+  name: "Москва"
+  img: "/img/port/northern/mosk1.webp"
+  class: "blob"
+
+moskva_rad:
+  name: "📡Москва"
+  img: "/img/port/northern/mosk1rad.webp"
+  class: "blob"
+
 murmansk:
   name: "Мурманск"
   img: "/img/port/northern/murm1.png"
@@ -2942,6 +2957,18 @@ murmansk:
 murmansk_rad:
   name: "📡Мурманск"
   img: "/img/port/northern/murm1rad.png"
+  class: "blob"
+
+# O
+
+ozornoy:
+  name: "Озорной"
+  img: "/img/port/northern/ozor1.webp"
+  class: "blob"
+
+ozornoy_rad:
+  name: "📡Озорной"
+  img: "/img/port/northern/ozor1rad.webp"
   class: "blob"
 
 # P
@@ -3353,18 +3380,17 @@ suffren:
 
 # A
 algerie:
-  name: "Алжири"
+  name: "Альжери"
   img: "/img/port/vichya/alge1.png"
   class: "blob"
 
-# A
 algerie?d:
-  name: "Алжири?"
+  name: "Альжери?"
   img: "/img/port/vichya/alge1d.png"
   class: "blob"
 
 algerie_rad:
-  name: "📡Алжири"
+  name: "📡Альжери"
   img: "/img/port/vichya/alge1rad.png"
   class: "blob"
 
@@ -3592,6 +3618,16 @@ boise_meta:
   img: "/img/port/meta/bois1.png"
   class: "blob"
 
+bristol_meta:
+  name: "Бристоль META"
+  img: "/img/port/meta/bris1.webp"
+  class: "blob"
+
+bristol_meta?:
+  name: "Бристоль?"
+  img: "/img/port/meta/bris1.webp"
+  class: "blob"
+
 carabiniere_meta:
   name: "Карабиньере МЕТА"
   img: "/img/port/meta/cara1.png"
@@ -3677,6 +3713,11 @@ essex_meta:
   img: "/img/port/meta/esse1.png"
   class: "blob"
 
+essex_meta?:
+  name: "Эссекс?"
+  img: "/img/port/meta/esse1.png"
+  class: "blob"
+
 fusou_meta:
   name: "Фусо META"
   img: "/img/port/meta/fuso1.png"
@@ -3687,9 +3728,19 @@ fusou_meta_rad:
   img: "/img/port/meta/fuso1rad.png"
   class: "blob"
 
+gangut_meta:
+  name: "Гангут META"
+  img: "/img/port/meta/gang1.webp"
+  class: "blob"
+
+gangut_meta_rad:
+  name: "📡Гангут META"
+  img: "/img/port/meta/gang1rad.webp"
+  class: "blob"
+
 giulio_cesare_meta:
   name: "Джулио Чезаре META"
-  img: "/img/port/meta/guil1.png"
+  img: "/img/port/meta/giul1.png"
   class: "blob"
 
 giulio_cesare_meta_league:
@@ -4540,6 +4591,11 @@ bon_omm_richard2:
 bon_omm_richard2?:
   name: "Бон Омм Ричард?"
   img: "/img/port/meta/bonh3.png"
+  class: "blob"
+
+bon_omm_richard2?_rad:
+  name: "📡Бон Омм Ричард?"
+  img: "/img/port/meta/bonh3rad.webp"
   class: "blob"
 
 bon_omm_richard?:

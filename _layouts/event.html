@@ -22,7 +22,7 @@
 
 <header
   class="head_ev head_ev_diverchess"
-  style="--header-bg: url('{{ '/img/bg/head_bg.png' | relative_url }}')">
+  style="--header-bg: url('{{ '/img/bg/head_bg.webp' | relative_url }}')">
 
     <div class="head_ev_info">
         <a href="{{ '/' | relative_url }}" class="buitton_back">
@@ -33,14 +33,14 @@
         
         <h1 class="title">{{ page.title }}</h1>
         
-        <img src="{{ '/events/' | append: page.slug | append: '/img/head.png' | relative_url }}" alt="">
+        <img src="{{ '/events/' | append: page.slug | append: '/img/head.webp' | relative_url }}" alt="">
     </div>
 </header>
 {% if page.chapters_count %}
 <div class="nav">
   {% for i in (1..page.chapters_count) %}
     <a href="#part{{ i }}">
-      <img src="{{ '/events/' | append: page.slug | append: '/img/menu' | append: i | append: '.png' | relative_url }}"
+      <img src="{{ '/events/' | append: page.slug | append: '/img/menu' | append: i | append: '.webp' | relative_url }}"
            alt="Глава {{ i }}">
     </a>
   {% endfor %}

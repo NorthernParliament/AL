@@ -14,43 +14,43 @@ black_scene:
 ---
 
 <style>
-  h1.title { color: #ff0000ff;}
+  h1.title { color: rgb(255, 255, 255);}
 </style>
 
 <div class="chapter" id="part1"> <!-- начало главы -->
 <p class="title-1">Пролог Света и Тьмы</p>
 {% include blackscreen.html lines=page.black_scene %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.iris_of_light_and_dark.part1.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part2"> <!-- начало главы -->
 <p class="title-1">Прорыв</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.iris_of_light_and_dark.part2.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part3"> <!-- начало главы -->
 <p class="title-1">Операция "Катапульта"</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.iris_of_light_and_dark.part3.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part4"> <!-- начало главы -->
 <p class="title-1">Штандарт Свободы</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.iris_of_light_and_dark.part4.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 {% assign rows = site.data.iris_of_light_and_dark.part4.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg23.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg3.webp" alt="">
 {% assign rows = site.data.iris_of_light_and_dark.part4.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 {% assign rows = site.data.iris_of_light_and_dark.part4.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part5"> <!-- начало главы -->
@@ -59,61 +59,61 @@ black_scene:
 {% assign rows = site.data.iris_of_light_and_dark.part5.chapter1.rows %}
 {% include dialog.html rows=rows bg_class="table-bg memory-segment" %}
 {% include divider.html %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg24.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg4.webp" alt="">
 {% assign rows = site.data.iris_of_light_and_dark.part5.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part6"> <!-- начало главы -->
 <p class="title-1">Рандеву</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.iris_of_light_and_dark.part6.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part7"> <!-- начало главы -->
 <p class="title-1">Тёмно-алые рыцари</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.iris_of_light_and_dark.part7.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg24.png" alt="">
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
+<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg4.webp" alt="">
 {% assign rows = site.data.iris_of_light_and_dark.part7.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 {% assign rows = site.data.iris_of_light_and_dark.part7.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 {% assign rows = site.data.iris_of_light_and_dark.part7.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part8"> <!-- начало главы -->
 <p class="title-1">Операция «Факел»</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.iris_of_light_and_dark.part8.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part9"> <!-- начало главы -->
 <p class="title-1">Столкновение</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.iris_of_light_and_dark.part9.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part10"> <!-- начало главы -->
 <p class="title-1">Свет и Тьма</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.iris_of_light_and_dark.part10.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 {% include divider.html %}
 {% assign rows = site.data.iris_of_light_and_dark.part10.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg memory-segment" %}
 {% include divider.html %}
 {% assign rows = site.data.iris_of_light_and_dark.part10.chapter3.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 {% assign rows = site.data.iris_of_light_and_dark.part10.chapter4.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 {% assign rows = site.data.iris_of_light_and_dark.part10.chapter5.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 {% include divider.html %}
 {% assign rows = site.data.iris_of_light_and_dark.part10.chapter6.rows %}
 {% include dialog.html rows=rows bg_class="table-bg memory-segment" %}
@@ -125,5 +125,5 @@ black_scene:
 {% assign rows = site.data.iris_of_light_and_dark.part11.chapter1.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 {% assign rows = site.data.iris_of_light_and_dark.part11.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->

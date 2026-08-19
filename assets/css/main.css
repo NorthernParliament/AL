@@ -9,7 +9,7 @@ html body {
     /* Слой 2: Твое изображение неба */
     background: 
         linear-gradient(to bottom, rgba(11, 22, 40, 0.2), rgba(11, 22, 40, 0.5)),
-        url("../../img/bg/main_bg.png");
+        url("../../img/bg/main_bg.webp");
     
     /* Растягиваем изображение так, чтобы оно всегда заполняло экран без искажений */
     background-size: cover;

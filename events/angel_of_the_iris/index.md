@@ -23,52 +23,52 @@ black_scene1:
 <p class="title-1">Ангел Войны и Судья</p>
 {% include blackscreen.html lines=page.black_scene %}
 {% include blackscreen.html lines=page.black_scene1 %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg26.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/i/bg1.webp" alt="">
 {% include loc.html td_class="loc" text="Где-то в Ортодоксии Ирис..." %}
 {% assign rows = site.data.angel_of_the_iris.part1.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg26.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part2"> <!-- начало главы -->
 <p class="title-1">Принцесса-Рыцарь и её Сёстры</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg27.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/i/bg2.webp" alt="">
 {% assign rows = site.data.angel_of_the_iris.part2.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg27.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg2.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part3"> <!-- начало главы -->
 <p class="title-1">Кардинал и Капер</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg3.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/u/bg1.webp" alt="">
 {% assign rows = site.data.angel_of_the_iris.part3.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg3.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/u/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part4"> <!-- начало главы -->
 <p class="title-1">Тамплиер и Свита</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg3.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/u/bg1.webp" alt="">
 {% include loc.html td_class="loc" text="Место проведения приёма — Лобби." %}
 {% assign rows = site.data.angel_of_the_iris.part4.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg3.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/u/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part5"> <!-- начало главы -->
 <p class="title-1">Святая и Мастермайнд</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg3.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/u/bg1.webp" alt="">
 {% include loc.html td_class="loc" text="Место проведения приёма — Лобби." %}
 {% assign rows = site.data.angel_of_the_iris.part5.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg3.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/u/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part6"> <!-- начало главы -->
 <p class="title-1">Праздник</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg3.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/u/bg1.webp" alt="">
 {% assign rows = site.data.angel_of_the_iris.part6.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg3.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/u/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part7"> <!-- начало главы -->
 <p class="title-1">Завершение дня</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg28.png" alt="">
+<img class="pict1" src="{{ site.baseurl }}/img/bg/i/bg2-1.webp" alt="">
 {% assign rows = site.data.angel_of_the_iris.part7.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg28.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/i/bg2-1.webp" %}
 </div> <!-- конец главы -->

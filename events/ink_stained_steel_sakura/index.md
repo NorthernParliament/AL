@@ -11,29 +11,29 @@ black_scene:
 
 <div class="chapter" id="part1"> <!-- начало главы -->
 <p class="title-1">Пролог</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg33.png" alt="">
+<img class="pict1" src="../../img/bg/s/bg4.webp" alt="">
 {% include loc.html td_class="loc" text="Острова Империи Сакуры - Много лет назад" %}
 {% assign rows = site.data.ink_stained_steel_sakura.part1.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg33.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/s/bg4.webp" %}
 {% assign rows = site.data.ink_stained_steel_sakura.part1.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg37.png" alt="">
+<img class="pict1" src="../../img/bg/p/bg27.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part1.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part2"> <!-- начало главы -->
 <p class="title-1">Возвращение</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part2.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part3"> <!-- начало главы -->
 <p class="title-1">Цель</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part3.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 {% assign rows = site.data.ink_stained_steel_sakura.part3.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 </div> <!-- конец главы -->
@@ -54,7 +54,7 @@ black_scene:
 
 <div class="chapter" id="part6"> <!-- начало главы -->
 <p class="title-1">Заключение</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg38.png" alt="">
+<img class="pict1" src="../../img/bg/p/bg28.webp" alt="">
 {% include loc.html td_class="loc" text="После начала войны (два года назад) - Возле Святой Сакуры" %}
 {% assign rows = site.data.ink_stained_steel_sakura.part6.chapter1.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
@@ -62,17 +62,17 @@ black_scene:
 
 <div class="chapter" id="part7"> <!-- начало главы -->
 <p class="title-1">Конвой</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part7.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part8"> <!-- начало главы -->
 <p class="title-1">Граница</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part8.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg39.png" alt="">
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
+<img class="pict1" src="../../img/bg/p/bg29.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part8.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 </div> <!-- конец главы -->
@@ -82,50 +82,50 @@ black_scene:
 {% include blackscreen.html lines=page.black_scene %}
 {% assign rows = site.data.ink_stained_steel_sakura.part9.chapter1.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg33.png" alt="">
+<img class="pict1" src="../../img/bg/s/bg4.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part9.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg33.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/s/bg4.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part10"> <!-- начало главы -->
 <p class="title-1">Младшая сестра</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part10.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part11"> <!-- начало главы -->
 <p class="title-1">Пробуждение</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg39.png" alt="">
+<img class="pict1" src="../../img/bg/p/bg29.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part11.chapter1.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part12"> <!-- начало главы -->
 <p class="title-1">Финальная битва</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part12.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 {% include blackscreen.html lines=page.black_scene %}
 {% assign rows = site.data.ink_stained_steel_sakura.part12.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
-<img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg40.png" alt="">
+<img class="pict1" src="../../img/bg/p/bg30.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part12.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part13"> <!-- начало главы -->
 <p class="title-1">Могущественный враг</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part13.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part14"> <!-- начало главы -->
 <p class="title-1">Отражающий Удар</p>
-<img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+<img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
 {% assign rows = site.data.ink_stained_steel_sakura.part14.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
 {% assign rows = site.data.ink_stained_steel_sakura.part14.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" %}
 </div> <!-- конец главы -->

@@ -25,16 +25,16 @@ black_scene:
 
   <div class="chapter" id="part2"> <!-- начало главы -->
   <p class="title-1">Окраина Шторма - Часть 1</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part2.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы -->
 
   <div class="chapter" id="part3"> <!-- начало главы -->
   <p class="title-1">Окраина Шторма - Часть 2</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part3.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы -->
 
   <div class="chapter" id="part4"> <!-- начало главы -->
@@ -45,16 +45,16 @@ black_scene:
 
   <div class="chapter" id="part5"> <!-- начало главы -->
   <p class="title-1">Другая сторона бедствия — Часть 1</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part5.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы -->
 
   <div class="chapter" id="part6"> <!-- начало главы -->
   <p class="title-1">Другая сторона бедствия — Часть 2</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part6.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы -->
 
   <div class="chapter" id="part7"> <!-- начало главы -->
@@ -63,23 +63,23 @@ black_scene:
   {% assign rows = site.data.visitors_dyed_in_red.part7.chapter1.rows %}
   {% include dialog.html rows=rows bg_class="table-bg memory-segment" %}
   {% include divider.html %}
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part7.chapter2.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы -->
 
   <div class="chapter" id="part8"> <!-- начало главы -->
   <p class="title-1">Святые Защитники - Часть 1</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part8.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы -->
 
   <div class="chapter" id="part9"> <!-- начало главы -->
   <p class="title-1">Святые Защитники - Часть 2</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part9.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы --> 
 
   <div class="chapter" id="part10"> <!-- начало главы -->
@@ -90,16 +90,16 @@ black_scene:
 
   <div class="chapter" id="part11"> <!-- начало главы -->
   <p class="title-1">Удачливый Корабль - Часть 1</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part11.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы --> 
 
   <div class="chapter" id="part12"> <!-- начало главы -->
   <p class="title-1">Удачливый Корабль - Часть 2</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part12.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы --> 
 
 
@@ -109,44 +109,44 @@ black_scene:
   {% assign rows = site.data.visitors_dyed_in_red.part13.chapter1.rows %}
   {% include dialog.html rows=rows bg_class="table-bg memory-segment" %}
   {% include divider.html %}
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part13.chapter2.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы --> 
 
   <div class="chapter" id="part14"> <!-- начало главы -->
   <p class="title-1">Связь с Сестрой - Часть 2</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part14.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы --> 
 
   <div class="chapter" id="part15"> <!-- начало главы -->
   <p class="title-1">Связь с Сестрой - Часть 3</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part15.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы --> 
 
   <div class="chapter" id="part16"> <!-- начало главы -->
   <p class="title-1">Багровые защитники — Часть 1</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part16.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы --> 
 
   <div class="chapter" id="part17"> <!-- начало главы -->
   <p class="title-1">Багровые защитники — Часть 2</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part17.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   </div> <!-- конец главы --> 
 
   <div class="chapter" id="part18"> <!-- начало главы -->
   <p class="title-1">Багровые защитники — Часть 3</p>
-  <img class="pict1" src="{{ site.baseurl }}/img/bg/bg10.png" alt="">
+  <img class="pict1" src="../../img/bg/z/bg1.webp" alt="">
   {% assign rows = site.data.visitors_dyed_in_red.part18.chapter1.rows %}
-  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bg10.png" %}
+  {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/z/bg1.webp" %}
   {% include flash.html type="into-white" %}
   {% include flash.html type="from-white" %}
   {% assign rows = site.data.visitors_dyed_in_red.part18.chapter2.rows %}
