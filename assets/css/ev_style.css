@@ -32,7 +32,7 @@ body {
     flex-direction: row-reverse; 
 }
 
-}
+
 
 
 /* 3. Портрет */
@@ -166,7 +166,7 @@ main.main {
     /* Вместо жесткого цвета используем градиент, растворяющийся в пустоте */
     background: linear-gradient(to bottom, rgba(10, 15, 30, 0.95) 0%, rgba(10, 15, 30, 0.6) 70%, transparent 100%);
     border-bottom: none; /* Убираем эту резкую синюю линию! */
-    padding: 20px 0 40px 0; /* Чуть увеличим отступ снизу для плавности перехода */
+    padding: 20px 0 20px 0; /* Чуть увеличим отступ снизу для плавности перехода */
     text-align: center;
     box-shadow: none; /* Тень здесь больше не нужна, она будет ломать градиент */
     
@@ -204,7 +204,7 @@ h1.title {
 
 .title-1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.7em;
+    font-size: 1.8em;
     font-weight: 500;
     letter-spacing: 1.8px;
     text-transform: uppercase;
@@ -224,6 +224,10 @@ h1.title {
     
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(4px); /* Эффект матового стекла для фона под плашкой */
+}
+
+.title-1 {
+    text-align: center;
 }
 
 /* Баннер ивента в шапке */
@@ -314,15 +318,6 @@ h1.title {
     max-width: 1280px;
     margin: 0 auto;
     padding: 20px 0 60px 0;
-}
-
-.title-1 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.2em;
-    color: #ffffff;
-    margin-bottom: 40px;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
 }
 
 /* =========================================
