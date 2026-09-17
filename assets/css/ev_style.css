@@ -957,3 +957,59 @@ img.fog-effect-red,
         left: 10px !important;
     }
 }
+
+/* =========================================
+   ПЛАВАЮЩАЯ ПАНЕЛЬ НАВИГАЦИИ
+   ========================================= */
+.fixed-bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Панель должна быть поверх абсолютно всего тумана и картинок */
+    
+    /* Эффект темного матового стекла, чтобы не перекрывать фон наглухо */
+    background: rgba(10, 15, 25, 0.85);
+    backdrop-filter: blur(10px);
+    
+    /* Тонкая граница сверху для эстетики */
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.6);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Расстояние между кнопками */
+    padding: 12px 0;
+}
+
+/* Стили самих кнопок */
+.fixed-bottom-nav .nav-btn {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 8px 25px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.fixed-bottom-nav .nav-btn:hover {
+    background: rgba(58, 117, 196, 0.6);
+    border-color: rgba(58, 117, 196, 1);
+    transform: translateY(-2px);
+}
+
+/* =========================================
+   ЗАЩИТА КОНТЕНТА ОТ ПЕРЕКРЫТИЯ
+   ========================================= */
+/* Чтобы плавающая панель не закрыла собой последние строки текста в самом низу страницы, 
+   добавляем отступ для всего тела документа */
+body {
+    padding-bottom: 70px !important; 
+}
