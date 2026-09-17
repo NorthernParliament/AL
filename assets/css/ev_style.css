@@ -979,8 +979,8 @@ img.fog-effect-red,
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Расстояние между кнопками */
-    padding: 12px 0;
+    gap: 10px; /* Расстояние между кнопками */
+    padding: 6px 0;
 }
 
 /* Стили самих кнопок */
@@ -988,12 +988,12 @@ img.fog-effect-red,
     color: #ffffff;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.7em;
     font-weight: bold;
-    padding: 8px 25px;
+    padding: 4px 13px;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 6px;
+    border-radius: 3px;
     transition: all 0.3s ease;
     text-transform: uppercase;
     letter-spacing: 1px;

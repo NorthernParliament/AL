@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const prevBtn = document.createElement("a");
             prevBtn.href = "#";
             prevBtn.className = "nav-btn";
-            prevBtn.textContent = "Пред. глава";
+            prevBtn.textContent = "Назад";
             prevBtn.onclick = (e) => { e.preventDefault(); openChapter(currentIndex - 1); };
             fixedNav.appendChild(prevBtn);
         }
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const indexBtn = document.createElement("a");
         indexBtn.href = "#";
         indexBtn.className = "nav-btn";
-        indexBtn.textContent = "К выбору глав";
+        indexBtn.textContent = "Меню";
         indexBtn.onclick = (e) => { e.preventDefault(); showNav(); };
         fixedNav.appendChild(indexBtn);
         
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const nextBtn = document.createElement("a");
             nextBtn.href = "#";
             nextBtn.className = "nav-btn";
-            nextBtn.textContent = "След. глава";
+            nextBtn.textContent = "Вперёд";
             nextBtn.onclick = (e) => { e.preventDefault(); openChapter(currentIndex + 1); };
             fixedNav.appendChild(nextBtn);
         }
