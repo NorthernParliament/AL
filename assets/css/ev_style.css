@@ -825,3 +825,63 @@ img.fog-effect-red,
 .scene-text p:last-child {
     margin-bottom: 0;
 }
+
+/* =========================================
+   АДАПТАЦИЯ ДЛЯ ТЕЛЕФОНОВ (Магия трансформации)
+   ========================================= */
+@media (max-width: 768px) {
+    /* 1. Спасаем заголовок ивента от сдавливания */
+    h1.title {
+        font-size: 1.5em; /* Уменьшаем размер шрифта */
+        padding: 0 15px; /* Уничтожаем те самые 200px мертвой зоны! */
+        margin-top: 60px; /* Опускаем заголовок, чтобы он не налез на кнопку */
+        letter-spacing: 1px;
+    }
+
+    /* 2. Усмиряем кнопку "На главную" */
+    .buitton_back {
+        top: 15px;
+        left: 50%; /* На телефоне ставим ее ровно по центру */
+        transform: translateX(-50%); 
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+    
+    /* Отменяем сдвиг при нажатии на телефоне, чтобы кнопка не дергалась */
+    .buitton_back:hover {
+        transform: translateX(-50%); 
+    }
+
+    /* 3. Делаем заголовки глав компактнее */
+    .title-1 {
+        font-size: 1.2em;
+        padding: 10px 20px;
+        width: auto;
+        margin: 0 15px 30px 15px;
+        letter-spacing: 2px;
+    }
+
+    /* 4. Центрируем баннер ивента */
+    .head_ev_info > img {
+        margin: 0 15px;
+        width: calc(100% - 30px);
+    }
+
+    /* 5. Убираем лишние поля у текстовой плашки (image_text) */
+    .scene-text {
+        max-width: 90%;
+        padding: 20px;
+        font-size: 0.95em;
+    }
+    
+    /* 6. Адаптируем разделитель со звездочками */
+    .scene-divider {
+        margin: 20px auto;
+    }
+    
+    /* 7. Подгоняем блок локации */
+    .location-banner {
+        margin: 15px;
+        font-size: 0.9em;
+    }
+}
