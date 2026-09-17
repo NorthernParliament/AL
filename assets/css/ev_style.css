@@ -885,3 +885,47 @@ img.fog-effect-red,
         font-size: 0.9em;
     }
 }
+
+/* =========================================
+       РАЗРУШЕНИЕ ФИКСИРОВАННЫХ ШИРИН (Глобально)
+       ========================================= */
+    /* Принудительно заставляем все основные блоки сжаться до ширины экрана */
+    html, body, .mainchapter, .screen-block, .scene-container, .image-overlay-container, table, tbody, tr, td {
+        width: 100% !important;
+        max-width: 100vw !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Прячем любые элементы, которые все равно пытаются вылезти за край */
+    body {
+        overflow-x: hidden; 
+    }
+
+    /* =========================================
+       АДАПТАЦИЯ ДИАЛОГОВ И ЭПИГРАФОВ
+       ========================================= */
+    /* Отменяем гигантский отступ в 145px для черных/белых экранов, 
+       который на телефоне съедает половину экрана */
+    .screen-content {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    /* Убеждаемся, что текстовые пузыри диалогов и системных сообщений не сопротивляются */
+    .words.blob, .words.narrate, .text-content, .dialogue-row {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    /* Если у портретов фиксированная ширина, они могут выдавливать текст. 
+       Слегка уменьшаем их на телефонах */
+    .port {
+        min-width: 80px; 
+        max-width: 80px;
+    }
+    
+    .port img {
+        width: 80px;
+        height: auto;
+    }
