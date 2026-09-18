@@ -1,12 +1,11 @@
 ---
 layout: default
-title: "Azur Lane на русском"
+title: "Сюжет Azur Lane на русском"
 ---
 
 <header class="main-header">
   <div class="header-content">
-    <h1 class="tittle99">Azur Lane на русском</h1>
-    <p class="system-status">System Status: <span class="status-online">Online</span></p>
+    <h1 class="tittle99">Сюжет <span class="title-accent">Azur Lane</span> на русском</h1>
  <div class="top-banner-container">
     <img src="{{ site.baseurl }}/img/main/head1.webp" alt="" class="main-banner">
 </div>

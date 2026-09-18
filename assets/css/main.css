@@ -1,72 +1,180 @@
-
+/* =========================================
+   БАЗОВЫЕ СТИЛИ И ФОН
+   ========================================= */
 html body { 
-    margin: 0;
-    padding: 0;
-    /* Фиксируем фон, чтобы он не прокручивался вместе с контентом */
+    margin: 0; padding: 0;
     background-attachment: fixed;
-    
-    /* Слой 1: Линейный градиент (создает глубину, если картинка не загрузится) */
-    /* Слой 2: Твое изображение неба */
+    /* Углубляем градиент, чтобы страница казалась мрачнее и стильнее */
     background: 
-        linear-gradient(to bottom, rgba(11, 22, 40, 0.2), rgba(11, 22, 40, 0.5)),
-        url("../../img/bg/main_bg.webp");
-    
-    /* Растягиваем изображение так, чтобы оно всегда заполняло экран без искажений */
+        linear-gradient(to bottom, rgba(11, 22, 40, 0.7), rgba(11, 22, 40, 0.95)),
+        url("../../img/bg/main_bg.webp") no-repeat center center;
     background-size: cover;
-    
-    /* Добавляем мягкое свечение для всей страницы в тон небу */
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e0e0e0;
+    font-family: 'Montserrat', sans-serif; /* Единый шрифт для всего сайта */
 }
 
+/* =========================================
+   ШАПКА САЙТА И БАННЕР
+   ========================================= */
 .tittle99 {
     text-align: center;
+    font-size: 2.5em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 30px 0 20px 0;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.9), 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
-/* Контейнер поиска */
-.search-container {
-    margin: 20px 0;
+.top-banner-container {
+    width: 100%;
+    max-width: 1280px; /* Ограничиваем ширину центральной колонкой */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+
+.main-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* =========================================
+   БЛОКИ ИНФОРМАЦИИ (Матовое стекло)
+   ========================================= */
+.welcome-briefing {
+    position: relative;
+    margin: 20px auto 40px auto;
+    max-width: 1280px; /* Выравниваем по ширине баннера */
+    box-sizing: border-box;
+    background: rgba(12, 17, 26, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+.briefing-label {
+    font-size: 0.85em;
+    color: #3a75c4; /* Заменяем кислотный циан на благородный синий */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    font-weight: 600;
     text-align: center;
+}
+
+.briefing-text {
+    color: #e0e0e0;
+    font-size: 1.05em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.briefing-text a {
+    color: #8baadb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.briefing-text a:hover {
+    color: #ffffff;
+}
+
+/* =========================================
+   ПОИСКОВАЯ СТРОКА
+   ========================================= */
+.search-container {
+    margin: 0 auto 40px auto;
+    text-align: center;
+    max-width: 1280px;
+    padding: 0 15px;
 }
 
 #eventSearch {
     width: 100%;
-    max-width: 500px;
-    padding: 12px 20px;
-    background: rgba(0, 0, 0, 0.6);
-    border: 1px solid #00eeee;
+    max-width: 600px;
+    padding: 15px 25px;
+    background: rgba(12, 17, 26, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     color: white;
-    border-radius: 4px;
-    font-family: inherit;
+    border-radius: 30px; /* Элегантная форма капсулы */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    backdrop-filter: blur(6px);
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-/* Сетка карточек */
+#eventSearch:focus {
+    outline: none;
+    border-color: #3a75c4;
+    background: rgba(12, 17, 26, 0.8);
+    box-shadow: 0 5px 20px rgba(58, 117, 196, 0.3);
+}
+
+/* =========================================
+   СЕТКА ИВЕНТОВ И АРКИ
+   ========================================= */
+#eventGrid {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.arc-section {
+    margin-bottom: 50px;
+}
+
+/* Заголовки арк (Стилизованы под .title-1 из ивентов) */
+.arc-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: rgba(10, 15, 25, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-left: 4px solid #3a75c4;
+    border-radius: 4px;
+    padding: 15px 25px;
+    margin-bottom: 25px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    display: inline-block; 
+}
+
 .event-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 25px;
-
-background-color: rgba(0, 0, 0, 0.4);
-padding: 10px;
-margin-top: 10px;
 }
 
-/* Сама карточка */
+/* Карточки ивентов */
 .event-card {
     position: relative;
-    height: 240px;
-    background: #1a1a1a;
-    border: 1px solid rgba(0, 238, 238, 0.3);
-    border-radius: 5px;
+    height: 260px; /* Чуть увеличиваем высоту для простора */
+    background: #111;
+    border: 1px solid rgba(255, 255, 255, 0.15); /* Мягкие белые границы вместо циана */
+    border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
     transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .event-card:hover {
     transform: translateY(-5px);
-    border-color: #00eeee;
-    box-shadow: 0 0 15px rgba(0, 238, 238, 0.4);
+    border-color: rgba(58, 117, 196, 0.8);
+    box-shadow: 0 15px 30px rgba(58, 117, 196, 0.4);
 }
 
 .card-bg {
@@ -74,159 +182,110 @@ margin-top: 10px;
     top: 0; left: 0; width: 100%; height: 100%;
     background-size: cover;
     background-position: center;
-    filter: brightness(0.35); /* Затемнение фона */
-    transition: 0.3s;
+    filter: brightness(0.4);
+    transition: 0.5s ease; /* Добавляем плавный зум */
 }
 
 .event-card:hover .card-bg {
-    filter: brightness(0.5);
+    filter: brightness(0.6);
+    transform: scale(1.05); /* Легкое приближение фона при наведении */
 }
 
 .card-content {
     position: relative;
     z-index: 2;
-    padding: 20px;
+    padding: 25px 20px;
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    box-sizing: border-box;
 }
 
 .en-title {
-    font-size: 0.7rem;
-    color: #00eeee;
+    font-size: 0.75rem;
+    color: #8baadb;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-weight: 600;
 }
 
 .ru-title {
-    margin: 5px 0 0 0;
-    color: white;
-    font-size: 1.4rem;
+    margin: 8px 0 0 0;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.8);
 }
 
 .card-desc {
     font-size: 0.85rem;
-    color: #ccc;
-    font-style: italic;
-    /* border-left: 2px solid #00eeee; */
-    padding-left: 10px;
-    padding-top: 10px;
-    margin: 0;
+    color: #d0d0d0;
+    font-style: normal; /* Убираем курсив, он портит читаемость */
+    padding-top: 15px;
+    margin: auto 0 0 0; /* Прижимает описание к нижней части карточки */
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Отделяем текст тонкой линией */
+    line-height: 1.5;
 }
 
-.system-status {margin-left: 10px;}
-.status-online { color: #00ff00; text-shadow: 0 0 5px #00ff00; }
-
-/* Отступы между арками */
-.arc-section {
-    margin-bottom: 10px;
-}
-
-/* Стиль заголовка арки */
-.arc-header {
-    font-family: 'Orbitron', sans-serif; /* Или любой технологичный шрифт */
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #ffffff;
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    border-bottom: 1px solid rgba(4, 66, 66, 0.3);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.arc-icon {
-    margin-right: 15px;
-    font-size: 1.2rem;
-    text-shadow: 0 0 8px #00eeee;
-}
-
-/* Сетка ивентов теперь внутри арки */
-.event-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 20px;
-}
-
-.welcome-briefing {
-    position: relative;
-    margin: 20px auto 30px auto;
-    max-width: 1200px; /* Чтобы текст не растягивался слишком широко и удобно читался */
-    background-color: rgba(0, 0, 0, 0.4); /* Очень легкий оттенок акцентного цвета */
-    border: 1px solid rgba(0, 238, 238, 0.2);
-    padding: 15px 20px;
-    border-radius: 2px;
-}
-
-.briefing-label {
-    font-size: 0.7rem;
-    color: #00eeee;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 8px;
-    font-weight: bold;
-    opacity: 0.8;
-    text-align: center;
-}
-
-.briefing-text {
-    color: #e0e0e0;
-    font-size: 1rem;
-    line-height: 1.6;
-    font-family: 'Segoe UI', Roboto, sans-serif;
-}
-
+/* =========================================
+   КНОПКА "НАВЕРХ" (Исправленная)
+   ========================================= */
 #floating-button {
-  position: fixed;
-  z-index: 100;
-  bottom: 20px;
-  right: 20px;
-  background-color: #f44336;
-  color: white;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.top-banner-container {
-    width: 100%;
-    display: flex;
-    justify-content: center; /* Центрирование по горизонтали */
-    padding: 20px 0;
-    overflow: hidden;
-}
-
-.main-banner {
-
-    width: 100%;    /* Чтобы не вылезал за края на экранах чуть меньше 1280px */
-    height: auto;      /* Сохраняем пропорции */
-    display: block;
-    border-radius: 4px; /* Мягкое скругление углов */
-    box-shadow: 0 0 20px rgba(0, 238, 238, 0.2); /* Легкое свечение в стиле интерфейса */
+    position: fixed;
+    z-index: 100;
+    bottom: 30px;
+    right: 30px;
+    background: rgba(10, 15, 25, 0.85);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    backdrop-filter: blur(6px);
     transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* Настройки для мобильных устройств (ширина экрана менее 768px) */
+#floating-button:hover {
+    background: rgba(58, 117, 196, 0.6);
+    border-color: rgba(58, 117, 196, 1);
+    transform: translateY(-3px);
+}
+
+/* =========================================
+   МОБИЛЬНАЯ АДАПТАЦИЯ
+   ========================================= */
 @media (max-width: 768px) {
-    .main-banner {
-        width: 100%;    /* На мобильных растягивается на всю ширину */
-        max-width: 100%;
-        border-radius: 0; /* Убираем скругление для эффекта "на весь экран" */
-        /* Если вы хотите полностью СКРЫТЬ баннер на мобильных, 
-           раскомментируйте строку ниже и удалите строки выше: */
-        /* display: none; */
+    .tittle99 { font-size: 1.8em; margin: 20px 0 10px 0; padding: 0 15px;}
+    .top-banner-container { padding: 10px; }
+    .main-banner { border-radius: 8px; }
+    .welcome-briefing { margin: 10px 15px 30px 15px; padding: 20px; }
+    .search-container { padding: 0 20px; }
+    #eventSearch { border-radius: 12px; }
+    .arc-header { 
+        font-size: 1.1em; 
+        padding: 10px 15px; 
+        margin-left: 15px; 
+        margin-right: 15px; 
+        display: block; 
+        text-align: center; 
+        border-left: none; 
+        border-bottom: 2px solid #3a75c4;
     }
-    
-    .top-banner-container {
-        padding: 0; /* Убираем лишние отступы на смартфонах */
-    }
+    .event-grid { grid-template-columns: 1fr; padding: 0 15px; }
+    #floating-button { bottom: 15px; right: 15px; padding: 10px 20px; font-size: 0.8em; }
+}
+
+/* Акцентный цвет для главных заголовков */
+.title-accent {
+    color: #182e52f2; /* Тот самый благородный синий */
+    font-weight: 700; /* Можно сделать эти слова чуть толще остального текста */
+    text-shadow: 0 0 15px rgba(115, 173, 248, 0.6); /* Легкое синее свечение для выразительности */
+    font-size: 1.3em;
 }
