@@ -193,6 +193,16 @@ columbia:
   img: "/img/port/eagle/colu1.png"
   class: "blob"
 
+constellation:
+  name: "Констеллейшн"
+  img: "/img/port/eagle/cons1.webp"
+  class: "blob"
+
+constellation_rad:
+  name: "📡Констеллейшн"
+  img: "/img/port/eagle/cons1rad.webp"
+  class: "blob"
+
 cooper:
   name: "Купер"
   img: "/img/port/eagle/coop1.png"
@@ -259,6 +269,16 @@ foote:
   img: "/img/port/eagle/foot1.png"
   class: "blob"
 
+flasher:
+  name: "Флэшер"
+  img: "/img/port/eagle/flas1.webp"
+  class: "blob"
+
+flasher_rad:
+  name: "📡Флэшер"
+  img: "/img/port/eagle/flas1rad.webp"
+  class: "blob"
+
 # G
 
 georgia:
@@ -269,6 +289,16 @@ georgia:
 georgia_rad:
   name: "📡Джорджия"
   img: "/img/port/eagle/geor1rad.png"
+  class: "blob"
+
+guam:
+  name: "Гуам"
+  img: "/img/port/eagle/guam1.webp"
+  class: "blob"
+
+guam_rad:
+  name: "📡Гуам"
+  img: "/img/port/eagle/guam1rad.webp"
   class: "blob"
 
 # H
@@ -413,6 +443,19 @@ john_rodgers_rad:
   img: "/img/port/eagle/john1rad.webp"
   class: "blob"
 
+# K
+
+kearsarge:
+  name: "Кирсардж"
+  img: "/img/port/eagle/kear1.webp"
+  class: "blob"
+
+kearsarge_rad:
+  name: "📡Кирсардж"
+  img: "/img/port/eagle/kear1rad.webp"
+  class: "blob"
+
+
 # L
 laffey:
   name: "Лаффи"
@@ -424,6 +467,11 @@ laffey_ii:
   img: "/img/port/eagle/laffii1.png"
   class: "blob"
 
+laffey_ii_rad:
+  name: "📡Лаффи II"
+  img: "/img/port/eagle/laffii1rad.webp"
+  class: "blob"
+
 langley:
   name: "Лэнгли"
   img: "/img/port/eagle/lang1.png"
@@ -432,6 +480,11 @@ langley:
 langley_ii:
   name: "Лэнгли II"
   img: "/img/port/eagle/langii1.png"
+  class: "blob"
+  
+langley_ii_rad:
+  name: "📡Лэнгли II"
+  img: "/img/port/eagle/langii1rad.webp"
   class: "blob"
 
 lexington:
@@ -452,6 +505,16 @@ long_island:
 long_island_rad:
   name: "📡Лонг Айленд"
   img: "/img/port/eagle/long1rad.png"
+  class: "blob"
+
+louisville:
+  name: "Луисвилл"
+  img: "/img/port/eagle/loui1.webp"
+  class: "blob"
+
+louisville_rad:
+  name: "📡Луисвилл"
+  img: "/img/port/eagle/loui1rad.webp"
   class: "blob"
 
 # M
@@ -540,6 +603,16 @@ pennsylvania:
   img: "/img/port/eagle/penn1.png"
   class: "blob"
 
+princeton:
+  name: "Принстон"
+  img: "/img/port/eagle/princ1.webp"
+  class: "blob"
+
+princeton_rad:
+  name: "📡Принстон"
+  img: "/img/port/eagle/princ1rad.webp"
+  class: "blob"
+
 # R
 
 ranger:
@@ -569,6 +642,16 @@ san_juan:
   img: "/img/port/eagle/sanj1.png"
   class: "blob"
 
+san_jacinto:
+  name: "Сан-Хасинто"
+  img: "/img/port/eagle/sanja1.webp"
+  class: "blob"
+
+san_jacinto_rad:
+  name: "📡Сан-Хасинто"
+  img: "/img/port/eagle/sanja1rad.webp"
+  class: "blob"
+
 saratoga:
   name: "Саратога"
   img: "/img/port/eagle/sara1.png"
@@ -592,6 +675,16 @@ saratoga_morning:
 saratoga_morning_rad:
   name: "📡Саратога"
   img: "/img/port/eagle/sara1mornrad.webp"
+  class: "blob"
+
+seattle:
+  name: "Сиэтл"
+  img: "/img/port/eagle/seat1.webp"
+  class: "blob"
+
+seattle_rad:
+  name: "📡Сиэтл"
+  img: "/img/port/eagle/seat1rad.webp"
   class: "blob"
 
 shangri_la:
@@ -4989,3 +5082,26 @@ error_xiii:
   name: "Ошибка XIII"
   img: "/img/port/other/exiii.webp"
   class: "blob"
+fortress_0???:
+  name: "???"
+  img: "/img/port/siren/fort0.webp"
+  class: "blob"
+
+fortress_???:
+  name: "???"
+  img: "/img/port/siren/fort1.png"
+  class: "blob"
+
+
+fortress_1:
+  name: "Боевой протокол Крепость"
+  img: "/img/port/siren/fort0.webp"
+  class: "blob"
+
+
+essex_meta???:
+  name: "???"
+  img: "/img/port/meta/esse1.png"
+  class: "blob"
+
+

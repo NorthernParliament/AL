@@ -29,32 +29,32 @@ white_scene99:
 <img class="pict1" src="../../img/bg/p/bg93.webp" alt="">
 {% include loc.html td_class="loc" text="Зона контроля Северного Парламента - Командный корабль" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp"  %}
 {% include choice_header.html %}
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_overlay="blue-choise" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" bg_overlay="blue-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter3.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_overlay="red-choise" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" bg_overlay="red-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 <img class="pict1" src="../../img/bg/p/bg93-1.webp" alt="">
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter5.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 {% include choice_header.html %}
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter6.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_overlay="blue-choise" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" bg_overlay="blue-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter7.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_overlay="red-choise" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" bg_overlay="red-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter8.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_overlay="yellow-choise" %} 
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" bg_overlay="yellow-choise" %} 
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter9.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_overlay="sea-choise" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" bg_overlay="sea-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter10.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_overlay="green-choise" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" bg_overlay="green-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter11.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" bg_overlay="purple-choise" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" bg_overlay="purple-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter12.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 <img class="pict1" src="../../img/bg/y/bg3.webp" alt="">
 {% assign rows = site.data.rondo_at_rainbows_end.part1.chapter13.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/y/bg3.webp" %}
@@ -253,7 +253,7 @@ white_scene99:
 <p class="title-1">Частная связь</p>
 <img class="pict1" src="../../img/bg/p/bg93.webp" alt="">
 {% assign rows = site.data.rondo_at_rainbows_end.part17.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part18"> <!-- начало главы -->
@@ -283,7 +283,7 @@ white_scene99:
 <img class="pict1" src="../../img/bg/p/bg93-2.webp" alt="">
 {% include loc.html td_class="loc" text="Сектор C восточного шельфа - Командный корабль" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part20.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 {% include choice_header.html %}
 {% assign rows = site.data.rondo_at_rainbows_end.part20.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="blue-choise" %}
@@ -306,14 +306,14 @@ white_scene99:
 <img class="pict1" src="../../img/bg/p/bg93-3.webp" alt="">
 {% include loc.html td_class="loc" text="Акватория вблизи Скапа-Флоу · На борту флагмана" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part22.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 {% include choice_header.html %}
 {% assign rows = site.data.rondo_at_rainbows_end.part22.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="blue-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part22.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="red-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part22.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part23"> <!-- начало главы -->
@@ -328,28 +328,28 @@ white_scene99:
 {% assign rows = site.data.rondo_at_rainbows_end.part23.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="red-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part23.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part24"> <!-- начало главы -->
 <p class="title-1">Момент истины</p>
 <img class="pict1" src="../../img/bg/p/bg93-3.webp" alt="">
 {% assign rows = site.data.rondo_at_rainbows_end.part24.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 {% include choice_header.html %}
 {% assign rows = site.data.rondo_at_rainbows_end.part24.chapter2.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="blue-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part24.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="red-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part24.chapter4.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 {% include choice_header.html %}
 {% assign rows = site.data.rondo_at_rainbows_end.part24.chapter5.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="blue-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part24.chapter6.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="red-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part24.chapter7.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 {% include choice_header.html %}
 {% assign rows = site.data.rondo_at_rainbows_end.part24.chapter8.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="blue-choise" %}
@@ -364,7 +364,7 @@ white_scene99:
 {% assign rows = site.data.rondo_at_rainbows_end.part24.chapter13.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_overlay="purple-choise" %}
 {% assign rows = site.data.rondo_at_rainbows_end.part24.chapter14.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part25"> <!-- начало главы -->

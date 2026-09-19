@@ -1008,3 +1008,88 @@ img.fog-effect-red,
 body {
     padding-bottom: 70px !important; 
 }
+
+/* =========================================
+   КИНЕМАТОГРАФИЧНЫЕ РАЗДЕЛИТЕЛИ СЦЕН (Три ромба)
+   ========================================= */
+.scene-break {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 700px; /* Слегка расширили для трех элементов */
+    margin: 40px auto; /* Добавили еще немного воздуха */
+    height: 24px;
+    user-select: none;
+    pointer-events: none;
+    gap: 12px; /* Расстояние между кристаллами */
+}
+
+/* Общая основа для горизонтальной световой линии */
+.scene-break::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+/* Базовый стиль для всех ромбов */
+.scene-break span {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg); 
+    transition: all 0.3s ease;
+}
+
+/* Делаем центральный ромб чуть крупнее для красивой композиции */
+.scene-break span:nth-child(2) {
+    width: 14px;
+    height: 14px;
+}
+
+/* --- ВАРИАНТ 1: ЗАТУХАНИЕ (Темная пауза) --- */
+.scene-break.break-dark::before {
+    height: 6px; /* Линия стала еще более плотной */
+    background: linear-gradient(
+        90deg, 
+        transparent 0%, 
+        rgba(0, 0, 0, 0.9) 20%, 
+        rgba(15, 20, 30, 1) 50%, 
+        rgba(0, 0, 0, 0.9) 80%, 
+        transparent 100%
+    );
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1), 0 0 3px rgba(255, 255, 255, 0.25);
+}
+
+.scene-break.break-dark span {
+    background: #0f141e;
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Более четкая серебристая окантовка */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 1);
+}
+
+/* --- ВАРИАНТ 2: ВСПЫШКА (Световой переход) --- */
+.scene-break.break-light::before {
+    height: 4px; /* Луч света стал шире */
+    background: linear-gradient(
+        90deg, 
+        transparent 0%, 
+        rgba(255, 255, 255, 0.7) 20%, 
+        rgba(255, 255, 255, 1) 50%, 
+        rgba(255, 255, 255, 0.7) 80%, 
+        transparent 100%
+    );
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.9), 0 0 8px #8baadb;
+}
+
+.scene-break.break-light span {
+    background: #ffffff;
+    border: 1px solid #e0f0ff;
+    box-shadow: 0 0 15px #ffffff, 0 0 25px rgba(139, 170, 219, 1);
+}

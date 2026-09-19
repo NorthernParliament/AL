@@ -479,6 +479,20 @@
   desc: "Одно лишь мгновение под лунным светом, в тихом уголке сада... Кто же коснулся струн её сердца?"
   arc: "03 Третья часть"
 
+- title_ru: "Под ясным звёздным небом"
+  title_en: "Beneath Clear, Starry Skies"
+  slug: "beneath_clear_starry_skies"
+  image: "/img/main/beneath_clear_starry_skies.webp" 
+  desc: "Инцидент с угрозой наложения пространств удалось благополучно предотвратить, и небо над миром снова ясное и чистое."
+  arc: "03 Третья часть"
+
+- title_ru: "Море Звёзд: В погоне за светом"
+  title_en: "Light-Chasing Sea of Stars"
+  slug: "light_chasing_sea_of_stars"
+  image: "/img/main/light_chasing_sea_of_stars.webp" 
+  desc: "«В погоне за светом в Море Звёзд, где же путь, что ведёт домой?»"
+  arc: "03 Третья часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"
