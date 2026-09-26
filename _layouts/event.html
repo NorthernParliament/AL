@@ -20,7 +20,7 @@
     <title>{{ page.title }}</title>
     
   </head>
-<body>
+<body {% if page.menu_bg %} style="background-image: url('{{ page.menu_bg | relative_url }}');" data-menu-bg="{{ page.menu_bg | relative_url }}" {% endif %}>
 
 <header
   class="head_ev head_ev_diverchess"

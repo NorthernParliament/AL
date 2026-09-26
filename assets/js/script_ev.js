@@ -78,7 +78,14 @@ document.addEventListener("DOMContentLoaded", () => {
     function showNav() {
         chapters.forEach(ch => ch.style.display = 'none');
         nav.style.display = 'grid'; 
-        document.body.style.backgroundImage = ''; 
+        
+        // НОВАЯ МАГИЯ: Ищем сохраненный фон меню и возвращаем его
+        const menuBg = document.body.getAttribute('data-menu-bg');
+        if (menuBg) {
+            document.body.style.backgroundImage = `url('${menuBg}')`;
+        } else {
+            document.body.style.backgroundImage = ''; // Сброс на черный, если картинки нет
+        }
         
         // Прячем плавающую панель, когда читатель в главном меню
         fixedNav.style.display = 'none'; 
@@ -96,7 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Магия смены фона (Intersection Observer)
-    const bgObserver = new IntersectionObserver((entries) => {
+const bgObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const bgUrl = entry.target.getAttribute('data-bg');
@@ -106,7 +113,11 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }, { 
-        threshold: 0.3 
+        // Верхний отступ съедает ровно 50% экрана. 
+        // Нижний отступ съедает 49% экрана.
+        // Оставшийся 1% превращается в тончайшую невидимую линию точно по центру.
+        rootMargin: "-50% 0px -49% 0px", 
+        threshold: 0 
     });
 
     document.querySelectorAll('[data-bg]').forEach(el => {

@@ -11,12 +11,12 @@ data-bg="{{ include.bg_file | relative_url }}"
     {% if row.char %}
       <!-- Блок диалога персонажа -->
 <div class="dialogue-row side-{{ row.side }}">
-  <!-- ПОРТРЕТ ВСЕГДА ИДЕТ ПЕРВЫМ В КОДЕ -->
+ 
   <div class="name-container">
     <img src="{{ c.img | relative_url }}" class="port-img {{ status_class }}" alt="{{ c.name }}">      
   </div>
   
-  <!-- ТЕКСТ ВСЕГДА ИДЕТ ВТОРЫМ В КОДЕ -->
+  
   <div class="words blob {{ status_class }}">
     <div class="name-box"><span>{{ c.name }}</span></div>
     <div class="text-content">
