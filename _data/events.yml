@@ -493,6 +493,20 @@
   desc: "«В погоне за светом в Море Звёзд, где же путь, что ведёт домой?»"
   arc: "03 Третья часть"
 
+- title_ru: "Туман над серебряными вершинами"
+  title_en: "Mist Upon Silver Summits"
+  slug: "mist_upon_silver_summits"
+  image: "/img/main/mist_upon_silver_summits.webp" 
+  desc: "Зачем ты поднимаешься на гору? Потому что гора там."
+  arc: "03 Третья часть"
+
+- title_ru: "Странствие по снежному царству"
+  title_en: "Snowrealm Peregrination"
+  slug: "snowrealm_peregrination"
+  image: "/img/main/snowrealm_peregrination.webp" 
+  desc: "Союз ведет флот Северного Парламента в Антарктику на поиски уникального кристалла, резонирующего с оснасткой, однако у кого-то в их рядах совершенно иные мотивы..."
+  arc: "03 Третья часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"

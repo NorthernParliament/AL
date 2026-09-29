@@ -3,6 +3,7 @@ layout: event
 title: "Багровые Отголоски"
 slug: crimson_echoes
 chapters_count: 22
+menu_bg: "../../img/bg/s/bg1.webp"
 black_scene:
   - "............."
   - "....."
@@ -22,12 +23,12 @@ black_scene1:
 <div class="chapter" id="part1"> <!-- начало главы -->
 <p class="title-1">Последовательность</p>
 <img class="pict1" src="{{ site.baseurl }}/img/bg/s/bg1.webp" alt="">
-{% include loc.html td_class="loc" text="Северная часть Тихого океана -- 28° 30' северной широты 177° 54' западной долготы" %}
+{% include loc.html td_class="loc" text="🌐Северная часть Тихого океана -- 28° 30' северной широты 177° 54' западной долготы" %}
 {% assign rows = site.data.crimson_echoes.part1.chapter1.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/s/bg1.webp" %}
 {% include blackscreen.html lines=page.black_scene %}
 <img class="pict1" src="{{ site.baseurl }}/img/bg/p/bg1.webp" alt="">
-{% include blackscreen.html text="Много лет назад..." %}
+{% include loc.html td_class="loc" text="Много лет назад..." %}
 {% assign rows = site.data.crimson_echoes.part1.chapter2.rows %}
 {% include dialog.html rows=rows %}
 <img class="pict1" src="{{ site.baseurl }}/img/bg/s/bg1.webp" alt="">
@@ -184,17 +185,17 @@ black_scene1:
 <div class="chapter" id="part21"> <!-- начало главы -->
 <p class="title-1">Отголоски 10</p>
 {% assign rows = site.data.crimson_echoes.part21.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 </div> <!-- конец главы -->
 
 <div class="chapter" id="part22"> <!-- начало главы -->
 <p class="title-1">Отголоски 11</p>
 {% include divider.html %}
 {% assign rows = site.data.crimson_echoes.part22.chapter1.rows %}
-{% include dialog.html rows=rows bg_class="table-bg memory-segment" %}
+{% include dialog.html rows=rows bg_class="table-bg memory-segment" bg_file="/img/bg/bgb.webp" %}
 {% include divider.html %}
 {% assign rows = site.data.crimson_echoes.part22.chapter2.rows %}
-{% include dialog.html rows=rows bg_class="table-bg" %}
+{% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/bgb.webp" %}
 <img class="pict1" src="{{ site.baseurl }}/img/bg/s/bg3.webp" alt="">
 {% assign rows = site.data.crimson_echoes.part22.chapter3.rows %}
 {% include dialog.html rows=rows bg_class="table-bg" bg_file="/img/bg/s/bg3.webp" %}

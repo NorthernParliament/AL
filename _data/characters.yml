@@ -5098,10 +5098,182 @@ fortress_1:
   img: "/img/port/siren/fort0.webp"
   class: "blob"
 
+# ==========================================================
+# несортированные
+# ==========================================================
 
 essex_meta???:
   name: "???"
   img: "/img/port/meta/esse1.png"
   class: "blob"
 
+huan_chang:
+  name: "Хуань Чан"
+  img: "/img/port/dragon/huan1.webp"
+  class: "blob"
 
+huan_chang_rad:
+  name: "📡Хуань Чан"
+  img: "/img/port/dragon/huan1rad.webp"
+  class: "blob"
+
+poltava:
+  name: "Полтава"
+  img: "/img/port/northern/polt1.webp"
+  class: "blob"
+
+poltava_rad:
+  name: "📡Полтава"
+  img: "/img/port/northern/polt1rad.webp"
+  class: "blob"
+
+kronshtadt_rad:
+  name: "📡Кронштадт"
+  img: "/img/port/northern/kron1rad.webp"
+  class: "blob"
+
+pamiat_merkuria_rad:
+  name: "📡Память Меркурия"
+  img: "/img/port/northern/pami1rad.webp"
+  class: "blob"
+
+ognevoy:
+  name: "Огневой"
+  img: "/img/port/northern/ogne1.webp"
+  class: "blob"
+
+ognevoy_rad:
+  name: "📡Огневой"
+  img: "/img/port/northern/ogne1rad.webp"
+  class: "blob"
+
+svirepy:
+  name: "Свирепый"
+  img: "/img/port/northern/svir1.webp"
+  class: "blob"
+
+svirepy_rad:
+  name: "📡Свирепый"
+  img: "/img/port/northern/svir1rad.webp"
+  class: "blob"
+
+sophia???:
+  name: "???"
+  img: "/img/port/other/soph1.webp"
+  class: "blob"
+
+
+collet???:
+  name: "???"
+  img: "/img/port/other/cole1.webp"
+  class: "blob"
+
+pamiat_merkuria_meta:
+  name: "Память Меркурия МЕТА"
+  img: "/img/port/meta/pami1.webp"
+  class: "blob"
+
+pamiat_merkuria_meta_rad:
+  name: "📡Память Меркурия МЕТА"
+  img: "/img/port/meta/pami1rad.webp"
+  class: "blob"
+
+pamiat_merkuria_meta?_d:
+  name: "Память Меркурия?"
+  img: "/img/port/meta/pami1d.webp"
+  class: "blob"
+königsberg:
+  name: "Кёнигсберг"
+  img: "/img/port/iron/koni1.webp"
+  class: "blob"
+
+königsberg_rad:
+  name: "📡Кёнигсберг"
+  img: "/img/port/iron/koni1rad.webp"
+  class: "blob"
+
+exibition_lable:
+  name: "Описание картины"
+  img: "/img/port/other/nop.webp"
+  class: "blob"
+
+
+saratoga_kai_rad:
+  name: "📡Саратога"
+  img: "/img/port/eagle/sara1kairad.webp"
+  class: "blob"
+
+hindenburg:
+  name: "Гинденбург"
+  img: "/img/port/iron/hind1.webp"
+  class: "blob"
+
+hindenburg_rad:
+  name: "📡Гинденбург"
+  img: "/img/port/iron/hind1rad.webp"
+  class: "blob"
+
+felix_schultz:
+  name: "Феликс Шульц"
+  img: "/img/port/iron/feli1.webp"
+  class: "blob"
+
+felix_schultz_rad:
+  name: "📡Феликс Шульц"
+  img: "/img/port/iron/feli1rad.webp"
+  class: "blob"
+
+colorado:
+  name: "Колорадо"
+  img: "/img/port/eagle/colo1.webp"
+  class: "blob"
+
+colorado_rad:
+  name: "📡Колорадо"
+  img: "/img/port/eagle/colo1rad.webp"
+  class: "blob"
+
+maryland:
+  name: "Мэриленд"
+  img: "/img/port/eagle/mary1.webp"
+  class: "blob"
+
+maryland_rad:
+  name: "📡Мэриленд"
+  img: "/img/port/eagle/mary1rad.webp"
+  class: "blob"
+
+west_virginia:
+  name: "Вест Вирджиния"
+  img: "/img/port/eagle/west1.webp"
+  class: "blob"
+
+west_virginia_rad:
+  name: "📡Вест Вирджиния"
+  img: "/img/port/eagle/west1rad.webp"
+  class: "blob"
+
+bunker_hill_rad:
+  name: "📡Банкер Хилл"
+  img: "/img/port/eagle/bunk1rad.webp"
+  class: "blob"
+
+ingraham_rad:
+  name: "📡Ингрэм"
+  img: "/img/port/eagle/ingr1rad.webp"
+  class: "blob"
+
+pamiat_merkuria_kai_retr:
+  name: "Память Меркурия (Ретрофит)"
+  img: "/img/port/northern/pami1kai.png"
+  class: "blob"
+
+pamiat_merkuria_meta_1:
+  name: "Память Меркурия"
+  img: "/img/port/meta/pami1.webp"
+  class: "blob"
+
+hiryuu?_d:
+  name: "Хирю?"
+  img: "/img/port/sakura/hiry1d.webp"
+  class: "blob"

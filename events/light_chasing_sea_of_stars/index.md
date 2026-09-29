@@ -3,6 +3,7 @@ layout: event
 title: "Море Звёзд: В погоне за светом"
 slug: light_chasing_sea_of_stars
 chapters_count: 37
+menu_bg: "../../img/bg/a/bg4.webp"
 black_scene99:
   - "..."
 black_scene:
