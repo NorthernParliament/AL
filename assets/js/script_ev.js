@@ -1,4 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const FX = ["noise", "dark"];
+function syncFx(el) {
+    let on = false;
+    FX.forEach((name) => {
+        const active = el.classList.contains(name);
+        document.body.classList.toggle("fx-" + name, active);
+        if (active) on = true;
+    });
+    document.body.classList.toggle("has-fx", on);
+}
     const nav = document.querySelector(".nav");
     const chapters = Array.from(document.querySelectorAll(".chapter"));
     
@@ -66,6 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (firstBgElement) {
             const bgUrl = firstBgElement.getAttribute('data-bg');
             document.body.style.backgroundImage = `url('${bgUrl}')`;
+            syncFx(firstBgElement);
         }
         
         // Обновляем данные кнопок и показываем панель
@@ -91,6 +102,8 @@ document.addEventListener("DOMContentLoaded", () => {
         fixedNav.style.display = 'none'; 
         
         window.scrollTo({ top: 0, behavior: 'smooth' });
+        FX.forEach((name) => document.body.classList.remove("fx-" + name));
+        document.body.classList.remove("has-fx");
     }
 
     // Перехватываем клики по картинкам в меню навигации
@@ -110,6 +123,7 @@ const bgObserver = new IntersectionObserver((entries) => {
                 if (bgUrl) {
                     document.body.style.backgroundImage = `url('${bgUrl}')`;
                 }
+                syncFx(entry.target);
             }
         });
     }, { 

@@ -5277,3 +5277,233 @@ hiryuu?_d:
   name: "Хирю?"
   img: "/img/port/sakura/hiry1d.webp"
   class: "blob"
+
+vampire_meta:
+  name: "Вампир МЕТА"
+  img: "/img/port/meta/vamp1.webp"
+  class: "blob"
+
+vampire_meta_rad:
+  name: "📡Вампир МЕТА"
+  img: "/img/port/meta/vamp1rad.webp"
+  class: "blob"
+
+chian:
+  name: "Чи Ань"
+  img: "/img/port/dragon/chia1.webp"
+  class: "blob"
+
+chian_rad:
+  name: "📡Чи Ань"
+  img: "/img/port/dragon/chia1rad.webp"
+  class: "blob"
+
+sheffild_cloak:
+  name: "Шеффилд"
+  img: "/img/port/royal/shef2.webp"
+  class: "blob"
+
+sheffild_cloak_rad:
+  name: "📡Шеффилд"
+  img: "/img/port/royal/shef2rad.webp"
+  class: "blob"
+
+strange_machine:
+  name: "Странное Устройство"
+  img: "/img/port/other/stra1.webp"
+  class: "blob"
+
+kamikaze:
+  name: "Камикадзе"
+  img: "/img/port/sakura/kami1.webp"
+  class: "blob"
+
+kamikaze_rad:
+  name: "📡Камикадзе"
+  img: "/img/port/sakura/kami1rad.webp"
+  class: "blob"
+
+kamikaze_kai:
+  name: "Камикадзе"
+  img: "/img/port/sakura/kami1kai.webp"
+  class: "blob"
+
+kamikaze_kai_rad:
+  name: "📡Камикадзе"
+  img: "/img/port/sakura/kami1kairad.webp"
+  class: "blob"
+
+rodney_meta???:
+  name: "???"
+  img: "/img/port/meta/rodn1.png"
+  class: "blob"
+
+hatakaze_meta:
+  name: "Хатакадзэ МЕТА"
+  img: "/img/port/meta/hata1.webp"
+  class: "blob"
+
+hatakaze_meta_rad:
+  name: "📡Хатакадзэ МЕТА"
+  img: "/img/port/meta/hata1rad.webp"
+  class: "blob"
+
+scythexiii???:
+  name: "??? XIII"
+  img: "/img/port/siren/scyt1.webp"
+  class: "blob"
+
+scythexiii???_rad:
+  name: "📡??? XIII"
+  img: "/img/port/siren/scyt1rad.webp"
+  class: "blob"
+
+death_bridge:
+  name: "Мост Смерти"
+  img: "/img/port/other/nop.webp"
+  class: "blob"
+
+strength_rad:
+  name: "📡Арбитр: Сила VIII"
+  img: "/img/port/siren/stre1rad.webp"
+  class: "blob"
+
+lovers_rad:
+  name: "📡Арбитр: Влюблённые VI"
+  img: "/img/port/siren/love1rad.webp"
+  class: "blob"
+
+moon:
+  name: "Арбитр: Луна XVIII"
+  img: "/img/port/siren/moon1.png"
+  class: "blob"
+
+moon_rad:
+  name: "📡Арбитр: Луна XVIII"
+  img: "/img/port/siren/moon1rad.png"
+  class: "blob"
+
+empress_rad:
+  name: "📡Арбитр: Императрица III"
+  img: "/img/port/siren/empr1rad.webp"
+  class: "blob"
+
+tower_rad:
+  name: "📡Арбитр: Башня XVI"
+  img: "/img/port/siren/towe1rad.webp"
+  class: "blob"
+
+miss_d???:
+  name: "???"
+  img: "/img/port/siren/miss1.png"
+  class: "blob"
+
+miss_d???_rad:
+  name: "📡???"
+  img: "/img/port/siren/miss1rad.png"
+  class: "blob"
+
+alsace:
+  name: "Эльзас"
+  img: "/img/port/iris/alsa1.webp"
+  class: "blob"
+
+alsace_rad:
+  name: "📡Эльзас"
+  img: "/img/port/iris/alsa1rad.webp"
+  class: "blob"
+
+mogador:
+  name: "Могадор"
+  img: "/img/port/vichya/moga1.webp"
+  class: "blob"
+
+mogador_rad:
+  name: "📡Могадор"
+  img: "/img/port/vichya/moga1rad.webp"
+  class: "blob"
+
+brennus:
+  name: "Бреннус"
+  img: "/img/port/iris/bren1.webp"
+  class: "blob"
+
+brennus_rad:
+  name: "📡Бреннус"
+  img: "/img/port/iris/bren1rad.webp"
+  class: "blob"
+
+fleuret:
+  name: "Флёре"
+  img: "/img/port/vichya/fleu1.webp"
+  class: "blob"
+
+fleuret_rad:
+  name: "📡Флёре"
+  img: "/img/port/vichya/fleu1rad.webp"
+  class: "blob"
+
+epee:
+  name: "Эпе"
+  img: "/img/port/vichya/epee1.webp"
+  class: "blob"
+
+epee_rad:
+  name: "📡Эпе"
+  img: "/img/port/vichya/epee1rad.webp"
+  class: "blob"
+
+anzeel_rec_d:
+  name: "Рекордер"
+  img: "/img/port/other/anze2.png"
+  class: "blob"
+
+whale:
+  name: "Кит"
+  img: "/img/port/other/nop.webp"
+  class: "blob"
+
+miss_d???d:
+  name: "???"
+  img: "/img/port/siren/miss1d.webp"
+  class: "blob"
+
+rorodney_meta???d:
+  name: "???"
+  img: "/img/port/meta/rodn1d.webp"
+  class: "blob"
+
+kimberly:
+  name: "Кимберли"
+  img: "/img/port/eagle/kimb1.webp"
+  class: "blob"
+
+kimberly_rad:
+  name: "📡Кимберли"
+  img: "/img/port/eagle/kimb1rad.webp"
+  class: "blob"
+
+bearn_meta:
+  name: "Беарн МЕТА"
+  img: "/img/port/meta/bear1.webp"
+  class: "blob"
+
+bearn_meta_rad:
+  name: "📡Беарн МЕТА"
+  img: "/img/port/meta/bear1rad.webp"
+  class: "blob"
+
+vanguard_rad:
+  name: "📡Вангард"
+  img: "/img/port/royal/vang1rad.webp"
+  class: "blob"
+
+death_shadow:
+  name: "Тень Смерти"
+  img: "/img/port/siren/scyt1.webp"
+  class: "blob"
+
+repulse_meta_rad:
+  name: "📡 Рипалс МЕТА"
+  img: "/img/port/meta/repu1rad.webp"
+  class: "blob"

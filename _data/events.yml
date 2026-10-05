@@ -507,6 +507,27 @@
   desc: "Союз ведет флот Северного Парламента в Антарктику на поиски уникального кристалла, резонирующего с оснасткой, однако у кого-то в их рядах совершенно иные мотивы..."
   arc: "03 Третья часть"
 
+- title_ru: "Благоухание паучьей лилии"
+  title_en: "Spider Lily's Redolence"
+  slug: "spider_lilys_redolence"
+  image: "/img/main/spider_lilys_redolence.webp" 
+  desc: "Ликорис лучистый, красная паучья лилия — прекрасная, броская и ядовитая. Она завлекла тебя еще до того, как успела расцвести."
+  arc: "03 Третья часть"
+
+- title_ru: "Эхо издалека"
+  title_en: "Spider Lily's Redolence"
+  slug: "echoes_from_afar"
+  image: "/img/main/echoes_from_afar.webp" 
+  desc: "Слышал ли ты его — тот далекий звук, отдающийся среди звезд, что выходит за рамки реальности и снов?"
+  arc: "03 Третья часть"
+
+- title_ru: "Свет Мартириума"
+  title_en: "Light of the Martyrium"
+  slug: "light_of_the_martyrium"
+  image: "/img/main/light_of_the_martyrium.webp" 
+  desc: "В величественном Мартириуме ты узришь смерть, примешь смерть и восславишься в смерти."
+  arc: "03 Третья часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"

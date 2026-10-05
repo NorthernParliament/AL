@@ -1,0 +1,136 @@
+chapter1:
+  rows:
+  - text:
+      - "Три вагона поезда «Свет Королевы» безмолвно стоят среди травы и листвы в саду."
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Отмена материализации в Мартириуме. Устранение всех следов боя и остаточных данных..."
+      - "Фух. Наконец-то я могу вернуть тебя домой."
+      - "Но перед этим, похоже, у тебя есть вопросы."
+  - char: "commander"
+    side: "right"
+    text:
+      - "Проницательна как всегда. Что будет с Родни?"
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Она сейчас в крайне нестабильном состоянии. Мне нужно забрать её домой для лечения."
+      - "Не беспокойся о ней. Обещаю, ты скоро с ней снова встретишься."
+  - char: "commander"
+    side: "right"
+    text:
+      - "Слава богу."
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Тебя интересует что-нибудь еще?"
+
+chapter2:
+  rows:
+  - char: "commander"
+    side: "right"
+    text:
+      - "Нет. Это всё."
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Правда?"
+      - "Ты не хочешь узнать о процессе воссоздания?"
+  - char: "commander"
+    side: "right"
+    text:
+      - "Ты расскажешь, если я спрошу?"
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Нет. Всё, что тебе нужно знать — это особая стадия МЕТАморфозы, опасная и нестабильная."
+
+chapter3:
+  rows:
+  - char: "commander"
+    side: "right"
+    text:
+      - "Как работает воссоздание?"
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Как я уже говорила тебе совсем недавно, это особая стадия МЕТАморфозы. Опасная и нестабильная, если помнишь."
+      - "Скажу тебе вот что: если бы ты не принял то решение так быстро, как принял, Родни сейчас не была бы жива."
+  - char: "commander"
+    side: "right"
+    text:
+      - "Тогда как насчет Мемфис и Вестал?"
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Да? А что с ними?"
+  - char: "commander"
+    side: "right"
+    text:
+      - "Вообще-то, забудь."
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Хорошо. Давай закроем эту тему."
+
+chapter4:
+  rows:
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Не возражаешь, если я задам ТЕБЕ вопрос?"
+
+chapter5:
+  rows:
+  - char: "commander"
+    side: "right"
+    text:
+      - "Нисколько. Спрашивай о чем хочешь."
+
+chapter6:
+  rows:
+  - char: "commander"
+    side: "right"
+    text:
+      - "Я думал, ты уже всё знаешь."
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Хи-хи. Я знаю только то, что знаю."
+
+chapter7:
+  rows:
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Одна META — Элизабет — была с тобой на этой операции. Был ли кто-то еще?"
+  - char: "commander"
+    side: "right"
+    text:
+      - "Нет. Она хотела бы взять с собой своих подданных META, но, скажем так, ей пришлось отправиться одной."
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Верно. «Одной»."
+  - char: "commander"
+    side: "right"
+    text:
+      - "Я сказал что-то не так?"
+  - char: "helena_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Нет, всё в порядке. А теперь давай вернем тебя домой."

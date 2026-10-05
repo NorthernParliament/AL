@@ -48,7 +48,28 @@
   {% endfor %}
 </div>
 {% endif %}
-
+{% if page.chapters %}
+<div class="nav">
+  {% for title in page.chapters %}
+    {% assign n = forloop.index %}
+    {% assign bg = "" %}
+    {% for card in page.menu_cards %}
+      {% assign from = card.from | default: 1 %}
+      {% assign to = card.to | default: page.chapters.size %}
+      {% if bg == "" and n >= from and n <= to %}
+        {% assign bg = card.img %}
+      {% endif %}
+    {% endfor %}
+    <a href="#part{{ n }}" class="chapter-card">
+  <img class="chapter-card__bg" alt=""
+       src="{{ '/events/' | append: page.slug | append: '/img/' | append: bg | relative_url }}">
+  <span class="chapter-card__num">#{{ n }}</span>
+  <span class="chapter-card__title">{{ title }}</span>
+</a>
+  {% endfor %}
+</div>
+{% elsif page.chapters_count %}
+{% endif %}
 
 <main class="main">
 {{ content }}

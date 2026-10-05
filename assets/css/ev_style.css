@@ -383,6 +383,7 @@ h1.title {
 .is-purple    { --accent-color: #cc99ff; }
 .is-blue      { --accent-color: #3125dd; }
 .is-orange    { --accent-color: #ff8800; }
+.is-sea       { --accent-color: #34ebf8; }
 
 /* =========================================
    КНОПКИ НАВИГАЦИИ ПО ГЛАВАМ
@@ -1024,7 +1025,7 @@ body {
 }
 
 /* =========================================
-   КИНЕМАТОГРАФИЧНЫЕ РАЗДЕЛИТЕЛИ СЦЕН (Три ромба)
+   КИНЕМАТОГРАФИЧНЫЕ РАЗДЕЛИТЕЛИ СЦЕН
    ========================================= */
 .scene-break {
     position: relative;
@@ -1032,15 +1033,15 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 700px; /* Слегка расширили для трех элементов */
-    margin: 40px auto; /* Добавили еще немного воздуха */
+    /* Растягиваем на всю ширину текстового пузыря */
+    max-width: 900px; 
+    margin: 40px auto; 
     height: 24px;
     user-select: none;
     pointer-events: none;
-    gap: 12px; /* Расстояние между кристаллами */
+    gap: 12px; 
 }
 
-/* Общая основа для горизонтальной световой линии */
 .scene-break::before {
     content: "";
     position: absolute;
@@ -1051,7 +1052,7 @@ body {
     z-index: 1;
 }
 
-/* Базовый стиль для всех ромбов */
+/* Базовый стиль для кристаллов */
 .scene-break span {
     position: relative;
     z-index: 2;
@@ -1062,7 +1063,7 @@ body {
     transition: all 0.3s ease;
 }
 
-/* Делаем центральный ромб чуть крупнее для красивой композиции */
+/* Центральный кристалл крупнее */
 .scene-break span:nth-child(2) {
     width: 14px;
     height: 14px;
@@ -1070,42 +1071,42 @@ body {
 
 /* --- ВАРИАНТ 1: ЗАТУХАНИЕ (Темная пауза) --- */
 .scene-break.break-dark::before {
-    height: 6px; /* Линия стала еще более плотной */
-    background: linear-gradient(
-        90deg, 
-        transparent 0%, 
-        rgba(0, 0, 0, 0.9) 20%, 
-        rgba(15, 20, 30, 1) 50%, 
-        rgba(0, 0, 0, 0.9) 80%, 
-        transparent 100%
-    );
-    box-shadow: 0 0 15px rgba(0, 0, 0, 1), 0 0 3px rgba(255, 255, 255, 0.25);
+    height: 4px;
+    background: linear-gradient(90deg, transparent 0%, rgba(10, 15, 25, 0.9) 20%, rgba(0, 0, 0, 1) 50%, rgba(10, 15, 25, 0.9) 80%, transparent 100%);
+    /* drop-shadow идеально облегает полупрозрачный градиент, убирая квадратные края */
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.15)) drop-shadow(0 0 8px rgba(0, 0, 0, 0.9));
 }
 
 .scene-break.break-dark span {
     background: #0f141e;
-    border: 2px solid rgba(255, 255, 255, 0.5); /* Более четкая серебристая окантовка */
+    border: 2px solid rgba(255, 255, 255, 0.4); 
     box-shadow: 0 0 12px rgba(0, 0, 0, 1);
 }
 
 /* --- ВАРИАНТ 2: ВСПЫШКА (Световой переход) --- */
 .scene-break.break-light::before {
-    height: 4px; /* Луч света стал шире */
-    background: linear-gradient(
-        90deg, 
-        transparent 0%, 
-        rgba(255, 255, 255, 0.7) 20%, 
-        rgba(255, 255, 255, 1) 50%, 
-        rgba(255, 255, 255, 0.7) 80%, 
-        transparent 100%
-    );
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.9), 0 0 8px #8baadb;
+    height: 3px; 
+    background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.7) 20%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.7) 80%, transparent 100%);
+    filter: drop-shadow(0 0 6px rgba(139, 170, 219, 0.8)) drop-shadow(0 0 12px rgba(255, 255, 255, 1));
 }
 
 .scene-break.break-light span {
     background: #ffffff;
     border: 1px solid #e0f0ff;
     box-shadow: 0 0 15px #ffffff, 0 0 25px rgba(139, 170, 219, 1);
+}
+
+/* --- ВАРИАНТ 3: ЗОЛОТО (Божественный / Королевский переход) --- */
+.scene-break.break-gold::before {
+    height: 3px; 
+    background: linear-gradient(90deg, transparent 0%, rgba(255, 200, 0, 0.7) 20%, rgba(255, 230, 100, 1) 50%, rgba(255, 200, 0, 0.7) 80%, transparent 100%);
+    filter: drop-shadow(0 0 6px rgba(255, 150, 0, 0.8)) drop-shadow(0 0 12px rgba(255, 220, 50, 1));
+}
+
+.scene-break.break-gold span {
+    background: #fff5cc;
+    border: 1px solid #ffcc00;
+    box-shadow: 0 0 15px #ffdd44, 0 0 20px rgba(255, 150, 0, 0.8);
 }
 
 /* =========================================
@@ -1141,3 +1142,40 @@ body {
     margin-bottom: 0;
 }
 
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: var(--fx) center / cover no-repeat;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+body.has-fx::after { opacity: 1; }
+
+body.fx-noise { --fx: url("../../img/bg/bgshum.png"); }
+body.fx-dark  { --fx: url("../../img/bg/bgd.png"); }
+
+.chapter-card { position: relative; display: block; }
+.chapter-card__bg { width: 100%; height: auto; display: block; }
+
+.chapter-card__num {
+  position: absolute;
+  top: 0.5%;
+  right: 2%;
+  color: #fff;
+  font-weight: 500;
+}
+
+.chapter-card__title {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  bottom: 1%;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.15;
+}
