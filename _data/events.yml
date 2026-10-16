@@ -528,6 +528,27 @@
   desc: "В величественном Мартириуме ты узришь смерть, примешь смерть и восславишься в смерти."
   arc: "03 Третья часть"
 
+- title_ru: "Интерлюдия Иллюзий"
+  title_en: "Interlude of Illusions"
+  slug: "interlude_of_illusions"
+  image: "/img/main/interlude_of_illusions.webp" 
+  desc: "«Это одновременно интерлюдия и сон. Ты не можешь открыть глаза, а музыка продолжает играть»"
+  arc: "03 Третья часть"
+
+- title_ru: "Багровая прелюдия"
+  title_en: "Crimson Prelusion"
+  slug: "crimson_prelusion"
+  image: "/img/main/crimson_prelusion.webp" 
+  desc: "«Самозванец — это следствие, оригинал — причина. Это вполне логично.»"
+  arc: "03 Третья часть"
+
+- title_ru: "Стальные крылья на ветру"
+  title_en: "Windborne Steel Wings"
+  slug: "windborne_steel_wings"
+  image: "/img/main/windborne_steel_wings.webp" 
+  desc: "«Крылья свободы, тело из стали. Взмахнув крыльями, они рассекают волны!»"
+  arc: "03 Третья часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"

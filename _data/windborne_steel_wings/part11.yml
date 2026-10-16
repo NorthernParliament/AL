@@ -1,0 +1,162 @@
+chapter1:
+  rows:
+  - text:
+      - "Жизнь в Раю мирная, радостная — прекрасный сон, который никогда не заканчивается."
+      - "Память Меркурия МЕТА шла по пляжу, когда увидела других участниц сновидения. Она помахала им."
+  - char: "kimberly"
+    side: "left"
+    text:
+      - "Доброе утро, Память. Хорошая сегодня погодка."
+  - char: "pamiat_merkuria_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Погода ВСЕГДА хорошая! Как её не любить."
+  - char: "kimberly"
+    side: "left"
+    text:
+      - "Ага. Это здорово."
+  - char: "pamiat_merkuria_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Куда вы двое направляетесь?.."
+  - char: "mullany"
+    side: "left"
+    text:
+      - "Мы идём в патруль."
+  - char: "pamiat_merkuria_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Снова?.. Я же уже говорила вам, это место настолько мирное, насколько это вообще возможно. Здесь нет ни драк, ни войн, ни ссор."
+  - char: "stephen_potter"
+    side: "left"
+    text:
+      - "Конечно, но только ВНУТРИ Рая. Мы всё равно должны высматривать угрозы снаружи. Это место маленькое, а мир велик."
+  - char: "pamiat_merkuria_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "В этом есть смысл..."
+  - char: "kimberly"
+    side: "left"
+    text:
+      - "К тому же, сидеть без дела целый день вредно."
+  - char: "pamiat_merkuria_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Ладно, ладно! Идите в свой патруль или куда там! Вы всё равно ничего не найдёте!"
+  - char: "kimberly"
+    side: "left"
+    text:
+      - "Ты права. Мы ничего не найдём."
+
+chapter2:
+  rows:
+  - text:
+      - "Память попрощалась с девочками. Взмахом руки она материализовала скамейку на пляже."
+  - char: "pamiat_merkuria_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Фух... Я уж было подумала, что всё накрылось медным тазом, когда услышала вой тех сирен."
+      - "Вот тебе и Амаги с её флотом..."
+      - "Какое разочарование."
+      - "С другой стороны, она мне здорово помогла, так что на этот раз я закрою на это глаза."
+      - "И я восстановила немало сил после того, как она изменила конфигурацию моего иллюзорного барьера и предоставила мне временную базу для производства всяких полезных штуковин."
+      - "Но главное — я смогла насладиться отпуском! В целом, всё прошло идеально!"
+      - "Может быть, это знак того, что моё невезение на Тестовом полигоне Бета подходит к концу."
+      - "Ах, вот это я понимаю, мечта..."
+
+chapter3:
+  rows:
+  - char: "voice_an"
+    side: "right"
+    text:
+      - "*вой сирен*"
+  - char: "pamiat_merkuria_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "...Хм?.."
+  - char: "kimberly_rad"
+    side: "right"
+    text:
+      - "Память! Ты меня слышишь?.. К нам вторгся враг!"
+  - char: "pamiat_merkuria_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Да вы издеваетесь!"
+      - "Оставайтесь на местах! Я разберусь с ними сама!"
+
+chapter4:
+  rows:
+  - char: "pamiat_merkuria_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Кажется, кукловод наконец-то перешёл к активным действиям..."
+      - "Значит, этот сон вот-вот закончится."
+      - "Мой прекрасный сон... Вы поплатитесь за то, что отняли его у меня."
+  - char: "pamiat_merkuria_meta"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "ALHY AOLT HWHYA (РАЗОРВИТЕ ИХ НА ЧАСТИ)"
+  - text:
+      - "По мановению руки Памяти сотни и сотни белых щупалец появились из-под воды. Они в одно мгновение поглотили надвигающийся флот чёрного тумана."
+  - char: "pamiat_merkuria_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Считайте это подарком от меня."
+  - char: "kimberly_rad"
+    side: "right"
+    text:
+      - "Обалдеть! Ты разобралась с ними в два счёта!"
+  - char: "mullany_rad"
+    side: "left"
+    text:
+      - "Вау..."
+  - char: "stephen_potter_rad"
+    side: "right"
+    text:
+      - "Тебе стоит как-нибудь научить меня этому."
+  - char: "pamiat_merkuria_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Как-нибудь?.. Полагаю, научу, если у нас вообще будет этот следующий раз."
+  - char: "kimberly_rad"
+    side: "right"
+    text:
+      - "Что ты имеешь в виду?.. Ты уходишь или типа того?.."
+  - char: "pamiat_merkuria_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Да. Это значит прощайте."
+  - char: "mullany_rad"
+    side: "right"
+    text:
+      - "Что?.. Почему именно сейчас..."
+  - char: "communicator"
+    side: "left"
+    text:
+      - "......"
+  - text:
+      - "Память повесила трубку и уставилась в далёкое небо."
+      - "На горизонте она увидела строй из дронов и самолётов, летящих к границе её рая."
+  - char: "pamiat_merkuria_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Это для того, чтобы мы больше не встретились."
+  - char: "pamiat_merkuria_meta"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "KPZHWWLHY (ИСЧЕЗНИТЕ)"

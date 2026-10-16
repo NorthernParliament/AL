@@ -35,7 +35,7 @@ atlanta:
   class: "blob"
 
 arizona:
-  name: "Алабама"
+  name: "Аризона"
   img: "/img/port/eagle/ariz1.png"
   class: "blob"
 
@@ -2143,7 +2143,7 @@ agir:
 
 agir_rad:
   name: "📡Эгир"
-  img: "/img/port/iron/agir1.png"
+  img: "/img/port/iron/agir1rad.png"
   class: "blob"
 
 august_von_parseval:
@@ -5506,4 +5506,414 @@ death_shadow:
 repulse_meta_rad:
   name: "📡 Рипалс МЕТА"
   img: "/img/port/meta/repu1rad.webp"
+  class: "blob"
+
+strasbourg:
+  name: "Страсбург"
+  img: "/img/port/vichya/stra1.webp"
+  class: "blob"
+
+strasbourg_rad:
+  name: "📡Страсбург"
+  img: "/img/port/vichya/stra1rad.webp"
+  class: "blob"
+
+dupleix:
+  name: "Дюплекс"
+  img: "/img/port/vichya/dupl1.webp"
+  class: "blob"
+
+dupleix_rad:
+  name: "📡Дюплекс"
+  img: "/img/port/vichya/dupl1rad.webp"
+  class: "blob"
+
+l_audacieux:
+  name: "Л’Одасьёз"
+  img: "/img/port/vichya/laud1.webp"
+  class: "blob"
+
+l_audacieux_rad:
+  name: "📡Л’Одасьёз"
+  img: "/img/port/vichya/laud1rad.webp"
+  class: "blob"
+
+dido:
+  name: "Дидо"
+  img: "/img/port/royal/dido1.webp"
+  class: "blob"
+
+dido_rad:
+  name: "📡Дидо"
+  img: "/img/port/royal/dido1rad.webp"
+  class: "blob"
+
+sirius:
+  name: "Сириус"
+  img: "/img/port/royal/siri1.webp"
+  class: "blob"
+
+sirius_rad:
+  name: "📡Сириус"
+  img: "/img/port/royal/siri1rad.webp"
+  class: "blob"
+
+koln:
+  name: "Кёльн"
+  img: "/img/port/iron/koln1.webp"
+  class: "blob"
+
+koln_rad:
+  name: "📡Кёльн"
+  img: "/img/port/iron/koln1rad.webp"
+  class: "blob"
+
+koln_kai:
+  name: "Кёльн"
+  img: "/img/port/iron/koln1kai.webp"
+  class: "blob"
+
+koln_kai_rad:
+  name: "📡Кёльн"
+  img: "/img/port/iron/koln1kairad.webp"
+  class: "blob"
+
+koln_kai_r:
+  name: "Кёльн (Ретрофит)"
+  img: "/img/port/iron/koln1kai.webp"
+  class: "blob"
+
+koln_kai_r_rad:
+  name: "📡Кёльн (Ретрофит)"
+  img: "/img/port/iron/koln1kairad.webp"
+  class: "blob"
+
+z23:
+  name: "Z23"
+  img: "/img/port/iron/z231.webp"
+  class: "blob"
+
+z23_rad:
+  name: "📡Z23"
+  img: "/img/port/iron/z231rad.webp"
+  class: "blob"
+
+z23_kai:
+  name: "Z23"
+  img: "/img/port/iron/z231kai.webp"
+  class: "blob"
+
+z23_kai_rad:
+  name: "📡Z23"
+  img: "/img/port/iron/z231kairad.webp"
+  class: "blob"
+
+z23_kai_r:
+  name: "Z23 (Ретрофит)"
+  img: "/img/port/iron/z231kai.webp"
+  class: "blob"
+
+z23_kai_r_rad:
+  name: "📡Z23 (Ретрофит)"
+  img: "/img/port/iron/z231kairad.webp"
+  class: "blob"
+
+leipzig:
+  name: "Лейпциг"
+  img: "/img/port/iron/leip1.webp"
+  class: "blob"
+
+leipzig_rad:
+  name: "📡Лейпциг"
+  img: "/img/port/iron/leip1rad.webp"
+  class: "blob"
+
+leipzig_kai:
+  name: "Лейпциг"
+  img: "/img/port/iron/leip1kai.webp"
+  class: "blob"
+
+leipzig_kai_rad:
+  name: "📡Лейпциг"
+  img: "/img/port/iron/leip1kairad.webp"
+  class: "blob"
+
+leipzig_kai_r:
+  name: "Лейпциг (Ретрофит)"
+  img: "/img/port/iron/leip1kai.webp"
+  class: "blob"
+
+leipzig_kai_r_rad:
+  name: "📡Лейпциг (Ретрофит)"
+  img: "/img/port/iron/leip1kairad.webp"
+  class: "blob"
+
+pompeo_magno:
+  name: "Помпео Маньо"
+  img: "/img/port/sardegna/pomp1.webp"
+  class: "blob"
+
+pompeo_magno_rad:
+  name: "📡Помпео Маньо"
+  img: "/img/port/sardegna/pomp1rad.webp"
+  class: "blob"
+
+amagi_m:
+  name: "▇▇▇▇▇"
+  img: "/img/port/sakura/amag1m.webp"
+  class: "blob"
+
+monarch_rad:
+  name: "📡Монарх"
+  img: "/img/port/royal/mona1rad.png"
+  class: "blob"
+
+glasgow:
+  name: "Глазго"
+  img: "/img/port/royal/glas1.webp"
+  class: "blob"
+
+glasgow_rad:
+  name: "📡Глазго"
+  img: "/img/port/royal/glas1rad.webp"
+  class: "blob"
+
+indianapolis:
+  name: "Индианаполис"
+  img: "/img/port/eagle/indi1.webp"
+  class: "blob"
+
+indianapolis_rad:
+  name: "📡Индианаполис"
+  img: "/img/port/eagle/indi1rad.webp"
+  class: "blob"
+
+portland:
+  name: "Портленд"
+  img: "/img/port/eagle/port1.webp"
+  class: "blob"
+
+portland_rad:
+  name: "📡Портленд"
+  img: "/img/port/eagle/port1rad.webp"
+  class: "blob"
+
+fargo:
+  name: "Фарго"
+  img: "/img/port/eagle/farg1.webp"
+  class: "blob"
+
+fargo_rad:
+  name: "📡Фарго"
+  img: "/img/port/eagle/farg1rad.webp"
+  class: "blob"
+
+bell:
+  name: "Белл"
+  img: "/img/port/eagle/bell1.webp"
+  class: "blob"
+
+bell_rad:
+  name: "📡Белл"
+  img: "/img/port/eagle/bell1rad.webp"
+  class: "blob"
+
+herring:
+  name: "Херринг"
+  img: "/img/port/eagle/herr1.webp"
+  class: "blob"
+
+herring_rad:
+  name: "📡Херринг"
+  img: "/img/port/eagle/herr1rad.webp"
+  class: "blob"
+
+pittsburgh:
+  name: "Питтсбург"
+  img: "/img/port/eagle/pitt1.webp"
+  class: "blob"
+
+pittsburgh_rad:
+  name: "📡Питтсбург"
+  img: "/img/port/eagle/pitt1rad.webp"
+  class: "blob"
+
+indiana:
+  name: "Индиана"
+  img: "/img/port/eagle/india1.webp"
+  class: "blob"
+
+indiana_rad:
+  name: "📡Индиана"
+  img: "/img/port/eagle/india1rad.webp"
+  class: "blob"
+
+amagi_m???:
+  name: "???"
+  img: "/img/port/sakura/amag1m.webp"
+  class: "blob"
+
+halsey_powell:
+  name: "Холси Пауэлл"
+  img: "/img/port/eagle/hals1.webp"
+  class: "blob"
+
+halsey_powell_rad:
+  name: "📡Холси Пауэлл"
+  img: "/img/port/eagle/hals1rad.webp"
+  class: "blob"
+
+hazelwood:
+  name: "Хейзелвуд"
+  img: "/img/port/eagle/haze1.webp"
+  class: "blob"
+
+hazelwood_rad:
+  name: "📡Хейзелвуд"
+  img: "/img/port/eagle/haze1rad.webp"
+  class: "blob"
+
+amagi_m1:
+  name: "Амаги"
+  img: "/img/port/sakura/amag1m.webp"
+  class: "blob"
+
+houston_ii:
+  name: "Хьюстон II"
+  img: "/img/port/eagle/housii1.webp"
+  class: "blob"
+
+houston_ii_rad:
+  name: "📡Хьюстон II"
+  img: "/img/port/eagle/housii1rad.webp"
+  class: "blob"
+
+mullany:
+  name: "Маллани"
+  img: "/img/port/eagle/mull1.webp"
+  class: "blob"
+
+mullany_rad:
+  name: "📡Маллани"
+  img: "/img/port/eagle/mull1rad.webp"
+  class: "blob"
+
+stephen_potter:
+  name: "Стивен Поттер"
+  img: "/img/port/eagle/step1.webp"
+  class: "blob"
+
+stephen_potter_rad:
+  name: "📡Стивен Поттер"
+  img: "/img/port/eagle/step1rad.webp"
+  class: "blob"
+
+cooper_rad:
+  name: "📡Купер"
+  img: "/img/port/eagle/coop1rad.webp"
+  class: "blob"
+
+bluegill_rad:
+  name: "📡Блюгилл"
+  img: "/img/port/eagle/blue1rad.webp"
+  class: "blob"
+
+yat_sen_rad:
+  name: "📡Ят Сен"
+  img: "/img/port/dragon/yats1rad.webp"
+  class: "blob"
+
+care_pod:
+  name: "Медицинская капсула"
+  img: "/img/port/other/nop.webp"
+  class: "blob"
+
+ying_swei:
+  name: "Ин Свей"
+  img: "/img/port/dragon/ying1.webp"
+  class: "blob"
+
+ying_swei_rad:
+  name: "📡Ин Свей"
+  img: "/img/port/dragon/ying1rad.webp"
+  class: "blob"
+
+chao_ho:
+  name: "Чжао Хо"
+  img: "/img/port/dragon/chao1.webp"
+  class: "blob"
+
+chao_ho_rad:
+  name: "📡Чжао Хо"
+  img: "/img/port/dragon/chao1rad.webp"
+  class: "blob"
+
+hwah_jah:
+  name: "Хуа Цзя"
+  img: "/img/port/dragon/hwah1.webp"
+  class: "blob"
+
+hwah_jah_rad:
+  name: "📡Хуа Цзя"
+  img: "/img/port/dragon/hwah1rad.webp"
+  class: "blob"
+
+an_shan_rad:
+  name: "📡Ань Шань"
+  img: "/img/port/dragon/ansh1rad.webp"
+  class: "blob"
+
+tai_yuan:
+  name: "Тай Юань"
+  img: "/img/port/dragon/taiy1.webp"
+  class: "blob"
+
+tai_yuan_rad:
+  name: "📡Тай Юань"
+  img: "/img/port/dragon/taiy1rad.webp"
+  class: "blob"
+
+fu_shun:
+  name: "Фу Шунь"
+  img: "/img/port/dragon/fush1.webp"
+  class: "blob"
+
+fu_shun_rad:
+  name: "📡Фу Шунь"
+  img: "/img/port/dragon/fush1rad.webp"
+  class: "blob"
+
+admial_hakhimov:
+  name: "Адмирал Нахимов"
+  img: "/img/port/northern/admn1.webp"
+  class: "blob"
+
+admial_hakhimov_rad:
+  name: "📡Адмирал Нахимов"
+  img: "/img/port/northern/admn1rad.webp"
+  class: "blob"
+
+kirov_meta_rad:
+  name: "📡Киров МЕТА"
+  img: "/img/port/meta/kiro1rad.webp"
+  class: "blob"
+
+forbin_rad:
+  name: "📡Форбин"
+  img: "/img/port/iris/forb1rad.webp"
+  class: "blob"
+
+amagi_m100:
+  name: "Множество Амаги"
+  img: "/img/port/sakura/amag1m.webp"
+  class: "blob"
+
+hardy:
+  name: "Харди"
+  img: "/img/port/royal/hard1.webp"
+  class: "blob"
+
+hardy_rad:
+  name: "📡Харди"
+  img: "/img/port/royal/hard1rad.webp"
   class: "blob"

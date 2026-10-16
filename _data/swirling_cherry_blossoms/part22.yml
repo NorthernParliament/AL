@@ -70,7 +70,7 @@ chapter3:
         - "Хотя, если судить по внешнему виду, это самый обычный булыжник."
 
     - text:
-      - "<img src='/AL/img/bg/r/3.png' class='inline-img' alt=''>"
+      - "<img src='../../img/bg/r/3.png' class='inline-img' alt=''>"
 
     - char: all
       side: left
