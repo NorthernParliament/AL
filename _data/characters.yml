@@ -5917,3 +5917,88 @@ hardy_rad:
   name: "📡Харди"
   img: "/img/port/royal/hard1rad.webp"
   class: "blob"
+
+ryuujou:
+  name: "Рюдзё"
+  img: "/img/port/sakura/ryuuj1.webp"
+  class: "blob"
+
+ryuujou_rad:
+  name: "📡Рюдзё"
+  img: "/img/port/sakura/ryuuj1rad.webp"
+  class: "blob"
+
+hiyou:
+  name: "Хиё"
+  img: "/img/port/sakura/hiyo1.webp"
+  class: "blob"
+
+hiyou_rad:
+  name: "📡Хиё"
+  img: "/img/port/sakura/hiyo1rad.webp"
+  class: "blob"
+
+junyou:
+  name: "Дзюнъё"
+  img: "/img/port/sakura/juny1.webp"
+  class: "blob"
+
+junyou_rad:
+  name: "📡Дзюнъё"
+  img: "/img/port/sakura/juny1rad.webp"
+  class: "blob"
+
+tosa_rad:
+  name: "📡Тоса"
+  img: "/img/port/sakura/tosa1rad.webp"
+  class: "blob"
+
+jintsuu_meta_rad:
+  name: "📡Дзинцу META"
+  img: "/img/port/meta/jint1rad.webp"
+  class: "blob"
+
+izumo:
+  name: "Идзумо"
+  img: "/img/port/sakura/izum1.webp"
+  class: "blob"
+
+izumo_rad:
+  name: "📡Идзумо"
+  img: "/img/port/sakura/izum1rad.webp"
+  class: "blob"
+
+matsukaze:
+  name: "Мацукадзэ"
+  img: "/img/port/sakura/matsu1.webp"
+  class: "blob"
+
+matsukaze_rad:
+  name: "📡Мацукадзэ"
+  img: "/img/port/sakura/matsu1rad.webp"
+  class: "blob"
+
+oite:
+  name: "Оитэ"
+  img: "/img/port/sakura/oite1.webp"
+  class: "blob"
+
+oite_rad:
+  name: "📡Оитэ"
+  img: "/img/port/sakura/oite1rad.webp"
+  class: "blob"
+
+ibuki_newyear_rad:
+  name: "📡Ибуки"
+  img: "/img/port/sakura/ibuk1newrad.webp"
+  class: "blob"
+
+akagi_m:
+  name: "Акаги"
+  img: "/img/port/sakura/akag1m.webp"
+  class: "blob"
+
+kaga_m:
+  name: "Кага"
+  img: "/img/port/sakura/kaga1m.png"
+  class: "blob"

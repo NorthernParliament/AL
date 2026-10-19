@@ -549,6 +549,13 @@
   desc: "«Крылья свободы, тело из стали. Взмахнув крыльями, они рассекают волны!»"
   arc: "03 Третья часть"
 
+- title_ru: "Там, где цветы не приносят плодов"
+  title_en: "Whence Flowers Bear No Fruit"
+  slug: "whence_flowers_bear_no_fruit"
+  image: "/img/main/whence_flowers_bear_no_fruit.webp" 
+  desc: "«Душа ушла, оставив после себя цветок. Остатки чувств растворяются в глубинах.»"
+  arc: "03 Третья часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"
