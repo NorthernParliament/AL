@@ -16,14 +16,13 @@ title: "Сюжет Azur Lane на русском"
   <div class="briefing-content">
     <div class="briefing-label">Приветствую</div>
     <div class="briefing-text">
-      На сайте представлен любительский перевод некоторых сюжетных ивентов из игры Azur Lane. Перевод делается в свободное время, на безвозмездной основе, так что выходит нерегулярно. В переводе используется как английский так и китайский текст ивентов, так что содержимое может незначительно в деталях отличаться от того что представлено в английском клиенте игры для лучшего понимания. По вопросам писать на почту <a href="mailto:seiffear@yandex.ru">seiffear@yandex.ru</a> или в дискорд Seiffear. Проект на  <a href="https://github.com/NorthernParliament/AL">Github</a>.<br>
-      Используйте поиск ниже для навигации по ивентам.
+      На сайте представлен любительский перевод некоторых сюжетных ивентов из игры Azur Lane. Перевод делается в свободное время, на безвозмездной основе, так что выходит нерегулярно. В переводе используется как английский так и китайский текст ивентов, так что содержимое может незначительно в деталях отличаться от того что представлено в английском клиенте игры для лучшего понимания. По вопросам писать на почту <a href="mailto:seiffear@yandex.ru">seiffear@yandex.ru</a> или в дискорд Seiffear. Проект на  <a href="https://github.com/NorthernParliament/AL">Github</a>. Поддержать проект можно на <a href="https://boosty.to/alrusnet">Boosty</a>.<br>
     </div>
   </div>
 </section>
   
   <div class="search-container">
-    <input type="text" id="eventSearch" placeholder="Поиск операции по названию..." onkeyup="filterEvents()">
+    <input type="text" id="eventSearch" placeholder="Поиск ивента по названию..." onkeyup="filterEvents()">
   </div>
 </header>
 

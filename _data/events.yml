@@ -549,11 +549,18 @@
   desc: "«Крылья свободы, тело из стали. Взмахнув крыльями, они рассекают волны!»"
   arc: "03 Третья часть"
 
-- title_ru: "Там, где цветы не приносят плодов"
+- title_ru: "Когда цветы не приносят плодов"
   title_en: "Whence Flowers Bear No Fruit"
   slug: "whence_flowers_bear_no_fruit"
   image: "/img/main/whence_flowers_bear_no_fruit.webp" 
   desc: "«Душа ушла, оставив после себя цветок. Остатки чувств растворяются в глубинах.»"
+  arc: "03 Третья часть"
+
+- title_ru: "Когда осядет пыль"
+  title_en: "Whence the Dust Settles"
+  slug: "whence_the_dust_settles"
+  image: "/img/main/whence_the_dust_settles.webp" 
+  desc: "«Даже принесенная ветром пыль, если её скопится достаточно, способна воздвигнуть башню. Пусть она станет твоим оружием в битве с судьбой.»"
   arc: "03 Третья часть"
 
 - title_ru: "Послание, пробившее Небосвод"

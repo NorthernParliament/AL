@@ -6002,3 +6002,23 @@ kaga_m:
   name: "Кага"
   img: "/img/port/sakura/kaga1m.png"
   class: "blob"
+
+omitter_rad:
+  name: "📡Омиттер"
+  img: "/img/port/siren/omit1rad.webp"
+  class: "blob"
+
+commander_rad:
+  name: "📡Командир"
+  img: "/img/port/other/comm1rad.webp"
+  class: "blob"
+
+kasumi_meta:
+  name: "Касуми МЕТА"
+  img: "/img/port/meta/kasu1.webp"
+  class: "blob"
+
+kasumi_meta_rad:
+  name: "📡Касуми МЕТА"
+  img: "/img/port/meta/kasu1rad.webp"
+  class: "blob"
