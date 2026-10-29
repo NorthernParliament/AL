@@ -1,4 +1,4 @@
-https://northernparliament.github.io/AL/
+https://alrus.net
 
 Любительский перевод некоторых сюжетных ивентов из игры Azur Lane на русский язык.
 
