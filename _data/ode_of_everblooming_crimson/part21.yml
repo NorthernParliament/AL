@@ -1,0 +1,155 @@
+chapter1:
+  rows:
+  - text:
+      - "Вся Сингулярность Нарака утопала в дыму."
+  - char: "nagato_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Вся Нарака выглядит так?"
+  - char: "jintsuu_meta"
+    side: "right"
+    status: "is-purple"
+    text:
+      - "Именно. Флот уже вошел в её ядро."
+  - char: "kasumi_meta"
+    side: "left"
+    status: "is-purple"
+    text:
+      - "Госпожа Нагато, как ты себя чувствуешь?"
+  - char: "nagato_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Достаточно хорошо. Но я заметила, что здешний дым реагирует на моё присутствие."
+  - char: "kasumi_meta"
+    side: "left"
+    status: "is-purple"
+    text:
+      - "Это неудивительно. Поскольку ты связана с Ватацуми, некоторая реакция вполне ожидаема."
+      - "Следуй за этим ощущением и ищи фальшивые слияния."
+  - char: "nagato_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Так я и поступлю."
+  - text:
+      - "Нагато сосредоточилась, позволяя своим чувствам проникнуть в глубины дыма."
+      - "Когда она это сделала, картина перед её глазами начала меняться."
+
+chapter2:
+  rows:
+  - char: "nagato_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Это... глубины Нараки?"
+
+chapter3:
+  rows:
+  - char: "nagato_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "А здесь Акаги проводила ритуал..."
+
+chapter4:
+  rows:
+  - char: "nagato_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "...А это сегмент мира, где находится Командир?"
+
+chapter5:
+  rows:
+  - char: "nagato_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Грот сновидений, кажется?"
+
+chapter6:
+  rows:
+  - char: "nagato_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Поле битвы..."
+
+chapter7:
+  rows:
+  - char: "nagato_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "И... пустота чистого небытия?"
+
+chapter8:
+  rows:
+  - char: "nagato_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "А это  что это за место?"
+
+chapter9:
+  rows:
+  - char: "nagato_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "...Нашла."
+
+chapter10:
+  rows:
+  - char: "nagato_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "...Я нашла слияния."
+      - "Что? Почему вы обе так на меня смотрите?"
+  - char: "kasumi_meta"
+    side: "right"
+    status: "is-purple"
+    text:
+      - "Госпожа Нагато, посмотри вокруг..."
+  - char: "nagato_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Не волнуйся. Я сама не использовала эту силу, хотя её изначальная владелица, похоже, вмешалась."
+  - char: "kasumi_meta"
+    side: "right"
+    status: "is-purple"
+    text:
+      - "Мне было бы спокойнее, если бы я могла тебя осмотреть..."
+  - char: "nagato_meta"
+    side: "left"
+    status: "is-meta"
+    text:
+      - "Я не чувствую недомогания, но раз ты так переживаешь, то прошу."
+  - text:
+      - "Шарик синего пламени подплыл ко лбу Нагато и беззвучно растворился в ней."
+  - char: "kasumi_meta"
+    side: "right"
+    status: "is-purple"
+    text:
+      - "МЕТА-коррозия стабильна. Ухудшений нет."
+      - "Дзинцу, ты когда-нибудь видела нечто подобное?"
+  - char: "jintsuu_meta"
+    side: "left"
+    status: "is-purple"
+    text:
+      - "Если в остальном всё в порядке, полагаю, использовать её силы безопасно."
+      - "Но, пожалуйста, не перенапрягайся. Будь готова адаптироваться к чему угодно."
+  - char: "nagato_meta"
+    side: "right"
+    status: "is-meta"
+    text:
+      - "Разумеется. В конце концов, у меня есть работа, которую нужно выполнить."
+  - char: "jintsuu_meta"
+    side: "left"
+    status: "is-purple"
+    text:
+      - "(А она крепкий орешек... Никто не подходит на роль ядра решающего оружия лучше неё.)"

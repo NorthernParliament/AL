@@ -6022,3 +6022,158 @@ kasumi_meta_rad:
   name: "📡Касуми МЕТА"
   img: "/img/port/meta/kasu1rad.webp"
   class: "blob"
+
+soobrazitelny_rad:
+  name: "📡Сообразительный"
+  img: "/img/port/northern/soob1rad.webp"
+  class: "blob"
+
+nagato_meta:
+  name: "Нагато МЕТА"
+  img: "/img/port/meta/naga1.webp"
+  class: "blob"
+
+nagato_meta_rad:
+  name: "📡Нагато МЕТА"
+  img: "/img/port/meta/naga1rad.webp"
+  class: "blob"
+
+maya:
+  name: "Майя"
+  img: "/img/port/sakura/maya1.webp"
+  class: "blob"
+
+maya_rad:
+  name: "📡Майя"
+  img: "/img/port/sakura/maya1rad.webp"
+  class: "blob"
+
+suzunami:
+  name: "Судзунами"
+  img: "/img/port/sakura/suzun1.webp"
+  class: "blob"
+
+suzunami_rad:
+  name: "📡Судзунами"
+  img: "/img/port/sakura/suzun1rad.webp"
+  class: "blob"
+
+ayase:
+  name: "Аясэ"
+  img: "/img/port/sakura/ayas1.webp"
+  class: "blob"
+
+ayase_rad:
+  name: "📡Аясэ"
+  img: "/img/port/sakura/ayas1rad.webp"
+  class: "blob"
+
+hiei_meta:
+  name: "Хиэй МЕТА"
+  img: "/img/port/meta/hiei1.webp"
+  class: "blob"
+
+hiei_meta_rad:
+  name: "📡Хиэй МЕТА"
+  img: "/img/port/meta/hiei1rad.webp"
+  class: "blob"
+
+amagi_rad:
+  name: "📡Амаги"
+  img: "/img/port/sakura/amag1rad.webp"
+  class: "blob"
+
+naka_rad:
+  name: "📡Нака"
+  img: "/img/port/northern/naka1rad.webp"
+  class: "blob"
+
+sendai:
+  name: "Сэндай"
+  img: "/img/port/sakura/send1.webp"
+  class: "blob"
+
+sendai_rad:
+  name: "📡Сэндай"
+  img: "/img/port/sakura/send1rad.webp"
+  class: "blob"
+
+amagi_false_m:
+  name: "Лжеамаги"
+  img: "/img/port/sakura/amag1m.webp"
+  class: "blob"
+
+amagi_false_m_rad:
+  name: "📡Лжеамаги"
+  img: "/img/port/sakura/amag1mrad.webp"
+  class: "blob"
+
+akagi_meta:
+  name: "Акаги  МЕТА"
+  img: "/img/port/meta/akag1.webp"
+  class: "blob"
+
+akagi_meta_rad:
+  name: "📡Акаги  МЕТА"
+  img: "/img/port/meta/akag1rad.webp"
+  class: "blob"
+
+amagi_cv:
+  name: "Амаги (Авианосец)"
+  img: "/img/port/sakura/amagcv1.webp"
+  class: "blob"
+
+amagi_cv_rad:
+  name: "📡Амаги (Авианосец)"
+  img: "/img/port/sakura/amagcv1rad.webp"
+  class: "blob"
+
+roaring_beast:
+  name: "Ревущий Зверь"
+  img: "/img/port/other/nop.webp"
+  class: "blob"
+
+roaring_beast_r:
+  name: "Ревущий Зверь"
+  img: "/img/port/other/roarbr1.webp"
+  class: "blob"
+
+roaring_beast_b:
+  name: "Ревущий Зверь"
+  img: "/img/port/other/roarbb1.webp"
+  class: "blob"
+
+sp_s_c:
+  name: "Специальный Канал Связи"
+  img: "/img/port/other/nop.webp"
+  class: "blob"
+
+watarase:
+  name: "Ватарасэ"
+  img: "/img/port/sakura/wata1.webp"
+  class: "blob"
+
+watarase_rad:
+  name: "📡Ватарасэ"
+  img: "/img/port/sakura/wata1rad.webp"
+  class: "blob"
+
+daisen:
+  name: "Дайсэн"
+  img: "/img/port/sakura/dais1.webp"
+  class: "blob"
+
+daisen_rad:
+  name: "📡Дайсэн"
+  img: "/img/port/sakura/dais1rad.webp"
+  class: "blob"
+
+an_shan_kai:
+  name: "Ань Шань (Ретрофит)"
+  img: "/img/port/dragon/ansh1kai.webp"
+  class: "blob"
+
+an_shan_kai_rad:
+  name: "📡Ань Шань (Ретрофит)"
+  img: "/img/port/dragon/ansh1kairad.webp"
+  class: "blob"

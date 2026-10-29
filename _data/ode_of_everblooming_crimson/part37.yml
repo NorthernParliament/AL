@@ -1,0 +1,106 @@
+chapter1:
+  rows:
+  - char: "bon_omm_richard"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "Ахахаха! Привет, милашки! Вы ведь все из Королевского Флота, да?"
+      - "Я пришла повидаться с вами! Давайте сыграем в небольшую игру!"
+
+chapter2:
+  rows:
+  - char: "bon_omm_richard"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "...А?"
+
+chapter3:
+  rows:
+  - char: "bon_omm_richard"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "Понятно, понятно. Значит, Ортодоксия Ирис приложила руку к некоторым махинациям, творящимся в Королевском Флоте~"
+      - "Посмотрим, смогу ли я откопать здесь что-нибудь веселое и интересное~"
+
+chapter4:
+  rows:
+  - char: "bon_omm_richard"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "...Чего-чего?"
+
+chapter5:
+  rows:
+  - char: "bon_omm_richard"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "Вы, ребята из Сардинии, и правда любите всё делать по правилам, верно?"
+      - "Здесь не должно возникнуть никаких странных проблем, да?"
+
+chapter6:
+  rows:
+  - char: "bon_omm_richard"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "...Рано я это сказала."
+      - "Невероятно. Что это за чертовщина?"
+
+chapter7:
+  rows:
+  - char: "bon_omm_richard"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "Ладно, на этот раз Железная Кровь!"
+
+chapter8:
+  rows:
+  - char: "bon_omm_richard"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "...О да, на этот раз действительно смешно. ОЧЕНЬ смешно!"
+
+chapter9:
+  rows:
+  - char: "bon_omm_richard"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "Старый добрый Северный Парламент!"
+
+chapter10:
+  rows:
+  - char: "bon_omm_richard"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "Вы только посмотрите! Вы, черт возьми, точно такие же!"
+
+chapter11:
+  rows:
+  - char: "bon_omm_richard"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "Союз Орла-а-а-а-а-а!"
+
+chapter12:
+  rows:
+  - char: "bon_omm_richard"
+    side: "left"
+    status: "is-lightgray"
+    text:
+      - "Бахахахаха! Я вижу его, прямо здесь! Но не могу коснуться!"
+      - "Весь этот чертов тестовый полигон... Всё это лишь иллюзия?"
+      - "Какого черта вообще происходит?"
+      - "Эй, куда делся МОЙ Тестовый полигон Бета?"
+      - "КТО ЭТО СДЕЛАЛ?!"
+      - "<h2>КТО ЭТО СДЕЛАЛ?!</h2>"
+      - "ПОКАЖИСЬ!!"
+      - "ТАЩИ СВОЮ ЗАДНИЦУ СЮДА ПРЯМО СЕЙЧАС!!"

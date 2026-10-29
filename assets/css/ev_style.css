@@ -1109,6 +1109,30 @@ body {
     box-shadow: 0 0 15px #ffdd44, 0 0 20px rgba(255, 150, 0, 0.8);
 }
 
+.scene-break.break-blue::before {
+    height: 3px; 
+    background: linear-gradient(90deg, transparent 0%, rgba(0, 150, 255, 0.7) 20%, rgba(100, 230, 255, 1) 50%, rgba(0, 150, 255, 0.7) 80%, transparent 100%);
+    filter: drop-shadow(0 0 6px rgba(0, 100, 255, 0.8)) drop-shadow(0 0 12px rgba(50, 200, 255, 1));
+}
+
+.scene-break.break-blue span {
+    background: #e6f7ff;
+    border: 1px solid #00aaff;
+    box-shadow: 0 0 15px #44bbff, 0 0 20px rgba(0, 100, 255, 0.8);
+}
+
+.scene-break.break-purple::before {
+    height: 3px; 
+    background: linear-gradient(90deg, transparent 0%, rgba(204, 0, 255, 0.7) 20%, rgba(235, 100, 255, 1) 50%, rgba(204, 0, 255, 0.7) 80%, transparent 100%);
+    filter: drop-shadow(0 0 6px rgba(153, 0, 204, 0.8)) drop-shadow(0 0 12px rgba(204, 0, 255, 1));
+}
+
+.scene-break.break-purple span {
+    background: #f7e6ff;
+    border: 1px solid #cc00ff;
+    box-shadow: 0 0 15px #d944ff, 0 0 20px rgba(153, 0, 204, 0.8);
+}
+
 /* =========================================
    ПЛАШКА ЛОКАЦИИ И ВРЕМЕНИ
    ========================================= */
