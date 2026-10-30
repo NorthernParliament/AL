@@ -836,137 +836,6 @@ img.fog-effect-red,
     margin-bottom: 0;
 }
 
-/* =========================================
-   АДАПТАЦИЯ ДЛЯ ТЕЛЕФОНОВ (Магия трансформации)
-   ========================================= */
-@media (max-width: 768px) {
-    /* 1. Спасаем заголовок ивента от сдавливания */
-    h1.title {
-        font-size: 1.5em; /* Уменьшаем размер шрифта */
-        padding: 0 15px; /* Уничтожаем те самые 200px мертвой зоны! */
-        margin-top: 60px; /* Опускаем заголовок, чтобы он не налез на кнопку */
-        letter-spacing: 1px;
-    }
-
-    /* 2. Усмиряем кнопку "На главную" */
-    .buitton_back {
-        top: 15px;
-        left: 50%; /* На телефоне ставим ее ровно по центру */
-        transform: translateX(-50%); 
-        font-size: 0.9em;
-        padding: 8px 15px;
-    }
-    
-    /* Отменяем сдвиг при нажатии на телефоне, чтобы кнопка не дергалась */
-    .buitton_back:hover {
-        transform: translateX(-50%); 
-    }
-
-    /* 3. Делаем заголовки глав компактнее */
-    .title-1 {
-        font-size: 1.2em;
-        padding: 10px 20px;
-        width: auto;
-        margin: 0 15px 30px 15px;
-        letter-spacing: 2px;
-    }
-
-    /* 4. Центрируем баннер ивента */
-    .head_ev_info > img {
-        margin: 0 15px;
-        width: calc(100% - 30px);
-    }
-
-    /* 5. Убираем лишние поля у текстовой плашки (image_text) */
-    .scene-text {
-        max-width: 90%;
-        padding: 20px;
-        font-size: 0.95em;
-    }
-    
-    /* 6. Адаптируем разделитель со звездочками */
-    .scene-divider {
-        margin: 20px auto;
-    }
-    
-    /* 7. Подгоняем блок локации */
-    .location-banner {
-        margin: 15px;
-        font-size: 0.9em;
-    }
-
-
-/* =========================================
-       РАЗРУШЕНИЕ ФИКСИРОВАННЫХ ШИРИН (Глобально)
-       ========================================= */
-    /* Принудительно заставляем все основные блоки сжаться до ширины экрана */
-    html, body, .mainchapter, .screen-block, .scene-container, .image-overlay-container, table, tbody, tr, td {
-        width: 100% !important;
-        max-width: 100vw !important;
-        box-sizing: border-box !important;
-    }
-
-    /* Прячем любые элементы, которые все равно пытаются вылезти за край */
-    body {
-        overflow-x: hidden; 
-    }
-
-    /* =========================================
-       АДАПТАЦИЯ ДИАЛОГОВ И ЭПИГРАФОВ
-       ========================================= */
-    /* Отменяем гигантский отступ в 145px для черных/белых экранов, 
-       который на телефоне съедает половину экрана */
-    .screen-content {
-        padding-left: 20px !important;
-        padding-right: 20px !important;
-    }
-
-    /* Убеждаемся, что текстовые пузыри диалогов и системных сообщений не сопротивляются */
-    .words.blob, .words.narrate, .text-content, .dialogue-row {
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box;
-    }
-
-    /* Если у портретов фиксированная ширина, они могут выдавливать текст. 
-       Слегка уменьшаем их на телефонах */
-    .port-img {
-        min-width: 80px; 
-        max-width: 80px;
-    }
-    
-    .port-img {
-        width: 80px;
-        height: auto;
-    }
-}
-
-
-    /* =========================================
-   УЛЬТРА-КОМПАКТНЫЕ ЭКРАНЫ (Меньше 400px)
-   ========================================= */
-/* =========================================
-   УЛЬТРА-КОМПАКТНЫЕ ЭКРАНЫ (Меньше 400px) - Исправлено
-   ========================================= */
-@media (max-width: 400px) {
-    /* Полностью скрываем изображения портретов по их истинному имени */
-    .port-img {
-        display: none !important;
-    }
-
-    /* Растягиваем текстовый пузырь на всю ширину */
-    .words.blob {
-        width: 100% !important;
-        border-radius: 8px !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
-
-    /* Прижимаем плашку с именем к левому краю блока */
-    .name-box {
-        left: 10px !important;
-    }
-}
 
 /* =========================================
    ПЛАВАЮЩАЯ ПАНЕЛЬ НАВИГАЦИИ
@@ -1222,4 +1091,147 @@ body.fx-dark  { --fx: url("../../img/bg/bgd.png"); }
     /* drop-shadow идеально облегает контур прозрачных PNG, в отличие от квадратного box-shadow */
     filter: drop-shadow(0 15px 20px rgba(0, 0, 0, 0.6));
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.4s ease;
+}
+
+
+
+
+
+/* =========================================
+   АДАПТАЦИЯ ДЛЯ ТЕЛЕФОНОВ (Магия трансформации)
+   ========================================= */
+@media (max-width: 768px) {
+    /* 1. Спасаем заголовок ивента от сдавливания */
+    h1.title {
+        font-size: 1.5em; /* Уменьшаем размер шрифта */
+        padding: 0 15px; /* Уничтожаем те самые 200px мертвой зоны! */
+        margin-top: 60px; /* Опускаем заголовок, чтобы он не налез на кнопку */
+        letter-spacing: 1px;
+    }
+
+    /* 2. Усмиряем кнопку "На главную" */
+    .buitton_back {
+        top: 15px;
+        left: 50%; /* На телефоне ставим ее ровно по центру */
+        transform: translateX(-50%); 
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+    
+    /* Отменяем сдвиг при нажатии на телефоне, чтобы кнопка не дергалась */
+    .buitton_back:hover {
+        transform: translateX(-50%); 
+    }
+
+    /* 3. Делаем заголовки глав компактнее */
+    .title-1 {
+        font-size: 1.2em;
+        padding: 10px 20px;
+        width: auto;
+        margin: 0 15px 30px 15px;
+        letter-spacing: 2px;
+    }
+
+    /* 4. Центрируем баннер ивента */
+    .head_ev_info > img {
+        margin: 0 15px;
+        width: calc(100% - 30px);
+    }
+
+    /* 5. Убираем лишние поля у текстовой плашки (image_text) */
+    .scene-text {
+        max-width: 90%;
+        padding: 20px;
+        font-size: 0.95em;
+    }
+    
+    /* 6. Адаптируем разделитель со звездочками */
+    .scene-divider {
+        margin: 20px auto;
+    }
+    
+    /* 7. Подгоняем блок локации */
+    .location-banner {
+        margin: 15px;
+        font-size: 0.9em;
+    }
+
+
+/* =========================================
+       РАЗРУШЕНИЕ ФИКСИРОВАННЫХ ШИРИН (Глобально)
+       ========================================= */
+    /* Принудительно заставляем все основные блоки сжаться до ширины экрана */
+    html, body, .mainchapter, .screen-block, .scene-container, .image-overlay-container, table, tbody, tr, td {
+        width: 100% !important;
+        max-width: 100vw !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Прячем любые элементы, которые все равно пытаются вылезти за край */
+    body {
+        overflow-x: hidden; 
+    }
+
+    /* =========================================
+       АДАПТАЦИЯ ДИАЛОГОВ И ЭПИГРАФОВ
+       ========================================= */
+    /* Отменяем гигантский отступ в 145px для черных/белых экранов, 
+       который на телефоне съедает половину экрана */
+    .screen-content {
+        padding-left: 10px !important;
+        padding-right: 100px !important;
+    }
+
+    /* Убеждаемся, что текстовые пузыри диалогов и системных сообщений не сопротивляются */
+    .words.blob, .words.narrate, .text-content, .dialogue-row {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    /* Если у портретов фиксированная ширина, они могут выдавливать текст. 
+       Слегка уменьшаем их на телефонах */
+    .port-img {
+        min-width: 60px; 
+        max-width: 60px;
+    }
+    
+    .port-img {
+        width: 60px;
+        height: auto;
+    }
+.name-container {
+  flex-shrink: 0;
+  width: auto;
+  --accent-color: #00ff15;
+}
+
+.dialogue-row {
+  gap: 10px;
+}
+
+}
+
+
+/* =========================================
+   УЛЬТРА-КОМПАКТНЫЕ ЭКРАНЫ (Меньше 400px) - Исправлено
+   ========================================= */
+@media (max-width: 400px) {
+    /* Полностью скрываем изображения портретов по их истинному имени */
+    .port-img {
+        display: none !important;
+    }
+
+    /* Растягиваем текстовый пузырь на всю ширину */
+    .words.blob {
+        width: 100% !important;
+        border-radius: 8px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /* Прижимаем плашку с именем к левому краю блока */
+    .name-box {
+        left: 10px !important;
+    }
 }
