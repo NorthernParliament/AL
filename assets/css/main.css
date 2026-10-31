@@ -161,7 +161,7 @@ html body {
 /* Карточки ивентов */
 .event-card {
     position: relative;
-    height: 260px; /* Чуть увеличиваем высоту для простора */
+    height: 200px;
     background: #111;
     border: 1px solid rgba(255, 255, 255, 0.15); /* Мягкие белые границы вместо циана */
     border-radius: 10px;

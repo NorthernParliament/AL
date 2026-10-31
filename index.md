@@ -48,9 +48,6 @@ title: "Сюжет Azur Lane на русском"
                 <span class="en-title">{{ event.title_en }}</span>
                 <h2 class="ru-title">{{ event.title_ru }}</h2>
               </div>
-              <div class="card-footer">
-                <p class="card-desc">{{ event.desc }}</p>
-              </div>
             </div>
           </a>
         {% endfor %}

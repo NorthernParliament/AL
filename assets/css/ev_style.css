@@ -1235,3 +1235,143 @@ body.fx-dark  { --fx: url("../../img/bg/bgd.png"); }
         left: 10px !important;
     }
 }
+
+/* =========================================
+   МЕНЮ ИВЕНТА: ПЛАШКА СЮЖЕТА + ГЛАВЫ
+   Левая четверть — вступление, правые три — карточки глав.
+   ========================================= */
+.event-menu {
+    max-width: 1280px;
+    margin: 28px auto 48px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: minmax(240px, 1fr) minmax(0, 3fr);
+    gap: 22px;
+    align-items: start;
+    box-sizing: border-box;
+}
+
+.event-menu > .nav {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+.event-menu > .nav:only-child {
+    grid-column: 1 / -1;
+}
+
+.story-brief {
+    position: sticky;
+    top: 16px;
+    background: rgba(10, 15, 25, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 12px;
+    padding: 16px 16px 18px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(8px);
+}
+
+.story-brief__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 1.35;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+    margin: 2px 6px 12px;
+}
+
+.story-brief__frame {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.45);
+    background: #0c121c;
+    line-height: 0;
+}
+
+.story-brief__frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.story-brief__desc {
+    margin: 14px 2px 0;
+    color: #ececec;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    text-align: left;
+    font-style: normal;
+}
+
+.story-brief__part {
+    margin-top: 14px;
+}
+
+.story-brief__part-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #8baadb;
+    margin: 0 2px 2px;
+}
+
+.story-brief__part .story-brief__desc {
+    margin-top: 4px;
+}
+
+.story-brief__factions {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.story-brief__factions-label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.02rem;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.story-brief__factions ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.story-brief__factions li {
+    color: #dedede;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    padding: 3px 0 3px 16px;
+    position: relative;
+}
+
+.story-brief__factions li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.62em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #3a75c4;
+}
+
+@media (max-width: 900px) {
+    .event-menu {
+        grid-template-columns: 1fr;
+        padding: 0 12px;
+        margin: 16px auto 28px;
+    }
+
+    .story-brief {
+        position: static;
+    }
+}

@@ -49,7 +49,70 @@
 </div>
 {% endif %}
 {% if page.chapters %}
-<div class="nav">
+{% assign event_entries = site.data.events | where: "slug", page.slug %}
+{% assign event_info = event_entries | first %}
+<div class="event-menu">
+  {% if event_info %}
+  <aside class="story-brief">
+    <h2 class="story-brief__title">{{ event_info.title_en | default: page.title }}</h2>
+    {% if event_info.image %}
+    <div class="story-brief__frame">
+      <img src="{{ event_info.image | relative_url }}" alt="">
+    </div>
+    {% endif %}
+    {% if event_info.desc %}
+    <p class="story-brief__desc">{{ event_info.desc }}</p>
+    {% endif %}
+    {% for e in event_entries %}
+      {% unless forloop.first %}
+        {% if e.desc and e.desc != event_info.desc %}
+        <div class="story-brief__part">
+          <div class="story-brief__part-title">{{ e.title_en }}</div>
+          <p class="story-brief__desc">{{ e.desc }}</p>
+        </div>
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+    {% assign faction_blob = "" %}
+    {% for e in event_entries %}
+      {% if e.factions %}
+        {% assign faction_blob = faction_blob | append: e.factions | append: "," %}
+      {% endif %}
+    {% endfor %}
+    {% assign faction_items = faction_blob | split: "," %}
+    {% assign faction_shown = "" %}
+    {% assign faction_count = 0 %}
+    {% for f in faction_items %}
+      {% assign faction_name = f | strip %}
+      {% if faction_name != "" %}
+        {% assign faction_token = faction_name | prepend: "|" | append: "|" %}
+        {% unless faction_shown contains faction_token %}
+          {% assign faction_count = faction_count | plus: 1 %}
+          {% assign faction_shown = faction_shown | append: faction_token %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+    {% if faction_count > 0 %}
+    <div class="story-brief__factions">
+      <div class="story-brief__factions-label">Фракции</div>
+      <ul>
+        {% assign faction_shown = "" %}
+        {% for f in faction_items %}
+          {% assign faction_name = f | strip %}
+          {% if faction_name != "" %}
+            {% assign faction_token = faction_name | prepend: "|" | append: "|" %}
+            {% unless faction_shown contains faction_token %}
+              <li>{{ faction_name }}</li>
+              {% assign faction_shown = faction_shown | append: faction_token %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </aside>
+  {% endif %}
+  <div class="nav">
   {% for title in page.chapters %}
     {% assign n = forloop.index %}
     {% assign bg = "" %}
@@ -67,6 +130,7 @@
   <span class="chapter-card__title">{{ title }}</span>
 </a>
   {% endfor %}
+  </div>
 </div>
 {% elsif page.chapters_count %}
 {% endif %}

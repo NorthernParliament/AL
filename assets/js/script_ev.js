@@ -9,7 +9,8 @@ function syncFx(el) {
     });
     document.body.classList.toggle("has-fx", on);
 }
-    const nav = document.querySelector(".nav");
+    const eventMenu = document.querySelector(".event-menu");
+    const nav = eventMenu ? eventMenu.querySelector(".nav") : document.querySelector(".nav");
     const chapters = Array.from(document.querySelectorAll(".chapter"));
     
     // Создаем контейнер для плавающей панели глобально
@@ -66,7 +67,8 @@ function syncFx(el) {
 
    // Функция открытия конкретной главы
     function openChapter(index) {
-        nav.style.display = 'none';
+        if (eventMenu) eventMenu.style.display = "none";
+        else if (nav) nav.style.display = "none";
         chapters.forEach(ch => ch.style.display = 'none');
         
         const targetChapter = chapters[index];
@@ -88,7 +90,12 @@ function syncFx(el) {
     // Функция возврата в меню
     function showNav() {
         chapters.forEach(ch => ch.style.display = 'none');
-        nav.style.display = 'grid'; 
+        if (eventMenu) {
+            eventMenu.style.display = "";
+            if (nav) nav.style.display = "";
+        } else if (nav) {
+            nav.style.display = "grid";
+        } 
         
         // НОВАЯ МАГИЯ: Ищем сохраненный фон меню и возвращаем его
         const menuBg = document.body.getAttribute('data-menu-bg');
@@ -107,7 +114,7 @@ function syncFx(el) {
     }
 
     // Перехватываем клики по картинкам в меню навигации
-    const navLinks = document.querySelectorAll(".nav a");
+    const navLinks = nav ? nav.querySelectorAll("a") : [];
     navLinks.forEach((link, idx) => {
         link.addEventListener("click", (e) => {
             e.preventDefault(); 
