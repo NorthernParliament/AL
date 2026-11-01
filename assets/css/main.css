@@ -130,26 +130,90 @@ html body {
 }
 
 .arc-section {
-    margin-bottom: 50px;
+    margin-bottom: 12px;
 }
 
-/* Заголовки арк (Стилизованы под .title-1 из ивентов) */
+.arc-section.is-open {
+    margin-bottom: 40px;
+}
+
+.arc-section.is-search-hidden {
+    display: none;
+}
+
+.arc-heading {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Заголовки категорий. Клик раскрывает плитки. */
 .arc-header {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.4em;
-    font-weight: 400;
-    letter-spacing: 4px;
-    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 500;
     color: #ffffff;
     background: rgba(10, 15, 25, 0.85);
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-left: 4px solid #3a75c4;
     border-radius: 4px;
-    padding: 15px 25px;
-    margin-bottom: 25px;
+    padding: 16px 22px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-align: left;
+    cursor: pointer;
     backdrop-filter: blur(6px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-    display: inline-block; 
+}
+
+.arc-header:hover,
+.arc-header:focus-visible {
+    border-color: rgba(58, 117, 196, 0.85);
+    outline: none;
+}
+
+.arc-header__name {
+    flex: 1;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.arc-header__count {
+    font-size: 0.75em;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #8baadb;
+    font-weight: 600;
+    min-width: 1.6em;
+    text-align: right;
+}
+
+.arc-chevron {
+    flex: none;
+    width: 9px;
+    height: 9px;
+    border-right: 2px solid rgba(255, 255, 255, 0.9);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.9);
+    transform: rotate(45deg);
+    margin-top: -4px;
+    transition: transform 0.2s ease;
+}
+
+.arc-section.is-open .arc-chevron {
+    transform: rotate(225deg);
+    margin-top: 2px;
+}
+
+.arc-section:not(.is-open) .event-grid {
+    display: none;
+}
+
+.arc-section.is-open .event-grid {
+    margin-top: 22px;
 }
 
 .event-grid {
@@ -268,17 +332,19 @@ html body {
     .welcome-briefing { margin: 10px 15px 30px 15px; padding: 20px; }
     .search-container { padding: 0 20px; }
     #eventSearch { border-radius: 12px; }
-    .arc-header { 
-        font-size: 1.1em; 
-        padding: 10px 15px; 
-        margin-left: 15px; 
-        margin-right: 15px; 
-        display: block; 
-        text-align: center; 
-        border-left: none; 
-        border-bottom: 2px solid #3a75c4;
+    .arc-header {
+        font-size: 1.02em;
+        padding: 14px 14px;
+        margin: 0;
+        display: flex;
+        text-align: left;
+        border-left: 4px solid #3a75c4;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     }
-    .event-grid { grid-template-columns: 1fr; padding: 0 15px; }
+    .arc-header__name {
+        letter-spacing: 1px;
+    }
+    .event-grid { grid-template-columns: 1fr; padding: 0; }
     #floating-button { bottom: 15px; right: 15px; padding: 10px 20px; font-size: 0.8em; }
 }
 

@@ -22,25 +22,30 @@ title: "Сюжет Azur Lane на русском"
 </section>
   
   <div class="search-container">
-    <input type="text" id="eventSearch" placeholder="Поиск ивента по названию..." onkeyup="filterEvents()">
+    <input type="text" id="eventSearch" placeholder="Поиск по русскому и английскому названию..." oninput="filterEvents()">
   </div>
 </header>
 
 <div id="eventGrid">
-  {% assign arcs = site.data.events | group_by: "arc" %}
-  
-  {% for arc in arcs %}
+  {% assign arc_names = site.data.events | map: "arc" | uniq | sort %}
+  {% for arc_name in arc_names %}
+    {% assign arc_events = site.data.events | where: "arc", arc_name %}
     <section class="arc-section">
-      <h2 class="arc-header">
-  {% if arc.name.size > 3 %}
-    {{ arc.name | slice: 3, arc.name.size }}
-  {% else %}
-    {{ arc.name }}
-  {% endif %}
-</h2>
-
-<div class="event-grid">
-        {% for event in arc.items %}
+      <h2 class="arc-heading">
+        <button type="button" class="arc-header" aria-expanded="false">
+          <span class="arc-header__name">
+            {% if arc_name.size > 3 %}
+              {{ arc_name | slice: 3, arc_name.size }}
+            {% else %}
+              {{ arc_name }}
+            {% endif %}
+          </span>
+          <span class="arc-header__count" data-total="{{ arc_events.size }}">{{ arc_events.size }}</span>
+          <span class="arc-chevron" aria-hidden="true"></span>
+        </button>
+      </h2>
+      <div class="event-grid">
+        {% for event in arc_events %}
           <a href="{{ site.baseurl }}/events/{{ event.slug }}/{% if event.anchor %}#{{ event.anchor }}{% endif %}" class="event-card">
             <div class="card-bg" style="background-image: url('{{ site.baseurl }}{{ event.image }}');"></div>
             <div class="card-content">
@@ -68,18 +73,52 @@ title: "Сюжет Azur Lane на русском"
 </section>
 
 <script>
-function filterEvents() {
-  let input = document.getElementById('eventSearch').value.toLowerCase();
-  let cards = document.getElementsByClassName('event-card');
-  
-  for (let i = 0; i < cards.length; i++) {
-    let titleRu = cards[i].querySelector('.ru-title').innerText.toLowerCase();
-    let titleEn = cards[i].querySelector('.en-title').innerText.toLowerCase();
-    if (titleRu.includes(input) || titleEn.includes(input)) {
-      cards[i].style.display = "";
-    } else {
-      cards[i].style.display = "none";
-    }
+(function () {
+  var search = document.getElementById("eventSearch");
+  var sections = document.querySelectorAll(".arc-section");
+
+  function setOpen(section, open) {
+    section.classList.toggle("is-open", open);
+    var btn = section.querySelector(".arc-header");
+    if (btn) btn.setAttribute("aria-expanded", open ? "true" : "false");
   }
-}
+
+  sections.forEach(function (section) {
+    var btn = section.querySelector(".arc-header");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      if (search && search.value.trim()) return;
+      var open = !section.classList.contains("is-open");
+      section.dataset.userOpen = open ? "1" : "0";
+      setOpen(section, open);
+    });
+  });
+
+  window.filterEvents = function () {
+    var q = (search && search.value ? search.value : "").trim().toLowerCase();
+    var searching = q.length > 0;
+
+    sections.forEach(function (section) {
+      var hits = 0;
+      section.querySelectorAll(".event-card").forEach(function (card) {
+        var ru = (card.querySelector(".ru-title").textContent || "").toLowerCase();
+        var en = (card.querySelector(".en-title").textContent || "").toLowerCase();
+        var match = !searching || ru.indexOf(q) !== -1 || en.indexOf(q) !== -1;
+        card.style.display = match ? "" : "none";
+        if (match) hits += 1;
+      });
+
+      var countEl = section.querySelector(".arc-header__count");
+      if (countEl) countEl.textContent = searching ? String(hits) : countEl.getAttribute("data-total");
+
+      if (searching) {
+        section.classList.toggle("is-search-hidden", hits === 0);
+        setOpen(section, hits > 0);
+      } else {
+        section.classList.remove("is-search-hidden");
+        setOpen(section, section.dataset.userOpen === "1");
+      }
+    });
+  };
+})();
 </script>
