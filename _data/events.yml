@@ -571,6 +571,20 @@
   desc: "«Основано на реальности, воплощено в фантазии. Привязанность — это не одержимость, а воля — это основа души. В пламени перерождения Ватацуми дарует оболочку. И здесь обретет свое воплощение новая — поистине уникальная — жизнь.»"
   arc: "03 Третья часть"
 
+- title_ru: "Возвращение извне"
+  title_en: "Return From The Beyond"
+  slug: "return_from_the_beyond"
+  image: "/img/main/return_from_the_beyond.webp" 
+  desc: "Возвращения не всегда проходят гладко. Это справедливо как для нашего мира, так и мест за его пределами."
+  arc: "04 Четвёртая часть"
+
+- title_ru: "Субзвёздные Сумерки"
+  title_en: "Substellar Crepuscule"
+  slug: "substellar_crepuscule"
+  image: "/img/main/substellar_crepuscule.webp" 
+  desc: "«Прежде чем померкнет вечерний свет, давайте отыщем под звёздами подсказки, сокрытые днём, и истину, утаённую в ночи»."
+  arc: "04 Четвёртая часть"
+
 - title_ru: "Послание, пробившее Небосвод"
   title_en: "A Note Through the Firmament"
   slug: "a_note_through_the_firmament"

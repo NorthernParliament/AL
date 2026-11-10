@@ -1,0 +1,55 @@
+chapter1:
+  rows:
+  - char: "marco_polo"
+    side: "left"
+    text:
+      - "Я иду сквозь город."
+      - "Вдоль улиц высятся здания."
+      - "Я ступаю по земле."
+      - "Горы и реки сплетаются воедино."
+      - "Я ступаю по морям."
+      - "Берега простираются в бесконечность."
+      - "Я ступаю по небесам."
+      - "Солнце окрашивает мир в белый."
+      - "Я иду в чистейшей белизне."
+      - "Я иду сквозь Небеса."
+      - "На меня устремлены ваши взоры."
+      - "В моих ушах эхом звучат хвалебные песни."
+
+chapter2:
+  rows:
+  - char: "chorus"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "P HT AOL OPLYVWOHUA (Я — ИЕРОФАНТ)"
+  - char: "marco_polo"
+    side: "left"
+    text:
+      - "«Я — Иерофант»."
+  - char: "chorus"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "NVCLYUVY VM OHYTVUF, WYVTVALY VM KPZJVBYZL (ПРАВИТЕЛЬ ГАРМОНИИ, ПОКРОВИТЕЛЬ ДИСКУРСА)"
+  - char: "marco_polo"
+    side: "left"
+    text:
+      - "«Правитель гармонии, покровитель дискурса»."
+  - char: "chorus"
+    side: "right"
+    status: "is-lightgray"
+    text:
+      - "JOVZLU MLD, NHAOLY HYVBUK (НЕМНОГИЕ ИЗБРАННЫЕ, СОБЕРИТЕСЬ ВОКРУГ)"
+  - char: "marco_polo"
+    side: "left"
+    text:
+      - "«Немногие избранные, соберитесь вокруг»."
+  - char: "chorus"
+    side: "right"
+    text:
+      - "HJJLWA TF WYPUJPWSLZ, HUK LEAVS TF UHTL (ПРИМИТЕ МОИ ПРИНЦИПЫ И ВОССЛАВЬТЕ ИМЯ МОЁ)"
+  - char: "marco_polo"
+    side: "left"
+    text:
+      - "«Примите мои принципы и восславьте имя моё»."

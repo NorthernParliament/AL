@@ -4949,7 +4949,7 @@ bon_omm_richard?:
 
 communicator:
   name: "Коммуникатор"
-  img: "/img/port/other/nop.png"
+  img: "/img/port/other/commu1.webp"
   class: "blob"
 
 radio:
@@ -6176,4 +6176,129 @@ an_shan_kai:
 an_shan_kai_rad:
   name: "📡Ань Шань (Ретрофит)"
   img: "/img/port/dragon/ansh1kairad.webp"
+  class: "blob"
+
+eldery_voice:
+  name: "Старческий голос"
+  img: "/img/port/other/nop.webp"
+  class: "blob"
+
+distant_voice:
+  name: "Отдаленный голос"
+  img: "/img/port/other/nop.webp"
+  class: "blob"
+
+second_voice:
+  name: "Второй голос"
+  img: "/img/port/other/nop.webp"
+  class: "blob"
+
+houshou_meta:
+  name: "Хосё МЕТА"
+  img: "/img/port/meta/hous1.webp"
+  class: "blob"
+
+houshou_meta_rad:
+  name: "📡Хосё МЕТА"
+  img: "/img/port/meta/hous1rad.webp"
+  class: "blob"
+
+madam_m:
+  name: "Мадам М"
+  img: "/img/port/other/madam1.webp"
+  class: "blob"
+
+madam_m_rad:
+  name: "📡Мадам М"
+  img: "/img/port/other/madam1rad.webp"
+  class: "blob"
+
+madam_m???:
+  name: "???"
+  img: "/img/port/other/madam1.webp"
+  class: "blob"
+
+admiral_hipper_meta:
+  name: "Адмирал Хиппер МЕТА"
+  img: "/img/port/meta/hipp1.webp"
+  class: "blob"
+
+admiral_hipper_meta_rad:
+  name: "📡Адмирал Хиппер МЕТА"
+  img: "/img/port/meta/hipp1rad.webp"
+  class: "blob"
+
+duisburg:
+  name: "Дуйсбург"
+  img: "/img/port/iron/duis1.webp"
+  class: "blob"
+
+duisburg_rad:
+  name: "📡Дуйсбург"
+  img: "/img/port/iron/duis1rad.webp"
+  class: "blob"
+
+z52:
+  name: "Z52"
+  img: "/img/port/iron/z521.webp"
+  class: "blob"
+
+z52_rad:
+  name: "📡Z52"
+  img: "/img/port/iron/z521rad.webp"
+  class: "blob"
+
+z9:
+  name: "Z9"
+  img: "/img/port/iron/z91.webp"
+  class: "blob"
+
+z9_rad:
+  name: "📡Z9"
+  img: "/img/port/iron/z91rad.webp"
+  class: "blob"
+
+fritz_rumey:
+  name: "Фриц Румей"
+  img: "/img/port/iron/frit1.webp"
+  class: "blob"
+
+fritz_rumey_rad:
+  name: "📡Фриц Румей"
+  img: "/img/port/iron/frit1rad.webp"
+  class: "blob"
+
+z11:
+  name: "Z11"
+  img: "/img/port/iron/z111.webp"
+  class: "blob"
+
+z11_rad:
+  name: "📡Z11"
+  img: "/img/port/iron/z111rad.webp"
+  class: "blob"
+
+extrademision_horde:
+  name: "Экстрамерные существа"
+  img: "/img/port/other/nop.webp"
+  class: "blob"
+
+control_station_1:
+  name: "Контрольная Станция 1"
+  img: "/img/port/other/nop.webp"
+  class: "blob"
+
+star_beast:
+  name: "Звёздный Зверь"
+  img: "/img/port/other/star_beast1.png"
+  class: "blob"
+
+blucher_rad:
+  name: "📡Блюхер"
+  img: "/img/port/iron/bluh1rad.webp"
+  class: "blob"
+
+chorus:
+  name: "Хор"
+  img: "/img/port/other/nop.webp"
   class: "blob"
